@@ -463,6 +463,55 @@ class CompleteUniversalServiceBot:
         # Graph cache
         self.graphs = {}
     
+    def get_sector_info(self, sector: str) -> Dict[str, Any]:
+        """Get information about a specific sector"""
+        if sector not in self.user_sector_prompts:
+            return {"error": f"Sector '{sector}' not available"}
+        
+        info = {
+            "sector": sector,
+            "has_prompt": sector in self.user_sector_prompts,
+            "has_rules": sector in self.sector_rules_data,
+            "customizable_items": self.selection_rules.get_customizable_items(sector),
+            "workflow_states": list(self.derived_sector_prompts.get(sector, {}).keys())
+        }
+        
+        if sector in self.sector_rules_data:
+            info["rule_categories"] = list(self.sector_rules_data[sector].keys())
+        
+        return info
+
+    def is_sector_available(self, sector: str) -> bool:
+        """Check if a sector is available"""
+        return sector in self.user_sector_prompts
+
+    def _create_default_sector_flows2(self) -> Dict[str, Dict[str, Any]]:
+        flows = {}
+        for sector in self.user_sector_prompts.keys():
+            if sector == "real_estate":
+                # 🏠 Special optimized flow
+                flows[sector] = {
+                    "required_states": ["discovery", "qualification", "selection", "info_collection", "finalization"],
+                    "skip_states": ["customization", "verification", "payment"],  # ✅ SKIPS problematic states
+                }
+            elif sector == "fitness_gym":
+                # 💪 Special optimized flow  
+                flows[sector] = {
+                    "required_states": ["discovery", "selection", "info_collection", "payment", "finalization"],
+                    "skip_states": ["customization", "verification"],  # ✅ SKIPS problematic states
+                    "optional_states": [],
+                    "entry_point": []
+                }
+            else:
+                # ❌ DEFAULT FLOW - includes ALL 8 states!
+                flows[sector] = {
+                    "required_states": ["discovery", "selection", "customization", "info_collection", "payment", "finalization"],
+                    "optional_states": ["qualification", "verification"],
+                    "skip_states": [],  # ❌ NO SKIPPED STATES
+                    "entry_point": []
+                }
+
+
     def _create_default_sector_flows(self) -> Dict[str, Dict[str, Any]]:
         """Create default sector flows for all loaded sectors"""
         flows = {}
@@ -520,6 +569,8 @@ class CompleteUniversalServiceBot:
             graph_builder.add_node(state, self._create_handler(sector, state))
         
         entry_point = self.sector_flows[sector].get("entry_point", UniversalWorkflowStates.DISCOVERY)
+        # ✅ Alternative - explicit None check
+        entry_point = self.sector_flows[sector].get("entry_point", UniversalWorkflowStates.DISCOVERY)         
         graph_builder.add_edge(START, entry_point)
         
         workflow_states = all_states[:-2]
@@ -564,7 +615,41 @@ class CompleteUniversalServiceBot:
     def _get_routing_target(self, current_state: str, sector: str) -> str:
         return self.transition_logic._get_next_required_state(current_state, self.sector_flows[sector])
     
+    
     def _create_handler(self, sector: str, state: str):
+        def handler(current_state: UniversalState) -> Dict[str, Any]:
+            user_input = ""
+            if current_state["messages"]:
+                user_input = current_state["messages"][-1].content
+            
+            session_data = current_state.get("session_data", {})
+            step_count = session_data.get("step_count", 0)
+            
+            # 🔧 FIX: Only call AI for NEW user input, not state transitions
+            if user_input and len(user_input.strip()) > 0:
+                # User provided new input - make ONE smart AI call
+                full_sector_prompt = self.user_sector_prompts[sector]  # Use FULL prompt, not state fragments
+                chat_history = current_state.get("chat_history", [])
+                ai_response = self.openrouter.call_openrouter_agent(sector, user_input, full_sector_prompt, chat_history)
+                
+                # Let AI be smart - it can handle the full conversation flow
+                return {
+                    "messages": [AIMessage(content=ai_response)],
+                    "current_step": UniversalWorkflowStates.FINALIZATION,  # AI handles everything
+                    "completed": True,  # One intelligent response completes the flow
+                    "session_data": {**session_data, "step_count": step_count + 1}
+                }
+            else:
+                # No new user input - use static response for internal transitions
+                return {
+                    "messages": [AIMessage(content="Processing your request...")],
+                    "current_step": state,
+                    "completed": True
+                }
+        return handler
+
+
+    def _create_handler2(self, sector: str, state: str):
         """Create handler with 100% AI responses - no static responses"""
         def handler(current_state: UniversalState) -> Dict[str, Any]:
             # Get user input
@@ -788,6 +873,20 @@ class CompleteUniversalServiceBot:
         return self.derived_sector_prompts.get(sector, {})
     
     def chat_away_universal(self, sector: str, user_input: str, chat_history: list = None) -> str:
+        """One intelligent AI call handles the entire conversation"""
+        try:
+            # Use FULL sector prompt - let AI be intelligent
+            sector_prompt = self.user_sector_prompts.get(sector, f"Welcome! How can I help you with {sector.replace('_', ' ')}?")
+            
+            # ONE smart AI call handles everything
+            response = self.openrouter.call_openrouter_agent(sector, user_input, sector_prompt, chat_history)
+            
+            return response
+        except Exception as e:
+            return "An error occurred. Please try again."
+
+
+    def chat_away_universal2(self, sector: str, user_input: str, chat_history: list = None) -> str:
         """Universal version of orderChat.py chatAway method"""
         try:
             # Get sector prompt

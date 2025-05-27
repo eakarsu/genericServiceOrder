@@ -33,6 +33,25 @@ class ComprehensiveUniversalServiceBotTest(unittest.TestCase):
         
         # Test conversation scenarios for all sectors
         cls.conversation_scenarios = {
+            "laundry": [
+                "Hello", "I need laundry service for 2 large loads",
+                "I want wash and fold with same day service",
+                "Please include pickup and delivery",
+                "My address is 123 Main Street", "Charge my credit card"
+            ],
+            "it": [
+                "Hello", "My laptop has a virus and is running very slowly",
+                "I need urgent same day repair service",
+                "Please come to my office for on-site service",
+                "456 Business Park, available after 2pm", "Process payment on completion"
+            ],
+            "moving": [
+                "Hello", "I need to move my 3 bedroom house",
+                "It's a local move about 25 miles",
+                "I need packing service and piano moving",
+                "Moving date is next Friday", "Please provide full service estimate"
+            ],
+            
             "healthcare": [
                 "Hello",
                 "I have headache and fever symptoms",
