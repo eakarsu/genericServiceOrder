@@ -1,0 +1,206 @@
+[Begin Rule] Bagel Options
+    Bagel Type (Rule: Select 1)
+      - Plain Bagel - $0.00
+      - Everything Bagel - $0.50
+      - Sesame Bagel - $0.50
+      - Poppy Seed Bagel - $0.50
+      - Cinnamon Raisin Bagel - $0.75
+      - Whole Wheat Bagel - $0.50
+      - Onion Bagel - $0.50
+      - Salt Bagel - $0.50
+    Bagel Preparation (Rule: Select 1)
+      - Regular - $0.00
+      - Toasted - $0.00
+      - Double Toasted - $0.25
+      - Lightly Toasted - $0.00
+[End Rule]
+
+[Begin Rule] Bagel Spreads
+    Spread Type (Rule: Select 1 to 3)
+      - Butter - $1.00
+      - Cream Cheese - $2.00
+      - Scallion Cream Cheese - $2.50
+      - Vegetable Cream Cheese - $2.50
+      - Lox Spread - $6.00
+      - Peanut Butter - $2.00
+      - Grape Jelly - $1.00
+      - Honey - $1.50
+    Spread Amount (Rule: Select 1)
+      - Light Spread - $0.00
+      - Regular Spread - $0.00
+      - Extra Spread - $1.00
+[End Rule]
+
+[Begin Rule] Breakfast Proteins
+    Protein Choice (Rule: Select 1 to 2)
+      - Scrambled Eggs (2) - $3.50
+      - Fried Eggs (2) - $3.50
+      - Egg Whites (3) - $4.00
+      - Bacon (3 strips) - $4.00
+      - Sausage Links (2) - $3.50
+      - Ham Slice - $3.50
+      - Turkey Bacon (3 strips) - $4.50
+      - Canadian Bacon - $4.00
+    Cooking Style (Rule: Select 1)
+      - Over Easy - $0.00
+      - Over Medium - $0.00
+      - Over Hard - $0.00
+      - Scrambled Soft - $0.00
+      - Scrambled Well Done - $0.00
+      - Sunny Side Up - $0.00
+[End Rule]
+
+[Begin Rule] Bread Selection
+    Bread Type (Rule: Select 1)
+      - White Bread - $0.00
+      - Whole Wheat Bread - $0.50
+      - Rye Bread - $0.50
+      - Sourdough Bread - $0.75
+      - Italian Bread - $0.75
+      - Hero Roll - $1.00
+      - Kaiser Roll - $0.50
+      - Croissant - $2.00
+    Bread Preparation (Rule: Select 1)
+      - Regular - $0.00
+      - Toasted - $0.00
+      - Grilled - $0.50
+      - Garlic Bread - $1.00
+[End Rule]
+
+[Begin Rule] Protein Options
+    Meat Selection (Rule: Select 1 to 3)
+      - Roast Turkey - $4.00
+      - Honey Turkey - $4.50
+      - Roast Beef - $5.00
+      - Pastrami - $5.50
+      - Corned Beef - $5.00
+      - Ham - $4.00
+      - Salami - $4.50
+      - Pepperoni - $4.50
+      - Grilled Chicken - $4.50
+      - Fried Chicken Cutlet - $5.00
+    Seafood Options (Rule: Select up to 1)
+      - Tuna Salad - $4.00
+      - Chicken Salad - $4.00
+      - Egg Salad - $3.50
+      - Lox - $8.00
+      - Grilled Salmon - $7.00
+[End Rule]
+
+[Begin Rule] Cheese Selection
+    Cheese Type (Rule: Select up to 3)
+      - American Cheese - $1.50
+      - Swiss Cheese - $1.75
+      - Cheddar Cheese - $1.75
+      - Provolone Cheese - $1.75
+      - Mozzarella Cheese - $1.75
+      - Muenster Cheese - $1.75
+      - Pepper Jack Cheese - $2.00
+      - Feta Cheese - $2.25
+      - Fresh Mozzarella - $2.50
+      - Blue Cheese Crumbles - $2.25
+    Cheese Amount (Rule: Select 1)
+      - Regular Amount - $0.00
+      - Extra Cheese - $1.00
+      - Light Cheese - $0.00
+[End Rule]
+
+[Begin Rule] Vegetable Toppings
+    Fresh Vegetables (Rule: Select up to 8)
+      - Lettuce - $0.75
+      - Tomato - $1.00
+      - Onion - $0.75
+      - Red Onion - $0.75
+      - Cucumber - $0.75
+      - Avocado - $2.00
+      - Sprouts - $1.00
+      - Spinach - $1.00
+    Prepared Vegetables (Rule: Select up to 4)
+      - Roasted Red Peppers - $1.50
+      - Grilled Vegetables - $2.00
+      - Pickles - $0.50
+      - Hot Peppers - $0.75
+      - Cole Slaw - $1.50
+      - Potato Salad - $1.50
+      - Macaroni Salad - $1.50
+[End Rule]
+
+[Begin Rule] Salad Base
+    Greens Selection (Rule: Select 1)
+      - Mixed Greens - $0.00
+      - Romaine Lettuce - $0.00
+      - Spinach - $0.50
+      - Arugula - $1.00
+      - Spring Mix - $0.75
+      - Iceberg Lettuce - $0.00
+    Salad Size (Rule: Select 1)
+      - Small Salad - $0.00
+      - Regular Salad - $2.00
+      - Large Salad - $4.00
+      - Family Size - $8.00
+[End Rule]
+
+[Begin Rule] Dressing Selection
+    Dressing Type (Rule: Select up to 2)
+      - Ranch Dressing - $0.00
+      - Italian Dressing - $0.00
+      - Caesar Dressing - $0.00
+      - Balsamic Vinaigrette - $0.50
+      - Honey Mustard - $0.00
+      - Blue Cheese Dressing - $0.50
+      - Thousand Island - $0.00
+      - Oil and Vinegar - $0.00
+      - Greek Dressing - $0.50
+      - Raspberry Vinaigrette - $0.75
+    Dressing Amount (Rule: Select 1)
+      - On the Side - $0.00
+      - Light Dressing - $0.00
+      - Regular Amount - $0.00
+      - Extra Dressing - $0.50
+[End Rule]
+
+[Begin Rule] Coffee Size
+    Size Options (Rule: Select 1)
+      - Small (12 oz) - $0.00
+      - Medium (16 oz) - $0.50
+      - Large (20 oz) - $1.00
+      - Extra Large (24 oz) - $1.50
+    Coffee Type (Rule: Select 1)
+      - Regular Coffee - $0.00
+      - Decaf Coffee - $0.00
+      - Dark Roast - $0.25
+      - French Roast - $0.25
+[End Rule]
+
+[Begin Rule] Coffee Add-ins
+    Dairy Options (Rule: Select up to 2)
+      - Milk - $0.00
+      - Half and Half - $0.25
+      - Heavy Cream - $0.50
+      - Almond Milk - $0.75
+      - Soy Milk - $0.75
+      - Oat Milk - $0.75
+    Flavor Additions (Rule: Select up to 3)
+      - Vanilla Syrup - $0.50
+      - Caramel Syrup - $0.50
+      - Hazelnut Syrup - $0.50
+      - Cinnamon - $0.25
+      - Whipped Cream - $1.00
+[End Rule]
+
+[Begin Rule] Side Orders
+    Potato Sides (Rule: Select up to 2)
+      - French Fries - $3.50
+      - Sweet Potato Fries - $4.50
+      - Onion Rings - $4.00
+      - Home Fries - $3.50
+      - Hash Browns - $3.50
+      - Mashed Potatoes - $3.00
+    Healthy Sides (Rule: Select up to 3)
+      - Fresh Fruit Cup - $4.00
+      - Garden Salad - $5.00
+      - Steamed Vegetables - $4.50
+      - Rice Pilaf - $3.50
+      - Quinoa Salad - $5.50
+[End Rule]
+
