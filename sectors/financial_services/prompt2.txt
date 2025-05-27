@@ -1,0 +1,50 @@
+[Begin Category] Retirement Planning
+- Retirement Analysis: $300.00, select rules Planning Horizon, Income Sources, Lifestyle Goals
+  Comprehensive retirement planning including savings analysis and income projections
+- 401k Optimization: $200.00, select rules Plan Type, Contribution Strategy, Investment Selection
+  401k plan optimization including contribution strategies and investment allocation
+- IRA Services: $150.00, select rules IRA Type, Conversion Strategy, Tax Planning
+  IRA planning including traditional, Roth, and conversion strategies
+- Social Security Planning: $175.00, select rules Claiming Strategy, Spousal Benefits, Tax Impact
+  Social Security optimization including timing and tax strategies
+[End Category]
+
+[Begin Category] Investment Management
+- Portfolio Review: $250.00, select rules Portfolio Size, Risk Assessment, Rebalancing Strategy
+  Comprehensive investment portfolio analysis and recommendations
+- Asset Allocation: $300.00, select rules Risk Tolerance, Time Horizon, Investment Goals
+  Strategic asset allocation planning based on individual risk profile
+- Tax-Loss Harvesting: $200.00, select rules Portfolio Type, Tax Situation, Harvest Strategy
+  Tax-efficient portfolio management including loss harvesting strategies
+- Alternative Investments: $400.00, select rules Investment Type, Risk Level, Portfolio Integration
+  Alternative investment consultation including REITs, commodities, and private equity
+[End Category]
+
+[Begin Category] Estate Planning
+- Estate Analysis: $350.00, select rules Estate Size, Tax Planning, Beneficiary Strategy
+  Comprehensive estate planning including tax minimization and wealth transfer
+- Trust Planning: $500.00, select rules Trust Type, Tax Benefits, Asset Protection
+  Trust planning including revocable, irrevocable, and charitable trusts
+- Life Insurance Planning: $250.00, select rules Coverage Type, Estate Liquidity, Tax Strategy
+  Life insurance analysis for estate planning and wealth transfer
+- Charitable Giving: $300.00, select rules Giving Strategy, Tax Benefits, Legacy Planning
+  Charitable giving strategies including donor advised funds and charitable trusts
+[End Category]
+
+[Begin Category] Tax Planning
+- Tax Strategy Review: $200.00, select rules Tax Situation, Planning Opportunities, Implementation
+  Annual tax planning including deduction strategies and tax-efficient investing
+- Business Tax Planning: $400.00, select rules Business Type, Tax Structure, Succession Planning
+  Business tax planning including entity selection and succession strategies
+- Multi-State Tax Issues: $350.00, select rules State Requirements, Residency Planning, Compliance
+  Multi-state tax planning for clients with complex residency situations
+[End Category]
+
+[Begin Category] Insurance Planning
+- Life Insurance Review: $150.00, select rules Coverage Analysis, Needs Assessment, Policy Optimization
+  Life insurance needs analysis and policy review for optimal coverage
+- Disability Insurance: $125.00, select rules Coverage Type, Income Protection, Policy Selection
+  Disability insurance planning for income protection and financial security
+- Long-Term Care: $200.00, select rules Care Options, Cost Planning, Insurance Solutions
+  Long-term care planning including insurance options and self-funding strategies
+[End Category]

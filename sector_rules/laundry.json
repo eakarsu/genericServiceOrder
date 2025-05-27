@@ -1,0 +1,64 @@
+{
+  "Professional Laundry Package": {
+    "base_price": 12.00,
+    "load_size": {
+      "display_name": "Load Size",
+      "description": "Select the size of your laundry load",
+      "options": ["Small Load (under 10 lbs)", "Medium Load (10-20 lbs)", "Large Load (20-30 lbs)", "Extra Large Load (30+ lbs)"],
+      "min_selections": 1,
+      "max_selections": 1,
+      "required": true,
+      "exclusive": true,
+      "pricing": {
+        "Small Load (under 10 lbs)": 0.00,
+        "Medium Load (10-20 lbs)": 5.00,
+        "Large Load (20-30 lbs)": 10.00,
+        "Extra Large Load (30+ lbs)": 18.00
+      }
+    },
+    "service_type": {
+      "display_name": "Service Type",
+      "description": "Choose your laundry service type",
+      "options": ["Wash and Fold", "Dry Cleaning", "Delicate Hand Wash", "Stain Treatment"],
+      "min_selections": 1,
+      "max_selections": 3,
+      "required": true,
+      "pricing": {
+        "Wash and Fold": 0.00,
+        "Dry Cleaning": 8.00,
+        "Delicate Hand Wash": 6.00,
+        "Stain Treatment": 8.00
+      }
+    },
+    "turnaround_time": {
+      "display_name": "Turnaround Time",
+      "description": "How quickly do you need your laundry back?",
+      "options": ["Standard (48-72 hours)", "Express (24-48 hours)", "Same Day Service", "Rush (under 24 hours)"],
+      "min_selections": 1,
+      "max_selections": 1,
+      "required": true,
+      "exclusive": true,
+      "pricing": {
+        "Standard (48-72 hours)": 0.00,
+        "Express (24-48 hours)": 8.00,
+        "Same Day Service": 15.00,
+        "Rush (under 24 hours)": 25.00
+      }
+    },
+    "pickup_delivery": {
+      "display_name": "Pickup and Delivery",
+      "description": "Choose pickup and delivery options",
+      "options": ["Pickup and Delivery", "Drop-off Only", "Delivery Only"],
+      "min_selections": 1,
+      "max_selections": 1,
+      "required": true,
+      "exclusive": true,
+      "pricing": {
+        "Pickup and Delivery": 7.00,
+        "Drop-off Only": 0.00,
+        "Delivery Only": 4.00
+      }
+    }
+  }
+}
+

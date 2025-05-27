@@ -1,0 +1,53 @@
+[Begin Category] Wash and Fold
+- Standard Wash and Fold: $12.00, select rules Laundry Volume, Wash Options, Service Speed
+  Professional wash, dry, and fold service for everyday clothing
+- Delicate Wash Service: $18.00, select rules Laundry Volume, Delicate Options, Special Care
+  Gentle wash service for delicate fabrics and special care items
+- Heavy Duty Wash: $15.00, select rules Laundry Volume, Heavy Duty Options, Soil Level
+  Heavy-duty washing for work clothes, uniforms, and heavily soiled items
+- Eco-Friendly Wash: $16.00, select rules Laundry Volume, Eco Options, Green Products
+  Environmentally friendly washing with organic and biodegradable products
+[End Category]
+
+[Begin Category] Dry Cleaning
+- Standard Dry Clean: $8.00, select rules Garment Type, Dry Clean Options, Service Speed
+  Professional dry cleaning for suits, dresses, and delicate garments
+- Premium Dry Clean: $12.00, select rules Garment Type, Premium Options, Luxury Care
+  Premium dry cleaning service for designer and luxury garments
+- Wedding Dress Clean: $45.00, select rules Dress Type, Wedding Options, Preservation Services
+  Specialized wedding dress cleaning and preservation service
+- Leather and Suede: $25.00, select rules Leather Type, Specialty Options, Conditioning Services
+  Professional leather and suede cleaning and conditioning
+[End Category]
+
+[Begin Category] Specialty Services
+- Stain Removal: $8.00, select rules Stain Type, Treatment Options, Fabric Considerations
+  Professional stain removal for tough and set-in stains
+- Alterations: $15.00, select rules Alteration Type, Garment Category, Complexity Level
+  Professional clothing alterations and tailoring services
+- Comforter Cleaning: $25.00, select rules Bedding Size, Cleaning Options, Fabric Type
+  Large item cleaning for comforters, quilts, and bedspreads
+- Shoe Cleaning: $15.00, select rules Shoe Type, Cleaning Method, Conditioning Options
+  Professional shoe cleaning and conditioning services
+[End Category]
+
+[Begin Category] Pickup and Delivery
+- Regular Pickup Service: $5.00, select rules Pickup Options, Service Area, Schedule Frequency
+  Convenient pickup and delivery service for regular customers
+- Same Day Service: $15.00, select rules Pickup Options, Rush Options, Service Area
+  Same-day pickup and delivery for urgent laundry needs
+- Weekly Pickup Plan: $20.00, select rules Pickup Options, Subscription Services, Volume Discounts
+  Weekly scheduled pickup and delivery service with discounted rates
+- Commercial Pickup: $25.00, select rules Commercial Options, Business Services, Volume Requirements
+  Commercial laundry pickup for businesses, restaurants, and offices
+[End Category]
+
+[Begin Category] Subscription Services
+- Monthly Laundry Plan: $80.00, select rules Subscription Options, Volume Limits, Service Frequency
+  Monthly unlimited wash and fold service with regular pickup
+- Family Plan Service: $120.00, select rules Family Options, Household Size, Service Customization
+  Family laundry plan with customized care for different family members
+- Executive Service: $150.00, select rules Executive Options, Premium Care, Concierge Services
+  Premium laundry service with personal attention and quick turnaround
+[End Category]
+

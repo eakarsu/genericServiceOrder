@@ -1,0 +1,54 @@
+[Begin Category] Mathematics Tutoring
+- Elementary Math: $35.00, select rules Math Level, Tutoring Format, Session Options
+  Basic math skills including arithmetic, fractions, and problem-solving
+- Middle School Math: $40.00, select rules Math Level, Tutoring Format, Session Options
+  Pre-algebra, geometry basics, and mathematical reasoning
+- High School Math: $45.00, select rules Math Level, Tutoring Format, Advanced Options
+  Algebra, geometry, trigonometry, and pre-calculus tutoring
+- Advanced Mathematics: $55.00, select rules Math Level, Tutoring Format, Advanced Options
+  Calculus, statistics, and college-level mathematics
+[End Category]
+
+[Begin Category] Science Tutoring
+- Elementary Science: $35.00, select rules Science Level, Tutoring Format, Session Options
+  Basic science concepts and scientific method introduction
+- Middle School Science: $40.00, select rules Science Level, Tutoring Format, Session Options
+  Life science, earth science, and physical science fundamentals
+- High School Science: $50.00, select rules Science Level, Tutoring Format, Advanced Options
+  Biology, chemistry, physics, and environmental science
+- AP Science Courses: $60.00, select rules Science Level, Tutoring Format, Test Prep Options
+  Advanced placement science courses and exam preparation
+[End Category]
+
+[Begin Category] Language Arts Tutoring
+- Reading Comprehension: $40.00, select rules Language Level, Tutoring Format, Reading Options
+  Reading skills, comprehension strategies, and vocabulary building
+- Writing Skills: $45.00, select rules Language Level, Tutoring Format, Writing Options
+  Essay writing, grammar, composition, and creative writing
+- Literature Studies: $45.00, select rules Language Level, Tutoring Format, Literature Options
+  Literary analysis, critical thinking, and text interpretation
+- English as Second Language: $50.00, select rules Language Level, Tutoring Format, ESL Options
+  English language learning for non-native speakers
+[End Category]
+
+[Begin Category] Test Preparation
+- SAT Preparation: $60.00, select rules Test Prep Level, Tutoring Format, Test Prep Options
+  Comprehensive SAT test preparation and strategy
+- ACT Preparation: $60.00, select rules Test Prep Level, Tutoring Format, Test Prep Options
+  Complete ACT test preparation and practice
+- State Testing Prep: $45.00, select rules Test Prep Level, Tutoring Format, Test Prep Options
+  State standardized test preparation and review
+- College Entrance Prep: $55.00, select rules Test Prep Level, Tutoring Format, Advanced Options
+  College admission test preparation and application support
+[End Category]
+
+[Begin Category] Study Skills
+- Organization Skills: $40.00, select rules Study Skills Level, Tutoring Format, Study Options
+  Time management, organization, and study strategies
+- Homework Support: $35.00, select rules Study Skills Level, Tutoring Format, Session Options
+  Homework assistance and academic support
+- Learning Strategies: $45.00, select rules Study Skills Level, Tutoring Format, Advanced Options
+  Study techniques, memory strategies, and learning optimization
+- Executive Function: $50.00, select rules Study Skills Level, Tutoring Format, Advanced Options
+  Focus, planning, and cognitive skill development
+[End Category]

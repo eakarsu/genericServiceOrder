@@ -1,0 +1,54 @@
+[Begin Category] Auto Insurance
+- Basic Auto Coverage: $85.00, select rules Auto Coverage, Vehicle Options, Driver Profile
+  Liability coverage meeting state minimum requirements
+- Full Coverage Auto: $125.00, select rules Auto Coverage, Vehicle Options, Comprehensive Options
+  Complete auto protection including collision and comprehensive
+- High-Risk Auto: $200.00, select rules Auto Coverage, High Risk Options, Driver Profile
+  Specialized coverage for high-risk drivers and situations
+- Commercial Auto: $175.00, select rules Auto Coverage, Commercial Options, Business Use
+  Business vehicle insurance and commercial auto coverage
+[End Category]
+
+[Begin Category] Home Insurance
+- Homeowners Insurance: $150.00, select rules Home Coverage, Property Options, Location Factors
+  Comprehensive home and property protection coverage
+- Condo Insurance: $75.00, select rules Home Coverage, Condo Options, Association Coverage
+  Condominium insurance for unit owners and personal property
+- Renters Insurance: $25.00, select rules Renters Coverage, Personal Property, Liability Options
+  Tenant insurance for personal property and liability protection
+- Landlord Insurance: $100.00, select rules Property Coverage, Rental Options, Investment Protection
+  Investment property insurance for rental properties
+[End Category]
+
+[Begin Category] Life Insurance
+- Term Life Insurance: $35.00, select rules Life Coverage, Term Options, Beneficiary Options
+  Affordable term life insurance with flexible coverage periods
+- Whole Life Insurance: $125.00, select rules Life Coverage, Permanent Options, Investment Features
+  Permanent life insurance with cash value accumulation
+- Universal Life: $95.00, select rules Life Coverage, Universal Options, Investment Features
+  Flexible premium universal life insurance policies
+- Group Life Insurance: $20.00, select rules Life Coverage, Group Options, Employee Benefits
+  Group life insurance through employers and organizations
+[End Category]
+
+[Begin Category] Health Insurance
+- Individual Health: $300.00, select rules Health Coverage, Plan Options, Provider Networks
+  Individual and family health insurance plans
+- Short-Term Health: $150.00, select rules Health Coverage, Temporary Options, Coverage Gaps
+  Temporary health insurance for coverage gaps
+- Supplemental Health: $45.00, select rules Health Coverage, Supplement Options, Additional Benefits
+  Supplemental insurance including dental, vision, and disability
+- Medicare Supplement: $125.00, select rules Health Coverage, Medicare Options, Senior Benefits
+  Medicare supplement and advantage plans for seniors
+[End Category]
+
+[Begin Category] Business Insurance
+- General Liability: $200.00, select rules Business Coverage, Liability Options, Industry Type
+  Business general liability and professional coverage
+- Property Insurance: $175.00, select rules Business Coverage, Property Options, Equipment Coverage
+  Commercial property and equipment insurance
+- Workers Compensation: $250.00, select rules Business Coverage, Workers Comp, Employee Protection
+  Workers compensation and employee injury coverage
+- Business Interruption: $150.00, select rules Business Coverage, Interruption Options, Loss Protection
+  Business interruption and loss of income insurance
+[End Category]

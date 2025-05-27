@@ -1,0 +1,54 @@
+[Begin Category] Portrait Sessions
+- Individual Portrait: $300.00, select rules Session Duration, Location Options, Style Preferences
+  Professional individual portrait session with multiple outfit changes and poses
+- Family Portrait: $450.00, select rules Family Size, Session Length, Location Choice
+  Family photography session capturing natural interactions and posed group shots
+- Senior Portrait: $350.00, select rules Graduate Level, Style Package, Location Variety
+  High school senior portrait session with multiple looks and backgrounds
+- Professional Headshots: $250.00, select rules Headshot Package, Usage Rights, Retouching Level
+  Corporate headshots for business professionals, LinkedIn, and marketing materials
+[End Category]
+
+[Begin Category] Event Photography
+- Wedding Photography: $2500.00, select rules Wedding Package, Coverage Duration, Photographer Team
+  Complete wedding day coverage including ceremony, reception, and special moments
+- Engagement Session: $400.00, select rules Session Style, Location Options, Delivery Package
+  Romantic engagement photography session for save-the-dates and wedding planning
+- Corporate Event: $800.00, select rules Event Duration, Photography Style, Delivery Format
+  Professional event photography for corporate functions, conferences, and networking events
+- Birthday Party: $350.00, select rules Party Size, Event Duration, Candid Coverage
+  Birthday party photography capturing celebrations, interactions, and special moments
+[End Category]
+
+[Begin Category] Commercial Photography
+- Product Photography: $500.00, select rules Product Type, Shot Quantity, Background Options
+  Professional product photography for e-commerce, catalogs, and marketing materials
+- Real Estate Photography: $300.00, select rules Property Size, Interior/Exterior, Virtual Tour
+  Real estate photography including interior, exterior, and lifestyle shots
+- Food Photography: $600.00, select rules Dish Quantity, Styling Level, Usage Rights
+  Restaurant and food brand photography with professional styling and lighting
+- Brand Photography: $750.00, select rules Brand Package, Usage Scope, Delivery Timeline
+  Brand and lifestyle photography for marketing, websites, and social media
+[End Category]
+
+[Begin Category] Specialty Photography
+- Maternity Session: $400.00, select rules Session Style, Location Options, Partner Inclusion
+  Beautiful maternity photography celebrating pregnancy and anticipation
+- Newborn Session: $450.00, select rules Session Type, Safety Requirements, Prop Options
+  Gentle newborn photography with safety-first approach and beautiful setups
+- Pet Photography: $275.00, select rules Pet Type, Location Choice, Action Level
+  Professional pet photography capturing personality and special bonds
+- Fashion Photography: $800.00, select rules Fashion Level, Model Requirements, Usage Rights
+  Fashion and beauty photography for portfolios, brands, and editorial use
+[End Category]
+
+[Begin Category] Delivery Options
+- Digital Gallery: $100.00, select rules Gallery Duration, Download Rights, Sharing Options
+  Online gallery with high-resolution digital downloads and sharing capabilities
+- Print Packages: $200.00, select rules Print Sizes, Paper Quality, Framing Options
+  Professional print packages with various sizes and premium paper options
+- Custom Album: $400.00, select rules Album Size, Design Style, Premium Materials
+  Custom-designed photo album with professional layout and premium binding
+- USB Delivery: $50.00, select rules File Format, Resolution Options, Backup Copy
+  Professional USB drive with all edited images in high resolution
+[End Category]

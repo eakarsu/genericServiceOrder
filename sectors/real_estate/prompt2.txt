@@ -1,0 +1,39 @@
+[Begin Category] Buying Services
+- Property Search Package: $0.00, select rules Property Criteria, Location Preferences, Buyer Services
+  Comprehensive property search and buyer representation including MLS access and showing coordination
+- First-Time Buyer Package: $200.00, select rules First-Time Services, Education Options, Financial Guidance
+  Specialized service package designed for first-time homebuyers with educational components
+- Investment Property Search: $500.00, select rules Investment Analysis, Market Research, ROI Calculations
+  Professional investment property identification and analysis for real estate investors
+- Luxury Home Search: $1000.00, select rules Luxury Services, Exclusive Listings, Concierge Options
+  Premium service for luxury home buyers including access to exclusive listings and white-glove service
+[End Category]
+
+[Begin Category] Selling Services
+- Home Selling Package: $299.00, select rules Marketing Options, Pricing Strategy, Listing Services
+  Complete home selling service including market analysis, pricing strategy, and listing management
+- Quick Sale Service: $499.00, select rules Fast Sale Options, Investor Network, As-Is Services
+  Expedited selling service for clients who need to sell quickly
+- Luxury Home Marketing: $999.00, select rules Luxury Marketing, Professional Photography, Staging Services
+  Premium marketing package for luxury homes including professional staging and international exposure
+- FSBO Consultation: $150.00, select rules FSBO Support, Legal Guidance, Paperwork Assistance
+  Consultation service for For Sale By Owner sellers needing professional guidance
+[End Category]
+
+[Begin Category] Rental Services
+- Tenant Search Service: $200.00, select rules Tenant Screening, Lease Preparation, Property Marketing
+  Professional tenant finding service including background checks and lease documentation
+- Property Management: $150.00, select rules Management Services, Maintenance Coordination, Rent Collection
+  Ongoing property management services for rental property owners
+- Rental Market Analysis: $100.00, select rules Market Research, Pricing Analysis, Competition Review
+  Professional analysis of rental market conditions and optimal pricing strategies
+[End Category]
+
+[Begin Category] Consultation Services
+- Market Analysis: $150.00, select rules Analysis Type, Property Valuation, Market Trends
+  Professional market analysis and property valuation services
+- Investment Consultation: $250.00, select rules Investment Strategy, Market Opportunities, Financial Analysis
+  Expert consultation on real estate investment opportunities and strategies
+- Relocation Services: $300.00, select rules Relocation Assistance, Area Information, School Districts
+  Comprehensive relocation assistance for clients moving to new areas
+[End Category]

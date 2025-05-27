@@ -1,0 +1,67 @@
+{
+  "Moving Service Package": {
+    "base_price": 200.00,
+    "home_size": {
+      "display_name": "Home Size",
+      "description": "What size home are you moving?",
+      "options": ["Studio/1 Bedroom", "2 Bedroom Apartment", "3 Bedroom House", "4 Bedroom House", "5+ Bedroom House"],
+      "min_selections": 1,
+      "max_selections": 1,
+      "required": true,
+      "exclusive": true,
+      "pricing": {
+        "Studio/1 Bedroom": 0.00,
+        "2 Bedroom Apartment": 100.00,
+        "3 Bedroom House": 200.00,
+        "4 Bedroom House": 300.00,
+        "5+ Bedroom House": 450.00
+      }
+    },
+    "move_distance": {
+      "display_name": "Move Distance",
+      "description": "How far are you moving?",
+      "options": ["Local (under 50 miles)", "Regional (50-200 miles)", "Long Distance (200-500 miles)", "Cross Country (500+ miles)"],
+      "min_selections": 1,
+      "max_selections": 1,
+      "required": true,
+      "exclusive": true,
+      "pricing": {
+        "Local (under 50 miles)": 0.00,
+        "Regional (50-200 miles)": 150.00,
+        "Long Distance (200-500 miles)": 400.00,
+        "Cross Country (500+ miles)": 800.00
+      }
+    },
+    "additional_services": {
+      "display_name": "Additional Services",
+      "description": "Select any additional services needed",
+      "options": ["Packing Service", "Piano Moving", "Storage (1 month)", "Stairs/Elevator Fee", "Fragile Items Handling"],
+      "min_selections": 0,
+      "max_selections": 5,
+      "required": false,
+      "pricing": {
+        "Packing Service": 150.00,
+        "Piano Moving": 200.00,
+        "Storage (1 month)": 100.00,
+        "Stairs/Elevator Fee": 75.00,
+        "Fragile Items Handling": 125.00
+      }
+    },
+    "timeline": {
+      "display_name": "Moving Timeline",
+      "description": "When do you need to move?",
+      "options": ["Rush (under 3 days)", "Standard (1-2 weeks)", "Flexible (2-4 weeks)", "Future Planning (1+ months)"],
+      "min_selections": 1,
+      "max_selections": 1,
+      "required": true,
+      "exclusive": true,
+      "pricing": {
+        "Rush (under 3 days)": 200.00,
+        "Standard (1-2 weeks)": 0.00,
+        "Flexible (2-4 weeks)": -50.00,
+        "Future Planning (1+ months)": -100.00
+      }
+    }
+  }
+}
+

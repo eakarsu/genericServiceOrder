@@ -1,0 +1,50 @@
+[Begin Category] Hair Services
+- Haircut and Style: $65.00, select rules Hair Length, Style Complexity, Stylist Level
+  Professional haircut with styling using premium products and expert techniques
+- Hair Color Service: $120.00, select rules Color Type, Processing Options, Color Treatments
+  Expert hair coloring service including consultation and custom color matching
+- Highlights and Lowlights: $150.00, select rules Highlight Technique, Color Options, Maintenance Plan
+  Professional highlighting service with precision foil placement and toning
+- Hair Treatment: $80.00, select rules Treatment Type, Hair Condition, Processing Time
+  Restorative hair treatments for damaged, dry, or chemically treated hair
+[End Category]
+
+[Begin Category] Nail Services
+- Classic Manicure: $40.00, select rules Nail Shape, Polish Options, Add-on Treatments
+  Professional manicure with cuticle care, shaping, and polish application
+- Gel Manicure: $55.00, select rules Gel Type, Design Options, Nail Art
+  Long-lasting gel manicure with premium gel polish and nail art options
+- Pedicure Service: $55.00, select rules Pedicure Type, Foot Treatments, Polish Selection
+  Relaxing pedicure with exfoliation, massage, and polish application
+- Nail Extensions: $75.00, select rules Extension Type, Length Options, Design Package
+  Professional nail extensions with custom length and design options
+[End Category]
+
+[Begin Category] Facial Services
+- Classic Facial: $80.00, select rules Skin Type, Treatment Focus, Add-on Services
+  Customized facial treatment based on skin type and concerns
+- Anti-Aging Facial: $120.00, select rules Treatment Intensity, Product Line, Follow-up Care
+  Advanced anti-aging facial with professional-grade products and techniques
+- Acne Treatment Facial: $100.00, select rules Treatment Method, Product Selection, Home Care
+  Specialized facial treatment for acne-prone skin with extraction and healing
+- Hydrating Facial: $90.00, select rules Hydration Level, Mask Options, Skin Analysis
+  Deep hydration facial for dry and dehydrated skin conditions
+[End Category]
+
+[Begin Category] Spa Packages
+- Bridal Package: $350.00, select rules Service Combination, Timeline Schedule, Trial Options
+  Complete bridal beauty package including hair, makeup, and nail services
+- Mother's Day Special: $200.00, select rules Package Services, Relaxation Add-ons, Gift Options
+  Special package combining multiple services for a relaxing spa experience
+- Girls Day Out: $180.00, select rules Group Services, Timing Coordination, Package Customization
+  Group package for friends celebrating together with coordinated services
+[End Category]
+
+[Begin Category] Makeup Services
+- Special Event Makeup: $85.00, select rules Event Type, Makeup Style, Longevity Options
+  Professional makeup application for special events and occasions
+- Bridal Makeup: $150.00, select rules Bridal Style, Trial Session, Touch-up Kit
+  Complete bridal makeup with trial session and touch-up products
+- Makeup Lesson: $75.00, select rules Skill Level, Focus Areas, Product Recommendations
+  Personalized makeup instruction with product recommendations and techniques
+[End Category]

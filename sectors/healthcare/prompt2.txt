@@ -1,0 +1,52 @@
+[Begin Category] Primary Care
+- Annual Physical: $250.00, select rules Physical Exam Options, Lab Tests, Preventive Care
+  Comprehensive yearly health examination including vital signs, medical history review, and preventive screenings
+- Routine Checkup: $150.00, select rules Basic Assessment, Health Screening
+  Standard medical consultation for ongoing health monitoring and minor concerns
+- Sick Visit: $120.00, select rules Symptom Assessment, Treatment Options
+  Medical evaluation for acute illness, infections, or injury
+- Follow-up Appointment: $100.00, select rules Follow-up Care, Medication Review
+  Continuation of care for existing conditions or treatment monitoring
+[End Category]
+
+[Begin Category] Specialist Care
+- Cardiology Consultation: $300.00, select rules Cardiac Tests, Heart Health Assessment
+  Specialized evaluation of heart and cardiovascular system health
+- Dermatology Exam: $200.00, select rules Skin Assessment, Treatment Plans
+  Professional evaluation of skin conditions, moles, and dermatological concerns
+- Orthopedic Consultation: $275.00, select rules Joint Assessment, Injury Evaluation
+  Specialized care for bones, joints, muscles, and musculoskeletal injuries
+- Mental Health Session: $180.00, select rules Therapy Options, Counseling Services
+  Professional mental health counseling and psychological support services
+[End Category]
+
+[Begin Category] Diagnostic Services
+- Blood Work Panel: $120.00, select rules Lab Tests, Results Options
+  Comprehensive blood analysis including CBC, metabolic panel, and lipid profile
+- Imaging Services: $200.00, select rules Imaging Types, Preparation Instructions
+  X-rays, ultrasounds, and other diagnostic imaging services
+- EKG Testing: $75.00, select rules Cardiac Monitoring, Test Preparation
+  Electrocardiogram testing for heart rhythm and electrical activity assessment
+- Pulmonary Function Test: $150.00, select rules Lung Assessment, Breathing Tests
+  Comprehensive testing of lung capacity and respiratory function
+[End Category]
+
+[Begin Category] Telehealth Services
+- Virtual Consultation: $100.00, select rules Consultation Type, Technology Requirements
+  Remote medical consultation via secure video platform
+- Prescription Refill: $50.00, select rules Medication Review, Pharmacy Options
+  Virtual appointment for routine prescription renewals and medication adjustments
+- Mental Health Teletherapy: $150.00, select rules Therapy Type, Session Duration
+  Remote mental health counseling and therapy sessions
+- Follow-up Virtual Visit: $75.00, select rules Virtual Follow-up, Care Coordination
+  Remote follow-up for ongoing treatment and care management
+[End Category]
+
+[Begin Category] Preventive Care
+- Vaccination Services: $50.00, select rules Vaccine Types, Age Requirements
+  Immunizations including flu shots, travel vaccines, and routine vaccinations
+- Health Screenings: $100.00, select rules Screening Types, Age Recommendations
+  Preventive health screenings for early detection of health conditions
+- Wellness Physical: $180.00, select rules Wellness Assessment, Lifestyle Counseling
+  Comprehensive wellness evaluation focusing on prevention and health optimization
+[End Category]

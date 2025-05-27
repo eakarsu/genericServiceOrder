@@ -1,0 +1,68 @@
+[Begin Rule] Laundry Volume
+    Load Size (Rule: Select 1)
+      - Small Load (under 10 lbs) - $0.00
+      - Medium Load (10-20 lbs) - $5.00
+      - Large Load (20-30 lbs) - $10.00
+      - Extra Large Load (30+ lbs) - $18.00
+    Item Count (Rule: Select up to 1)
+      - Per Pound Pricing - $2.00
+      - Flat Rate Service - $0.00
+      - Premium Count (hand-count) - $3.00
+[End Rule]
+
+[Begin Rule] Wash Options
+    Water Temperature (Rule: Select 1)
+      - Cold Water Wash - $0.00
+      - Warm Water Wash - $2.00
+      - Hot Water Wash - $3.00
+      - Mixed Temperature - $2.00
+    Detergent Options (Rule: Select up to 2)
+      - Standard Detergent - $0.00
+      - Hypoallergenic Detergent - $3.00
+      - Eco-Friendly Detergent - $4.00
+      - Fabric Softener - $2.00
+      - Starch Service - $3.00
+[End Rule]
+
+[Begin Rule] Service Speed
+    Turnaround Time (Rule: Select 1)
+      - Standard (48-72 hours) - $0.00
+      - Express (24-48 hours) - $8.00
+      - Same Day Service - $15.00
+      - Rush (under 24 hours) - $25.00
+    Delivery Options (Rule: Select up to 2)
+      - Standard Delivery - $5.00
+      - Scheduled Delivery - $8.00
+      - Evening Delivery - $10.00
+      - Weekend Delivery - $12.00
+[End Rule]
+
+[Begin Rule] Garment Type
+    Clothing Category (Rule: Select up to 5)
+      - Shirts and Blouses - $3.00
+      - Pants and Skirts - $4.00
+      - Suits and Jackets - $8.00
+      - Dresses - $6.00
+      - Coats and Outerwear - $12.00
+      - Formal Wear - $15.00
+    Special Items (Rule: Select up to 3)
+      - Silk Items - $5.00
+      - Cashmere Items - $8.00
+      - Beaded/Sequined Items - $10.00
+      - Vintage Clothing - $12.00
+[End Rule]
+
+[Begin Rule] Stain Type
+    Stain Category (Rule: Select up to 3)
+      - Food and Beverage Stains - $3.00
+      - Oil and Grease Stains - $5.00
+      - Blood and Protein Stains - $4.00
+      - Ink and Dye Stains - $6.00
+      - Set-in Stains - $8.00
+    Treatment Level (Rule: Select 1)
+      - Light Treatment - $0.00
+      - Moderate Treatment - $3.00
+      - Intensive Treatment - $6.00
+      - Multiple Treatments - $10.00
+[End Rule]
+

@@ -1,0 +1,52 @@
+[Begin Category] Dog Grooming
+- Basic Bath & Brush: $35.00, select rules Dog Size, Coat Type, Add-on Services
+  Basic wash, dry, and brush-out service for maintaining coat health
+- Full Grooming Package: $65.00, select rules Dog Size, Grooming Style, Premium Services
+  Complete grooming including bath, cut, nail trim, and ear cleaning
+- Puppy Introduction: $25.00, select rules Puppy Age, Gentle Handling, Socialization Focus
+  Gentle introduction to grooming for puppies under 6 months
+- Senior Dog Care: $45.00, select rules Senior Needs, Comfort Measures, Health Considerations
+  Specialized grooming for senior dogs with mobility or health considerations
+[End Category]
+
+[Begin Category] Cat Grooming
+- Cat Bath Service: $45.00, select rules Cat Temperament, Handling Requirements, Drying Options
+  Professional cat bathing with stress-reducing techniques and gentle handling
+- Lion Cut Grooming: $55.00, select rules Cut Style, Mat Removal, Comfort Level
+  Full body shave for long-haired cats with matting or temperature concerns
+- Nail Trim Service: $20.00, select rules Nail Length, Behavior Management, Frequency Plan
+  Professional nail trimming with stress-free handling techniques
+- De-shedding Treatment: $40.00, select rules Coat Length, Shedding Level, Tool Selection
+  Specialized de-shedding service to reduce loose fur and minimize shedding
+[End Category]
+
+[Begin Category] Pet Boarding
+- Day Boarding: $35.00, select rules Pet Size, Activity Level, Social Interaction
+  Daytime pet care and supervision in a safe, social environment
+- Overnight Boarding: $55.00, select rules Accommodation Type, Exercise Needs, Meal Service
+  Overnight pet boarding with comfortable accommodations and personalized care
+- Extended Stay: $45.00, select rules Stay Duration, Special Care, Exercise Package
+  Multi-day boarding with comprehensive care and exercise programs
+- Medical Boarding: $75.00, select rules Medical Needs, Medication Schedule, Monitoring Level
+  Specialized boarding for pets requiring medication or medical monitoring
+[End Category]
+
+[Begin Category] Pet Training
+- Basic Obedience: $80.00, select rules Training Level, Session Duration, Behavioral Focus
+  Fundamental obedience training including sit, stay, come, and leash walking
+- Puppy Training: $70.00, select rules Puppy Age, Socialization Needs, House Training
+  Comprehensive puppy training covering socialization, basic commands, and house training
+- Behavioral Correction: $100.00, select rules Behavior Issues, Training Methods, Session Intensity
+  Specialized training for addressing specific behavioral problems and challenges
+- Advanced Training: $120.00, select rules Skill Level, Specialized Commands, Performance Goals
+  Advanced training for specific skills, tricks, or performance objectives
+[End Category]
+
+[Begin Category] Mobile Services
+- Mobile Grooming: $85.00, select rules Service Location, Vehicle Access, Power Requirements
+  Professional grooming services brought to your location in fully equipped mobile unit
+- In-Home Pet Care: $45.00, select rules Service Duration, Pet Supervision, House Sitting
+  Pet care services provided in the comfort of your own home
+- Pet Transportation: $25.00, select rules Distance, Pet Size, Special Requirements
+  Safe and comfortable transportation for vet visits, grooming, or other appointments
+[End Category]

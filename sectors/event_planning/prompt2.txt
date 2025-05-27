@@ -1,0 +1,54 @@
+[Begin Category] Wedding Planning
+- Full Wedding Planning: $2500.00, select rules Wedding Services, Planning Timeline, Vendor Coordination
+  Complete wedding planning from engagement to reception
+- Wedding Day Coordination: $800.00, select rules Wedding Services, Day of Services, Timeline Coordination
+  Day-of wedding coordination and vendor management
+- Destination Wedding: $3500.00, select rules Wedding Services, Destination Options, Travel Coordination
+  Destination wedding planning including travel and location coordination
+- Elopement Planning: $1200.00, select rules Wedding Services, Intimate Options, Simple Coordination
+  Intimate elopement planning and coordination services
+[End Category]
+
+[Begin Category] Corporate Events
+- Corporate Meeting: $500.00, select rules Corporate Services, Meeting Options, Professional Coordination
+  Business meeting and conference planning services
+- Company Party: $1200.00, select rules Corporate Services, Party Options, Entertainment Coordination
+  Corporate celebration and team building event planning
+- Product Launch: $2000.00, select rules Corporate Services, Launch Options, Marketing Coordination
+  Product launch event planning and promotional coordination
+- Awards Ceremony: $1800.00, select rules Corporate Services, Ceremony Options, Program Coordination
+  Awards ceremony and recognition event planning
+[End Category]
+
+[Begin Category] Social Events
+- Birthday Party: $600.00, select rules Social Services, Party Options, Age Appropriate Planning
+  Birthday celebration planning for all ages
+- Anniversary Celebration: $800.00, select rules Social Services, Anniversary Options, Milestone Planning
+  Anniversary party and milestone celebration planning
+- Graduation Party: $500.00, select rules Social Services, Graduation Options, Achievement Celebration
+  Graduation celebration and achievement recognition events
+- Holiday Party: $700.00, select rules Social Services, Holiday Options, Seasonal Planning
+  Holiday celebration and seasonal event planning
+[End Category]
+
+[Begin Category] Specialty Events
+- Charity Fundraiser: $1500.00, select rules Specialty Services, Fundraising Options, Nonprofit Coordination
+  Charity event and fundraising event planning
+- Cultural Celebration: $1000.00, select rules Specialty Services, Cultural Options, Traditional Planning
+  Cultural and traditional celebration event planning
+- Memorial Service: $600.00, select rules Specialty Services, Memorial Options, Respectful Coordination
+  Memorial service and celebration of life planning
+- Religious Ceremony: $800.00, select rules Specialty Services, Religious Options, Sacred Coordination
+  Religious ceremony and spiritual celebration planning
+[End Category]
+
+[Begin Category] Event Add-ons
+- Catering Coordination: $400.00, select rules Vendor Services, Catering Options, Menu Planning
+  Professional catering coordination and menu planning
+- Entertainment Booking: $300.00, select rules Vendor Services, Entertainment Options, Performance Coordination
+  Entertainment booking and performance coordination
+- Floral Design: $600.00, select rules Vendor Services, Floral Options, Design Coordination
+  Floral design and botanical decoration coordination
+- Photography Services: $350.00, select rules Vendor Services, Photography Options, Documentation Services
+  Photography vendor coordination and session planning
+[End Category]

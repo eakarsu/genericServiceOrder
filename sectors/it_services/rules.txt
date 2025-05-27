@@ -1,0 +1,66 @@
+[Begin Rule] Repair Urgency
+    Service Priority (Rule: Select 1)
+      - Standard (3-5 days) - $0.00
+      - Priority (Next Day) - $50.00
+      - Urgent (Same Day) - $100.00
+      - Emergency (2-4 hours) - $200.00
+    Service Hours (Rule: Select up to 1)
+      - Business Hours (9-5) - $0.00
+      - Evening Service (5-9PM) - $50.00
+      - Weekend Service - $75.00
+      - Holiday Service - $150.00
+[End Rule]
+
+[Begin Rule] Computer Type
+    Device Category (Rule: Select 1)
+      - Desktop PC - $0.00
+      - Laptop Computer - $25.00
+      - Mac Computer - $50.00
+      - Gaming PC - $75.00
+      - Business Workstation - $100.00
+    Age and Condition (Rule: Select 1)
+      - New (0-2 years) - $0.00
+      - Recent (2-5 years) - $25.00
+      - Older (5-10 years) - $50.00
+      - Legacy (10+ years) - $75.00
+[End Rule]
+
+[Begin Rule] Service Location
+    Location Type (Rule: Select 1)
+      - Remote Support - $0.00
+      - Customer Home - $50.00
+      - Customer Office - $75.00
+      - Our Service Center - $-25.00
+    Travel Requirements (Rule: Select up to 1)
+      - Local (within 20 miles) - $0.00
+      - Extended Travel (20-50 miles) - $50.00
+      - Remote Location (50+ miles) - $100.00
+[End Rule]
+
+[Begin Rule] Repair Services
+    Diagnostic Services (Rule: Select up to 3)
+      - Basic Diagnostic - $25.00
+      - Advanced Hardware Test - $50.00
+      - Performance Analysis - $40.00
+      - Security Scan - $35.00
+    Repair Types (Rule: Select up to 4)
+      - Software Repair - $50.00
+      - Hardware Replacement - $75.00
+      - System Cleanup - $40.00
+      - Driver Updates - $30.00
+      - Registry Repair - $45.00
+[End Rule]
+
+[Begin Rule] Network Options
+    Network Size (Rule: Select 1)
+      - Single Device - $0.00
+      - Small Network (2-5 devices) - $25.00
+      - Medium Network (6-15 devices) - $75.00
+      - Large Network (16+ devices) - $150.00
+    Network Features (Rule: Select up to 3)
+      - Guest Network Setup - $25.00
+      - Parental Controls - $30.00
+      - Security Configuration - $50.00
+      - Performance Optimization - $40.00
+[End Rule]
+

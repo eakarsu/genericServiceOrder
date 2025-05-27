@@ -1,0 +1,67 @@
+{
+  "Computer Repair Package": {
+    "base_price": 85.00,
+    "device_type": {
+      "display_name": "Device Type",
+      "description": "What type of device needs repair?",
+      "options": ["Desktop PC", "Laptop Computer", "Mac Computer", "Gaming PC", "Business Workstation"],
+      "min_selections": 1,
+      "max_selections": 1,
+      "required": true,
+      "exclusive": true,
+      "pricing": {
+        "Desktop PC": 0.00,
+        "Laptop Computer": 25.00,
+        "Mac Computer": 50.00,
+        "Gaming PC": 75.00,
+        "Business Workstation": 100.00
+      }
+    },
+    "repair_services": {
+      "display_name": "Repair Services",
+      "description": "Select the repair services needed",
+      "options": ["Virus Removal", "Hardware Replacement", "Data Recovery", "System Optimization", "Software Installation", "Network Setup"],
+      "min_selections": 1,
+      "max_selections": 4,
+      "required": true,
+      "pricing": {
+        "Virus Removal": 50.00,
+        "Hardware Replacement": 125.00,
+        "Data Recovery": 150.00,
+        "System Optimization": 40.00,
+        "Software Installation": 30.00,
+        "Network Setup": 75.00
+      }
+    },
+    "service_priority": {
+      "display_name": "Service Priority",
+      "description": "How urgent is your repair?",
+      "options": ["Standard (3-5 days)", "Priority (Next Day)", "Urgent (Same Day)", "Emergency (2-4 hours)"],
+      "min_selections": 1,
+      "max_selections": 1,
+      "required": true,
+      "exclusive": true,
+      "pricing": {
+        "Standard (3-5 days)": 0.00,
+        "Priority (Next Day)": 50.00,
+        "Urgent (Same Day)": 100.00,
+        "Emergency (2-4 hours)": 200.00
+      }
+    },
+    "service_location": {
+      "display_name": "Service Location",
+      "description": "Where should we perform the repair?",
+      "options": ["Remote Support", "Our Service Center", "On-site at Your Location"],
+      "min_selections": 1,
+      "max_selections": 1,
+      "required": true,
+      "exclusive": true,
+      "pricing": {
+        "Remote Support": 0.00,
+        "Our Service Center": -25.00,
+        "On-site at Your Location": 50.00
+      }
+    }
+  }
+}
+
