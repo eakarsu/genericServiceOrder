@@ -1,0 +1,52 @@
+{
+  "Comprehensive Health Package": {
+    "base_price": 150.00,
+    "consultation_type": {
+      "display_name": "Type of Consultation",
+      "description": "Select the type of medical consultation needed",
+      "options": ["Routine Checkup", "Urgent Care", "Specialist Consultation", "Preventive Care"],
+      "min_selections": 1,
+      "max_selections": 1,
+      "required": true,
+      "exclusive": true,
+      "pricing": {
+        "Routine Checkup": 0.00,
+        "Urgent Care": 50.00,
+        "Specialist Consultation": 100.00,
+        "Preventive Care": -25.00
+      }
+    },
+    "additional_tests": {
+      "display_name": "Additional Medical Tests",
+      "description": "Optional additional tests and screenings",
+      "options": ["Blood Work", "X-Ray", "EKG", "Vision Test", "Hearing Test", "Blood Pressure Check"],
+      "min_selections": 0,
+      "max_selections": 5,
+      "required": false,
+      "pricing": {
+        "Blood Work": 75.00,
+        "X-Ray": 200.00,
+        "EKG": 100.00,
+        "Vision Test": 50.00,
+        "Hearing Test": 60.00,
+        "Blood Pressure Check": 25.00
+      }
+    },
+    "urgency_level": {
+      "display_name": "Appointment Urgency",
+      "description": "How soon do you need the appointment?",
+      "options": ["Same Day", "Within 3 Days", "Within Week", "Flexible"],
+      "min_selections": 1,
+      "max_selections": 1,
+      "required": true,
+      "exclusive": true,
+      "pricing": {
+        "Same Day": 75.00,
+        "Within 3 Days": 25.00,
+        "Within Week": 0.00,
+        "Flexible": -15.00
+      }
+    }
+  }
+}
+

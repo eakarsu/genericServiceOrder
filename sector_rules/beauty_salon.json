@@ -1,0 +1,52 @@
+{
+  "Complete Makeover Package": {
+    "base_price": 85.00,
+    "hair_services": {
+      "display_name": "Hair Services",
+      "description": "Select your desired hair treatments",
+      "options": ["Cut", "Color", "Highlights", "Styling", "Deep Treatment", "Blowout"],
+      "min_selections": 1,
+      "max_selections": 4,
+      "required": true,
+      "pricing": {
+        "Cut": 0.00,
+        "Color": 60.00,
+        "Highlights": 120.00,
+        "Styling": 25.00,
+        "Deep Treatment": 40.00,
+        "Blowout": 15.00
+      }
+    },
+    "nail_services": {
+      "display_name": "Nail Care Services",
+      "description": "Optional nail care treatments",
+      "options": ["Basic Manicure", "Gel Manicure", "Pedicure", "Nail Art", "French Tips"],
+      "min_selections": 0,
+      "max_selections": 3,
+      "required": false,
+      "pricing": {
+        "Basic Manicure": 25.00,
+        "Gel Manicure": 45.00,
+        "Pedicure": 35.00,
+        "Nail Art": 15.00,
+        "French Tips": 10.00
+      }
+    },
+    "facial_services": {
+      "display_name": "Facial Treatments",
+      "description": "Optional facial care services",
+      "options": ["Basic Facial", "Deep Cleansing", "Anti-Aging", "Hydrating", "Acne Treatment"],
+      "min_selections": 0,
+      "max_selections": 2,
+      "required": false,
+      "pricing": {
+        "Basic Facial": 50.00,
+        "Deep Cleansing": 70.00,
+        "Anti-Aging": 90.00,
+        "Hydrating": 60.00,
+        "Acne Treatment": 75.00
+      }
+    }
+  }
+}
+

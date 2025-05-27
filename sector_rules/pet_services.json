@@ -1,0 +1,52 @@
+{
+  "Complete Pet Care Package": {
+    "base_price": 60.00,
+    "service_types": {
+      "display_name": "Pet Care Services",
+      "description": "Select the services your pet needs",
+      "options": ["Grooming", "Veterinary Checkup", "Training", "Boarding", "Walking", "Pet Sitting"],
+      "min_selections": 1,
+      "max_selections": 4,
+      "required": true,
+      "pricing": {
+        "Grooming": 0.00,
+        "Veterinary Checkup": 75.00,
+        "Training": 100.00,
+        "Boarding": 50.00,
+        "Walking": 20.00,
+        "Pet Sitting": 40.00
+      }
+    },
+    "pet_size": {
+      "display_name": "Pet Size Category",
+      "description": "What size is your pet?",
+      "options": ["Small (Under 25 lbs)", "Medium (25-60 lbs)", "Large (60-100 lbs)", "Extra Large (Over 100 lbs)"],
+      "min_selections": 1,
+      "max_selections": 1,
+      "required": true,
+      "exclusive": true,
+      "pricing": {
+        "Small (Under 25 lbs)": 0.00,
+        "Medium (25-60 lbs)": 15.00,
+        "Large (60-100 lbs)": 30.00,
+        "Extra Large (Over 100 lbs)": 50.00
+      }
+    },
+    "special_needs": {
+      "display_name": "Special Care Requirements",
+      "description": "Does your pet have any special needs?",
+      "options": ["Senior Pet Care", "Medical Conditions", "Behavioral Issues", "Dietary Restrictions", "Anxiety Support"],
+      "min_selections": 0,
+      "max_selections": 5,
+      "required": false,
+      "pricing": {
+        "Senior Pet Care": 25.00,
+        "Medical Conditions": 40.00,
+        "Behavioral Issues": 50.00,
+        "Dietary Restrictions": 15.00,
+        "Anxiety Support": 30.00
+      }
+    }
+  }
+}
+

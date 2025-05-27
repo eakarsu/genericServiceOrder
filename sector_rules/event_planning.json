@@ -1,0 +1,71 @@
+{
+  "Custom Event Package": {
+    "base_price": 500.00,
+    "event_type": {
+      "display_name": "Event Type",
+      "description": "What type of event are you planning?",
+      "options": ["Wedding", "Corporate Event", "Birthday Party", "Anniversary", "Baby Shower", "Graduation"],
+      "min_selections": 1,
+      "max_selections": 1,
+      "required": true,
+      "exclusive": true,
+      "pricing": {
+        "Wedding": 2000.00,
+        "Corporate Event": 1500.00,
+        "Birthday Party": 300.00,
+        "Anniversary": 800.00,
+        "Baby Shower": 400.00,
+        "Graduation": 600.00
+      }
+    },
+    "venue_features": {
+      "display_name": "Venue Requirements",
+      "description": "What features do you need in your venue?",
+      "options": ["Outdoor Space", "Indoor Space", "Kitchen Facilities", "Audio/Visual Equipment", "Parking", "Accessibility"],
+      "min_selections": 1,
+      "max_selections": 6,
+      "required": true,
+      "pricing": {
+        "Outdoor Space": 200.00,
+        "Indoor Space": 100.00,
+        "Kitchen Facilities": 300.00,
+        "Audio/Visual Equipment": 250.00,
+        "Parking": 150.00,
+        "Accessibility": 100.00
+      }
+    },
+    "catering_style": {
+      "display_name": "Catering Options",
+      "description": "What style of catering do you prefer?",
+      "options": ["Buffet", "Plated Dinner", "Cocktail Reception", "Family Style", "Food Stations", "No Catering"],
+      "min_selections": 1,
+      "max_selections": 1,
+      "required": true,
+      "exclusive": true,
+      "pricing": {
+        "Buffet": 25.00,
+        "Plated Dinner": 50.00,
+        "Cocktail Reception": 35.00,
+        "Family Style": 30.00,
+        "Food Stations": 40.00,
+        "No Catering": 0.00
+      }
+    },
+    "guest_count": {
+      "display_name": "Guest Count Range",
+      "description": "How many guests will attend?",
+      "options": ["Small (Under 25)", "Medium (25-75)", "Large (75-150)", "Extra Large (Over 150)"],
+      "min_selections": 1,
+      "max_selections": 1,
+      "required": true,
+      "exclusive": true,
+      "pricing": {
+        "Small (Under 25)": 0.00,
+        "Medium (25-75)": 500.00,
+        "Large (75-150)": 1500.00,
+        "Extra Large (Over 150)": 3000.00
+      }
+    }
+  }
+}
+

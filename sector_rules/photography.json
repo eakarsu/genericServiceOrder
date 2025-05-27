@@ -1,0 +1,53 @@
+{
+  "Complete Photography Package": {
+    "base_price": 800.00,
+    "photography_type": {
+      "display_name": "Photography Type",
+      "description": "Select the type of photography session you need",
+      "options": ["Wedding Photography", "Portrait Session", "Event Photography", "Corporate Photography", "Family Photos", "Engagement Shoot"],
+      "min_selections": 1,
+      "max_selections": 2,
+      "required": true,
+      "pricing": {
+        "Wedding Photography": 0.00,
+        "Portrait Session": -400.00,
+        "Event Photography": 200.00,
+        "Corporate Photography": 300.00,
+        "Family Photos": -300.00,
+        "Engagement Shoot": -200.00
+      }
+    },
+    "coverage_duration": {
+      "display_name": "Coverage Duration",
+      "description": "How long do you need photography coverage?",
+      "options": ["1-2 Hours", "3-4 Hours", "6-8 Hours", "Full Day (10+ Hours)"],
+      "min_selections": 1,
+      "max_selections": 1,
+      "required": true,
+      "exclusive": true,
+      "pricing": {
+        "1-2 Hours": -400.00,
+        "3-4 Hours": -200.00,
+        "6-8 Hours": 0.00,
+        "Full Day (10+ Hours)": 400.00
+      }
+    },
+    "deliverables": {
+      "display_name": "Photo Deliverables",
+      "description": "Select what you'd like included in your package",
+      "options": ["Digital Gallery", "Edited Photos", "Print Release", "Custom Album", "Canvas Prints", "USB Drive"],
+      "min_selections": 1,
+      "max_selections": 6,
+      "required": true,
+      "pricing": {
+        "Digital Gallery": 0.00,
+        "Edited Photos": 200.00,
+        "Print Release": 50.00,
+        "Custom Album": 300.00,
+        "Canvas Prints": 150.00,
+        "USB Drive": 75.00
+      }
+    }
+  }
+}
+

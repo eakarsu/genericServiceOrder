@@ -1,0 +1,52 @@
+{
+  "Custom Fitness Plan": {
+    "base_price": 50.00,
+    "training_type": {
+      "display_name": "Training Format",
+      "description": "Choose your preferred training format",
+      "options": ["Personal Training", "Small Group", "Group Classes", "Self-Guided"],
+      "min_selections": 1,
+      "max_selections": 2,
+      "required": true,
+      "pricing": {
+        "Personal Training": 100.00,
+        "Small Group": 50.00,
+        "Group Classes": 25.00,
+        "Self-Guided": 0.00
+      }
+    },
+    "fitness_goals": {
+      "display_name": "Fitness Goals",
+      "description": "What are your primary fitness objectives?",
+      "options": ["Weight Loss", "Muscle Building", "Cardio Fitness", "Flexibility", "Sports Training", "General Health"],
+      "min_selections": 1,
+      "max_selections": 3,
+      "required": true,
+      "pricing": {
+        "Weight Loss": 0.00,
+        "Muscle Building": 25.00,
+        "Cardio Fitness": 0.00,
+        "Flexibility": 15.00,
+        "Sports Training": 50.00,
+        "General Health": 0.00
+      }
+    },
+    "session_frequency": {
+      "display_name": "Session Frequency",
+      "description": "How often would you like to train?",
+      "options": ["Daily", "5x per week", "3x per week", "2x per week", "1x per week"],
+      "min_selections": 1,
+      "max_selections": 1,
+      "required": true,
+      "exclusive": true,
+      "pricing": {
+        "Daily": 200.00,
+        "5x per week": 150.00,
+        "3x per week": 75.00,
+        "2x per week": 25.00,
+        "1x per week": 0.00
+      }
+    }
+  }
+}
+

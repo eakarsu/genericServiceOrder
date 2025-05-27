@@ -1,0 +1,55 @@
+{
+  "Custom Transportation Package": {
+    "base_price": 75.00,
+    "service_type": {
+      "display_name": "Transportation Service",
+      "description": "Select the type of transportation service you need",
+      "options": ["Airport Transfer", "Corporate Transportation", "Special Events", "City Tours", "Long-Distance Travel", "Group Transportation"],
+      "min_selections": 1,
+      "max_selections": 2,
+      "required": true,
+      "pricing": {
+        "Airport Transfer": 0.00,
+        "Corporate Transportation": 50.00,
+        "Special Events": 100.00,
+        "City Tours": 150.00,
+        "Long-Distance Travel": 200.00,
+        "Group Transportation": 125.00
+      }
+    },
+    "vehicle_type": {
+      "display_name": "Vehicle Type",
+      "description": "Choose your preferred vehicle type",
+      "options": ["Economy Sedan", "Business Sedan", "Luxury Sedan", "SUV", "Van (6-8 passengers)", "Mini Bus (9-15 passengers)"],
+      "min_selections": 1,
+      "max_selections": 1,
+      "required": true,
+      "exclusive": true,
+      "pricing": {
+        "Economy Sedan": 0.00,
+        "Business Sedan": 25.00,
+        "Luxury Sedan": 75.00,
+        "SUV": 50.00,
+        "Van (6-8 passengers)": 100.00,
+        "Mini Bus (9-15 passengers)": 200.00
+      }
+    },
+    "additional_services": {
+      "display_name": "Additional Services",
+      "description": "Select any additional services you need",
+      "options": ["Child Safety Seats", "Wheelchair Accessible", "Flight Monitoring", "Multiple Stops", "Waiting Time", "Meet & Greet"],
+      "min_selections": 0,
+      "max_selections": 6,
+      "required": false,
+      "pricing": {
+        "Child Safety Seats": 25.00,
+        "Wheelchair Accessible": 50.00,
+        "Flight Monitoring": 15.00,
+        "Multiple Stops": 30.00,
+        "Waiting Time": 40.00,
+        "Meet & Greet": 20.00
+      }
+    }
+  }
+}
+

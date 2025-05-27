@@ -1,0 +1,100 @@
+{
+  "Build Your Own Breakfast": {
+    "base_price": 8.00,
+    "proteins": {
+      "display_name": "Protein Choices",
+      "description": "Choose your main protein source",
+      "options": ["Scrambled Eggs", "Fried Eggs", "Egg Whites", "Bacon", "Sausage", "Ham", "Smoked Salmon"],
+      "min_selections": 1,
+      "max_selections": 3,
+      "required": true,
+      "pricing": {
+        "Scrambled Eggs": 0.00,
+        "Fried Eggs": 0.00,
+        "Egg Whites": 1.00,
+        "Bacon": 2.00,
+        "Sausage": 2.00,
+        "Ham": 2.50,
+        "Smoked Salmon": 4.00
+      }
+    },
+    "sides": {
+      "display_name": "Side Options",
+      "description": "Choose your side dishes",
+      "options": ["Hash Browns", "Toast", "English Muffin", "Fresh Fruit", "Yogurt", "Oatmeal"],
+      "min_selections": 1,
+      "max_selections": 2,
+      "required": true,
+      "pricing": {
+        "Hash Browns": 2.00,
+        "Toast": 1.00,
+        "English Muffin": 1.50,
+        "Fresh Fruit": 3.00,
+        "Yogurt": 2.50,
+        "Oatmeal": 2.00
+      }
+    },
+    "beverages": {
+      "display_name": "Beverage Selection",
+      "description": "Optional beverage add-ons",
+      "options": ["Coffee", "Tea", "Orange Juice", "Apple Juice", "Milk"],
+      "min_selections": 0,
+      "max_selections": 2,
+      "required": false,
+      "pricing": {
+        "Coffee": 2.50,
+        "Tea": 2.00,
+        "Orange Juice": 3.00,
+        "Apple Juice": 3.00,
+        "Milk": 2.00
+      }
+    }
+  },
+  "Custom Coffee": {
+    "base_price": 3.50,
+    "size": {
+      "display_name": "Size Selection",
+      "options": ["Small", "Medium", "Large", "Extra Large"],
+      "min_selections": 1,
+      "max_selections": 1,
+      "required": true,
+      "exclusive": true,
+      "pricing": {
+        "Small": 0.00,
+        "Medium": 0.50,
+        "Large": 1.00,
+        "Extra Large": 1.50
+      }
+    },
+    "milk": {
+      "display_name": "Milk Options",
+      "options": ["Whole Milk", "2% Milk", "Skim Milk", "Almond Milk", "Oat Milk", "Soy Milk"],
+      "min_selections": 0,
+      "max_selections": 1,
+      "required": false,
+      "pricing": {
+        "Whole Milk": 0.00,
+        "2% Milk": 0.00,
+        "Skim Milk": 0.00,
+        "Almond Milk": 0.60,
+        "Oat Milk": 0.60,
+        "Soy Milk": 0.50
+      }
+    },
+    "extras": {
+      "display_name": "Extra Options",
+      "options": ["Extra Shot", "Decaf", "Extra Hot", "Whipped Cream", "Cinnamon"],
+      "min_selections": 0,
+      "max_selections": 4,
+      "required": false,
+      "pricing": {
+        "Extra Shot": 0.75,
+        "Decaf": 0.00,
+        "Extra Hot": 0.00,
+        "Whipped Cream": 0.50,
+        "Cinnamon": 0.25
+      }
+    }
+  }
+}
+

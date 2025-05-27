@@ -1,0 +1,52 @@
+{
+  "Custom Learning Plan": {
+    "base_price": 50.00,
+    "subjects": {
+      "display_name": "Subject Areas",
+      "description": "Choose the subjects you need help with",
+      "options": ["Mathematics", "English", "Science", "History", "Foreign Language", "Test Preparation"],
+      "min_selections": 1,
+      "max_selections": 3,
+      "required": true,
+      "pricing": {
+        "Mathematics": 0.00,
+        "English": 0.00,
+        "Science": 10.00,
+        "History": 0.00,
+        "Foreign Language": 20.00,
+        "Test Preparation": 30.00
+      }
+    },
+    "session_format": {
+      "display_name": "Learning Format",
+      "description": "Choose your preferred learning format",
+      "options": ["One-on-One", "Small Group", "Online", "In-Person", "Hybrid"],
+      "min_selections": 1,
+      "max_selections": 2,
+      "required": true,
+      "pricing": {
+        "One-on-One": 50.00,
+        "Small Group": 20.00,
+        "Online": -10.00,
+        "In-Person": 10.00,
+        "Hybrid": 25.00
+      }
+    },
+    "intensity_level": {
+      "display_name": "Learning Intensity",
+      "description": "How intensive should the tutoring be?",
+      "options": ["Intensive (Daily)", "Regular (3x/week)", "Light (2x/week)", "Exam Prep (Flexible)"],
+      "min_selections": 1,
+      "max_selections": 1,
+      "required": true,
+      "exclusive": true,
+      "pricing": {
+        "Intensive (Daily)": 200.00,
+        "Regular (3x/week)": 100.00,
+        "Light (2x/week)": 25.00,
+        "Exam Prep (Flexible)": 75.00
+      }
+    }
+  }
+}
+

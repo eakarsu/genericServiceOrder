@@ -1,0 +1,52 @@
+{
+  "Custom Financial Plan": {
+    "base_price": 500.00,
+    "planning_services": {
+      "display_name": "Financial Planning Services",
+      "description": "Select the financial planning areas you need help with",
+      "options": ["Retirement Planning", "Investment Management", "Estate Planning", "Tax Strategy", "Insurance Analysis", "College Funding"],
+      "min_selections": 1,
+      "max_selections": 4,
+      "required": true,
+      "pricing": {
+        "Retirement Planning": 0.00,
+        "Investment Management": 300.00,
+        "Estate Planning": 250.00,
+        "Tax Strategy": 200.00,
+        "Insurance Analysis": 150.00,
+        "College Funding": 175.00
+      }
+    },
+    "service_level": {
+      "display_name": "Service Level",
+      "description": "Choose your preferred level of ongoing service",
+      "options": ["One-Time Plan", "Quarterly Reviews", "Monthly Management", "Full-Service Advisory"],
+      "min_selections": 1,
+      "max_selections": 1,
+      "required": true,
+      "exclusive": true,
+      "pricing": {
+        "One-Time Plan": 0.00,
+        "Quarterly Reviews": 400.00,
+        "Monthly Management": 800.00,
+        "Full-Service Advisory": 1500.00
+      }
+    },
+    "portfolio_size": {
+      "display_name": "Investment Portfolio Size",
+      "description": "What's your approximate investment portfolio value?",
+      "options": ["Under $50k", "$50k-250k", "$250k-1M", "Over $1M"],
+      "min_selections": 1,
+      "max_selections": 1,
+      "required": true,
+      "exclusive": true,
+      "pricing": {
+        "Under $50k": 0.00,
+        "$50k-250k": 200.00,
+        "$250k-1M": 500.00,
+        "Over $1M": 1000.00
+      }
+    }
+  }
+}
+

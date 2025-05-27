@@ -1,0 +1,52 @@
+{
+  "Custom Home Service Package": {
+    "base_price": 75.00,
+    "service_types": {
+      "display_name": "Service Categories",
+      "description": "Select the types of home services needed",
+      "options": ["Plumbing", "Electrical", "Cleaning", "HVAC", "Handyman", "Pest Control"],
+      "min_selections": 1,
+      "max_selections": 3,
+      "required": true,
+      "pricing": {
+        "Plumbing": 0.00,
+        "Electrical": 25.00,
+        "Cleaning": -10.00,
+        "HVAC": 50.00,
+        "Handyman": 15.00,
+        "Pest Control": 35.00
+      }
+    },
+    "urgency_level": {
+      "display_name": "Service Urgency",
+      "description": "How urgent is this service request?",
+      "options": ["Emergency", "Same Day", "Within 3 Days", "Flexible"],
+      "min_selections": 1,
+      "max_selections": 1,
+      "required": true,
+      "exclusive": true,
+      "pricing": {
+        "Emergency": 200.00,
+        "Same Day": 100.00,
+        "Within 3 Days": 25.00,
+        "Flexible": 0.00
+      }
+    },
+    "property_size": {
+      "display_name": "Property Size",
+      "description": "What size is your property?",
+      "options": ["Small (Under 1000 sq ft)", "Medium (1000-2000 sq ft)", "Large (2000-3000 sq ft)", "Extra Large (Over 3000 sq ft)"],
+      "min_selections": 1,
+      "max_selections": 1,
+      "required": true,
+      "exclusive": true,
+      "pricing": {
+        "Small (Under 1000 sq ft)": 0.00,
+        "Medium (1000-2000 sq ft)": 50.00,
+        "Large (2000-3000 sq ft)": 100.00,
+        "Extra Large (Over 3000 sq ft)": 200.00
+      }
+    }
+  }
+}
+

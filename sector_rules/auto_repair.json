@@ -1,0 +1,53 @@
+{
+  "Complete Vehicle Inspection": {
+    "base_price": 120.00,
+    "inspection_systems": {
+      "display_name": "Systems to Inspect",
+      "description": "Select which vehicle systems to inspect",
+      "options": ["Engine", "Brakes", "Transmission", "Electrical", "AC/Heating", "Suspension", "Tires"],
+      "min_selections": 2,
+      "max_selections": 7,
+      "required": true,
+      "pricing": {
+        "Engine": 0.00,
+        "Brakes": 25.00,
+        "Transmission": 40.00,
+        "Electrical": 35.00,
+        "AC/Heating": 30.00,
+        "Suspension": 45.00,
+        "Tires": 20.00
+      }
+    },
+    "service_priority": {
+      "display_name": "Service Priority Level",
+      "description": "How urgently do you need this service?",
+      "options": ["Emergency", "High Priority", "Standard", "When Convenient"],
+      "min_selections": 1,
+      "max_selections": 1,
+      "required": true,
+      "exclusive": true,
+      "pricing": {
+        "Emergency": 150.00,
+        "High Priority": 75.00,
+        "Standard": 0.00,
+        "When Convenient": -25.00
+      }
+    },
+    "parts_quality": {
+      "display_name": "Parts Quality Preference",
+      "description": "What quality of replacement parts do you prefer?",
+      "options": ["OEM Original", "Premium Aftermarket", "Standard Aftermarket", "Budget Option"],
+      "min_selections": 1,
+      "max_selections": 1,
+      "required": true,
+      "exclusive": true,
+      "pricing": {
+        "OEM Original": 200.00,
+        "Premium Aftermarket": 100.00,
+        "Standard Aftermarket": 0.00,
+        "Budget Option": -50.00
+      }
+    }
+  }
+}
+

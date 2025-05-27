@@ -1,0 +1,53 @@
+{
+  "Legal Consultation Package": {
+    "base_price": 250.00,
+    "practice_area": {
+      "display_name": "Legal Practice Area",
+      "description": "Select the area of law for your consultation",
+      "options": ["Family Law", "Corporate Law", "Real Estate Law", "Criminal Defense", "Personal Injury", "Immigration Law", "Estate Planning", "Employment Law"],
+      "min_selections": 1,
+      "max_selections": 2,
+      "required": true,
+      "pricing": {
+        "Family Law": 0.00,
+        "Corporate Law": 100.00,
+        "Real Estate Law": 50.00,
+        "Criminal Defense": 150.00,
+        "Personal Injury": 0.00,
+        "Immigration Law": 75.00,
+        "Estate Planning": 25.00,
+        "Employment Law": 50.00
+      }
+    },
+    "consultation_type": {
+      "display_name": "Consultation Format",
+      "description": "Choose how you'd like to meet with the attorney",
+      "options": ["Initial Consultation", "Document Review", "Case Assessment", "Ongoing Representation"],
+      "min_selections": 1,
+      "max_selections": 3,
+      "required": true,
+      "pricing": {
+        "Initial Consultation": 0.00,
+        "Document Review": 150.00,
+        "Case Assessment": 200.00,
+        "Ongoing Representation": 500.00
+      }
+    },
+    "urgency_level": {
+      "display_name": "Timeline Urgency",
+      "description": "How quickly do you need legal assistance?",
+      "options": ["Emergency (Same Day)", "Urgent (Within 3 Days)", "Standard (Within Week)", "Flexible"],
+      "min_selections": 1,
+      "max_selections": 1,
+      "required": true,
+      "exclusive": true,
+      "pricing": {
+        "Emergency (Same Day)": 500.00,
+        "Urgent (Within 3 Days)": 200.00,
+        "Standard (Within Week)": 0.00,
+        "Flexible": -50.00
+      }
+    }
+  }
+}
+

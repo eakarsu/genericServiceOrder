@@ -1,0 +1,52 @@
+{
+  "Insurance Quote Package": {
+    "base_price": 0.00,
+    "coverage_types": {
+      "display_name": "Insurance Coverage Types",
+      "description": "Select the types of insurance coverage you need",
+      "options": ["Auto Insurance", "Home Insurance", "Life Insurance", "Health Insurance", "Renters Insurance", "Motorcycle Insurance"],
+      "min_selections": 1,
+      "max_selections": 3,
+      "required": true,
+      "pricing": {
+        "Auto Insurance": 0.00,
+        "Home Insurance": 0.00,
+        "Life Insurance": 0.00,
+        "Health Insurance": 0.00,
+        "Renters Insurance": 0.00,
+        "Motorcycle Insurance": 0.00
+      }
+    },
+    "coverage_level": {
+      "display_name": "Coverage Level",
+      "description": "Choose your desired coverage level",
+      "options": ["Basic Coverage", "Standard Coverage", "Premium Coverage", "Maximum Coverage"],
+      "min_selections": 1,
+      "max_selections": 1,
+      "required": true,
+      "exclusive": true,
+      "pricing": {
+        "Basic Coverage": 0.00,
+        "Standard Coverage": 0.00,
+        "Premium Coverage": 0.00,
+        "Maximum Coverage": 0.00
+      }
+    },
+    "deductible_preference": {
+      "display_name": "Deductible Preference",
+      "description": "Select your preferred deductible amount",
+      "options": ["$250 Deductible", "$500 Deductible", "$1000 Deductible", "$2500 Deductible"],
+      "min_selections": 1,
+      "max_selections": 1,
+      "required": true,
+      "exclusive": true,
+      "pricing": {
+        "$250 Deductible": 0.00,
+        "$500 Deductible": 0.00,
+        "$1000 Deductible": 0.00,
+        "$2500 Deductible": 0.00
+      }
+    }
+  }
+}
+

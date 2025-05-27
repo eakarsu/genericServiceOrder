@@ -1,0 +1,53 @@
+{
+  "Custom Travel Package": {
+    "base_price": 200.00,
+    "accommodation_type": {
+      "display_name": "Accommodation Type",
+      "description": "Choose your preferred type of accommodation",
+      "options": ["Luxury Hotel", "Business Hotel", "Budget Hotel", "Boutique Hotel", "Resort"],
+      "min_selections": 1,
+      "max_selections": 1,
+      "required": true,
+      "exclusive": true,
+      "pricing": {
+        "Luxury Hotel": 300.00,
+        "Business Hotel": 100.00,
+        "Budget Hotel": -50.00,
+        "Boutique Hotel": 150.00,
+        "Resort": 400.00
+      }
+    },
+    "room_features": {
+      "display_name": "Room Features",
+      "description": "Select desired room features and amenities",
+      "options": ["Ocean View", "City View", "Balcony", "Kitchenette", "Jacuzzi", "Executive Lounge Access"],
+      "min_selections": 0,
+      "max_selections": 4,
+      "required": false,
+      "pricing": {
+        "Ocean View": 75.00,
+        "City View": 25.00,
+        "Balcony": 50.00,
+        "Kitchenette": 40.00,
+        "Jacuzzi": 100.00,
+        "Executive Lounge Access": 60.00
+      }
+    },
+    "travel_services": {
+      "display_name": "Additional Services",
+      "description": "Optional travel services and add-ons",
+      "options": ["Airport Transfer", "Car Rental", "Travel Insurance", "Spa Package", "Restaurant Reservations"],
+      "min_selections": 0,
+      "max_selections": 5,
+      "required": false,
+      "pricing": {
+        "Airport Transfer": 50.00,
+        "Car Rental": 150.00,
+        "Travel Insurance": 35.00,
+        "Spa Package": 200.00,
+        "Restaurant Reservations": 25.00
+      }
+    }
+  }
+}
+
