@@ -1,61 +1,474 @@
-[Begin Rule] Divorce Type
-    Divorce Category (Rule: Select 1)
-      - Uncontested Divorce - $0.00
-      - Contested Divorce - $200.00
-      - Collaborative Divorce - $150.00
-      - Mediated Divorce - $100.00
+[Begin Rule] Planning Horizon
+    Time to Retirement (Rule: Select 1)
+      - 5 years or less - $100.00
+      - 6-15 years - $0.00
+      - 16-25 years - $-50.00
+      - More than 25 years - $-100.00
+    Planning Complexity (Rule: Select 1 to 3)
+      - Multiple Income Sources - $150.00
+      - Business Ownership - $200.00
+      - Stock Options/RSUs - $175.00
+      - Pension Planning - $125.00
+      - International Assets - $250.00
+[End Rule]
+
+[Begin Rule] Income Sources
+    Income Types (Rule: Select up to 4)
+      - Employment Income - $0.00
+      - Self-Employment - $100.00
+      - Rental Income - $150.00
+      - Investment Income - $200.00
+      - Pension/Social Security - $75.00
+    Income Stability (Rule: Select 1)
+      - Stable/Predictable - $0.00
+      - Variable/Seasonal - $75.00
+      - High Volatility - $150.00
+[End Rule]
+
+[Begin Rule] Lifestyle Goals
+    Retirement Lifestyle (Rule: Select 1)
+      - Maintain Current Lifestyle - $0.00
+      - Enhanced Lifestyle - $200.00
+      - Downsized Lifestyle - $-100.00
+      - Travel-Focused - $300.00
+    Special Goals (Rule: Select up to 3)
+      - Second Home - $500.00
+      - Travel Budget - $200.00
+      - Healthcare Contingency - $300.00
+      - Legacy Planning - $400.00
+[End Rule]
+
+[Begin Rule] Plan Type
+    401k Plan Category (Rule: Select 1)
+      - Traditional 401k - $0.00
+      - Roth 401k - $50.00
+      - Safe Harbor Plan - $100.00
+      - Simple IRA - $75.00
+    Employer Match (Rule: Select 1)
+      - No Match - $0.00
+      - Partial Match - $25.00
+      - Full Match - $50.00
+      - Profit Sharing - $75.00
+[End Rule]
+
+[Begin Rule] Contribution Strategy
+    Contribution Level (Rule: Select 1)
+      - Minimum for Match - $0.00
+      - Maximum Allowed - $100.00
+      - Catch-up Contributions - $150.00
+      - Mega Backdoor Roth - $300.00
+    Strategy Type (Rule: Select 1)
+      - Conservative - $0.00
+      - Aggressive - $75.00
+      - Balanced - $50.00
+[End Rule]
+
+[Begin Rule] Investment Selection
+    Investment Style (Rule: Select 1)
+      - Target Date Funds - $0.00
+      - Index Funds - $50.00
+      - Active Management - $150.00
+      - Self-Directed - $200.00
+    Risk Allocation (Rule: Select 1)
+      - Conservative (20/80) - $0.00
+      - Moderate (50/50) - $25.00
+      - Aggressive (80/20) - $75.00
+      - All Equity - $150.00
+[End Rule]
+
+[Begin Rule] IRA Type
+    IRA Category (Rule: Select 1)
+      - Traditional IRA - $0.00
+      - Roth IRA - $50.00
+      - SEP IRA - $100.00
+      - Simple IRA - $75.00
+    Funding Source (Rule: Select 1)
+      - New Contributions - $0.00
+      - 401k Rollover - $50.00
+      - Backdoor Roth - $150.00
+[End Rule]
+
+[Begin Rule] Conversion Strategy
+    Conversion Type (Rule: Select 1)
+      - No Conversion - $0.00
+      - Partial Conversion - $100.00
+      - Full Conversion - $300.00
+      - Ladder Strategy - $200.00
+    Timing Strategy (Rule: Select 1)
+      - Current Year - $0.00
+      - Multi-Year Plan - $150.00
+      - Market-Timed - $100.00
+[End Rule]
+
+[Begin Rule] Tax Planning
+    Tax Strategy (Rule: Select up to 3)
+      - Tax Deferral - $100.00
+      - Tax-Free Growth - $150.00
+      - Tax Diversification - $200.00
+      - Loss Harvesting - $250.00
+    Implementation (Rule: Select 1)
+      - Current Year - $0.00
+      - Multi-Year Strategy - $100.00
+      - Legacy Planning - $200.00
+[End Rule]
+
+[Begin Rule] Claiming Strategy
+    Social Security Strategy (Rule: Select 1)
+      - Early Claiming (62) - $-200.00
+      - Full Retirement Age - $0.00
+      - Delayed Benefits (70) - $300.00
+      - File and Suspend - $150.00
+[End Rule]
+
+[Begin Rule] Spousal Benefits
+    Spousal Strategy (Rule: Select 1)
+      - Individual Benefits - $0.00
+      - Spousal Benefits - $100.00
+      - Survivor Benefits - $200.00
+      - Divorced Spouse Benefits - $150.00
+[End Rule]
+
+[Begin Rule] Tax Impact
+    Tax Considerations (Rule: Select up to 2)
+      - Medicare Premiums - $100.00
+      - State Tax Impact - $75.00
+      - Municipal Bond Strategy - $150.00
+      - Roth Conversion Impact - $200.00
+[End Rule]
+
+[Begin Rule] Portfolio Size
+    Investment Assets (Rule: Select 1)
+      - Under $100,000 - $0.00
+      - $100,000 - $500,000 - $100.00
+      - $500,000 - $1,000,000 - $200.00
+      - $1,000,000 - $5,000,000 - $400.00
+      - Over $5,000,000 - $800.00
+    Account Types (Rule: Select 1 to 4)
+      - Taxable Accounts - $0.00
+      - 401k/403b Accounts - $50.00
+      - IRA Accounts - $50.00
+      - Trust Accounts - $150.00
+      - Business Accounts - $200.00
+[End Rule]
+
+[Begin Rule] Risk Assessment
+    Risk Tolerance (Rule: Select 1)
+      - Conservative - $0.00
+      - Moderate Conservative - $25.00
+      - Moderate - $50.00
+      - Moderate Aggressive - $75.00
+      - Aggressive - $100.00
+    Risk Capacity (Rule: Select 1)
+      - Low (Limited ability to recover losses) - $100.00
+      - Moderate (Some ability to recover) - $50.00
+      - High (Strong ability to recover) - $0.00
+[End Rule]
+
+[Begin Rule] Rebalancing Strategy
+    Rebalancing Method (Rule: Select 1)
+      - Annual Rebalancing - $0.00
+      - Quarterly Rebalancing - $50.00
+      - Threshold-Based - $100.00
+      - Tactical Rebalancing - $200.00
+    Rebalancing Scope (Rule: Select 1)
+      - Within Accounts - $0.00
+      - Across All Accounts - $75.00
+      - Tax-Optimized - $150.00
+[End Rule]
+
+[Begin Rule] Risk Tolerance
+    Investor Profile (Rule: Select 1)
+      - Very Conservative - $0.00
+      - Conservative - $25.00
+      - Moderate - $75.00
+      - Aggressive - $150.00
+      - Very Aggressive - $250.00
+[End Rule]
+
+[Begin Rule] Time Horizon
+    Investment Timeline (Rule: Select 1)
+      - Short Term (1-3 years) - $0.00
+      - Medium Term (3-10 years) - $50.00
+      - Long Term (10+ years) - $100.00
+      - Multi-Generational - $200.00
+[End Rule]
+
+[Begin Rule] Investment Goals
+    Primary Objectives (Rule: Select up to 3)
+      - Capital Preservation - $0.00
+      - Income Generation - $100.00
+      - Growth - $150.00
+      - Tax Efficiency - $200.00
+      - Inflation Protection - $175.00
+[End Rule]
+
+[Begin Rule] Portfolio Type
+    Account Classification (Rule: Select 1)
+      - Taxable Portfolio - $0.00
+      - Tax-Deferred Portfolio - $75.00
+      - Tax-Free Portfolio - $100.00
+      - Mixed Portfolio - $125.00
+[End Rule]
+
+[Begin Rule] Tax Situation
+    Tax Complexity (Rule: Select 1)
+      - Simple (W-2 income) - $0.00
+      - Moderate (Some investments) - $100.00
+      - Complex (Business, rentals) - $200.00
+      - Very Complex (Multiple entities) - $400.00
+    Planning Opportunities (Rule: Select up to 3)
+      - Tax Loss Harvesting - $150.00
+      - Roth Conversions - $200.00
+      - Business Deductions - $250.00
+      - Charitable Strategies - $200.00
+[End Rule]
+
+[Begin Rule] Harvest Strategy
+    Harvesting Approach (Rule: Select 1)
+      - Annual Harvesting - $0.00
+      - Ongoing Monitoring - $100.00
+      - Tactical Harvesting - $200.00
+      - Systematic Approach - $150.00
+[End Rule]
+
+[Begin Rule] Investment Type
+    Alternative Categories (Rule: Select up to 3)
+      - REITs - $100.00
+      - Commodities - $150.00
+      - Private Equity - $500.00
+      - Hedge Funds - $750.00
+      - Cryptocurrency - $300.00
+[End Rule]
+
+[Begin Rule] Risk Level
+    Alternative Risk Profile (Rule: Select 1)
+      - Low Risk Alternatives - $0.00
+      - Moderate Risk - $200.00
+      - High Risk - $500.00
+      - Speculative - $1000.00
+[End Rule]
+
+[Begin Rule] Portfolio Integration
+    Integration Strategy (Rule: Select 1)
+      - Core Holdings - $0.00
+      - Satellite Position - $100.00
+      - Strategic Allocation - $300.00
+      - Tactical Allocation - $200.00
+[End Rule]
+
+[Begin Rule] Estate Size
+    Gross Estate Value (Rule: Select 1)
+      - Under $1 Million - $0.00
+      - $1M - $5M - $200.00
+      - $5M - $12M - $500.00
+      - Over $12M - $1000.00
     Complexity Factors (Rule: Select up to 3)
-      - Property Division - $150.00
-      - Child Custody - $200.00
-      - Spousal Support - $175.00
-      - Business Assets - $250.00
-      - Retirement Accounts - $125.00
+      - Business Interests - $300.00
+      - Multiple Properties - $200.00
+      - International Assets - $400.00
+      - Family Dynamics - $250.00
+      - Charitable Interests - $200.00
 [End Rule]
 
-[Begin Rule] Contract Type
-    Contract Category (Rule: Select 1)
-      - Employment Contract - $0.00
-      - Service Agreement - $50.00
-      - Purchase Agreement - $75.00
-      - Partnership Agreement - $150.00
-      - Licensing Agreement - $100.00
-    Contract Length (Rule: Select 1)
-      - Simple (1-5 pages) - $0.00
-      - Standard (6-15 pages) - $100.00
-      - Complex (16+ pages) - $200.00
+[Begin Rule] Beneficiary Strategy
+    Beneficiary Planning (Rule: Select up to 3)
+      - Direct Beneficiaries - $0.00
+      - Contingent Beneficiaries - $100.00
+      - Trust Beneficiaries - $300.00
+      - Charitable Beneficiaries - $200.00
 [End Rule]
 
-[Begin Rule] Business Entity Type
-    Entity Structure (Rule: Select 1)
-      - LLC Formation - $0.00
-      - Corporation (C-Corp) - $200.00
-      - S-Corporation - $150.00
-      - Partnership - $100.00
-      - Sole Proprietorship - $-100.00
-    Additional Services (Rule: Select up to 3)
-      - Operating Agreement - $300.00
-      - Tax ID Registration - $50.00
-      - Business License - $100.00
-      - Bank Account Setup - $75.00
+[Begin Rule] Trust Type
+    Trust Category (Rule: Select 1)
+      - Revocable Trust - $0.00
+      - Irrevocable Trust - $300.00
+      - Charitable Trust - $500.00
+      - Special Needs Trust - $400.00
 [End Rule]
 
-[Begin Rule] Estate Planning Complexity
-    Estate Size (Rule: Select 1)
-      - Simple Estate (under $100k) - $0.00
-      - Standard Estate ($100k-500k) - $200.00
-      - Complex Estate ($500k-2M) - $500.00
-      - Large Estate (over $2M) - $1000.00
-    Planning Components (Rule: Select 1 to 4)
-      - Tax Minimization - $300.00
-      - Charitable Planning - $250.00
-      - Business Succession - $400.00
-      - Special Needs Planning - $350.00
+[Begin Rule] Tax Benefits
+    Tax Advantages (Rule: Select up to 3)
+      - Estate Tax Reduction - $300.00
+      - Gift Tax Planning - $200.00
+      - Generation Skipping - $500.00
+      - Income Tax Deferral - $250.00
 [End Rule]
 
-[Begin Rule] Urgency Level
-    Timeline Need (Rule: Select 1)
-      - Routine (2-4 weeks) - $0.00
-      - Priority (1-2 weeks) - $150.00
-      - Urgent (3-7 days) - $300.00
-      - Emergency (24-48 hours) - $500.00
+[Begin Rule] Asset Protection
+    Protection Strategy (Rule: Select up to 2)
+      - Domestic Asset Protection - $200.00
+      - Offshore Planning - $800.00
+      - Insurance Solutions - $300.00
+      - Business Structure - $400.00
 [End Rule]
+
+[Begin Rule] Coverage Type
+    Insurance Category (Rule: Select 1)
+      - Term Life Insurance - $0.00
+      - Whole Life Insurance - $200.00
+      - Universal Life - $300.00
+      - Variable Life - $400.00
+[End Rule]
+
+[Begin Rule] Estate Liquidity
+    Liquidity Planning (Rule: Select 1)
+      - No Liquidity Issues - $0.00
+      - Moderate Liquidity Needs - $200.00
+      - Significant Liquidity Needs - $500.00
+      - Critical Liquidity Planning - $1000.00
+[End Rule]
+
+[Begin Rule] Tax Strategy
+    Estate Tax Strategy (Rule: Select up to 2)
+      - Minimize Estate Tax - $400.00
+      - Income Tax Efficiency - $300.00
+      - Generation Skipping - $600.00
+      - Charitable Strategies - $500.00
+[End Rule]
+
+[Begin Rule] Giving Strategy
+    Charitable Approach (Rule: Select 1)
+      - Current Giving - $0.00
+      - Deferred Giving - $200.00
+      - Split Interest Gifts - $400.00
+      - Private Foundation - $800.00
+[End Rule]
+
+[Begin Rule] Legacy Planning
+    Legacy Objectives (Rule: Select up to 2)
+      - Family Legacy - $200.00
+      - Charitable Legacy - $400.00
+      - Business Legacy - $600.00
+      - Educational Legacy - $300.00
+[End Rule]
+
+[Begin Rule] Planning Opportunities
+    Tax Opportunities (Rule: Select up to 4)
+      - Retirement Plan Optimization - $200.00
+      - Tax Loss Harvesting - $150.00
+      - Charitable Deductions - $250.00
+      - Business Strategies - $300.00
+      - Estate Planning - $400.00
+[End Rule]
+
+[Begin Rule] Implementation
+    Implementation Timeline (Rule: Select 1)
+      - Immediate Implementation - $0.00
+      - Phased Implementation - $100.00
+      - Annual Review Cycle - $200.00
+      - Multi-Year Strategy - $300.00
+[End Rule]
+
+[Begin Rule] Business Type
+    Business Structure (Rule: Select 1)
+      - Sole Proprietorship - $0.00
+      - Partnership - $200.00
+      - S Corporation - $300.00
+      - C Corporation - $500.00
+      - LLC - $250.00
+[End Rule]
+
+[Begin Rule] Tax Structure
+    Tax Optimization (Rule: Select up to 3)
+      - Entity Election - $200.00
+      - Income Timing - $250.00
+      - Deduction Strategies - $300.00
+      - Retirement Plans - $350.00
+[End Rule]
+
+[Begin Rule] Succession Planning
+    Succession Strategy (Rule: Select 1)
+      - Family Succession - $500.00
+      - Management Buyout - $800.00
+      - Third Party Sale - $1000.00
+      - Liquidation Strategy - $300.00
+[End Rule]
+
+[Begin Rule] State Requirements
+    Multi-State Issues (Rule: Select up to 3)
+      - Nexus Analysis - $200.00
+      - Apportionment Planning - $300.00
+      - State Credits - $150.00
+      - Compliance Coordination - $250.00
+[End Rule]
+
+[Begin Rule] Residency Planning
+    Residency Strategy (Rule: Select 1)
+      - Single State Residency - $0.00
+      - Multi-State Planning - $400.00
+      - Domicile Planning - $600.00
+      - International Residency - $1000.00
+[End Rule]
+
+[Begin Rule] Compliance
+    Compliance Management (Rule: Select up to 2)
+      - Filing Coordination - $200.00
+      - Audit Support - $500.00
+      - Penalty Abatement - $300.00
+      - Ongoing Monitoring - $400.00
+[End Rule]
+
+[Begin Rule] Coverage Analysis
+    Insurance Needs Analysis (Rule: Select 1)
+      - Basic Needs Analysis - $0.00
+      - Comprehensive Analysis - $200.00
+      - Business Needs Analysis - $400.00
+      - Estate Planning Analysis - $600.00
+[End Rule]
+
+[Begin Rule] Needs Assessment
+    Assessment Scope (Rule: Select up to 3)
+      - Income Replacement - $100.00
+      - Debt Coverage - $150.00
+      - Education Funding - $200.00
+      - Estate Liquidity - $300.00
+[End Rule]
+
+[Begin Rule] Policy Optimization
+    Optimization Strategy (Rule: Select 1)
+      - Cost Minimization - $0.00
+      - Coverage Maximization - $200.00
+      - Tax Optimization - $300.00
+      - Flexibility Optimization - $250.00
+[End Rule]
+
+[Begin Rule] Income Protection
+    Protection Level (Rule: Select 1)
+      - Basic Protection (60%) - $0.00
+      - Standard Protection (70%) - $100.00
+      - Enhanced Protection (80%) - $200.00
+      - Maximum Protection (90%) - $300.00
+[End Rule]
+
+[Begin Rule] Policy Selection
+    Policy Features (Rule: Select up to 3)
+      - Own Occupation Coverage - $200.00
+      - Cost of Living Adjustments - $150.00
+      - Future Increase Options - $175.00
+      - Residual Benefits - $125.00
+[End Rule]
+
+[Begin Rule] Care Options
+    Care Planning (Rule: Select up to 3)
+      - Home Care - $100.00
+      - Adult Day Care - $150.00
+      - Assisted Living - $300.00
+      - Nursing Home Care - $500.00
+[End Rule]
+
+[Begin Rule] Cost Planning
+    Cost Strategy (Rule: Select 1)
+      - Self-Insurance - $0.00
+      - Partial Insurance - $300.00
+      - Comprehensive Insurance - $800.00
+      - Hybrid Solutions - $600.00
+[End Rule]
+
+[Begin Rule] Insurance Solutions
+    Solution Type (Rule: Select 1)
+      - Traditional LTC Insurance - $0.00
+      - Hybrid Life/LTC - $400.00
+      - Annuity with LTC - $500.00
+      - Critical Illness - $300.00
+[End Rule]
+

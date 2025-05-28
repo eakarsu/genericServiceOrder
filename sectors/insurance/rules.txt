@@ -69,3 +69,470 @@
       - High-Risk Occupation - $40.00
       - Tobacco Use - $75.00
 [End Rule]
+
+[Begin Rule] Comprehensive Options
+    Collision Coverage (Rule: Select 1)
+      - No Collision - $-50.00
+      - $500 Deductible - $0.00
+      - $250 Deductible - $25.00
+      - $100 Deductible - $50.00
+    Comprehensive Coverage (Rule: Select 1)
+      - No Comprehensive - $-40.00
+      - $500 Deductible - $0.00
+      - $250 Deductible - $20.00
+      - $100 Deductible - $40.00
+    Additional Coverage (Rule: Select up to 3)
+      - Rental Car Coverage - $15.00
+      - Roadside Assistance - $20.00
+      - Gap Insurance - $25.00
+      - Uninsured Motorist - $30.00
+[End Rule]
+
+[Begin Rule] High Risk Options
+    Risk Factors (Rule: Select up to 3)
+      - DUI/DWI History - $200.00
+      - Multiple Accidents - $150.00
+      - License Suspension - $175.00
+      - High-Risk Vehicle - $100.00
+      - Young Driver - $125.00
+    Risk Mitigation (Rule: Select up to 2)
+      - Defensive Driving Course - $-50.00
+      - Driver Monitoring Device - $-75.00
+      - Limited Mileage - $-25.00
+[End Rule]
+
+[Begin Rule] Commercial Options
+    Business Type (Rule: Select 1)
+      - Service Business - $0.00
+      - Retail Business - $25.00
+      - Delivery Business - $75.00
+      - Construction - $150.00
+      - Transportation - $200.00
+    Fleet Size (Rule: Select 1)
+      - 1-2 Vehicles - $0.00
+      - 3-5 Vehicles - $50.00
+      - 6-10 Vehicles - $125.00
+      - 11+ Vehicles - $250.00
+[End Rule]
+
+[Begin Rule] Business Use
+    Usage Type (Rule: Select 1)
+      - Occasional Business Use - $0.00
+      - Regular Business Use - $50.00
+      - Commercial Delivery - $125.00
+      - Heavy Commercial Use - $200.00
+    Annual Mileage (Rule: Select 1)
+      - Under 10,000 miles - $0.00
+      - 10,000-25,000 miles - $25.00
+      - 25,000-50,000 miles - $75.00
+      - Over 50,000 miles - $150.00
+[End Rule]
+
+[Begin Rule] Property Options
+    Property Type (Rule: Select 1)
+      - Single Family Home - $0.00
+      - Townhouse - $15.00
+      - Manufactured Home - $25.00
+      - Historic Home - $50.00
+    Property Value (Rule: Select 1)
+      - Under $200,000 - $0.00
+      - $200,000-$400,000 - $25.00
+      - $400,000-$750,000 - $50.00
+      - Over $750,000 - $100.00
+[End Rule]
+
+[Begin Rule] Location Factors
+    Geographic Risk (Rule: Select up to 3)
+      - Flood Zone - $75.00
+      - Hurricane Zone - $100.00
+      - Earthquake Zone - $125.00
+      - Wildfire Risk Area - $85.00
+      - High Crime Area - $60.00
+    Proximity Benefits (Rule: Select up to 2)
+      - Near Fire Station - $-25.00
+      - Gated Community - $-35.00
+      - Low Crime Area - $-20.00
+[End Rule]
+
+[Begin Rule] Condo Options
+    Unit Features (Rule: Select up to 3)
+      - Ground Floor Unit - $0.00
+      - Upper Floor Unit - $15.00
+      - Corner Unit - $20.00
+      - Balcony/Patio - $25.00
+      - Storage Unit - $10.00
+    Building Amenities (Rule: Select up to 2)
+      - Security System - $-15.00
+      - Concierge Service - $-10.00
+      - Fitness Center - $5.00
+[End Rule]
+
+[Begin Rule] Association Coverage
+    HOA Coverage (Rule: Select 1)
+      - Walls-In Coverage - $0.00
+      - All-In Coverage - $-25.00
+      - Bare Walls Coverage - $25.00
+    Assessment Coverage (Rule: Select 1)
+      - No Assessment Coverage - $0.00
+      - $10,000 Assessment Coverage - $20.00
+      - $25,000 Assessment Coverage - $40.00
+      - $50,000 Assessment Coverage - $75.00
+[End Rule]
+
+[Begin Rule] Renters Coverage
+    Personal Property Value (Rule: Select 1)
+      - $15,000 - $25,000 - $0.00
+      - $25,000 - $50,000 - $15.00
+      - $50,000 - $75,000 - $30.00
+      - $75,000+ - $50.00
+    Temporary Living (Rule: Select 1)
+      - Basic Temporary Living - $0.00
+      - Enhanced Temporary Living - $20.00
+      - Premium Temporary Living - $40.00
+[End Rule]
+
+[Begin Rule] Personal Property
+    Property Categories (Rule: Select up to 4)
+      - Electronics - $25.00
+      - Jewelry - $50.00
+      - Art/Collectibles - $75.00
+      - Sports Equipment - $30.00
+      - Musical Instruments - $40.00
+    Replacement Cost (Rule: Select 1)
+      - Actual Cash Value - $0.00
+      - Replacement Cost - $25.00
+      - Guaranteed Replacement - $50.00
+[End Rule]
+
+[Begin Rule] Liability Options
+    Liability Limits (Rule: Select 1)
+      - $100,000 - $0.00
+      - $300,000 - $25.00
+      - $500,000 - $50.00
+      - $1,000,000 - $100.00
+    Additional Liability (Rule: Select up to 2)
+      - Personal Injury - $30.00
+      - Legal Defense - $40.00
+      - Umbrella Policy - $75.00
+[End Rule]
+
+[Begin Rule] Property Coverage
+    Building Coverage (Rule: Select 1)
+      - Actual Cash Value - $0.00
+      - Replacement Cost - $50.00
+      - Extended Replacement Cost - $100.00
+      - Guaranteed Replacement - $150.00
+    Additional Structures (Rule: Select up to 2)
+      - Detached Garage - $25.00
+      - Pool/Spa - $50.00
+      - Fence - $15.00
+      - Shed/Outbuilding - $20.00
+[End Rule]
+
+[Begin Rule] Rental Options
+    Rental Type (Rule: Select 1)
+      - Single Family Rental - $0.00
+      - Multi-Unit Property - $50.00
+      - Vacation Rental - $100.00
+      - Short-Term Rental - $150.00
+    Occupancy Status (Rule: Select 1)
+      - Owner Occupied - $-25.00
+      - Tenant Occupied - $0.00
+      - Vacant Property - $75.00
+[End Rule]
+
+[Begin Rule] Investment Protection
+    Investment Features (Rule: Select up to 3)
+      - Rent Loss Coverage - $50.00
+      - Property Management Coverage - $30.00
+      - Fair Rental Value - $40.00
+      - Building Ordinance Coverage - $60.00
+    Investor Discounts (Rule: Select up to 2)
+      - Multiple Properties - $-50.00
+      - Professional Management - $-25.00
+      - Long-Term Tenants - $-15.00
+[End Rule]
+
+[Begin Rule] Term Options
+    Term Length (Rule: Select 1)
+      - 10 Years - $0.00
+      - 15 Years - $5.00
+      - 20 Years - $10.00
+      - 30 Years - $15.00
+    Renewability (Rule: Select 1)
+      - Non-Renewable - $0.00
+      - Renewable Term - $10.00
+      - Convertible Term - $25.00
+      - Return of Premium - $50.00
+[End Rule]
+
+[Begin Rule] Beneficiary Options
+    Primary Beneficiary (Rule: Select 1)
+      - Individual Beneficiary - $0.00
+      - Multiple Beneficiaries - $10.00
+      - Trust Beneficiary - $25.00
+      - Estate Beneficiary - $15.00
+    Contingent Options (Rule: Select up to 2)
+      - Contingent Beneficiary - $5.00
+      - Per Stirpes Distribution - $10.00
+      - Charitable Beneficiary - $20.00
+[End Rule]
+
+[Begin Rule] Permanent Options
+    Policy Type (Rule: Select 1)
+      - Whole Life - $0.00
+      - Universal Life - $25.00
+      - Variable Life - $50.00
+      - Variable Universal Life - $75.00
+    Premium Structure (Rule: Select 1)
+      - Level Premium - $0.00
+      - Flexible Premium - $20.00
+      - Single Premium - $-25.00
+[End Rule]
+
+[Begin Rule] Investment Features
+    Investment Options (Rule: Select up to 3)
+      - Fixed Interest - $0.00
+      - Equity Indexed - $25.00
+      - Variable Accounts - $50.00
+      - Guaranteed Income - $30.00
+    Investment Control (Rule: Select 1)
+      - Insurance Company Managed - $0.00
+      - Policyholder Directed - $40.00
+      - Advisor Managed - $60.00
+[End Rule]
+
+[Begin Rule] Universal Options
+    Policy Flexibility (Rule: Select up to 3)
+      - Flexible Premiums - $0.00
+      - Adjustable Death Benefit - $25.00
+      - Partial Withdrawals - $20.00
+      - Policy Loans - $15.00
+    Interest Rate (Rule: Select 1)
+      - Current Rates - $0.00
+      - Guaranteed Minimum - $10.00
+      - Indexed Rates - $30.00
+[End Rule]
+
+[Begin Rule] Group Options
+    Group Size (Rule: Select 1)
+      - Small Group (2-50) - $0.00
+      - Medium Group (51-200) - $-10.00
+      - Large Group (201-1000) - $-20.00
+      - Jumbo Group (1000+) - $-30.00
+    Participation Requirements (Rule: Select 1)
+      - Voluntary Coverage - $0.00
+      - Minimum Participation - $-15.00
+      - Guaranteed Issue - $25.00
+[End Rule]
+
+[Begin Rule] Employee Benefits
+    Benefit Structure (Rule: Select up to 3)
+      - Flat Amount Coverage - $0.00
+      - Salary Multiple Coverage - $15.00
+      - Voluntary Additional Coverage - $25.00
+      - Dependent Coverage - $30.00
+    Portability Options (Rule: Select 1)
+      - No Portability - $0.00
+      - Limited Portability - $20.00
+      - Full Portability - $40.00
+[End Rule]
+
+[Begin Rule] Health Coverage
+    Plan Type (Rule: Select 1)
+      - HMO Plan - $0.00
+      - PPO Plan - $50.00
+      - EPO Plan - $30.00
+      - High Deductible Health Plan - $-25.00
+    Metal Tier (Rule: Select 1)
+      - Bronze Plan - $0.00
+      - Silver Plan - $75.00
+      - Gold Plan - $150.00
+      - Platinum Plan - $250.00
+[End Rule]
+
+[Begin Rule] Plan Options
+    Coverage Level (Rule: Select 1)
+      - Individual Only - $0.00
+      - Individual + Spouse - $100.00
+      - Individual + Children - $75.00
+      - Family Coverage - $200.00
+    Deductible Level (Rule: Select 1)
+      - High Deductible ($6,000+) - $0.00
+      - Medium Deductible ($3,000-$6,000) - $50.00
+      - Low Deductible (Under $3,000) - $125.00
+[End Rule]
+
+[Begin Rule] Provider Networks
+    Network Size (Rule: Select 1)
+      - Limited Network - $0.00
+      - Regional Network - $25.00
+      - National Network - $75.00
+      - Premium Network - $125.00
+    Specialist Access (Rule: Select 1)
+      - Referral Required - $0.00
+      - Direct Access - $50.00
+      - Premium Specialist Access - $100.00
+[End Rule]
+
+[Begin Rule] Temporary Options
+    Coverage Duration (Rule: Select 1)
+      - 30-90 Days - $0.00
+      - 3-6 Months - $25.00
+      - 6-12 Months - $50.00
+    Coverage Level (Rule: Select 1)
+      - Basic Coverage - $0.00
+      - Standard Coverage - $30.00
+      - Enhanced Coverage - $60.00
+[End Rule]
+
+[Begin Rule] Coverage Gaps
+    Gap Type (Rule: Select 1)
+      - Between Jobs - $0.00
+      - Waiting Period - $15.00
+      - COBRA Gap - $25.00
+      - Student Coverage Gap - $10.00
+    Bridge Coverage (Rule: Select 1)
+      - Basic Bridge - $0.00
+      - Enhanced Bridge - $40.00
+      - Premium Bridge - $80.00
+[End Rule]
+
+[Begin Rule] Supplement Options
+    Supplemental Type (Rule: Select up to 3)
+      - Dental Insurance - $25.00
+      - Vision Insurance - $15.00
+      - Disability Insurance - $50.00
+      - Critical Illness - $40.00
+      - Accident Insurance - $20.00
+    Coverage Scope (Rule: Select 1)
+      - Basic Supplement - $0.00
+      - Comprehensive Supplement - $75.00
+      - Premium Supplement - $150.00
+[End Rule]
+
+[Begin Rule] Additional Benefits
+    Wellness Benefits (Rule: Select up to 3)
+      - Preventive Care - $0.00
+      - Wellness Programs - $25.00
+      - Telemedicine - $30.00
+      - Mental Health Support - $40.00
+    Extra Benefits (Rule: Select up to 2)
+      - Prescription Discount - $20.00
+      - Alternative Medicine - $35.00
+      - Travel Coverage - $50.00
+[End Rule]
+
+[Begin Rule] Medicare Options
+    Medicare Plan Type (Rule: Select 1)
+      - Medicare Supplement - $0.00
+      - Medicare Advantage - $50.00
+      - Medicare Part D - $25.00
+      - Medigap Policy - $75.00
+    Plan Level (Rule: Select 1)
+      - Basic Medicare Plan - $0.00
+      - Enhanced Medicare Plan - $100.00
+      - Premium Medicare Plan - $200.00
+[End Rule]
+
+[Begin Rule] Senior Benefits
+    Senior Features (Rule: Select up to 3)
+      - Prescription Coverage - $50.00
+      - Dental/Vision - $75.00
+      - Wellness Programs - $40.00
+      - Transportation Benefits - $30.00
+    Long-Term Care (Rule: Select 1)
+      - No LTC Coverage - $0.00
+      - Basic LTC Coverage - $100.00
+      - Comprehensive LTC - $250.00
+[End Rule]
+
+[Begin Rule] Business Coverage
+    Business Size (Rule: Select 1)
+      - Small Business (1-10 employees) - $0.00
+      - Medium Business (11-50 employees) - $50.00
+      - Large Business (51-500 employees) - $150.00
+      - Enterprise (500+ employees) - $300.00
+    Industry Risk (Rule: Select 1)
+      - Low Risk Industry - $0.00
+      - Medium Risk Industry - $75.00
+      - High Risk Industry - $200.00
+      - Very High Risk Industry - $400.00
+[End Rule]
+
+[Begin Rule] Industry Type
+    Industry Category (Rule: Select 1)
+      - Professional Services - $0.00
+      - Retail/Restaurant - $50.00
+      - Manufacturing - $125.00
+      - Construction - $200.00
+      - Healthcare - $150.00
+      - Technology - $25.00
+    Operations Scope (Rule: Select 1)
+      - Local Operations - $0.00
+      - Regional Operations - $25.00
+      - National Operations - $75.00
+      - International Operations - $150.00
+[End Rule]
+
+[Begin Rule] Equipment Coverage
+    Equipment Value (Rule: Select 1)
+      - Under $50,000 - $0.00
+      - $50,000-$250,000 - $50.00
+      - $250,000-$1,000,000 - $150.00
+      - Over $1,000,000 - $300.00
+    Equipment Type (Rule: Select up to 3)
+      - Office Equipment - $25.00
+      - Manufacturing Equipment - $100.00
+      - Technology Equipment - $75.00
+      - Mobile Equipment - $125.00
+[End Rule]
+
+[Begin Rule] Workers Comp
+    Payroll Size (Rule: Select 1)
+      - Under $100,000 - $0.00
+      - $100,000-$500,000 - $50.00
+      - $500,000-$2,000,000 - $150.00
+      - Over $2,000,000 - $300.00
+    Job Classifications (Rule: Select up to 3)
+      - Office Workers - $0.00
+      - Manual Labor - $100.00
+      - High-Risk Jobs - $250.00
+      - Professional Services - $25.00
+[End Rule]
+
+[Begin Rule] Employee Protection
+    Protection Level (Rule: Select 1)
+      - State Minimum - $0.00
+      - Enhanced Protection - $75.00
+      - Premium Protection - $150.00
+    Additional Coverage (Rule: Select up to 2)
+      - Employer Liability - $50.00
+      - Return to Work Programs - $75.00
+      - Experience Modification - $-25.00
+[End Rule]
+
+[Begin Rule] Interruption Options
+    Coverage Period (Rule: Select 1)
+      - 6 Months - $0.00
+      - 12 Months - $50.00
+      - 18 Months - $100.00
+      - 24 Months - $150.00
+    Income Sources (Rule: Select up to 3)
+      - Business Income - $0.00
+      - Extra Expense - $25.00
+      - Extended Period - $50.00
+      - Civil Authority - $40.00
+[End Rule]
+
+[Begin Rule] Loss Protection
+    Protection Type (Rule: Select 1)
+      - Basic Loss Protection - $0.00
+      - Enhanced Protection - $100.00
+      - Comprehensive Protection - $200.00
+    Recovery Support (Rule: Select up to 2)
+      - Business Continuity Planning - $75.00
+      - Crisis Management - $100.00
+      - Professional Fees - $50.00
+[End Rule]
+

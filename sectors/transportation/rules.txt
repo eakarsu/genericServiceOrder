@@ -71,3 +71,451 @@
       - Toll-Free Route - $5.00
       - Multiple Stops - $20.00
 [End Rule]
+
+[Begin Rule] Timing Options
+    Pickup Timing (Rule: Select 1)
+      - Standard Pickup - $0.00
+      - Express Pickup (15 min window) - $20.00
+      - Precise Timing (5 min window) - $35.00
+      - Rush Hour Service - $25.00
+    Schedule Flexibility (Rule: Select 1)
+      - Fixed Schedule - $0.00
+      - Flexible Time Window (30 min) - $10.00
+      - On-Demand Service - $25.00
+[End Rule]
+
+[Begin Rule] Multi-Stop Services
+    Stop Configuration (Rule: Select 1)
+      - Single Destination - $0.00
+      - 2 Stops - $20.00
+      - 3 Stops - $35.00
+      - 4+ Stops - $50.00
+    Stop Duration (Rule: Select up to 2)
+      - Quick Stop (5 minutes) - $0.00
+      - Standard Stop (15 minutes) - $8.00
+      - Extended Stop (30+ minutes) - $20.00
+      - Overnight Stop - $100.00
+[End Rule]
+
+[Begin Rule] Express Options
+    Express Service Level (Rule: Select 1)
+      - Standard Service - $0.00
+      - Express Service - $25.00
+      - Priority Express - $50.00
+      - VIP Express - $75.00
+    Express Features (Rule: Select up to 2)
+      - Dedicated Vehicle - $30.00
+      - Premium Route - $20.00
+      - Traffic Avoidance Technology - $15.00
+[End Rule]
+
+[Begin Rule] Priority Services
+    Priority Level (Rule: Select 1)
+      - Standard Priority - $0.00
+      - High Priority - $35.00
+      - Emergency Priority - $75.00
+      - Executive Priority - $100.00
+    Priority Features (Rule: Select up to 2)
+      - Guaranteed Arrival Time - $50.00
+      - Real-Time Updates - $15.00
+      - Backup Vehicle Standby - $75.00
+[End Rule]
+
+[Begin Rule] Service Areas
+    Coverage Area (Rule: Select 1)
+      - Downtown Core - $0.00
+      - City Limits - $15.00
+      - Metropolitan Area - $35.00
+      - Regional Coverage - $75.00
+    Area Restrictions (Rule: Select up to 2)
+      - Airport Zone Surcharge - $20.00
+      - Hospital Zone Access - $15.00
+      - Hotel District Service - $10.00
+[End Rule]
+
+[Begin Rule] Service Timing
+    Time of Service (Rule: Select 1)
+      - Business Hours (9AM-5PM) - $0.00
+      - Extended Hours (7AM-9PM) - $15.00
+      - Evening Service (6PM-12AM) - $25.00
+      - Late Night (12AM-6AM) - $50.00
+    Day of Week (Rule: Select 1)
+      - Weekday Service - $0.00
+      - Weekend Service - $20.00
+      - Holiday Service - $40.00
+[End Rule]
+
+[Begin Rule] Corporate Services
+    Corporate Package (Rule: Select 1)
+      - Basic Corporate - $0.00
+      - Executive Corporate - $50.00
+      - Premium Corporate - $100.00
+      - Enterprise Package - $200.00
+    Corporate Features (Rule: Select up to 3)
+      - Monthly Billing - $25.00
+      - Dedicated Account Manager - $100.00
+      - Corporate Reporting - $50.00
+      - Preferred Vehicle Assignment - $75.00
+[End Rule]
+
+[Begin Rule] Professional Options
+    Professional Service Level (Rule: Select 1)
+      - Standard Driver - $0.00
+      - Professional Chauffeur - $50.00
+      - Executive Chauffeur - $100.00
+      - Security-Trained Driver - $150.00
+    Professional Features (Rule: Select up to 2)
+      - Business Attire - $25.00
+      - Confidentiality Agreement - $50.00
+      - Multi-Language Service - $75.00
+[End Rule]
+
+[Begin Rule] Event Services
+    Event Type (Rule: Select 1)
+      - Wedding Transportation - $0.00
+      - Party/Celebration - $50.00
+      - Corporate Event - $75.00
+      - Special Occasion - $100.00
+    Event Features (Rule: Select up to 3)
+      - Decorated Vehicle - $100.00
+      - Red Carpet Service - $150.00
+      - Photography Coordination - $75.00
+      - Multiple Vehicle Coordination - $200.00
+[End Rule]
+
+[Begin Rule] Group Options
+    Group Size (Rule: Select 1)
+      - Small Group (6-8 people) - $0.00
+      - Medium Group (9-15 people) - $100.00
+      - Large Group (16-25 people) - $200.00
+      - Extra Large Group (25+ people) - $400.00
+    Group Services (Rule: Select up to 2)
+      - Group Coordinator - $150.00
+      - Staggered Pickup Times - $100.00
+      - Group Communication System - $75.00
+[End Rule]
+
+[Begin Rule] Distance Pricing
+    Mileage Category (Rule: Select 1)
+      - Local (Under 50 miles) - $0.00
+      - Regional (50-200 miles) - $100.00
+      - Long Distance (200-500 miles) - $300.00
+      - Cross-Country (500+ miles) - $800.00
+    Distance Features (Rule: Select up to 2)
+      - Fuel Surcharge - $25.00
+      - Driver Accommodation - $150.00
+      - Return Trip Discount - $-100.00
+[End Rule]
+
+[Begin Rule] Travel Options
+    Travel Style (Rule: Select 1)
+      - Direct Travel - $0.00
+      - Scenic Route - $50.00
+      - Luxury Travel Experience - $200.00
+      - Adventure Travel - $150.00
+    Travel Amenities (Rule: Select up to 3)
+      - Travel Guide Service - $100.00
+      - Refreshment Package - $75.00
+      - Entertainment System - $50.00
+      - Climate Control - $25.00
+[End Rule]
+
+[Begin Rule] Extended Travel
+    Travel Duration (Rule: Select 1)
+      - Same Day Return - $0.00
+      - Overnight Trip - $300.00
+      - Multi-Day Trip (2-3 days) - $600.00
+      - Extended Trip (4+ days) - $1200.00
+    Extended Services (Rule: Select up to 2)
+      - Driver Accommodation - $200.00
+      - Vehicle Security - $150.00
+      - 24/7 Support - $250.00
+[End Rule]
+
+[Begin Rule] Accommodation Services
+    Accommodation Level (Rule: Select 1)
+      - No Accommodation - $0.00
+      - Basic Hotel - $150.00
+      - Premium Hotel - $300.00
+      - Luxury Resort - $500.00
+    Accommodation Features (Rule: Select up to 2)
+      - Meal Package - $100.00
+      - Spa Services - $200.00
+      - Concierge Service - $150.00
+[End Rule]
+
+[Begin Rule] Tour Options
+    Tour Type (Rule: Select 1)
+      - City Tour - $0.00
+      - Historical Tour - $75.00
+      - Cultural Tour - $100.00
+      - Custom Tour - $200.00
+    Tour Duration (Rule: Select 1)
+      - Half Day Tour - $0.00
+      - Full Day Tour - $150.00
+      - Multi-Day Tour - $500.00
+[End Rule]
+
+[Begin Rule] Sightseeing Services
+    Sightseeing Package (Rule: Select 1)
+      - Basic Sightseeing - $0.00
+      - Enhanced Sightseeing - $100.00
+      - Premium Experience - $250.00
+      - VIP Sightseeing - $500.00
+    Sightseeing Features (Rule: Select up to 3)
+      - Professional Guide - $150.00
+      - Photography Service - $100.00
+      - Attraction Tickets - $75.00
+      - Lunch Package - $50.00
+[End Rule]
+
+[Begin Rule] Medical Vehicle
+    Medical Vehicle Type (Rule: Select 1)
+      - Wheelchair Accessible Van - $0.00
+      - Medical Transport Vehicle - $100.00
+      - Ambulatory Transport - $150.00
+      - Stretcher Transport - $300.00
+    Medical Features (Rule: Select up to 3)
+      - Oxygen Equipment - $75.00
+      - Medical Monitoring - $150.00
+      - Trained Medical Assistant - $200.00
+      - Emergency Equipment - $100.00
+[End Rule]
+
+[Begin Rule] Patient Care
+    Care Level (Rule: Select 1)
+      - Basic Assistance - $0.00
+      - Nursing Care - $200.00
+      - Medical Supervision - $400.00
+      - Critical Care Transport - $800.00
+    Care Services (Rule: Select up to 2)
+      - Medication Management - $100.00
+      - Vital Sign Monitoring - $150.00
+      - Comfort Care - $75.00
+[End Rule]
+
+[Begin Rule] Accessibility Options
+    Accessibility Features (Rule: Select up to 4)
+      - Wheelchair Lift - $0.00
+      - Hand Controls - $50.00
+      - Communication Aids - $75.00
+      - Vision Assistance - $100.00
+      - Hearing Assistance - $75.00
+    Accessibility Support (Rule: Select up to 2)
+      - Personal Care Assistant - $150.00
+      - Mobility Equipment Transport - $50.00
+      - Service Animal Accommodation - $25.00
+[End Rule]
+
+[Begin Rule] Student Safety
+    Safety Features (Rule: Select up to 4)
+      - GPS Tracking - $25.00
+      - Security Cameras - $50.00
+      - Emergency Communication - $40.00
+      - Child Safety Locks - $15.00
+      - Trained Driver Background Check - $75.00
+    Safety Protocols (Rule: Select up to 2)
+      - Attendance Tracking - $30.00
+      - Parent Notification System - $40.00
+      - Emergency Contact System - $50.00
+[End Rule]
+
+[Begin Rule] Route Options
+    Route Planning (Rule: Select 1)
+      - Standard Route - $0.00
+      - Optimized Route - $25.00
+      - Safe Route Planning - $50.00
+      - Custom Route Design - $100.00
+    Route Features (Rule: Select up to 2)
+      - Traffic Avoidance - $30.00
+      - School Zone Compliance - $25.00
+      - Weather Route Adjustment - $40.00
+[End Rule]
+
+[Begin Rule] Shopping Assistance
+    Assistance Level (Rule: Select 1)
+      - Transportation Only - $0.00
+      - Basic Shopping Help - $50.00
+      - Personal Shopping Service - $150.00
+      - Concierge Shopping - $300.00
+    Shopping Services (Rule: Select up to 3)
+      - Package Carrying - $25.00
+      - Store Navigation - $40.00
+      - Payment Assistance - $30.00
+      - Heavy Item Loading - $50.00
+[End Rule]
+
+[Begin Rule] Wait Time
+    Waiting Duration (Rule: Select 1)
+      - No Wait Time - $0.00
+      - 30 Minutes Wait - $20.00
+      - 1 Hour Wait - $35.00
+      - 2 Hours Wait - $60.00
+      - 3+ Hours Wait - $100.00
+    Wait Options (Rule: Select up to 2)
+      - Climate Controlled Waiting - $25.00
+      - Driver Accompaniment - $75.00
+      - Shopping Area Monitoring - $50.00
+[End Rule]
+
+[Begin Rule] Pet Vehicle
+    Pet Vehicle Type (Rule: Select 1)
+      - Standard Vehicle with Pet Area - $0.00
+      - Climate Controlled Pet Transport - $75.00
+      - Luxury Pet Transport - $150.00
+      - Specialized Animal Transport - $250.00
+    Pet Accommodation (Rule: Select up to 3)
+      - Pet Carrier Securing - $25.00
+      - Temperature Control - $50.00
+      - Ventilation System - $40.00
+      - Easy Cleanup Features - $30.00
+[End Rule]
+
+[Begin Rule] Pet Care
+    Care Level (Rule: Select 1)
+      - Basic Pet Transport - $0.00
+      - Pet Comfort Care - $75.00
+      - Veterinary Transport - $150.00
+      - Emergency Pet Transport - $300.00
+    Pet Services (Rule: Select up to 2)
+      - Pet Calming Assistance - $50.00
+      - Medication Administration - $100.00
+      - Emergency Veterinary Contact - $75.00
+[End Rule]
+
+[Begin Rule] Safety Requirements
+    Pet Safety Features (Rule: Select up to 3)
+      - Pet Restraint Systems - $40.00
+      - Temperature Monitoring - $60.00
+      - Emergency Air Supply - $100.00
+      - Escape Prevention - $30.00
+    Safety Protocols (Rule: Select up to 2)
+      - Pet Handler Training - $75.00
+      - Emergency Response Plan - $100.00
+      - Veterinary Emergency Contacts - $50.00
+[End Rule]
+
+[Begin Rule] Passenger Capacity
+    Seating Configuration (Rule: Select 1)
+      - 2-3 Passengers - $0.00
+      - 4-5 Passengers - $15.00
+      - 6-7 Passengers - $30.00
+      - 8+ Passengers - $50.00
+    Capacity Features (Rule: Select up to 2)
+      - Extra Legroom - $25.00
+      - Premium Seating - $50.00
+      - Individual Climate Control - $40.00
+[End Rule]
+
+[Begin Rule] Standard Features
+    Basic Amenities (Rule: Select up to 3)
+      - Air Conditioning - $0.00
+      - Radio/Music System - $10.00
+      - Phone Charging Ports - $15.00
+      - Reading Lights - $10.00
+      - Cup Holders - $5.00
+    Standard Safety (Rule: Select up to 2)
+      - Seat Belts - $0.00
+      - Airbag System - $0.00
+      - Emergency Kit - $25.00
+[End Rule]
+
+[Begin Rule] Basic Service
+    Service Level (Rule: Select 1)
+      - Economy Service - $0.00
+      - Standard Service - $25.00
+      - Enhanced Service - $50.00
+    Basic Inclusions (Rule: Select up to 2)
+      - Professional Driver - $0.00
+      - Clean Vehicle - $0.00
+      - Basic Customer Service - $15.00
+[End Rule]
+
+[Begin Rule] Premium Features
+    Luxury Amenities (Rule: Select up to 4)
+      - Leather Seating - $50.00
+      - Premium Sound System - $75.00
+      - Mini Bar - $100.00
+      - Privacy Glass - $40.00
+      - Sunroof - $60.00
+    Entertainment (Rule: Select up to 2)
+      - Satellite TV - $75.00
+      - WiFi Hotspot - $40.00
+      - Gaming System - $100.00
+[End Rule]
+
+[Begin Rule] Enhanced Service
+    Service Upgrades (Rule: Select 1)
+      - Premium Service - $0.00
+      - Luxury Service - $100.00
+      - VIP Service - $200.00
+      - Concierge Service - $300.00
+    Service Features (Rule: Select up to 3)
+      - Personal Attention - $75.00
+      - Refreshment Service - $50.00
+      - Itinerary Management - $100.00
+      - Priority Booking - $60.00
+[End Rule]
+
+[Begin Rule] Cargo Space
+    Cargo Capacity (Rule: Select 1)
+      - Standard Trunk - $0.00
+      - Large Cargo Area - $25.00
+      - Extra Large Cargo - $50.00
+      - Commercial Cargo Space - $100.00
+    Cargo Features (Rule: Select up to 2)
+      - Cargo Securing System - $30.00
+      - Climate Controlled Cargo - $75.00
+      - Heavy Duty Loading - $50.00
+[End Rule]
+
+[Begin Rule] All-Weather Features
+    Weather Protection (Rule: Select up to 3)
+      - All-Wheel Drive - $50.00
+      - Snow Tires/Chains - $75.00
+      - Weather Monitoring - $40.00
+      - Heated Seating - $60.00
+    Weather Services (Rule: Select up to 2)
+      - Weather Route Planning - $50.00
+      - Emergency Weather Support - $100.00
+      - De-icing Service - $75.00
+[End Rule]
+
+[Begin Rule] Group Capacity
+    Large Group Configuration (Rule: Select 1)
+      - 8-12 Passengers - $0.00
+      - 13-20 Passengers - $100.00
+      - 21-30 Passengers - $200.00
+      - 30+ Passengers - $400.00
+    Group Amenities (Rule: Select up to 2)
+      - Group Seating Layout - $75.00
+      - Multiple Entertainment Zones - $150.00
+      - Group Communication System - $100.00
+[End Rule]
+
+[Begin Rule] Executive Features
+    Executive Amenities (Rule: Select up to 4)
+      - Executive Seating - $100.00
+      - Conference Table - $150.00
+      - Business Center Setup - $200.00
+      - Privacy Partition - $125.00
+      - Premium Bar Service - $175.00
+    Business Features (Rule: Select up to 2)
+      - High-Speed Internet - $75.00
+      - Video Conferencing - $200.00
+      - Document Printing - $100.00
+[End Rule]
+
+[Begin Rule] Corporate Amenities
+    Corporate Features (Rule: Select up to 4)
+      - Corporate Branding - $200.00
+      - Executive Meeting Space - $300.00
+      - Presentation Equipment - $250.00
+      - Catering Service - $400.00
+      - Event Coordination - $500.00
+    Corporate Services (Rule: Select up to 2)
+      - Dedicated Corporate Driver - $300.00
+      - 24/7 Corporate Support - $400.00
+      - Custom Corporate Package - $600.00
+[End Rule]
+

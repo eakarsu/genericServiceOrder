@@ -35,6 +35,21 @@
       - Fresh Flowers - $35.00
 [End Rule]
 
+[Begin Rule] Location Options
+    Hotel Location (Rule: Select 1)
+      - Downtown/City Center - $25.00
+      - Airport Area - $0.00
+      - Beach/Waterfront - $75.00
+      - Suburban/Quiet Area - $-25.00
+      - Tourist District - $50.00
+    Proximity Features (Rule: Select up to 2)
+      - Near Public Transport - $10.00
+      - Walking Distance to Attractions - $20.00
+      - Beach Access - $40.00
+      - Shopping Centers Nearby - $15.00
+      - Restaurant District - $15.00
+[End Rule]
+
 [Begin Rule] Business Amenities
     Work Facilities (Rule: Select up to 3)
       - Business Center Access - $15.00
@@ -63,17 +78,563 @@
       - Holiday Premium - $200.00
 [End Rule]
 
-[Begin Rule] Location Options
-    Hotel Location (Rule: Select 1)
-      - Downtown/City Center - $25.00
-      - Airport Area - $0.00
-      - Beach/Waterfront - $75.00
-      - Suburban/Quiet Area - $-25.00
-      - Tourist District - $50.00
-    Proximity Features (Rule: Select up to 2)
-      - Near Public Transport - $10.00
-      - Walking Distance to Attractions - $20.00
-      - Beach Access - $40.00
-      - Shopping Centers Nearby - $15.00
-      - Restaurant District - $15.00
+[Begin Rule] Professional Services
+    Business Support (Rule: Select up to 4)
+      - Administrative Support - $50.00
+      - Translation Services - $75.00
+      - Courier Services - $25.00
+      - Car Rental Coordination - $30.00
+      - Travel Planning - $40.00
+    Technology Services (Rule: Select up to 2)
+      - AV Equipment Rental - $100.00
+      - Video Conferencing - $75.00
+      - Technical Support - $50.00
 [End Rule]
+
+[Begin Rule] Basic Amenities
+    Essential Services (Rule: Select up to 4)
+      - Daily Housekeeping - $0.00
+      - 24-Hour Front Desk - $0.00
+      - Luggage Storage - $0.00
+      - Wake-up Service - $0.00
+      - Local Information - $0.00
+    Basic Facilities (Rule: Select up to 3)
+      - Ice/Vending Machines - $0.00
+      - Laundry Facilities - $10.00
+      - Guest Computer - $15.00
+      - Parking (Self) - $20.00
+[End Rule]
+
+[Begin Rule] Economy Options
+    Budget Features (Rule: Select up to 3)
+      - Shared Bathroom - $-30.00
+      - Continental Breakfast - $15.00
+      - Group Discounts - $-25.00
+      - Extended Stay Discounts - $-50.00
+    Cost-Saving Options (Rule: Select up to 2)
+      - No Daily Housekeeping - $-20.00
+      - Bring Your Own Towels - $-15.00
+      - Limited Amenities - $-25.00
+[End Rule]
+
+[Begin Rule] Extended Amenities
+    Long-Stay Features (Rule: Select up to 4)
+      - Full Kitchen - $75.00
+      - Washer/Dryer - $50.00
+      - Multiple Phone Lines - $25.00
+      - Large Work Area - $30.00
+      - Storage Space - $20.00
+    Extended Services (Rule: Select up to 3)
+      - Weekly Housekeeping - $100.00
+      - Grocery Shopping Service - $75.00
+      - Mail/Package Service - $25.00
+[End Rule]
+
+[Begin Rule] Long-term Options
+    Extended Stay Rates (Rule: Select 1)
+      - Weekly Rate (7+ nights) - $-100.00
+      - Monthly Rate (30+ nights) - $-500.00
+      - Corporate Rate - $-200.00
+      - Seasonal Rate - $-150.00
+    Long-term Services (Rule: Select up to 2)
+      - Pet Accommodation - $50.00
+      - Vehicle Storage - $100.00
+      - Utility Setup - $75.00
+[End Rule]
+
+[Begin Rule] Premium Amenities
+    Luxury Features (Rule: Select up to 4)
+      - Premium Bedding - $50.00
+      - Designer Toiletries - $35.00
+      - Premium Room Service - $75.00
+      - Champagne Welcome - $100.00
+      - Fresh Fruit Daily - $40.00
+    Enhanced Services (Rule: Select up to 2)
+      - Personal Shopping - $150.00
+      - Butler Service - $200.00
+      - Private Check-in - $75.00
+[End Rule]
+
+[Begin Rule] Luxury Services
+    Elite Services (Rule: Select up to 3)
+      - Personal Concierge - $200.00
+      - Luxury Transportation - $300.00
+      - Fine Dining Reservations - $100.00
+      - Private Tour Arrangements - $250.00
+    Exclusive Access (Rule: Select up to 2)
+      - VIP Lounge Access - $150.00
+      - Private Pool/Beach Area - $200.00
+      - Exclusive Restaurant Access - $175.00
+[End Rule]
+
+[Begin Rule] Suite Configuration
+    Suite Layout (Rule: Select 1)
+      - One Bedroom Suite - $0.00
+      - Two Bedroom Suite - $200.00
+      - Penthouse Suite - $500.00
+      - Presidential Suite - $800.00
+    Suite Features (Rule: Select up to 4)
+      - Separate Living Area - $75.00
+      - Dining Area - $50.00
+      - Multiple Bathrooms - $100.00
+      - Private Balcony - $125.00
+      - Full Bar Area - $150.00
+[End Rule]
+
+[Begin Rule] Executive Amenities
+    Executive Benefits (Rule: Select up to 4)
+      - Executive Floor Access - $100.00
+      - Complimentary Breakfast - $50.00
+      - Evening Cocktails - $75.00
+      - Late Checkout - $25.00
+      - Priority Reservations - $50.00
+    Business Perks (Rule: Select up to 2)
+      - Express Check-in/out - $30.00
+      - Business Lounge Access - $75.00
+      - Meeting Room Credits - $100.00
+[End Rule]
+
+[Begin Rule] VIP Services
+    VIP Treatment (Rule: Select up to 4)
+      - Personal Butler - $300.00
+      - Private Transfers - $200.00
+      - VIP Check-in - $100.00
+      - Exclusive Dining - $250.00
+      - Personal Shopping Assistant - $200.00
+    Special Privileges (Rule: Select up to 2)
+      - Priority Restaurant Reservations - $75.00
+      - Spa Priority Booking - $100.00
+      - Theater/Event Tickets - $150.00
+[End Rule]
+
+[Begin Rule] Luxury Amenities
+    Ultra-Luxury Features (Rule: Select up to 4)
+      - 24-Hour Butler Service - $500.00
+      - Private Chef Service - $800.00
+      - Helicopter Transfers - $2000.00
+      - Luxury Car Service - $300.00
+      - Personal Stylist - $400.00
+    Premium Touches (Rule: Select up to 3)
+      - Fresh Flowers Daily - $75.00
+      - Premium Champagne - $200.00
+      - Luxury Spa Products - $150.00
+[End Rule]
+
+[Begin Rule] Concierge Services
+    Standard Concierge (Rule: Select up to 4)
+      - Restaurant Reservations - $25.00
+      - Event Ticket Booking - $50.00
+      - Transportation Arrangements - $40.00
+      - Local Recommendations - $15.00
+      - Tour Bookings - $35.00
+    Premium Concierge (Rule: Select up to 2)
+      - Personal Shopping - $100.00
+      - Special Event Planning - $200.00
+      - VIP Experience Coordination - $300.00
+[End Rule]
+
+[Begin Rule] Presidential Amenities
+    Presidential Features (Rule: Select up to 4)
+      - 24/7 Personal Staff - $1000.00
+      - Private Elevator Access - $500.00
+      - Bulletproof Windows - $800.00
+      - Security Detail - $1500.00
+      - Private Dining Room - $600.00
+    Ultimate Luxury (Rule: Select up to 2)
+      - Private Jet Coordination - $5000.00
+      - Royal Treatment Package - $3000.00
+      - Celebrity Chef Service - $2000.00
+[End Rule]
+
+[Begin Rule] Elite Services
+    Ultra-Elite Services (Rule: Select up to 3)
+      - Personal Physician on Call - $1000.00
+      - Private Security Team - $2000.00
+      - Exclusive Event Access - $1500.00
+      - Celebrity Treatment - $2500.00
+    Exclusive Benefits (Rule: Select up to 2)
+      - Private Club Access - $500.00
+      - Yacht Charter Service - $3000.00
+      - Private Island Access - $5000.00
+[End Rule]
+
+[Begin Rule] Family Configuration
+    Family Room Setup (Rule: Select 1)
+      - Connecting Rooms - $100.00
+      - Family Suite - $200.00
+      - Kids Room Addition - $150.00
+      - Bunk Bed Room - $75.00
+    Child Safety (Rule: Select up to 3)
+      - Childproofing Kit - $25.00
+      - Baby Monitors - $30.00
+      - Safety Gates - $20.00
+      - Corner Guards - $15.00
+[End Rule]
+
+[Begin Rule] Family Amenities
+    Kid-Friendly Features (Rule: Select up to 4)
+      - Children's Welcome Package - $40.00
+      - Kids' Bathrobes - $25.00
+      - Children's Toiletries - $20.00
+      - Toys and Games - $35.00
+      - Children's Menu - $15.00
+    Family Services (Rule: Select up to 2)
+      - Babysitting Service - $150.00
+      - Children's Activities - $75.00
+      - Family Photo Session - $200.00
+[End Rule]
+
+[Begin Rule] Resort Services
+    Resort Activities (Rule: Select up to 4)
+      - Water Sports Equipment - $100.00
+      - Kids' Club Access - $75.00
+      - Entertainment Programs - $50.00
+      - Resort Tours - $40.00
+      - Cultural Activities - $60.00
+    Resort Amenities (Rule: Select up to 3)
+      - Multiple Pools - $50.00
+      - Beach Access - $75.00
+      - Sports Facilities - $60.00
+[End Rule]
+
+[Begin Rule] Romance Configuration
+    Romantic Setup (Rule: Select 1)
+      - Honeymoon Suite - $0.00
+      - Romantic Oceanview - $150.00
+      - Private Villa - $400.00
+      - Couples Retreat Room - $200.00
+    Romantic Atmosphere (Rule: Select up to 3)
+      - Rose Petals and Candles - $75.00
+      - Champagne Setup - $100.00
+      - Romantic Lighting - $50.00
+      - Private Hot Tub - $200.00
+[End Rule]
+
+[Begin Rule] Romance Amenities
+    Couples Features (Rule: Select up to 4)
+      - Couples Massage Setup - $300.00
+      - Private Dining Area - $200.00
+      - Romantic Bath Setup - $100.00
+      - Love Letters/Notes - $50.00
+      - Chocolate and Strawberries - $75.00
+    Special Touches (Rule: Select up to 2)
+      - Personal Love Song Playlist - $40.00
+      - Professional Photo Session - $250.00
+      - Memory Book Creation - $150.00
+[End Rule]
+
+[Begin Rule] Couples Services
+    Romantic Services (Rule: Select up to 3)
+      - Couples Spa Package - $400.00
+      - Private Beach Dinner - $500.00
+      - Sunset Cruise - $300.00
+      - Wine Tasting - $200.00
+    Relationship Enhancement (Rule: Select up to 2)
+      - Couples Counseling Session - $200.00
+      - Relationship Workshop - $150.00
+      - Communication Enhancement - $100.00
+[End Rule]
+
+[Begin Rule] Wellness Configuration
+    Wellness Room Setup (Rule: Select 1)
+      - Meditation Room - $0.00
+      - Yoga Studio Access - $75.00
+      - Wellness Suite - $200.00
+      - Detox Room - $150.00
+    Health Features (Rule: Select up to 3)
+      - Air Purification - $50.00
+      - Ergonomic Furniture - $75.00
+      - Natural Lighting - $40.00
+      - Organic Bedding - $100.00
+[End Rule]
+
+[Begin Rule] Spa Amenities
+    Spa Services (Rule: Select up to 4)
+      - Full Body Massage - $200.00
+      - Facial Treatment - $150.00
+      - Body Wrap - $175.00
+      - Aromatherapy Session - $125.00
+      - Reflexology - $100.00
+    Spa Facilities (Rule: Select up to 3)
+      - Private Spa Suite - $300.00
+      - Sauna Access - $75.00
+      - Steam Room - $75.00
+[End Rule]
+
+[Begin Rule] Wellness Services
+    Health Programs (Rule: Select up to 3)
+      - Nutrition Consultation - $150.00
+      - Fitness Training - $200.00
+      - Meditation Classes - $100.00
+      - Wellness Coaching - $175.00
+    Wellness Packages (Rule: Select up to 2)
+      - Detox Program - $400.00
+      - Stress Relief Package - $300.00
+      - Energy Renewal - $350.00
+[End Rule]
+
+[Begin Rule] Adventure Configuration
+    Adventure Base Setup (Rule: Select 1)
+      - Adventure Suite - $0.00
+      - Outdoor Gear Storage - $50.00
+      - Equipment Drying Area - $30.00
+      - Map and Planning Area - $40.00
+    Adventure Prep (Rule: Select up to 2)
+      - Weather Monitoring - $25.00
+      - Route Planning Service - $75.00
+      - Emergency Communication - $100.00
+[End Rule]
+
+[Begin Rule] Outdoor Amenities
+    Outdoor Equipment (Rule: Select up to 4)
+      - Hiking Gear Rental - $100.00
+      - Bike Rental - $75.00
+      - Water Sports Equipment - $125.00
+      - Camping Gear - $150.00
+      - Photography Equipment - $200.00
+    Outdoor Facilities (Rule: Select up to 2)
+      - Equipment Cleaning Station - $50.00
+      - Gear Maintenance Service - $75.00
+      - Storage Lockers - $40.00
+[End Rule]
+
+[Begin Rule] Activity Services
+    Adventure Activities (Rule: Select up to 4)
+      - Guided Hiking Tours - $150.00
+      - Water Sport Lessons - $200.00
+      - Rock Climbing Guide - $250.00
+      - Photography Tours - $175.00
+      - Wildlife Watching - $125.00
+    Activity Support (Rule: Select up to 2)
+      - Personal Guide - $300.00
+      - Transportation to Activities - $100.00
+      - Activity Planning - $75.00
+[End Rule]
+
+[Begin Rule] Weekend Amenities
+    Weekend Specials (Rule: Select up to 3)
+      - Extended Brunch - $50.00
+      - Live Entertainment - $75.00
+      - Special Events Access - $100.00
+      - Weekend Activity Package - $125.00
+    Weekend Relaxation (Rule: Select up to 2)
+      - Late Checkout Sunday - $40.00
+      - Weekend Spa Discounts - $75.00
+      - Leisure Activity Credits - $50.00
+[End Rule]
+
+[Begin Rule] Leisure Services
+    Recreation Options (Rule: Select up to 4)
+      - Golf Course Access - $150.00
+      - Tennis Court Reservation - $75.00
+      - Swimming Pool VIP Area - $50.00
+      - Leisure Classes - $40.00
+      - Entertainment Shows - $100.00
+    Leisure Support (Rule: Select up to 2)
+      - Activity Coordination - $50.00
+      - Equipment Rental - $75.00
+      - Personal Recreation Planning - $100.00
+[End Rule]
+
+[Begin Rule] Corporate Services
+    Business Meeting Support (Rule: Select up to 4)
+      - Meeting Room Setup - $200.00
+      - AV Equipment - $150.00
+      - Catering Service - $300.00
+      - Administrative Support - $100.00
+      - Translation Services - $200.00
+    Corporate Perks (Rule: Select up to 2)
+      - Group Transportation - $250.00
+      - Team Building Activities - $400.00
+      - Corporate Entertainment - $500.00
+[End Rule]
+
+[Begin Rule] Celebration Services
+    Special Occasions (Rule: Select up to 4)
+      - Birthday Celebration Setup - $150.00
+      - Anniversary Package - $200.00
+      - Achievement Recognition - $175.00
+      - Custom Celebration Decor - $250.00
+      - Professional Photography - $300.00
+    Celebration Support (Rule: Select up to 2)
+      - Event Planning - $200.00
+      - Guest Coordination - $150.00
+      - Memory Package Creation - $175.00
+[End Rule]
+
+[Begin Rule] Group Amenities
+    Group Features (Rule: Select up to 4)
+      - Group Check-in Service - $100.00
+      - Coordinated Room Assignments - $75.00
+      - Group Welcome Reception - $200.00
+      - Group Activity Discounts - $150.00
+      - Shared Common Areas - $125.00
+    Group Services (Rule: Select up to 2)
+      - Group Coordinator - $250.00
+      - Bulk Service Discounts - $100.00
+      - Group Transportation - $200.00
+[End Rule]
+
+[Begin Rule] Event Services
+    Event Planning (Rule: Select up to 4)
+      - Event Space Rental - $500.00
+      - Event Coordination - $300.00
+      - Catering Management - $400.00
+      - Entertainment Booking - $350.00
+      - Decoration Service - $250.00
+    Event Support (Rule: Select up to 2)
+      - Audio/Visual Setup - $200.00
+      - Event Photography - $300.00
+      - Guest Management - $150.00
+[End Rule]
+
+[Begin Rule] Meal Options
+    Dining Choices (Rule: Select up to 4)
+      - All-Inclusive Meals - $150.00
+      - Breakfast Package - $50.00
+      - Half-Board (Breakfast + Dinner) - $100.00
+      - A la Carte Credits - $75.00
+      - Special Diet Meals - $60.00
+    Meal Upgrades (Rule: Select up to 2)
+      - Fine Dining Experience - $200.00
+      - Chef's Table - $300.00
+      - Wine Pairing - $150.00
+[End Rule]
+
+[Begin Rule] Restaurant Access
+    Restaurant Privileges (Rule: Select up to 3)
+      - Priority Reservations - $50.00
+      - Exclusive Restaurant Access - $150.00
+      - Private Dining Room - $300.00
+      - Chef Meet and Greet - $100.00
+    Culinary Experiences (Rule: Select up to 2)
+      - Cooking Classes - $200.00
+      - Wine Tasting Events - $175.00
+      - Culinary Tours - $250.00
+[End Rule]
+
+[Begin Rule] Room Service
+    Room Service Options (Rule: Select up to 3)
+      - 24-Hour Room Service - $75.00
+      - Express Room Service - $50.00
+      - Fine Dining Room Service - $150.00
+      - Breakfast in Bed Package - $60.00
+    Service Enhancements (Rule: Select up to 2)
+      - Silver Service Presentation - $100.00
+      - Personal Server - $200.00
+      - Custom Menu Creation - $150.00
+[End Rule]
+
+[Begin Rule] Transport Options
+    Transportation Types (Rule: Select up to 3)
+      - Luxury Car Service - $200.00
+      - Shuttle Service - $50.00
+      - Limousine Service - $400.00
+      - Helicopter Transfer - $1500.00
+      - Yacht Charter - $2000.00
+    Transport Features (Rule: Select up to 2)
+      - Personal Driver - $300.00
+      - Multi-Stop Service - $100.00
+      - VIP Transport - $500.00
+[End Rule]
+
+[Begin Rule] Airport Service
+    Airport Transportation (Rule: Select 1)
+      - Standard Airport Shuttle - $0.00
+      - Private Airport Transfer - $150.00
+      - Luxury Airport Service - $300.00
+      - Helicopter Airport Transfer - $1000.00
+    Airport Perks (Rule: Select up to 2)
+      - Meet and Greet Service - $75.00
+      - Luggage Assistance - $50.00
+      - Fast Track Check-in - $100.00
+[End Rule]
+
+[Begin Rule] Local Transport
+    Local Transportation (Rule: Select up to 3)
+      - City Tour Bus - $40.00
+      - Taxi Vouchers - $50.00
+      - Bike Rental - $30.00
+      - Scooter Rental - $45.00
+      - Public Transit Passes - $25.00
+    Transport Convenience (Rule: Select up to 2)
+      - Transportation Concierge - $75.00
+      - Route Planning - $50.00
+      - Driver Guide Service - $150.00
+[End Rule]
+
+[Begin Rule] Recreation Options
+    Recreational Facilities (Rule: Select up to 4)
+      - Swimming Pool Access - $0.00
+      - Tennis Courts - $75.00
+      - Golf Course - $200.00
+      - Spa Facilities - $150.00
+      - Water Sports Center - $175.00
+    Recreation Services (Rule: Select up to 2)
+      - Equipment Rental - $50.00
+      - Instruction/Lessons - $100.00
+      - Tournament Organization - $200.00
+[End Rule]
+
+[Begin Rule] Fitness Access
+    Fitness Facilities (Rule: Select up to 3)
+      - 24-Hour Gym Access - $50.00
+      - Personal Training - $150.00
+      - Group Fitness Classes - $75.00
+      - Wellness Center - $100.00
+    Fitness Services (Rule: Select up to 2)
+      - Fitness Assessment - $75.00
+      - Nutrition Consultation - $100.00
+      - Custom Workout Plan - $125.00
+[End Rule]
+
+[Begin Rule] Entertainment
+    Entertainment Options (Rule: Select up to 4)
+      - Live Music Shows - $100.00
+      - Theater Performances - $150.00
+      - Dance Classes - $75.00
+      - Movie Theater Access - $50.00
+      - Casino Access - $25.00
+    Entertainment Services (Rule: Select up to 2)
+      - VIP Entertainment Access - $200.00
+      - Private Show Bookings - $500.00
+      - Celebrity Meet and Greet - $1000.00
+[End Rule]
+
+[Begin Rule] Concierge Options
+    Concierge Services Level (Rule: Select 1)
+      - Basic Concierge - $0.00
+      - Premium Concierge - $100.00
+      - VIP Concierge - $250.00
+      - Personal Concierge - $500.00
+    Concierge Specialties (Rule: Select up to 3)
+      - Dining Reservations - $50.00
+      - Entertainment Booking - $75.00
+      - Shopping Assistance - $100.00
+      - Travel Planning - $125.00
+[End Rule]
+
+[Begin Rule] Personal Assistance
+    Assistant Services (Rule: Select up to 3)
+      - Personal Butler - $300.00
+      - Personal Shopper - $200.00
+      - Personal Trainer - $150.00
+      - Personal Secretary - $250.00
+    Assistance Level (Rule: Select 1)
+      - Part-time Assistance - $0.00
+      - Full-time Assistance - $500.00
+      - 24/7 Assistance - $1000.00
+[End Rule]
+
+[Begin Rule] Local Expertise
+    Local Guide Services (Rule: Select up to 3)
+      - Cultural Tour Guide - $150.00
+      - Historical Expert - $175.00
+      - Local Food Expert - $125.00
+      - Adventure Guide - $200.00
+    Local Knowledge (Rule: Select up to 2)
+      - Insider Recommendations - $75.00
+      - Hidden Gems Tours - $150.00
+      - Local Event Access - $100.00
+[End Rule]
+

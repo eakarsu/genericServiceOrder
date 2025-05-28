@@ -32,6 +32,95 @@
       - Inflammatory Markers (ESR, CRP) - $50.00
 [End Rule]
 
+[Begin Rule] Preventive Care
+    Preventive Services (Rule: Select up to 4)
+      - Immunizations - $50.00
+      - Cancer Screenings - $150.00
+      - Cardiovascular Risk Assessment - $75.00
+      - Bone Density Screening - $125.00
+      - Colonoscopy Referral - $200.00
+    Lifestyle Counseling (Rule: Select up to 3)
+      - Nutrition Counseling - $60.00
+      - Exercise Planning - $45.00
+      - Smoking Cessation - $40.00
+      - Weight Management - $55.00
+[End Rule]
+
+[Begin Rule] Basic Assessment
+    Assessment Components (Rule: Select 1 to 3)
+      - Medical History Review - $25.00
+      - Current Symptoms Evaluation - $30.00
+      - Medication Assessment - $20.00
+      - Risk Factor Analysis - $35.00
+    Assessment Depth (Rule: Select 1)
+      - Brief Assessment - $0.00
+      - Standard Assessment - $25.00
+      - Comprehensive Assessment - $75.00
+[End Rule]
+
+[Begin Rule] Health Screening
+    Screening Type (Rule: Select 1 to 3)
+      - Blood Pressure Screening - $20.00
+      - Cholesterol Screening - $40.00
+      - Diabetes Screening - $35.00
+      - Depression Screening - $45.00
+      - Cancer Risk Assessment - $60.00
+    Screening Frequency (Rule: Select 1)
+      - Annual Screening - $0.00
+      - Bi-annual Screening - $15.00
+      - High-Risk Monitoring - $50.00
+[End Rule]
+
+[Begin Rule] Symptom Assessment
+    Symptom Evaluation (Rule: Select 1 to 2)
+      - Chief Complaint Analysis - $30.00
+      - Associated Symptoms Review - $25.00
+      - Symptom Timeline Assessment - $20.00
+      - Severity Rating - $15.00
+    Assessment Tools (Rule: Select up to 2)
+      - Pain Scale Assessment - $10.00
+      - Functional Status Evaluation - $25.00
+      - Quality of Life Assessment - $35.00
+[End Rule]
+
+[Begin Rule] Treatment Options
+    Treatment Approach (Rule: Select 1)
+      - Conservative Treatment - $0.00
+      - Standard Medical Treatment - $50.00
+      - Aggressive Treatment - $150.00
+      - Alternative Treatment - $100.00
+    Treatment Components (Rule: Select up to 3)
+      - Medication Therapy - $75.00
+      - Physical Therapy Referral - $60.00
+      - Lifestyle Modifications - $40.00
+      - Specialist Referral - $100.00
+[End Rule]
+
+[Begin Rule] Follow-up Care
+    Follow-up Schedule (Rule: Select 1)
+      - 1 Week Follow-up - $50.00
+      - 2 Week Follow-up - $40.00
+      - 1 Month Follow-up - $0.00
+      - 3 Month Follow-up - $25.00
+    Follow-up Services (Rule: Select up to 2)
+      - Progress Monitoring - $30.00
+      - Treatment Adjustment - $40.00
+      - Lab Result Review - $25.00
+[End Rule]
+
+[Begin Rule] Medication Review
+    Review Type (Rule: Select 1)
+      - Current Medications Only - $0.00
+      - Comprehensive Med Review - $50.00
+      - Drug Interaction Analysis - $75.00
+      - Medication Optimization - $100.00
+    Review Components (Rule: Select up to 3)
+      - Dosage Assessment - $25.00
+      - Side Effect Evaluation - $30.00
+      - Compliance Review - $20.00
+      - Cost Analysis - $35.00
+[End Rule]
+
 [Begin Rule] Cardiac Tests
     Diagnostic Testing (Rule: Select 1 to 3)
       - Resting EKG - $50.00
@@ -42,6 +131,70 @@
       - Cardiac Risk Stratification - $75.00
       - Blood Pressure Monitoring - $30.00
       - Cholesterol Screening - $40.00
+[End Rule]
+
+[Begin Rule] Heart Health Assessment
+    Assessment Components (Rule: Select 1 to 3)
+      - Cardiovascular Risk Calculation - $60.00
+      - Heart Rate Variability - $45.00
+      - Blood Pressure Analysis - $30.00
+      - Cardiac Biomarkers - $80.00
+    Lifestyle Factors (Rule: Select up to 2)
+      - Diet Assessment - $35.00
+      - Exercise Capacity - $50.00
+      - Stress Level Evaluation - $40.00
+[End Rule]
+
+[Begin Rule] Skin Assessment
+    Examination Type (Rule: Select 1)
+      - Full Body Skin Exam - $0.00
+      - Targeted Lesion Exam - $25.00
+      - Mole Mapping - $100.00
+      - Biopsy Consultation - $150.00
+    Assessment Focus (Rule: Select up to 3)
+      - Cancer Screening - $75.00
+      - Cosmetic Concerns - $50.00
+      - Rash Evaluation - $40.00
+      - Pigmentation Analysis - $60.00
+[End Rule]
+
+[Begin Rule] Treatment Plans
+    Plan Complexity (Rule: Select 1)
+      - Simple Treatment Plan - $0.00
+      - Multi-Modal Plan - $75.00
+      - Comprehensive Care Plan - $150.00
+      - Chronic Disease Management - $200.00
+    Plan Components (Rule: Select up to 4)
+      - Medication Protocol - $50.00
+      - Therapy Recommendations - $60.00
+      - Lifestyle Modifications - $40.00
+      - Monitoring Schedule - $35.00
+      - Patient Education - $45.00
+[End Rule]
+
+[Begin Rule] Joint Assessment
+    Assessment Type (Rule: Select 1)
+      - Single Joint Evaluation - $0.00
+      - Multiple Joint Assessment - $50.00
+      - Range of Motion Testing - $75.00
+      - Functional Assessment - $100.00
+    Diagnostic Components (Rule: Select up to 2)
+      - X-ray Evaluation - $125.00
+      - MRI Analysis - $300.00
+      - Arthroscopy Consultation - $250.00
+[End Rule]
+
+[Begin Rule] Injury Evaluation
+    Injury Assessment (Rule: Select 1)
+      - Acute Injury Evaluation - $0.00
+      - Chronic Injury Assessment - $50.00
+      - Sports Injury Analysis - $100.00
+      - Work-Related Injury - $125.00
+    Evaluation Components (Rule: Select up to 3)
+      - Mechanism of Injury Review - $25.00
+      - Functional Testing - $60.00
+      - Imaging Interpretation - $75.00
+      - Return-to-Activity Planning - $80.00
 [End Rule]
 
 [Begin Rule] Therapy Options
@@ -58,6 +211,107 @@
       - Eating Disorders - $35.00
 [End Rule]
 
+[Begin Rule] Counseling Services
+    Counseling Type (Rule: Select 1)
+      - Individual Counseling - $0.00
+      - Family Counseling - $50.00
+      - Group Counseling - $25.00
+      - Crisis Counseling - $100.00
+    Counseling Focus (Rule: Select up to 2)
+      - Behavioral Health - $40.00
+      - Substance Abuse - $60.00
+      - Grief Counseling - $50.00
+      - Stress Management - $35.00
+[End Rule]
+
+[Begin Rule] Results Options
+    Result Delivery (Rule: Select 1)
+      - Standard Notification - $0.00
+      - Expedited Results - $25.00
+      - Detailed Interpretation - $50.00
+      - Consultation Included - $75.00
+    Result Format (Rule: Select up to 2)
+      - Phone Call - $15.00
+      - Secure Email - $10.00
+      - Patient Portal - $5.00
+      - In-Person Review - $50.00
+[End Rule]
+
+[Begin Rule] Imaging Types
+    Imaging Study (Rule: Select 1)
+      - X-Ray - $0.00
+      - Ultrasound - $100.00
+      - CT Scan - $300.00
+      - MRI - $500.00
+      - Mammography - $150.00
+    Contrast Options (Rule: Select up to 1)
+      - No Contrast - $0.00
+      - Oral Contrast - $50.00
+      - IV Contrast - $100.00
+[End Rule]
+
+[Begin Rule] Preparation Instructions
+    Preparation Level (Rule: Select 1)
+      - No Preparation Needed - $0.00
+      - Basic Preparation - $15.00
+      - Extensive Preparation - $40.00
+      - Special Diet Requirements - $25.00
+    Preparation Components (Rule: Select up to 3)
+      - Fasting Instructions - $20.00
+      - Medication Adjustments - $30.00
+      - Bowel Preparation - $50.00
+      - Contrast Preparation - $35.00
+[End Rule]
+
+[Begin Rule] Cardiac Monitoring
+    Monitoring Type (Rule: Select 1)
+      - Real-Time EKG - $0.00
+      - 24-Hour Holter Monitor - $150.00
+      - Event Monitor - $200.00
+      - Implantable Loop Recorder - $500.00
+    Monitoring Duration (Rule: Select 1)
+      - Short-Term (Hours) - $0.00
+      - 24-48 Hours - $50.00
+      - 7-30 Days - $200.00
+      - Long-Term (Months) - $400.00
+[End Rule]
+
+[Begin Rule] Test Preparation
+    Preparation Requirements (Rule: Select up to 3)
+      - NPO (Nothing by Mouth) - $0.00
+      - Medication Hold - $25.00
+      - Special Positioning - $15.00
+      - Contrast Allergy Prep - $75.00
+    Pre-Test Instructions (Rule: Select up to 2)
+      - Dietary Restrictions - $20.00
+      - Activity Modifications - $15.00
+      - Clothing Requirements - $10.00
+[End Rule]
+
+[Begin Rule] Lung Assessment
+    Pulmonary Testing (Rule: Select 1 to 2)
+      - Spirometry - $0.00
+      - Lung Volume Testing - $75.00
+      - Diffusion Capacity - $100.00
+      - Bronchial Challenge Test - $150.00
+    Assessment Components (Rule: Select up to 2)
+      - Oxygen Saturation - $25.00
+      - Peak Flow Measurement - $15.00
+      - Exercise Testing - $125.00
+[End Rule]
+
+[Begin Rule] Breathing Tests
+    Test Type (Rule: Select 1)
+      - Basic Spirometry - $0.00
+      - Complete PFT - $100.00
+      - Bronchodilator Response - $50.00
+      - Pre/Post Exercise Testing - $150.00
+    Special Tests (Rule: Select up to 2)
+      - Methacholine Challenge - $125.00
+      - Six-Minute Walk Test - $75.00
+      - Arterial Blood Gas - $100.00
+[End Rule]
+
 [Begin Rule] Consultation Type
     Appointment Duration (Rule: Select 1)
       - Quick Consultation (15 minutes) - $-30.00
@@ -69,3 +323,148 @@
       - Urgent Care (Same Day) - $75.00
       - Emergency Consultation - $150.00
 [End Rule]
+
+[Begin Rule] Technology Requirements
+    Platform Type (Rule: Select 1)
+      - Basic Video Call - $0.00
+      - Secure Healthcare Platform - $25.00
+      - Advanced Telemedicine Suite - $75.00
+    Technical Support (Rule: Select up to 2)
+      - Self-Service Setup - $0.00
+      - Technical Assistance - $25.00
+      - Device Configuration - $50.00
+[End Rule]
+
+[Begin Rule] Pharmacy Options
+    Pharmacy Type (Rule: Select 1)
+      - Chain Pharmacy - $0.00
+      - Independent Pharmacy - $15.00
+      - Hospital Pharmacy - $25.00
+      - Mail Order Pharmacy - $10.00
+    Prescription Services (Rule: Select up to 2)
+      - Standard Filling - $0.00
+      - Medication Synchronization - $20.00
+      - Adherence Packaging - $35.00
+[End Rule]
+
+[Begin Rule] Therapy Type
+    Therapy Modality (Rule: Select 1)
+      - Cognitive Behavioral Therapy - $0.00
+      - Dialectical Behavior Therapy - $50.00
+      - Eye Movement Therapy (EMDR) - $75.00
+      - Psychodynamic Therapy - $40.00
+    Therapy Format (Rule: Select 1)
+      - In-Person Therapy - $0.00
+      - Teletherapy - $25.00
+      - Intensive Outpatient - $150.00
+[End Rule]
+
+[Begin Rule] Session Duration
+    Session Length (Rule: Select 1)
+      - 30 Minutes - $-25.00
+      - 45 Minutes - $0.00
+      - 60 Minutes - $25.00
+      - 90 Minutes - $75.00
+    Session Frequency (Rule: Select 1)
+      - Weekly Sessions - $0.00
+      - Bi-weekly Sessions - $-15.00
+      - Intensive (2-3x/week) - $100.00
+[End Rule]
+
+[Begin Rule] Virtual Follow-up
+    Follow-up Type (Rule: Select 1)
+      - Brief Check-in - $0.00
+      - Standard Follow-up - $25.00
+      - Comprehensive Review - $50.00
+    Virtual Services (Rule: Select up to 2)
+      - Medication Review - $30.00
+      - Lab Result Discussion - $25.00
+      - Care Plan Adjustment - $40.00
+[End Rule]
+
+[Begin Rule] Care Coordination
+    Coordination Level (Rule: Select 1)
+      - Basic Coordination - $0.00
+      - Multi-Provider Coordination - $75.00
+      - Complex Care Management - $150.00
+    Coordination Services (Rule: Select up to 3)
+      - Referral Management - $50.00
+      - Appointment Scheduling - $30.00
+      - Information Sharing - $40.00
+      - Transition Planning - $60.00
+[End Rule]
+
+[Begin Rule] Vaccine Types
+    Vaccination Category (Rule: Select up to 4)
+      - Routine Immunizations - $25.00
+      - Travel Vaccines - $75.00
+      - Occupational Vaccines - $50.00
+      - High-Risk Vaccines - $100.00
+    Specific Vaccines (Rule: Select up to 3)
+      - Influenza - $30.00
+      - COVID-19 - $25.00
+      - Hepatitis A/B - $60.00
+      - Pneumonia - $40.00
+[End Rule]
+
+[Begin Rule] Age Requirements
+    Age-Specific Services (Rule: Select 1)
+      - Pediatric (0-17) - $0.00
+      - Adult (18-64) - $25.00
+      - Geriatric (65+) - $50.00
+    Age Considerations (Rule: Select up to 2)
+      - Age-Appropriate Dosing - $15.00
+      - Special Monitoring - $30.00
+      - Contraindication Review - $25.00
+[End Rule]
+
+[Begin Rule] Screening Types
+    Screening Category (Rule: Select 1 to 3)
+      - Cancer Screening - $100.00
+      - Cardiovascular Screening - $75.00
+      - Diabetes Screening - $50.00
+      - Mental Health Screening - $60.00
+      - Bone Health Screening - $80.00
+    Screening Method (Rule: Select 1)
+      - Blood Test - $40.00
+      - Imaging Study - $150.00
+      - Physical Examination - $25.00
+[End Rule]
+
+[Begin Rule] Age Recommendations
+    Age-Based Guidelines (Rule: Select 1)
+      - Standard Guidelines - $0.00
+      - Risk-Based Screening - $50.00
+      - Family History Adjusted - $75.00
+    Screening Frequency (Rule: Select 1)
+      - Annual Screening - $0.00
+      - Bi-annual Screening - $25.00
+      - Risk-Based Interval - $50.00
+[End Rule]
+
+[Begin Rule] Wellness Assessment
+    Assessment Components (Rule: Select 1 to 4)
+      - Physical Fitness Evaluation - $60.00
+      - Nutritional Assessment - $50.00
+      - Mental Health Screening - $45.00
+      - Lifestyle Risk Assessment - $40.00
+      - Preventive Care Review - $35.00
+    Wellness Planning (Rule: Select up to 2)
+      - Goal Setting - $30.00
+      - Action Plan Development - $50.00
+      - Progress Tracking - $40.00
+[End Rule]
+
+[Begin Rule] Lifestyle Counseling
+    Counseling Focus (Rule: Select 1 to 3)
+      - Nutrition and Diet - $50.00
+      - Exercise and Fitness - $45.00
+      - Stress Management - $40.00
+      - Sleep Hygiene - $35.00
+      - Substance Use - $60.00
+    Counseling Format (Rule: Select 1)
+      - Individual Counseling - $0.00
+      - Group Sessions - $25.00
+      - Family Education - $40.00
+[End Rule]
+

@@ -50,3 +50,336 @@
       - Fuel Pressure Test - $50.00
       - Emissions Test - $60.00
 [End Rule]
+
+[Begin Rule] Filter Options
+    Filter Type (Rule: Select 1)
+      - Standard Oil Filter - $0.00
+      - High-Capacity Filter - $15.00
+      - Premium Synthetic Filter - $25.00
+[End Rule]
+
+[Begin Rule] Additional Fluid Checks
+    Fluid Inspection (Rule: Select up to 3)
+      - Power Steering Fluid - $10.00
+      - Brake Fluid Check - $10.00
+      - Coolant Level Check - $10.00
+      - Transmission Fluid Check - $15.00
+[End Rule]
+
+[Begin Rule] Diagnostic Tests
+    Test Type (Rule: Select 1)
+      - Basic Engine Scan - $0.00
+      - Comprehensive Engine Test - $75.00
+      - Performance Analysis - $150.00
+[End Rule]
+
+[Begin Rule] Performance Checks
+    Performance Level (Rule: Select 1)
+      - Basic Performance Check - $0.00
+      - Detailed Performance Analysis - $100.00
+[End Rule]
+
+[Begin Rule] Problem Assessment
+    Assessment Level (Rule: Select 1)
+      - Basic Problem Scan - $0.00
+      - Detailed Problem Analysis - $75.00
+      - Root Cause Analysis - $150.00
+[End Rule]
+
+[Begin Rule] Repair Recommendations
+    Recommendation Level (Rule: Select 1)
+      - Basic Recommendations - $0.00
+      - Detailed Repair Plan - $50.00
+      - Comprehensive Maintenance Plan - $100.00
+[End Rule]
+
+[Begin Rule] Transmission Type
+    Transmission (Rule: Select 1)
+      - Manual Transmission - $0.00
+      - Automatic Transmission - $25.00
+      - CVT Transmission - $50.00
+[End Rule]
+
+[Begin Rule] Fluid Options
+    Fluid Type (Rule: Select 1)
+      - Conventional Fluid - $0.00
+      - High Mileage Fluid - $20.00
+      - Full Synthetic Fluid - $40.00
+[End Rule]
+
+[Begin Rule] Service Level
+    Service Depth (Rule: Select 1)
+      - Basic Service - $0.00
+      - Standard Service - $50.00
+      - Premium Service - $100.00
+[End Rule]
+
+[Begin Rule] Brake Components
+    Inspection Areas (Rule: Select up to 4)
+      - Brake Pads - $0.00
+      - Rotors/Drums - $15.00
+      - Brake Lines - $20.00
+      - Calipers - $25.00
+[End Rule]
+
+[Begin Rule] Safety Assessment
+    Assessment Level (Rule: Select 1)
+      - Basic Safety Check - $0.00
+      - Comprehensive Safety Inspection - $50.00
+[End Rule]
+
+[Begin Rule] Recommendation Level
+    Recommendation Type (Rule: Select 1)
+      - Basic Recommendation - $0.00
+      - Detailed Analysis - $25.00
+      - Priority Assessment - $50.00
+[End Rule]
+
+[Begin Rule] Rotor Service
+    Rotor Service Type (Rule: Select 1)
+      - Rotor Inspection Only - $0.00
+      - Rotor Resurfacing - $75.00
+      - Rotor Replacement - $150.00
+[End Rule]
+
+[Begin Rule] Labor Options
+    Labor Level (Rule: Select 1)
+      - Standard Labor - $0.00
+      - Express Service - $50.00
+      - Priority Service - $100.00
+[End Rule]
+
+[Begin Rule] Brake Service Package
+    Package Level (Rule: Select 1)
+      - Basic Brake Package - $0.00
+      - Complete Brake Package - $150.00
+      - Premium Brake Package - $300.00
+[End Rule]
+
+[Begin Rule] Parts Quality
+    Parts Grade (Rule: Select 1)
+      - Economy Parts - $-50.00
+      - OEM Parts - $0.00
+      - Premium Parts - $100.00
+[End Rule]
+
+[Begin Rule] Warranty Options
+    Warranty Level (Rule: Select 1)
+      - 30 Day Warranty - $0.00
+      - 90 Day Warranty - $25.00
+      - 1 Year Warranty - $75.00
+[End Rule]
+
+[Begin Rule] Fluid Type
+    Brake Fluid Grade (Rule: Select 1)
+      - DOT 3 Brake Fluid - $0.00
+      - DOT 4 Brake Fluid - $15.00
+      - DOT 5.1 Brake Fluid - $25.00
+[End Rule]
+
+[Begin Rule] System Flush
+    Flush Type (Rule: Select 1)
+      - Basic Fluid Exchange - $0.00
+      - Complete System Flush - $50.00
+      - Power Flush Service - $100.00
+[End Rule]
+
+[Begin Rule] Testing Options
+    Testing Level (Rule: Select 1)
+      - Basic Function Test - $0.00
+      - Performance Test - $35.00
+      - Comprehensive System Test - $75.00
+[End Rule]
+
+[Begin Rule] Rotation Pattern
+    Pattern Type (Rule: Select 1)
+      - Front-to-Back Rotation - $0.00
+      - Cross Rotation - $10.00
+      - Directional Pattern - $15.00
+[End Rule]
+
+[Begin Rule] Inspection Level
+    Inspection Depth (Rule: Select 1)
+      - Visual Inspection - $0.00
+      - Basic Inspection - $25.00
+      - Comprehensive Inspection - $50.00
+[End Rule]
+
+[Begin Rule] Additional Services
+    Service Additions (Rule: Select up to 2)
+      - Tire Pressure Adjustment - $10.00
+      - Valve Stem Replacement - $20.00
+      - Wheel Cleaning - $25.00
+[End Rule]
+
+[Begin Rule] Alignment Type
+    Alignment Service (Rule: Select 1)
+      - Front End Alignment - $0.00
+      - Four Wheel Alignment - $75.00
+      - Performance Alignment - $150.00
+[End Rule]
+
+[Begin Rule] Adjustment Level
+    Adjustment Type (Rule: Select 1)
+      - Basic Adjustment - $0.00
+      - Standard Adjustment - $25.00
+      - Precision Adjustment - $75.00
+[End Rule]
+
+[Begin Rule] Inspection Services
+    Vehicle Inspection (Rule: Select up to 2)
+      - Suspension Check - $25.00
+      - Steering Component Check - $30.00
+      - Tire Wear Analysis - $20.00
+[End Rule]
+
+[Begin Rule] Tire Type
+    Tire Category (Rule: Select 1)
+      - All-Season Tires - $0.00
+      - Performance Tires - $200.00
+      - Winter Tires - $250.00
+[End Rule]
+
+[Begin Rule] Installation Package
+    Installation Level (Rule: Select 1)
+      - Basic Installation - $0.00
+      - Standard Installation - $50.00
+      - Premium Installation - $100.00
+[End Rule]
+
+[Begin Rule] Balancing Options
+    Balancing Type (Rule: Select 1)
+      - Standard Balancing - $0.00
+      - Road Force Balancing - $50.00
+[End Rule]
+
+[Begin Rule] Repair Method
+    Repair Type (Rule: Select 1)
+      - Plug Repair - $0.00
+      - Patch Repair - $25.00
+      - Plug and Patch Combo - $40.00
+[End Rule]
+
+[Begin Rule] Warranty Coverage
+    Coverage Level (Rule: Select 1)
+      - 30 Day Coverage - $0.00
+      - 90 Day Coverage - $25.00
+      - 1 Year Coverage - $75.00
+[End Rule]
+
+[Begin Rule] Testing Method
+    Test Type (Rule: Select 1)
+      - Basic Load Test - $0.00
+      - Digital Battery Test - $25.00
+      - Complete System Test - $50.00
+[End Rule]
+
+[Begin Rule] Charging System Check
+    Check Level (Rule: Select 1)
+      - Basic Voltage Check - $0.00
+      - Complete Charging Test - $40.00
+[End Rule]
+
+[Begin Rule] Replacement Options
+    Replacement Type (Rule: Select 1)
+      - Economy Replacement - $-25.00
+      - Standard Replacement - $0.00
+      - Premium Replacement - $100.00
+[End Rule]
+
+[Begin Rule] Alternator Type
+    Alternator Grade (Rule: Select 1)
+      - Remanufactured Alternator - $0.00
+      - New Alternator - $150.00
+      - High Output Alternator - $300.00
+[End Rule]
+
+[Begin Rule] Testing Level
+    Test Depth (Rule: Select 1)
+      - Basic Test - $0.00
+      - Standard Test - $25.00
+      - Comprehensive Test - $75.00
+[End Rule]
+
+[Begin Rule] Repair Options
+    Repair Level (Rule: Select 1)
+      - Basic Repair - $0.00
+      - Complete Repair - $100.00
+      - Upgrade Repair - $200.00
+[End Rule]
+
+[Begin Rule] Starter Type
+    Starter Grade (Rule: Select 1)
+      - Remanufactured Starter - $0.00
+      - New Starter - $200.00
+      - Heavy Duty Starter - $350.00
+[End Rule]
+
+[Begin Rule] Installation Options
+    Installation Level (Rule: Select 1)
+      - Basic Installation - $0.00
+      - Professional Installation - $75.00
+      - Premium Installation - $150.00
+[End Rule]
+
+[Begin Rule] Diagnostic Scope
+    Diagnostic Level (Rule: Select 1)
+      - Basic Circuit Test - $0.00
+      - Complete System Diagnostic - $100.00
+[End Rule]
+
+[Begin Rule] Repair Estimate
+    Estimate Level (Rule: Select 1)
+      - Basic Estimate - $0.00
+      - Detailed Estimate - $50.00
+      - Comprehensive Quote - $100.00
+[End Rule]
+
+[Begin Rule] System Inspection
+    Inspection Level (Rule: Select 1)
+      - Visual Inspection - $0.00
+      - Basic System Check - $35.00
+      - Complete System Analysis - $75.00
+[End Rule]
+
+[Begin Rule] Performance Test
+    Test Level (Rule: Select 1)
+      - Basic Performance Check - $0.00
+      - Temperature Test - $30.00
+      - Efficiency Analysis - $60.00
+[End Rule]
+
+[Begin Rule] Refrigerant Check
+    Check Type (Rule: Select 1)
+      - Level Check Only - $0.00
+      - Pressure Test - $25.00
+      - Complete Analysis - $50.00
+[End Rule]
+
+[Begin Rule] Refrigerant Type
+    Refrigerant Grade (Rule: Select 1)
+      - R-134a Standard - $0.00
+      - R-1234yf Premium - $50.00
+[End Rule]
+
+[Begin Rule] Leak Testing
+    Test Method (Rule: Select 1)
+      - Visual Inspection - $0.00
+      - Electronic Leak Detection - $50.00
+      - UV Dye Testing - $75.00
+[End Rule]
+
+[Begin Rule] Component Replacement
+    Replacement Level (Rule: Select 1)
+      - Single Component - $0.00
+      - Multiple Components - $100.00
+      - Complete System Overhaul - $500.00
+[End Rule]
+
+[Begin Rule] System Repair
+    Repair Scope (Rule: Select 1)
+      - Minor Repair - $0.00
+      - Major Repair - $200.00
+      - Complete Rebuild - $800.00
+[End Rule]
+

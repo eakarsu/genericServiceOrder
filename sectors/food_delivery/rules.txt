@@ -31,6 +31,18 @@
       - Extra Spread - $1.00
 [End Rule]
 
+[Begin Rule] Breakfast Add-ons
+    Additional Items (Rule: Select up to 4)
+      - Hash Browns - $3.50
+      - Fresh Fruit - $4.00
+      - Yogurt - $3.00
+      - Granola - $2.50
+      - Sliced Tomato - $1.50
+      - Sliced Avocado - $2.50
+      - Extra Egg - $2.00
+      - Toast - $2.00
+[End Rule]
+
 [Begin Rule] Breakfast Proteins
     Protein Choice (Rule: Select 1 to 2)
       - Scrambled Eggs (2) - $3.50
@@ -48,6 +60,103 @@
       - Scrambled Soft - $0.00
       - Scrambled Well Done - $0.00
       - Sunny Side Up - $0.00
+[End Rule]
+
+[Begin Rule] Breakfast Bread
+    Bread Choice (Rule: Select 1)
+      - White Toast - $0.00
+      - Wheat Toast - $0.50
+      - Rye Toast - $0.50
+      - Sourdough Toast - $0.75
+      - English Muffin - $1.00
+      - Croissant - $2.00
+      - Bagel - $1.50
+      - Biscuit - $1.25
+[End Rule]
+
+[Begin Rule] Breakfast Cheese
+    Cheese Selection (Rule: Select up to 2)
+      - American Cheese - $1.50
+      - Swiss Cheese - $1.75
+      - Cheddar Cheese - $1.75
+      - Pepper Jack - $2.00
+      - Feta Cheese - $2.25
+      - Cream Cheese - $1.50
+[End Rule]
+
+[Begin Rule] Breakfast Vegetables
+    Vegetable Options (Rule: Select up to 5)
+      - Diced Onions - $1.00
+      - Bell Peppers - $1.25
+      - Mushrooms - $1.50
+      - Spinach - $1.25
+      - Tomatoes - $1.00
+      - Jalapeños - $1.00
+      - Scallions - $0.75
+[End Rule]
+
+[Begin Rule] Breakfast Cooking Style
+    Cooking Method (Rule: Select 1)
+      - Scrambled - $0.00
+      - Fried - $0.00
+      - Poached - $1.00
+      - Omelet Style - $2.00
+      - Frittata Style - $2.50
+[End Rule]
+
+[Begin Rule] French Toast Options
+    French Toast Type (Rule: Select 1)
+      - Classic French Toast - $0.00
+      - Thick Cut French Toast - $2.00
+      - Stuffed French Toast - $4.00
+      - Cinnamon French Toast - $1.50
+    Bread Choice (Rule: Select 1)
+      - White Bread - $0.00
+      - Brioche - $2.00
+      - Challah - $2.50
+      - Texas Toast - $1.50
+[End Rule]
+
+[Begin Rule] Breakfast Sides
+    Side Options (Rule: Select up to 3)
+      - Hash Browns - $3.50
+      - Home Fries - $3.50
+      - Fresh Fruit Cup - $4.00
+      - Yogurt Parfait - $4.50
+      - Breakfast Sausage - $3.50
+      - Bacon - $4.00
+[End Rule]
+
+[Begin Rule] Syrup Selection
+    Syrup Type (Rule: Select up to 2)
+      - Maple Syrup - $0.00
+      - Sugar-Free Syrup - $0.50
+      - Blueberry Syrup - $1.00
+      - Strawberry Syrup - $1.00
+      - Butter Pecan Syrup - $1.25
+      - Honey - $1.00
+[End Rule]
+
+[Begin Rule] Burrito Proteins
+    Protein Selection (Rule: Select 1 to 3)
+      - Scrambled Eggs - $0.00
+      - Bacon - $3.00
+      - Sausage - $2.50
+      - Ham - $2.50
+      - Chorizo - $3.50
+      - Turkey Bacon - $3.50
+      - Black Beans - $2.00
+[End Rule]
+
+[Begin Rule] Sauce Options
+    Sauce Selection (Rule: Select up to 3)
+      - Salsa - $1.00
+      - Hot Sauce - $0.50
+      - Sour Cream - $1.50
+      - Guacamole - $2.50
+      - Chipotle Mayo - $1.25
+      - Ranch Dressing - $1.00
+      - Buffalo Sauce - $1.00
 [End Rule]
 
 [Begin Rule] Bread Selection
@@ -125,6 +234,138 @@
       - Macaroni Salad - $1.50
 [End Rule]
 
+[Begin Rule] Condiment Options
+    Condiments (Rule: Select up to 4)
+      - Mayonnaise - $0.00
+      - Mustard - $0.00
+      - Honey Mustard - $0.50
+      - Dijon Mustard - $0.50
+      - Ketchup - $0.00
+      - Ranch Dressing - $0.75
+      - Italian Dressing - $0.75
+      - Chipotle Mayo - $1.00
+[End Rule]
+
+[Begin Rule] Hero Bread
+    Hero Bread Type (Rule: Select 1)
+      - Italian Hero Roll - $0.00
+      - Whole Wheat Hero - $1.00
+      - Sesame Hero Roll - $0.50
+      - Garlic Hero Roll - $1.50
+[End Rule]
+
+[Begin Rule] Premium Proteins
+    Premium Selections (Rule: Select 1 to 2)
+      - Prosciutto - $8.00
+      - Smoked Salmon - $10.00
+      - Grilled Portobello - $6.00
+      - Imported Salami - $7.00
+      - Aged Roast Beef - $8.50
+      - Organic Turkey - $7.50
+[End Rule]
+
+[Begin Rule] Gourmet Cheese
+    Gourmet Selections (Rule: Select up to 2)
+      - Fresh Mozzarella - $3.00
+      - Aged Cheddar - $3.50
+      - Brie Cheese - $4.00
+      - Goat Cheese - $4.50
+      - Blue Cheese - $3.50
+      - Manchego - $5.00
+[End Rule]
+
+[Begin Rule] Specialty Toppings
+    Specialty Items (Rule: Select up to 4)
+      - Sun-Dried Tomatoes - $2.00
+      - Artichoke Hearts - $2.50
+      - Capers - $1.50
+      - Roasted Garlic - $1.50
+      - Pine Nuts - $3.00
+      - Fresh Basil - $1.50
+[End Rule]
+
+[Begin Rule] Signature Sauces
+    Specialty Sauces (Rule: Select up to 2)
+      - Pesto Sauce - $2.00
+      - Aioli - $1.50
+      - Tapenade - $2.50
+      - Balsamic Glaze - $2.00
+      - Herb Oil - $1.75
+      - Sriracha Mayo - $1.25
+[End Rule]
+
+[Begin Rule] Wrap Types
+    Wrap Selection (Rule: Select 1)
+      - Flour Tortilla - $0.00
+      - Whole Wheat Tortilla - $0.50
+      - Spinach Tortilla - $0.75
+      - Tomato Tortilla - $0.75
+      - Lavosh - $1.00
+[End Rule]
+
+[Begin Rule] Fresh Vegetables
+    Fresh Selections (Rule: Select up to 6)
+      - Mixed Greens - $1.00
+      - Cucumber - $0.75
+      - Cherry Tomatoes - $1.25
+      - Red Onion - $0.75
+      - Bell Peppers - $1.00
+      - Carrots - $0.75
+      - Celery - $0.75
+[End Rule]
+
+[Begin Rule] Dressing Options
+    Dressing Selection (Rule: Select up to 2)
+      - Ranch Dressing - $0.00
+      - Caesar Dressing - $0.50
+      - Balsamic Vinaigrette - $0.75
+      - Honey Mustard - $0.50
+      - Buffalo Sauce - $0.75
+      - Tzatziki - $1.00
+[End Rule]
+
+[Begin Rule] Club Bread
+    Club Bread Selection (Rule: Select 1)
+      - White Toast - $0.00
+      - Wheat Toast - $0.50
+      - Sourdough Toast - $0.75
+      - Rye Toast - $0.50
+[End Rule]
+
+[Begin Rule] Club Proteins
+    Club Proteins (Rule: Select 2 to 3)
+      - Sliced Turkey - $4.00
+      - Bacon - $3.50
+      - Ham - $3.50
+      - Roast Beef - $4.50
+      - Grilled Chicken - $4.00
+[End Rule]
+
+[Begin Rule] Club Cheese
+    Club Cheese (Rule: Select 1 to 2)
+      - American Cheese - $1.50
+      - Swiss Cheese - $1.75
+      - Cheddar Cheese - $1.75
+      - Provolone - $1.75
+[End Rule]
+
+[Begin Rule] Club Vegetables
+    Club Vegetables (Rule: Select up to 4)
+      - Lettuce - $0.75
+      - Tomato - $1.00
+      - Bacon - $0.00
+      - Red Onion - $0.75
+      - Avocado - $2.00
+[End Rule]
+
+[Begin Rule] Club Condiments
+    Club Condiments (Rule: Select up to 2)
+      - Mayonnaise - $0.00
+      - Mustard - $0.00
+      - Ranch Dressing - $0.75
+      - Chipotle Mayo - $1.00
+[End Rule]
+
 [Begin Rule] Salad Base
     Greens Selection (Rule: Select 1)
       - Mixed Greens - $0.00
@@ -138,6 +379,589 @@
       - Regular Salad - $2.00
       - Large Salad - $4.00
       - Family Size - $8.00
+[End Rule]
+
+[Begin Rule] Protein Add-ons
+    Protein Additions (Rule: Select up to 2)
+      - Grilled Chicken - $5.00
+      - Grilled Salmon - $8.00
+      - Hard Boiled Egg - $2.00
+      - Bacon Bits - $3.00
+      - Turkey - $4.00
+      - Tofu - $3.50
+[End Rule]
+
+[Begin Rule] Cheese Options
+    Cheese Selections (Rule: Select up to 2)
+      - Shredded Cheddar - $1.50
+      - Feta Crumbles - $2.00
+      - Blue Cheese - $2.25
+      - Goat Cheese - $2.50
+      - Parmesan - $1.75
+[End Rule]
+
+[Begin Rule] Premium Salad Base
+    Premium Greens (Rule: Select 1)
+      - Organic Mixed Greens - $2.00
+      - Baby Spinach - $1.50
+      - Arugula - $2.50
+      - Kale - $2.00
+      - Butter Lettuce - $2.25
+[End Rule]
+
+[Begin Rule] Gourmet Proteins
+    Gourmet Selections (Rule: Select 1)
+      - Grilled Salmon - $8.00
+      - Seared Tuna - $10.00
+      - Grilled Shrimp - $9.00
+      - Steak Tips - $9.50
+      - Quinoa - $4.00
+[End Rule]
+
+[Begin Rule] Specialty Vegetables
+    Specialty Selections (Rule: Select up to 4)
+      - Roasted Beets - $2.00
+      - Candied Walnuts - $3.00
+      - Dried Cranberries - $2.50
+      - Sun-Dried Tomatoes - $2.00
+      - Artichoke Hearts - $2.50
+[End Rule]
+
+[Begin Rule] Premium Cheese
+    Premium Selections (Rule: Select up to 2)
+      - Fresh Mozzarella - $3.00
+      - Aged Goat Cheese - $3.50
+      - Gorgonzola - $3.25
+      - Manchego - $4.00
+[End Rule]
+
+[Begin Rule] Artisan Dressings
+    Artisan Selections (Rule: Select up to 2)
+      - Truffle Vinaigrette - $2.50
+      - Pomegranate Dressing - $2.25
+      - Green Goddess - $2.00
+      - Lemon Herb - $1.75
+[End Rule]
+
+[Begin Rule] Grain Base
+    Grain Selection (Rule: Select 1)
+      - Quinoa - $0.00
+      - Brown Rice - $0.00
+      - Wild Rice - $1.00
+      - Farro - $1.50
+      - Bulgur - $1.00
+[End Rule]
+
+[Begin Rule] Bowl Proteins
+    Bowl Protein Selection (Rule: Select 1 to 2)
+      - Grilled Chicken - $5.00
+      - Tofu - $3.50
+      - Black Beans - $2.50
+      - Chickpeas - $2.00
+      - Lentils - $2.50
+[End Rule]
+
+[Begin Rule] Roasted Vegetables
+    Roasted Selections (Rule: Select up to 4)
+      - Roasted Sweet Potato - $2.00
+      - Roasted Broccoli - $1.75
+      - Roasted Cauliflower - $1.75
+      - Roasted Brussels Sprouts - $2.25
+      - Roasted Carrots - $1.50
+[End Rule]
+
+[Begin Rule] Healthy Toppings
+    Healthy Additions (Rule: Select up to 4)
+      - Avocado - $2.50
+      - Hemp Seeds - $2.00
+      - Pumpkin Seeds - $1.75
+      - Chia Seeds - $1.50
+      - Almonds - $2.00
+[End Rule]
+
+[Begin Rule] Bowl Sauces
+    Sauce Selections (Rule: Select up to 2)
+      - Tahini Dressing - $1.50
+      - Green Goddess - $1.75
+      - Lemon Vinaigrette - $1.25
+      - Sriracha Mayo - $1.50
+[End Rule]
+
+[Begin Rule] Chicken Preparation
+    Preparation Style (Rule: Select 1)
+      - Grilled - $0.00
+      - Blackened - $1.00
+      - Herb Crusted - $2.00
+      - Lemon Pepper - $1.50
+[End Rule]
+
+[Begin Rule] Side Selections
+    Side Options (Rule: Select 1 to 2)
+      - Rice Pilaf - $3.50
+      - Mashed Potatoes - $3.00
+      - Steamed Vegetables - $4.00
+      - Garden Salad - $4.50
+[End Rule]
+
+[Begin Rule] Vegetable Sides
+    Vegetable Options (Rule: Select up to 2)
+      - Steamed Broccoli - $3.50
+      - Green Beans - $3.25
+      - Carrots - $3.00
+      - Asparagus - $4.00
+[End Rule]
+
+[Begin Rule] Pasta Types
+    Pasta Selection (Rule: Select 1)
+      - Spaghetti - $0.00
+      - Penne - $0.00
+      - Fettuccine - $0.50
+      - Angel Hair - $0.50
+      - Rigatoni - $0.50
+[End Rule]
+
+[Begin Rule] Pasta Sauces
+    Sauce Selection (Rule: Select 1)
+      - Marinara - $0.00
+      - Alfredo - $2.00
+      - Pesto - $2.50
+      - Meat Sauce - $3.00
+      - Carbonara - $3.50
+[End Rule]
+
+[Begin Rule] Italian Cheese
+    Italian Cheese Selection (Rule: Select up to 2)
+      - Parmesan - $1.50
+      - Romano - $1.75
+      - Fresh Mozzarella - $2.50
+      - Ricotta - $2.00
+[End Rule]
+
+[Begin Rule] Pasta Vegetables
+    Vegetable Additions (Rule: Select up to 3)
+      - Mushrooms - $1.50
+      - Bell Peppers - $1.25
+      - Onions - $1.00
+      - Zucchini - $1.50
+      - Spinach - $1.25
+[End Rule]
+
+[Begin Rule] Burger Patty
+    Patty Selection (Rule: Select 1)
+      - Beef Patty (1/4 lb) - $0.00
+      - Beef Patty (1/2 lb) - $3.00
+      - Turkey Burger - $2.00
+      - Veggie Burger - $2.50
+      - Black Bean Burger - $2.50
+[End Rule]
+
+[Begin Rule] Burger Cheese
+    Cheese Selection (Rule: Select up to 2)
+      - American Cheese - $1.50
+      - Cheddar Cheese - $1.75
+      - Swiss Cheese - $1.75
+      - Blue Cheese - $2.25
+      - Pepper Jack - $2.00
+[End Rule]
+
+[Begin Rule] Burger Toppings
+    Topping Selection (Rule: Select up to 6)
+      - Lettuce - $0.75
+      - Tomato - $1.00
+      - Onion - $0.75
+      - Pickles - $0.50
+      - Bacon - $3.00
+      - Mushrooms - $1.50
+[End Rule]
+
+[Begin Rule] Burger Condiments
+    Condiment Selection (Rule: Select up to 3)
+      - Ketchup - $0.00
+      - Mustard - $0.00
+      - Mayonnaise - $0.00
+      - BBQ Sauce - $0.50
+      - Ranch Dressing - $0.75
+[End Rule]
+
+[Begin Rule] Fish Preparation
+    Preparation Style (Rule: Select 1)
+      - Beer Battered - $0.00
+      - Grilled - $2.00
+      - Blackened - $2.50
+      - Panko Crusted - $3.00
+[End Rule]
+
+[Begin Rule] Potato Sides
+    Potato Options (Rule: Select 1)
+      - French Fries - $0.00
+      - Sweet Potato Fries - $2.00
+      - Onion Rings - $1.50
+      - Mashed Potatoes - $1.00
+[End Rule]
+
+[Begin Rule] Seafood Sauces
+    Sauce Selection (Rule: Select up to 2)
+      - Tartar Sauce - $0.00
+      - Cocktail Sauce - $0.50
+      - Lemon Butter - $1.00
+      - Remoulade - $1.50
+[End Rule]
+
+[Begin Rule] Coleslaw Options
+    Coleslaw Style (Rule: Select 1)
+      - Traditional Coleslaw - $0.00
+      - Vinegar Slaw - $0.50
+      - Asian Slaw - $1.00
+[End Rule]
+
+[Begin Rule] Coffee Size
+    Size Options (Rule: Select 1)
+      - Small (12 oz) - $0.00
+      - Medium (16 oz) - $0.50
+      - Large (20 oz) - $1.00
+      - Extra Large (24 oz) - $1.50
+    Coffee Type (Rule: Select 1)
+      - Regular Coffee - $0.00
+      - Decaf Coffee - $0.00
+      - Dark Roast - $0.25
+      - French Roast - $0.25
+[End Rule]
+
+[Begin Rule] Coffee Strength
+    Strength Level (Rule: Select 1)
+      - Mild - $0.00
+      - Medium - $0.00
+      - Strong - $0.50
+      - Extra Strong - $1.00
+[End Rule]
+
+[Begin Rule] Coffee Add-ins
+    Dairy Options (Rule: Select up to 2)
+      - Milk - $0.00
+      - Half and Half - $0.25
+      - Heavy Cream - $0.50
+      - Almond Milk - $0.75
+      - Soy Milk - $0.75
+      - Oat Milk - $0.75
+    Flavor Additions (Rule: Select up to 3)
+      - Vanilla Syrup - $0.50
+      - Caramel Syrup - $0.50
+      - Hazelnut Syrup - $0.50
+      - Cinnamon - $0.25
+      - Whipped Cream - $1.00
+[End Rule]
+
+[Begin Rule] Sweetener Options
+    Sweetener Selection (Rule: Select up to 2)
+      - Sugar - $0.00
+      - Brown Sugar - $0.25
+      - Honey - $0.50
+      - Stevia - $0.50
+      - Artificial Sweetener - $0.00
+[End Rule]
+
+[Begin Rule] Juice Types
+    Juice Selection (Rule: Select 1)
+      - Orange Juice - $0.00
+      - Apple Juice - $0.00
+      - Cranberry Juice - $0.50
+      - Grape Juice - $0.50
+      - Pineapple Juice - $0.75
+[End Rule]
+
+[Begin Rule] Juice Size
+    Size Selection (Rule: Select 1)
+      - Small (8 oz) - $0.00
+      - Medium (12 oz) - $1.00
+      - Large (16 oz) - $2.00
+[End Rule]
+
+[Begin Rule] Juice Combinations
+    Combination Selection (Rule: Select up to 3)
+      - Orange-Mango - $1.00
+      - Apple-Carrot - $1.25
+      - Cranberry-Apple - $1.00
+      - Pineapple-Orange - $1.25
+[End Rule]
+
+[Begin Rule] Health Boosters
+    Booster Selection (Rule: Select up to 2)
+      - Protein Powder - $2.00
+      - Vitamin C - $1.50
+      - Ginger Shot - $2.50
+      - Wheatgrass - $3.00
+[End Rule]
+
+[Begin Rule] Smoothie Base
+    Base Selection (Rule: Select 1)
+      - Yogurt Base - $0.00
+      - Almond Milk Base - $1.00
+      - Coconut Milk Base - $1.50
+      - Fruit Juice Base - $0.50
+[End Rule]
+
+[Begin Rule] Fruit Selection
+    Fruit Options (Rule: Select up to 4)
+      - Strawberries - $1.50
+      - Blueberries - $2.00
+      - Banana - $1.00
+      - Mango - $2.50
+      - Pineapple - $2.00
+      - Peaches - $2.25
+[End Rule]
+
+[Begin Rule] Protein Boosters
+    Protein Options (Rule: Select up to 2)
+      - Whey Protein - $3.00
+      - Plant Protein - $3.50
+      - Peanut Butter - $2.00
+      - Almond Butter - $2.50
+[End Rule]
+
+[Begin Rule] Smoothie Add-ins
+    Add-in Selection (Rule: Select up to 3)
+      - Chia Seeds - $1.50
+      - Flax Seeds - $1.25
+      - Spinach - $1.00
+      - Kale - $1.25
+      - Coconut Flakes - $1.75
+[End Rule]
+
+[Begin Rule] Drink Types
+    Beverage Type (Rule: Select 1)
+      - Soda - $0.00
+      - Iced Tea - $0.50
+      - Energy Drink - $2.00
+      - Sports Drink - $1.50
+[End Rule]
+
+[Begin Rule] Drink Size
+    Size Options (Rule: Select 1)
+      - Small (12 oz) - $0.00
+      - Medium (16 oz) - $0.75
+      - Large (20 oz) - $1.50
+      - Extra Large (32 oz) - $2.50
+[End Rule]
+
+[Begin Rule] Flavor Options
+    Flavor Selection (Rule: Select 1)
+      - Cola - $0.00
+      - Lemon-Lime - $0.00
+      - Orange - $0.00
+      - Root Beer - $0.50
+      - Ginger Ale - $0.50
+[End Rule]
+
+[Begin Rule] Drink Add-ins
+    Add-in Options (Rule: Select up to 2)
+      - Extra Ice - $0.00
+      - Lemon Slice - $0.25
+      - Lime Slice - $0.25
+      - Cherry - $0.50
+[End Rule]
+
+[Begin Rule] Appetizer Selection
+    Appetizer Options (Rule: Select up to 4)
+      - Mozzarella Sticks - $6.00
+      - Buffalo Wings - $8.00
+      - Nachos - $7.00
+      - Onion Rings - $5.00
+      - Spinach Dip - $6.50
+[End Rule]
+
+[Begin Rule] Serving Size
+    Size Options (Rule: Select 1)
+      - Small Portion - $0.00
+      - Regular Portion - $2.00
+      - Large Portion - $4.00
+      - Family Style - $8.00
+[End Rule]
+
+[Begin Rule] Dipping Sauces
+    Sauce Selection (Rule: Select up to 3)
+      - Ranch Dressing - $0.75
+      - Blue Cheese - $0.75
+      - Honey Mustard - $0.50
+      - BBQ Sauce - $0.50
+      - Buffalo Sauce - $0.75
+[End Rule]
+
+[Begin Rule] Appetizer Combinations
+    Combination Options (Rule: Select 1)
+      - Wings and Rings - $3.00
+      - Sampler Platter - $5.00
+      - Cheese Lover's Combo - $4.00
+[End Rule]
+
+[Begin Rule] Side Orders
+    Potato Sides (Rule: Select up to 2)
+      - French Fries - $3.50
+      - Sweet Potato Fries - $4.50
+      - Onion Rings - $4.00
+      - Home Fries - $3.50
+      - Hash Browns - $3.50
+      - Mashed Potatoes - $3.00
+    Healthy Sides (Rule: Select up to 3)
+      - Fresh Fruit Cup - $4.00
+      - Garden Salad - $5.00
+      - Steamed Vegetables - $4.50
+      - Rice Pilaf - $3.50
+      - Quinoa Salad - $5.50
+[End Rule]
+
+[Begin Rule] Side Types
+    Side Categories (Rule: Select up to 2)
+      - Potato Sides - $0.00
+      - Vegetable Sides - $1.00
+      - Grain Sides - $1.50
+      - Salad Sides - $2.00
+[End Rule]
+
+[Begin Rule] Side Portions
+    Portion Size (Rule: Select 1)
+      - Small Side - $0.00
+      - Regular Side - $1.00
+      - Large Side - $2.50
+[End Rule]
+
+[Begin Rule] Side Seasonings
+    Seasoning Options (Rule: Select up to 2)
+      - Salt and Pepper - $0.00
+      - Garlic Seasoning - $0.50
+      - Cajun Spice - $0.75
+      - Herb Seasoning - $0.50
+[End Rule]
+
+[Begin Rule] Extra Sides
+    Additional Sides (Rule: Select up to 2)
+      - Extra Fries - $3.50
+      - Side of Bacon - $3.00
+      - Side of Cheese - $2.00
+      - Extra Vegetables - $2.50
+[End Rule]
+
+[Begin Rule] Soup Types
+    Soup Selection (Rule: Select 1)
+      - Chicken Noodle - $0.00
+      - Tomato Soup - $0.00
+      - Vegetable Soup - $0.50
+      - Clam Chowder - $2.00
+      - French Onion - $1.50
+[End Rule]
+
+[Begin Rule] Soup Size
+    Size Options (Rule: Select 1)
+      - Cup - $0.00
+      - Bowl - $2.00
+      - Large Bowl - $4.00
+[End Rule]
+
+[Begin Rule] Bread Options
+    Bread Selection (Rule: Select 1)
+      - Dinner Roll - $0.00
+      - Garlic Bread - $1.50
+      - Crusty Bread - $1.00
+      - Crackers - $0.50
+[End Rule]
+
+[Begin Rule] Soup Toppings
+    Topping Selection (Rule: Select up to 3)
+      - Shredded Cheese - $1.00
+      - Croutons - $0.75
+      - Sour Cream - $0.75
+      - Chives - $0.50
+      - Bacon Bits - $1.25
+[End Rule]
+
+[Begin Rule] Bakery Items
+    Baked Goods (Rule: Select 1)
+      - Chocolate Chip Cookie - $0.00
+      - Blueberry Muffin - $0.50
+      - Croissant - $1.00
+      - Danish - $1.50
+      - Scone - $1.25
+[End Rule]
+
+[Begin Rule] Dessert Size
+    Size Selection (Rule: Select 1)
+      - Individual - $0.00
+      - Large - $2.00
+      - Family Size - $5.00
+[End Rule]
+
+[Begin Rule] Dessert Toppings
+    Topping Selection (Rule: Select up to 3)
+      - Whipped Cream - $1.00
+      - Chocolate Sauce - $1.00
+      - Caramel Sauce - $1.00
+      - Fresh Berries - $2.50
+      - Nuts - $1.50
+[End Rule]
+
+[Begin Rule] Packaging Options
+    Packaging Selection (Rule: Select 1)
+      - Standard Bag - $0.00
+      - Gift Box - $2.00
+      - Individual Wrapping - $1.00
+[End Rule]
+
+[Begin Rule] Ice Cream Flavors
+    Flavor Selection (Rule: Select up to 3)
+      - Vanilla - $0.00
+      - Chocolate - $0.00
+      - Strawberry - $0.50
+      - Mint Chip - $1.00
+      - Rocky Road - $1.50
+      - Cookies and Cream - $1.25
+[End Rule]
+
+[Begin Rule] Ice Cream Toppings
+    Topping Selection (Rule: Select up to 4)
+      - Hot Fudge - $1.50
+      - Caramel Sauce - $1.25
+      - Sprinkles - $0.75
+      - Nuts - $1.25
+      - Whipped Cream - $1.00
+      - Maraschino Cherry - $0.50
+[End Rule]
+
+[Begin Rule] Cone Options
+    Cone Selection (Rule: Select 1)
+      - Regular Cone - $0.00
+      - Waffle Cone - $1.50
+      - Sugar Cone - $1.00
+      - Chocolate Dipped Cone - $2.00
+[End Rule]
+
+[Begin Rule] Dessert Types
+    Dessert Selection (Rule: Select 1)
+      - Cheesecake - $0.00
+      - Chocolate Cake - $1.00
+      - Apple Pie - $1.50
+      - Tiramisu - $3.00
+      - Brownie - $0.50
+[End Rule]
+
+[Begin Rule] Dessert Portions
+    Portion Size (Rule: Select 1)
+      - Small Slice - $0.00
+      - Regular Slice - $1.50
+      - Large Slice - $3.00
+[End Rule]
+
+[Begin Rule] Sweet Sauces
+    Sauce Selection (Rule: Select up to 2)
+      - Chocolate Sauce - $1.00
+      - Raspberry Sauce - $1.25
+      - Caramel Sauce - $1.00
+      - Vanilla Sauce - $1.00
+[End Rule]
+
+[Begin Rule] Dessert Presentation
+    Presentation Options (Rule: Select 1)
+      - Standard Plating - $0.00
+      - Elegant Presentation - $3.00
+      - To-Go Container - $0.50
 [End Rule]
 
 [Begin Rule] Dressing Selection
@@ -157,50 +981,5 @@
       - Light Dressing - $0.00
       - Regular Amount - $0.00
       - Extra Dressing - $0.50
-[End Rule]
-
-[Begin Rule] Coffee Size
-    Size Options (Rule: Select 1)
-      - Small (12 oz) - $0.00
-      - Medium (16 oz) - $0.50
-      - Large (20 oz) - $1.00
-      - Extra Large (24 oz) - $1.50
-    Coffee Type (Rule: Select 1)
-      - Regular Coffee - $0.00
-      - Decaf Coffee - $0.00
-      - Dark Roast - $0.25
-      - French Roast - $0.25
-[End Rule]
-
-[Begin Rule] Coffee Add-ins
-    Dairy Options (Rule: Select up to 2)
-      - Milk - $0.00
-      - Half and Half - $0.25
-      - Heavy Cream - $0.50
-      - Almond Milk - $0.75
-      - Soy Milk - $0.75
-      - Oat Milk - $0.75
-    Flavor Additions (Rule: Select up to 3)
-      - Vanilla Syrup - $0.50
-      - Caramel Syrup - $0.50
-      - Hazelnut Syrup - $0.50
-      - Cinnamon - $0.25
-      - Whipped Cream - $1.00
-[End Rule]
-
-[Begin Rule] Side Orders
-    Potato Sides (Rule: Select up to 2)
-      - French Fries - $3.50
-      - Sweet Potato Fries - $4.50
-      - Onion Rings - $4.00
-      - Home Fries - $3.50
-      - Hash Browns - $3.50
-      - Mashed Potatoes - $3.00
-    Healthy Sides (Rule: Select up to 3)
-      - Fresh Fruit Cup - $4.00
-      - Garden Salad - $5.00
-      - Steamed Vegetables - $4.50
-      - Rice Pilaf - $3.50
-      - Quinoa Salad - $5.50
 [End Rule]
 

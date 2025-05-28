@@ -67,3 +67,522 @@
       - Special Dietary Needs - $100.00
       - Photo/Video Coordination - $175.00
 [End Rule]
+
+[Begin Rule] Day of Services
+    Coordination Level (Rule: Select 1)
+      - Basic Day-of Coordination - $0.00
+      - Enhanced Day-of Management - $200.00
+      - Full Day-of Production - $500.00
+      - White Glove Service - $800.00
+    Day-of Team (Rule: Select 1)
+      - Single Coordinator - $0.00
+      - Coordinator + Assistant - $150.00
+      - Full Coordination Team - $400.00
+[End Rule]
+
+[Begin Rule] Timeline Coordination
+    Schedule Management (Rule: Select 1)
+      - Basic Timeline - $0.00
+      - Detailed Timeline - $100.00
+      - Minute-by-Minute Timeline - $200.00
+      - Multi-Day Timeline - $400.00
+    Timeline Distribution (Rule: Select up to 3)
+      - Vendor Timeline - $50.00
+      - Wedding Party Timeline - $50.00
+      - Family Timeline - $50.00
+      - Guest Timeline - $25.00
+[End Rule]
+
+[Begin Rule] Destination Options
+    Location Type (Rule: Select 1)
+      - Domestic Destination - $0.00
+      - International Destination - $1000.00
+      - Beach/Resort Location - $500.00
+      - Mountain/Scenic Location - $600.00
+      - Urban Destination - $400.00
+    Guest Accommodation (Rule: Select 1)
+      - No Group Accommodations - $0.00
+      - Group Hotel Block - $300.00
+      - Resort Package - $800.00
+      - Multiple Venue Options - $600.00
+[End Rule]
+
+[Begin Rule] Travel Coordination
+    Travel Services (Rule: Select up to 4)
+      - Group Flight Coordination - $500.00
+      - Transportation Logistics - $300.00
+      - Accommodation Booking - $400.00
+      - Itinerary Planning - $250.00
+      - Local Activity Coordination - $350.00
+    Travel Support (Rule: Select up to 2)
+      - Travel Insurance Coordination - $150.00
+      - Passport/Visa Assistance - $200.00
+      - Cultural Guidance - $175.00
+[End Rule]
+
+[Begin Rule] Intimate Options
+    Intimate Setting (Rule: Select 1)
+      - Micro Wedding (Under 20) - $0.00
+      - Small Intimate (20-30) - $100.00
+      - Family Only - $-200.00
+      - Couple + Witnesses - $-400.00
+    Intimate Features (Rule: Select up to 3)
+      - Personalized Ceremony - $200.00
+      - Custom Decor - $300.00
+      - Chef's Table Dining - $500.00
+      - Private Photography - $400.00
+[End Rule]
+
+[Begin Rule] Simple Coordination
+    Coordination Level (Rule: Select 1)
+      - Minimal Coordination - $0.00
+      - Essential Coordination - $200.00
+      - Standard Coordination - $400.00
+    Service Scope (Rule: Select up to 3)
+      - Venue Liaison - $100.00
+      - Vendor Check-ins - $150.00
+      - Timeline Management - $200.00
+      - Emergency Support - $250.00
+[End Rule]
+
+[Begin Rule] Meeting Options
+    Meeting Format (Rule: Select 1)
+      - Board Meeting - $0.00
+      - Conference/Seminar - $200.00
+      - Training Workshop - $150.00
+      - Strategic Planning Session - $300.00
+    Meeting Features (Rule: Select up to 4)
+      - Presentation Support - $150.00
+      - Recording Services - $200.00
+      - Translation Services - $300.00
+      - Catering Coordination - $175.00
+      - Materials Management - $100.00
+[End Rule]
+
+[Begin Rule] Professional Coordination
+    Professional Services (Rule: Select up to 4)
+      - Executive Liaison - $300.00
+      - Protocol Management - $250.00
+      - VIP Services - $400.00
+      - Media Coordination - $350.00
+    Business Features (Rule: Select up to 3)
+      - Networking Facilitation - $200.00
+      - Lead Generation Support - $300.00
+      - Brand Integration - $250.00
+      - Follow-up Coordination - $175.00
+[End Rule]
+
+[Begin Rule] Party Options
+    Party Style (Rule: Select 1)
+      - Casual Celebration - $0.00
+      - Cocktail Party - $200.00
+      - Formal Dinner Party - $400.00
+      - Theme Party - $300.00
+      - Outdoor Celebration - $250.00
+    Entertainment Level (Rule: Select 1)
+      - Background Music - $0.00
+      - DJ/Dancing - $300.00
+      - Live Entertainment - $600.00
+      - Interactive Entertainment - $800.00
+[End Rule]
+
+[Begin Rule] Entertainment Coordination
+    Entertainment Type (Rule: Select up to 3)
+      - Musical Entertainment - $300.00
+      - Motivational Speakers - $500.00
+      - Team Building Activities - $400.00
+      - Interactive Games - $250.00
+      - Award Presentations - $200.00
+    Entertainment Management (Rule: Select up to 2)
+      - Talent Booking - $200.00
+      - Technical Support - $300.00
+      - Performance Coordination - $250.00
+[End Rule]
+
+[Begin Rule] Launch Options
+    Launch Type (Rule: Select 1)
+      - Soft Launch - $0.00
+      - Media Launch - $500.00
+      - VIP Launch - $800.00
+      - Public Launch - $1000.00
+    Launch Components (Rule: Select up to 4)
+      - Product Demonstrations - $300.00
+      - Media Kit Distribution - $200.00
+      - Influencer Coordination - $400.00
+      - Live Streaming - $350.00
+      - Press Conference - $500.00
+[End Rule]
+
+[Begin Rule] Marketing Coordination
+    Marketing Services (Rule: Select up to 4)
+      - Event Promotion - $300.00
+      - Social Media Management - $400.00
+      - PR Coordination - $500.00
+      - Brand Activation - $600.00
+      - Content Creation - $350.00
+    Marketing Timeline (Rule: Select 1)
+      - Event Week Only - $0.00
+      - 2-Week Campaign - $200.00
+      - Month-Long Campaign - $500.00
+      - Extended Campaign - $800.00
+[End Rule]
+
+[Begin Rule] Ceremony Options
+    Ceremony Format (Rule: Select 1)
+      - Traditional Ceremony - $0.00
+      - Modern Ceremony - $200.00
+      - Cultural Ceremony - $300.00
+      - Custom Ceremony - $500.00
+    Ceremony Features (Rule: Select up to 3)
+      - Professional MC - $200.00
+      - Award Presentations - $150.00
+      - Recognition Program - $250.00
+      - Special Honors - $300.00
+[End Rule]
+
+[Begin Rule] Program Coordination
+    Program Management (Rule: Select 1)
+      - Basic Program - $0.00
+      - Detailed Program - $200.00
+      - Multi-Session Program - $400.00
+      - Complex Program - $600.00
+    Program Elements (Rule: Select up to 4)
+      - Speaker Coordination - $250.00
+      - Timing Management - $150.00
+      - Transition Coordination - $200.00
+      - Audience Engagement - $300.00
+[End Rule]
+
+[Begin Rule] Age Appropriate Planning
+    Age Category (Rule: Select 1)
+      - Toddler (1-3 years) - $0.00
+      - Child (4-8 years) - $50.00
+      - Tween (9-12 years) - $100.00
+      - Teen (13-17 years) - $150.00
+      - Adult (18+ years) - $200.00
+    Age-Specific Features (Rule: Select up to 3)
+      - Safety Considerations - $100.00
+      - Age-Appropriate Activities - $150.00
+      - Dietary Accommodations - $75.00
+      - Entertainment Selection - $200.00
+[End Rule]
+
+[Begin Rule] Anniversary Options
+    Anniversary Type (Rule: Select 1)
+      - First Anniversary - $0.00
+      - Milestone Anniversary (5, 10, 25) - $200.00
+      - Golden Anniversary (50+) - $400.00
+      - Diamond Anniversary (60+) - $600.00
+    Anniversary Features (Rule: Select up to 3)
+      - Memory Display - $200.00
+      - Video Tribute - $300.00
+      - Guest Memory Book - $150.00
+      - Renewal Ceremony - $500.00
+[End Rule]
+
+[Begin Rule] Milestone Planning
+    Milestone Type (Rule: Select 1)
+      - Personal Milestone - $0.00
+      - Professional Achievement - $200.00
+      - Life Transition - $150.00
+      - Anniversary Celebration - $250.00
+    Milestone Recognition (Rule: Select up to 2)
+      - Achievement Display - $200.00
+      - Recognition Ceremony - $300.00
+      - Memorial Elements - $250.00
+[End Rule]
+
+[Begin Rule] Graduation Options
+    Graduation Level (Rule: Select 1)
+      - High School Graduation - $0.00
+      - College Graduation - $150.00
+      - Graduate School - $200.00
+      - Professional Certification - $100.00
+    Graduation Features (Rule: Select up to 3)
+      - Academic Theme Decor - $200.00
+      - School Color Coordination - $150.00
+      - Achievement Recognition - $250.00
+      - Future Planning Display - $175.00
+[End Rule]
+
+[Begin Rule] Achievement Celebration
+    Achievement Type (Rule: Select 1)
+      - Academic Achievement - $0.00
+      - Career Achievement - $150.00
+      - Personal Achievement - $100.00
+      - Team Achievement - $200.00
+    Celebration Elements (Rule: Select up to 3)
+      - Recognition Ceremony - $200.00
+      - Achievement Display - $150.00
+      - Success Story Sharing - $175.00
+      - Future Goal Setting - $125.00
+[End Rule]
+
+[Begin Rule] Holiday Options
+    Holiday Type (Rule: Select 1)
+      - Traditional Holiday - $0.00
+      - Religious Holiday - $100.00
+      - Cultural Holiday - $150.00
+      - Company Holiday Party - $200.00
+    Holiday Features (Rule: Select up to 4)
+      - Seasonal Decorations - $200.00
+      - Traditional Activities - $150.00
+      - Holiday Menu - $250.00
+      - Gift Exchange - $175.00
+      - Cultural Elements - $225.00
+[End Rule]
+
+[Begin Rule] Seasonal Planning
+    Season Theme (Rule: Select 1)
+      - Spring Theme - $0.00
+      - Summer Theme - $100.00
+      - Fall/Autumn Theme - $150.00
+      - Winter Theme - $200.00
+    Seasonal Elements (Rule: Select up to 3)
+      - Seasonal Decor - $200.00
+      - Weather Contingency - $150.00
+      - Seasonal Menu - $250.00
+      - Outdoor/Indoor Options - $300.00
+[End Rule]
+
+[Begin Rule] Specialty Services
+    Specialty Event Type (Rule: Select 1)
+      - Fundraising Event - $0.00
+      - Cultural Celebration - $200.00
+      - Memorial Service - $150.00
+      - Religious Ceremony - $175.00
+    Specialized Support (Rule: Select up to 3)
+      - Cultural Consultation - $250.00
+      - Religious Coordination - $200.00
+      - Sensitivity Training - $175.00
+      - Community Outreach - $300.00
+[End Rule]
+
+[Begin Rule] Fundraising Options
+    Fundraising Type (Rule: Select 1)
+      - Charity Gala - $0.00
+      - Auction Event - $300.00
+      - Benefit Concert - $400.00
+      - Golf Tournament - $500.00
+      - Walk/Run Event - $350.00
+    Fundraising Features (Rule: Select up to 4)
+      - Donation Processing - $200.00
+      - Auction Coordination - $300.00
+      - Sponsor Recognition - $250.00
+      - Goal Tracking - $150.00
+      - Tax Documentation - $175.00
+[End Rule]
+
+[Begin Rule] Nonprofit Coordination
+    Nonprofit Services (Rule: Select up to 4)
+      - Board Coordination - $200.00
+      - Volunteer Management - $250.00
+      - Donor Relations - $300.00
+      - Grant Compliance - $350.00
+      - Impact Documentation - $200.00
+    Community Engagement (Rule: Select up to 2)
+      - Community Outreach - $250.00
+      - Media Relations - $300.00
+      - Stakeholder Communication - $275.00
+[End Rule]
+
+[Begin Rule] Cultural Options
+    Cultural Type (Rule: Select 1)
+      - Ethnic Celebration - $0.00
+      - Religious Festival - $200.00
+      - Traditional Ceremony - $250.00
+      - Heritage Event - $175.00
+    Cultural Elements (Rule: Select up to 4)
+      - Traditional Decor - $250.00
+      - Cultural Entertainment - $300.00
+      - Authentic Cuisine - $350.00
+      - Ceremonial Elements - $400.00
+      - Cultural Education - $200.00
+[End Rule]
+
+[Begin Rule] Traditional Planning
+    Tradition Type (Rule: Select 1)
+      - Family Traditions - $0.00
+      - Cultural Traditions - $150.00
+      - Religious Traditions - $200.00
+      - Regional Traditions - $175.00
+    Traditional Elements (Rule: Select up to 3)
+      - Ceremonial Rituals - $300.00
+      - Traditional Music - $250.00
+      - Heritage Foods - $275.00
+      - Cultural Dress Code - $200.00
+[End Rule]
+
+[Begin Rule] Memorial Options
+    Memorial Type (Rule: Select 1)
+      - Celebration of Life - $0.00
+      - Memorial Service - $100.00
+      - Wake/Viewing - $150.00
+      - Tribute Event - $200.00
+    Memorial Features (Rule: Select up to 3)
+      - Memory Display - $200.00
+      - Video Tribute - $250.00
+      - Guest Book/Cards - $100.00
+      - Memorial Donations - $150.00
+[End Rule]
+
+[Begin Rule] Respectful Coordination
+    Coordination Approach (Rule: Select 1)
+      - Family-Centered - $0.00
+      - Religious-Focused - $100.00
+      - Cultural-Sensitive - $150.00
+      - Custom Approach - $200.00
+    Respectful Services (Rule: Select up to 3)
+      - Grief Support - $200.00
+      - Family Liaison - $250.00
+      - Ceremonial Guidance - $175.00
+      - Cultural Consultation - $225.00
+[End Rule]
+
+[Begin Rule] Religious Options
+    Religious Type (Rule: Select 1)
+      - Christian Ceremony - $0.00
+      - Jewish Ceremony - $150.00
+      - Islamic Ceremony - $150.00
+      - Hindu Ceremony - $175.00
+      - Buddhist Ceremony - $150.00
+      - Multi-Faith Ceremony - $250.00
+    Religious Elements (Rule: Select up to 3)
+      - Religious Officiant - $200.00
+      - Sacred Music - $175.00
+      - Religious Decor - $200.00
+      - Ceremonial Items - $150.00
+[End Rule]
+
+[Begin Rule] Sacred Coordination
+    Sacred Service Level (Rule: Select 1)
+      - Basic Sacred Support - $0.00
+      - Enhanced Sacred Coordination - $200.00
+      - Full Sacred Ceremony - $400.00
+    Sacred Elements (Rule: Select up to 3)
+      - Sacred Space Setup - $250.00
+      - Ritual Coordination - $200.00
+      - Sacred Object Management - $175.00
+      - Spiritual Guidance - $300.00
+[End Rule]
+
+[Begin Rule] Vendor Services
+    Vendor Category (Rule: Select 1)
+      - Catering Vendors - $0.00
+      - Entertainment Vendors - $50.00
+      - Decor Vendors - $75.00
+      - Photography Vendors - $100.00
+      - Specialty Vendors - $125.00
+    Vendor Management Level (Rule: Select 1)
+      - Basic Coordination - $0.00
+      - Enhanced Management - $150.00
+      - Full Vendor Support - $300.00
+[End Rule]
+
+[Begin Rule] Catering Options
+    Catering Style (Rule: Select 1)
+      - Buffet Service - $0.00
+      - Plated Service - $200.00
+      - Family Style - $150.00
+      - Cocktail Reception - $175.00
+      - Food Stations - $225.00
+    Service Level (Rule: Select 1)
+      - Basic Service - $0.00
+      - Enhanced Service - $150.00
+      - Premium Service - $300.00
+      - White Glove Service - $500.00
+[End Rule]
+
+[Begin Rule] Menu Planning
+    Menu Type (Rule: Select 1)
+      - Standard Menu - $0.00
+      - Custom Menu - $200.00
+      - Chef's Selection - $300.00
+      - Tasting Menu - $400.00
+    Dietary Accommodations (Rule: Select up to 4)
+      - Vegetarian Options - $75.00
+      - Vegan Options - $100.00
+      - Gluten-Free Options - $125.00
+      - Allergy Accommodations - $150.00
+      - Religious Dietary Laws - $175.00
+[End Rule]
+
+[Begin Rule] Entertainment Options
+    Entertainment Category (Rule: Select 1)
+      - DJ/Music - $0.00
+      - Live Band - $300.00
+      - Solo Performer - $150.00
+      - Speaker/Presenter - $200.00
+      - Interactive Entertainment - $400.00
+    Entertainment Duration (Rule: Select 1)
+      - 2 Hours - $0.00
+      - 4 Hours - $150.00
+      - 6 Hours - $300.00
+      - All Day - $600.00
+[End Rule]
+
+[Begin Rule] Performance Coordination
+    Performance Management (Rule: Select up to 3)
+      - Technical Setup - $200.00
+      - Sound Management - $250.00
+      - Lighting Coordination - $300.00
+      - Stage Management - $350.00
+    Performance Support (Rule: Select up to 2)
+      - Rehearsal Coordination - $150.00
+      - Backup Planning - $200.00
+      - Equipment Management - $175.00
+[End Rule]
+
+[Begin Rule] Floral Options
+    Floral Package (Rule: Select 1)
+      - Basic Floral - $0.00
+      - Standard Arrangement - $200.00
+      - Premium Floral Design - $500.00
+      - Luxury Floral Package - $1000.00
+    Floral Elements (Rule: Select up to 4)
+      - Centerpieces - $150.00
+      - Ceremony Arrangements - $300.00
+      - Bridal Bouquet - $200.00
+      - Boutonnieres - $100.00
+      - Ceremony Arch - $400.00
+[End Rule]
+
+[Begin Rule] Design Coordination
+    Design Level (Rule: Select 1)
+      - Basic Design - $0.00
+      - Enhanced Design - $300.00
+      - Complete Design Package - $600.00
+      - Custom Design Creation - $1000.00
+    Design Elements (Rule: Select up to 4)
+      - Color Scheme Development - $150.00
+      - Theme Creation - $250.00
+      - Layout Design - $200.00
+      - Decor Installation - $300.00
+[End Rule]
+
+[Begin Rule] Photography Options
+    Photography Package (Rule: Select 1)
+      - Basic Event Photography - $0.00
+      - Standard Photography - $300.00
+      - Premium Photography - $600.00
+      - Luxury Photography Package - $1200.00
+    Photography Services (Rule: Select up to 3)
+      - Engagement Session - $200.00
+      - Second Photographer - $400.00
+      - Photo Booth - $300.00
+      - Same Day Preview - $250.00
+[End Rule]
+
+[Begin Rule] Documentation Services
+    Documentation Level (Rule: Select 1)
+      - Basic Documentation - $0.00
+      - Enhanced Documentation - $200.00
+      - Complete Documentation - $400.00
+      - Professional Documentation - $600.00
+    Documentation Types (Rule: Select up to 3)
+      - Event Timeline Documentation - $100.00
+      - Vendor Information Packets - $150.00
+      - Guest Information - $125.00
+      - Post-Event Reporting - $200.00
+[End Rule]
+

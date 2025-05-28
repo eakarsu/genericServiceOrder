@@ -66,3 +66,510 @@
       - Multiple Treatments - $10.00
 [End Rule]
 
+[Begin Rule] Delicate Options
+    Fabric Care Level (Rule: Select 1)
+      - Standard Delicate Care - $0.00
+      - Extra Gentle Handling - $5.00
+      - Hand Wash Only - $8.00
+      - Museum Quality Care - $15.00
+    Delicate Handling (Rule: Select up to 3)
+      - Mesh Bag Protection - $3.00
+      - No-Spin Drying - $4.00
+      - Air Dry Only - $6.00
+      - Flat Drying - $5.00
+[End Rule]
+
+[Begin Rule] Special Care
+    Care Requirements (Rule: Select up to 3)
+      - Temperature Controlled - $5.00
+      - pH Balanced Solutions - $6.00
+      - Hand Washing - $10.00
+      - Specialized Equipment - $8.00
+    Special Attention (Rule: Select up to 2)
+      - Individual Item Care - $12.00
+      - Quality Inspection - $5.00
+      - Damage Prevention - $8.00
+[End Rule]
+
+[Begin Rule] Heavy Duty Options
+    Heavy Duty Features (Rule: Select up to 3)
+      - Extended Wash Cycle - $5.00
+      - High-Power Detergent - $6.00
+      - Pre-Treatment Soak - $8.00
+      - Hot Water Wash - $4.00
+      - Extra Rinse Cycle - $3.00
+    Industrial Strength (Rule: Select up to 2)
+      - Commercial Grade Detergent - $8.00
+      - Degreasing Treatment - $10.00
+      - Sanitizing Wash - $12.00
+[End Rule]
+
+[Begin Rule] Soil Level
+    Dirt Assessment (Rule: Select 1)
+      - Light Soil - $0.00
+      - Moderate Soil - $4.00
+      - Heavy Soil - $8.00
+      - Extreme Soil - $15.00
+    Pre-Treatment (Rule: Select up to 2)
+      - Spot Treatment - $5.00
+      - Enzyme Pre-Treatment - $8.00
+      - Soaking Service - $10.00
+[End Rule]
+
+[Begin Rule] Eco Options
+    Environmental Features (Rule: Select up to 3)
+      - Biodegradable Detergents - $4.00
+      - Cold Water Washing - $2.00
+      - Energy Efficient Drying - $3.00
+      - Organic Fabric Softeners - $5.00
+    Eco Certifications (Rule: Select up to 2)
+      - EPA Certified Products - $6.00
+      - Green Seal Approved - $5.00
+      - USDA Organic - $8.00
+[End Rule]
+
+[Begin Rule] Green Products
+    Product Categories (Rule: Select up to 4)
+      - Plant-Based Detergents - $5.00
+      - Non-Toxic Cleaners - $6.00
+      - Phosphate-Free Products - $4.00
+      - Recyclable Packaging - $3.00
+      - Cruelty-Free Products - $4.00
+    Green Certifications (Rule: Select up to 2)
+      - Certified Organic - $8.00
+      - EcoLogo Certified - $6.00
+      - Green Seal Standard - $7.00
+[End Rule]
+
+[Begin Rule] Dry Clean Options
+    Cleaning Solvents (Rule: Select 1)
+      - Traditional Perc - $0.00
+      - Eco-Friendly Solvent - $5.00
+      - Green Earth Technology - $8.00
+      - Wet Cleaning Process - $6.00
+    Finishing Options (Rule: Select up to 2)
+      - Standard Pressing - $0.00
+      - Hand Pressing - $8.00
+      - Steam Finishing - $5.00
+      - Professional Blocking - $10.00
+[End Rule]
+
+[Begin Rule] Premium Options
+    Premium Services (Rule: Select up to 3)
+      - White Glove Service - $15.00
+      - Individual Attention - $12.00
+      - Quality Guarantee - $8.00
+      - Rush Processing - $20.00
+    Premium Features (Rule: Select up to 2)
+      - Hand Finished Details - $10.00
+      - Specialty Packaging - $6.00
+      - Personal Consultation - $15.00
+[End Rule]
+
+[Begin Rule] Luxury Care
+    Luxury Treatment (Rule: Select up to 3)
+      - Designer Garment Care - $20.00
+      - Couture Handling - $30.00
+      - Museum Quality Service - $40.00
+      - Heirloom Preservation - $35.00
+    Luxury Features (Rule: Select up to 2)
+      - Personal Service Manager - $25.00
+      - Climate Controlled Storage - $15.00
+      - Insurance Coverage - $20.00
+[End Rule]
+
+[Begin Rule] Dress Type
+    Wedding Dress Category (Rule: Select 1)
+      - Traditional Gown - $0.00
+      - Vintage Dress - $25.00
+      - Designer Gown - $40.00
+      - Heirloom Dress - $50.00
+    Dress Features (Rule: Select up to 3)
+      - Beading/Sequins - $20.00
+      - Long Train - $15.00
+      - Delicate Fabric - $18.00
+      - Multiple Layers - $22.00
+[End Rule]
+
+[Begin Rule] Wedding Options
+    Wedding Services (Rule: Select up to 3)
+      - Pre-Wedding Cleaning - $25.00
+      - Post-Wedding Cleaning - $35.00
+      - Emergency Spot Treatment - $15.00
+      - Bustling Service - $20.00
+    Wedding Timeline (Rule: Select 1)
+      - Standard Service - $0.00
+      - Rush Wedding Service - $50.00
+      - Same Week Service - $75.00
+[End Rule]
+
+[Begin Rule] Preservation Services
+    Preservation Type (Rule: Select 1)
+      - Basic Preservation - $0.00
+      - Archival Preservation - $50.00
+      - Museum Quality Preservation - $100.00
+    Preservation Features (Rule: Select up to 2)
+      - Acid-Free Storage - $30.00
+      - Climate Controlled - $40.00
+      - UV Protection - $25.00
+[End Rule]
+
+[Begin Rule] Leather Type
+    Leather Category (Rule: Select 1)
+      - Standard Leather - $0.00
+      - Exotic Leather - $25.00
+      - Patent Leather - $15.00
+      - Suede - $18.00
+      - Nubuck - $20.00
+    Leather Condition (Rule: Select 1)
+      - Good Condition - $0.00
+      - Minor Wear - $10.00
+      - Significant Wear - $25.00
+      - Restoration Needed - $50.00
+[End Rule]
+
+[Begin Rule] Specialty Options
+    Specialty Services (Rule: Select up to 3)
+      - Color Restoration - $30.00
+      - Texture Recovery - $25.00
+      - Scratch Repair - $35.00
+      - Waterproofing - $20.00
+    Advanced Treatment (Rule: Select up to 2)
+      - Professional Dyeing - $50.00
+      - Structural Repair - $75.00
+      - Zipper Replacement - $40.00
+[End Rule]
+
+[Begin Rule] Conditioning Services
+    Conditioning Level (Rule: Select 1)
+      - Basic Conditioning - $0.00
+      - Deep Conditioning - $15.00
+      - Restoration Conditioning - $30.00
+    Conditioning Products (Rule: Select up to 2)
+      - Premium Conditioners - $12.00
+      - Protective Treatments - $18.00
+      - Anti-Aging Formulas - $25.00
+[End Rule]
+
+[Begin Rule] Treatment Options
+    Treatment Methods (Rule: Select up to 3)
+      - Chemical Treatment - $8.00
+      - Enzyme Treatment - $10.00
+      - Steam Treatment - $6.00
+      - Ultrasonic Treatment - $15.00
+    Treatment Intensity (Rule: Select 1)
+      - Mild Treatment - $0.00
+      - Standard Treatment - $5.00
+      - Aggressive Treatment - $12.00
+[End Rule]
+
+[Begin Rule] Fabric Considerations
+    Fabric Sensitivity (Rule: Select up to 3)
+      - Color-Safe Treatment - $5.00
+      - Fiber Protection - $8.00
+      - Shrinkage Prevention - $10.00
+      - Texture Preservation - $12.00
+    Fabric Testing (Rule: Select up to 2)
+      - Colorfastness Test - $8.00
+      - Compatibility Test - $10.00
+      - Damage Assessment - $12.00
+[End Rule]
+
+[Begin Rule] Alteration Type
+    Alteration Category (Rule: Select 1 to 3)
+      - Hemming Services - $15.00
+      - Taking In/Letting Out - $25.00
+      - Sleeve Adjustments - $20.00
+      - Zipper Replacement - $30.00
+      - Button Replacement - $10.00
+    Alteration Scope (Rule: Select 1)
+      - Minor Alterations - $0.00
+      - Major Alterations - $50.00
+      - Complete Reconstruction - $150.00
+[End Rule]
+
+[Begin Rule] Garment Category
+    Clothing Type (Rule: Select 1)
+      - Casual Wear - $0.00
+      - Business Attire - $15.00
+      - Formal Wear - $30.00
+      - Wedding Attire - $50.00
+      - Vintage Clothing - $40.00
+[End Rule]
+
+[Begin Rule] Complexity Level
+    Alteration Difficulty (Rule: Select 1)
+      - Simple Alterations - $0.00
+      - Moderate Complexity - $25.00
+      - High Complexity - $60.00
+      - Expert Level Required - $120.00
+[End Rule]
+
+[Begin Rule] Bedding Size
+    Size Category (Rule: Select 1)
+      - Twin/Single - $0.00
+      - Full/Queen - $8.00
+      - King/California King - $15.00
+      - Oversized/Custom - $25.00
+    Item Type (Rule: Select up to 2)
+      - Comforters - $0.00
+      - Quilts - $5.00
+      - Duvets - $8.00
+      - Sleeping Bags - $12.00
+[End Rule]
+
+[Begin Rule] Cleaning Options
+    Cleaning Method (Rule: Select 1)
+      - Machine Wash - $0.00
+      - Professional Cleaning - $15.00
+      - Dry Cleaning - $25.00
+      - Hand Cleaning - $35.00
+    Special Processing (Rule: Select up to 2)
+      - Sanitizing Treatment - $10.00
+      - Allergen Removal - $15.00
+      - Odor Elimination - $12.00
+[End Rule]
+
+[Begin Rule] Fabric Type
+    Material Category (Rule: Select 1)
+      - Cotton/Natural Fibers - $0.00
+      - Synthetic Materials - $5.00
+      - Down/Feather Fill - $15.00
+      - Memory Foam - $20.00
+      - Delicate Fabrics - $25.00
+[End Rule]
+
+[Begin Rule] Shoe Type
+    Footwear Category (Rule: Select 1)
+      - Casual Shoes - $0.00
+      - Dress Shoes - $8.00
+      - Athletic Shoes - $5.00
+      - Boots - $12.00
+      - Designer/Luxury Shoes - $25.00
+    Material Type (Rule: Select 1)
+      - Leather - $0.00
+      - Suede - $10.00
+      - Canvas - $-3.00
+      - Synthetic - $-2.00
+[End Rule]
+
+[Begin Rule] Cleaning Method
+    Cleaning Approach (Rule: Select 1)
+      - Standard Cleaning - $0.00
+      - Deep Cleaning - $8.00
+      - Restoration Cleaning - $20.00
+      - Sanitizing Clean - $12.00
+    Cleaning Techniques (Rule: Select up to 2)
+      - Hand Cleaning - $10.00
+      - Machine Cleaning - $5.00
+      - Steam Cleaning - $8.00
+[End Rule]
+
+[Begin Rule] Conditioning Options
+    Conditioning Type (Rule: Select 1)
+      - Basic Conditioning - $0.00
+      - Premium Conditioning - $10.00
+      - Restoration Conditioning - $20.00
+    Conditioning Services (Rule: Select up to 2)
+      - Waterproofing - $8.00
+      - Color Enhancement - $12.00
+      - Protective Coating - $15.00
+[End Rule]
+
+[Begin Rule] Pickup Options
+    Pickup Service (Rule: Select 1)
+      - Customer Drop-off - $0.00
+      - Scheduled Pickup - $5.00
+      - Same Day Pickup - $10.00
+      - Emergency Pickup - $20.00
+    Pickup Features (Rule: Select up to 2)
+      - Contactless Pickup - $3.00
+      - Flexible Timing - $5.00
+      - Weekend Pickup - $8.00
+[End Rule]
+
+[Begin Rule] Service Area
+    Delivery Zone (Rule: Select 1)
+      - Local Area (5 miles) - $0.00
+      - Extended Area (10 miles) - $5.00
+      - Greater Metro (20 miles) - $12.00
+      - Regional Service (30+ miles) - $25.00
+    Area Features (Rule: Select up to 2)
+      - Urban Delivery - $3.00
+      - Suburban Service - $0.00
+      - Rural Delivery - $10.00
+[End Rule]
+
+[Begin Rule] Schedule Frequency
+    Service Schedule (Rule: Select 1)
+      - One-Time Service - $0.00
+      - Weekly Service - $-5.00
+      - Bi-Weekly Service - $-3.00
+      - Monthly Service - $0.00
+    Schedule Benefits (Rule: Select up to 2)
+      - Priority Scheduling - $8.00
+      - Flexible Rescheduling - $5.00
+      - Holiday Service - $15.00
+[End Rule]
+
+[Begin Rule] Rush Options
+    Rush Service Level (Rule: Select 1)
+      - Standard Rush - $0.00
+      - Express Rush - $15.00
+      - Emergency Rush - $35.00
+    Rush Features (Rule: Select up to 2)
+      - Priority Processing - $10.00
+      - Dedicated Staff - $20.00
+      - Quality Guarantee - $8.00
+[End Rule]
+
+[Begin Rule] Subscription Services
+    Subscription Type (Rule: Select 1)
+      - Basic Subscription - $0.00
+      - Premium Subscription - $25.00
+      - VIP Subscription - $50.00
+    Subscription Benefits (Rule: Select up to 3)
+      - Priority Service - $15.00
+      - Discounted Rates - $-10.00
+      - Free Pickup/Delivery - $12.00
+      - Quality Guarantee - $8.00
+[End Rule]
+
+[Begin Rule] Volume Discounts
+    Discount Tiers (Rule: Select 1)
+      - 10-20 lbs - $-2.00
+      - 20-30 lbs - $-5.00
+      - 30-50 lbs - $-10.00
+      - 50+ lbs - $-20.00
+    Volume Benefits (Rule: Select up to 2)
+      - Bulk Pricing - $-8.00
+      - Preferred Customer Status - $5.00
+      - Free Services - $12.00
+[End Rule]
+
+[Begin Rule] Commercial Options
+    Business Type (Rule: Select 1)
+      - Small Business - $0.00
+      - Restaurant/Food Service - $15.00
+      - Healthcare Facility - $25.00
+      - Hotel/Hospitality - $20.00
+      - Large Corporation - $30.00
+[End Rule]
+
+[Begin Rule] Business Services
+    Commercial Features (Rule: Select up to 3)
+      - Account Management - $20.00
+      - Invoice Billing - $15.00
+      - Scheduled Service - $10.00
+      - Quality Reports - $12.00
+    Business Benefits (Rule: Select up to 2)
+      - Volume Discounts - $-15.00
+      - Priority Service - $25.00
+      - Dedicated Representative - $30.00
+[End Rule]
+
+[Begin Rule] Volume Requirements
+    Minimum Volume (Rule: Select 1)
+      - 50+ lbs/week - $0.00
+      - 100+ lbs/week - $-10.00
+      - 200+ lbs/week - $-25.00
+      - 500+ lbs/week - $-60.00
+[End Rule]
+
+[Begin Rule] Subscription Options
+    Plan Features (Rule: Select up to 3)
+      - Unlimited Service - $40.00
+      - Priority Processing - $20.00
+      - Free Delivery - $15.00
+      - Quality Guarantee - $10.00
+    Plan Flexibility (Rule: Select up to 2)
+      - Pause Service - $5.00
+      - Change Frequency - $8.00
+      - Cancel Anytime - $0.00
+[End Rule]
+
+[Begin Rule] Volume Limits
+    Service Limits (Rule: Select 1)
+      - 50 lbs/month - $0.00
+      - 100 lbs/month - $20.00
+      - 200 lbs/month - $50.00
+      - Unlimited Volume - $100.00
+[End Rule]
+
+[Begin Rule] Service Frequency
+    Frequency Options (Rule: Select 1)
+      - Weekly Service - $0.00
+      - Bi-Weekly Service - $-5.00
+      - Monthly Service - $-10.00
+      - As-Needed Service - $10.00
+[End Rule]
+
+[Begin Rule] Family Options
+    Family Size (Rule: Select 1)
+      - 2-3 People - $0.00
+      - 4-5 People - $15.00
+      - 6+ People - $35.00
+    Family Features (Rule: Select up to 2)
+      - Individual Preferences - $20.00
+      - Child-Safe Products - $10.00
+      - Allergy Considerations - $15.00
+[End Rule]
+
+[Begin Rule] Household Size
+    Household Category (Rule: Select 1)
+      - Single Person - $0.00
+      - Couple - $10.00
+      - Small Family (3-4) - $25.00
+      - Large Family (5+) - $50.00
+[End Rule]
+
+[Begin Rule] Service Customization
+    Customization Level (Rule: Select 1)
+      - Standard Service - $0.00
+      - Custom Preferences - $15.00
+      - Specialized Care - $30.00
+      - Personalized Service - $50.00
+    Custom Features (Rule: Select up to 3)
+      - Detergent Preferences - $8.00
+      - Folding Preferences - $5.00
+      - Delivery Preferences - $10.00
+      - Special Instructions - $12.00
+[End Rule]
+
+[Begin Rule] Executive Options
+    Executive Services (Rule: Select up to 3)
+      - Personal Shopper Service - $50.00
+      - Wardrobe Management - $75.00
+      - Same Day Service - $40.00
+      - White Glove Treatment - $60.00
+    Executive Features (Rule: Select up to 2)
+      - Personal Account Manager - $35.00
+      - 24/7 Service - $80.00
+      - Concierge Support - $45.00
+[End Rule]
+
+[Begin Rule] Premium Care
+    Premium Features (Rule: Select up to 3)
+      - Hand Washing - $25.00
+      - Individual Item Care - $30.00
+      - Quality Inspection - $15.00
+      - Satisfaction Guarantee - $20.00
+    Luxury Services (Rule: Select up to 2)
+      - Designer Garment Care - $40.00
+      - Heirloom Preservation - $60.00
+      - Museum Quality Service - $80.00
+[End Rule]
+
+[Begin Rule] Concierge Services
+    Concierge Features (Rule: Select up to 4)
+      - Personal Shopping - $40.00
+      - Wardrobe Consultation - $60.00
+      - Closet Organization - $80.00
+      - Style Advisory - $50.00
+      - Emergency Services - $75.00
+    VIP Services (Rule: Select up to 2)
+      - 24/7 Availability - $100.00
+      - Dedicated Specialist - $75.00
+      - Private Service - $125.00
+[End Rule]
+

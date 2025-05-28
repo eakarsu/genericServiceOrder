@@ -68,3 +68,422 @@
       - Easy Access - $30.00
 [End Rule]
 
+[Begin Rule] Labor Services
+    Labor Type (Rule: Select 1)
+      - Loading Only - $0.00
+      - Unloading Only - $0.00
+      - Loading and Unloading - $50.00
+      - Packing Labor - $75.00
+    Labor Duration (Rule: Select 1)
+      - 2 Hours Minimum - $0.00
+      - 4 Hours - $100.00
+      - 6 Hours - $200.00
+      - 8+ Hours - $350.00
+    Additional Labor (Rule: Select up to 2)
+      - Furniture Assembly/Disassembly - $75.00
+      - Appliance Disconnection/Connection - $100.00
+      - Heavy Item Specialists - $125.00
+[End Rule]
+
+[Begin Rule] Room Count
+    Number of Rooms (Rule: Select 1)
+      - 1-2 Rooms - $0.00
+      - 3-4 Rooms - $50.00
+      - 5-6 Rooms - $100.00
+      - 7-8 Rooms - $175.00
+      - 9+ Rooms - $250.00
+    Room Types (Rule: Select up to 3)
+      - Kitchen - $75.00
+      - Master Bedroom - $50.00
+      - Living Areas - $40.00
+      - Basement/Attic - $100.00
+      - Garage - $60.00
+[End Rule]
+
+[Begin Rule] Packing Materials
+    Material Quality (Rule: Select 1)
+      - Standard Materials - $0.00
+      - Premium Materials - $50.00
+      - Eco-Friendly Materials - $75.00
+      - Heavy-Duty Materials - $100.00
+    Material Types (Rule: Select up to 4)
+      - Moving Boxes (various sizes) - $25.00
+      - Bubble Wrap - $20.00
+      - Packing Paper - $15.00
+      - Tape and Labels - $10.00
+      - Furniture Pads - $35.00
+[End Rule]
+
+[Begin Rule] Long Distance Services
+    Service Level (Rule: Select 1)
+      - Basic Long Distance - $0.00
+      - Enhanced Service - $200.00
+      - Full Service Package - $500.00
+      - White Glove Service - $800.00
+    Service Features (Rule: Select up to 3)
+      - Tracking Service - $75.00
+      - Guaranteed Delivery Window - $150.00
+      - Expedited Delivery - $300.00
+      - Storage in Transit - $200.00
+[End Rule]
+
+[Begin Rule] Cross Country Options
+    Cross Country Features (Rule: Select up to 3)
+      - Coast-to-Coast Service - $0.00
+      - Real-Time GPS Tracking - $100.00
+      - Dedicated Truck - $500.00
+      - Express Delivery - $800.00
+    Insurance Level (Rule: Select 1)
+      - Basic Coverage - $0.00
+      - Full Value Protection - $200.00
+      - Premium Insurance - $400.00
+      - Custom Insurance Plan - $600.00
+[End Rule]
+
+[Begin Rule] Interstate Options
+    Interstate Service Type (Rule: Select 1)
+      - Standard Interstate - $0.00
+      - Express Interstate - $300.00
+      - Priority Interstate - $600.00
+    Regulatory Compliance (Rule: Select up to 2)
+      - DOT Licensed Carrier - $0.00
+      - Interstate Commerce Compliance - $50.00
+      - State Registration Requirements - $75.00
+[End Rule]
+
+[Begin Rule] Piano Type
+    Piano Category (Rule: Select 1)
+      - Upright Piano - $0.00
+      - Baby Grand Piano - $200.00
+      - Grand Piano - $400.00
+      - Concert Grand Piano - $800.00
+    Piano Features (Rule: Select up to 2)
+      - Digital/Electric Piano - $-50.00
+      - Antique Piano - $150.00
+      - High-Value Piano - $300.00
+[End Rule]
+
+[Begin Rule] Moving Difficulty
+    Difficulty Level (Rule: Select 1)
+      - Standard Move - $0.00
+      - Moderate Difficulty - $100.00
+      - High Difficulty - $250.00
+      - Extreme Difficulty - $500.00
+    Access Challenges (Rule: Select up to 3)
+      - Multiple Flights of Stairs - $75.00
+      - Narrow Doorways/Hallways - $100.00
+      - Elevator Requirements - $50.00
+      - Crane/Hoist Required - $400.00
+[End Rule]
+
+[Begin Rule] Special Equipment
+    Equipment Type (Rule: Select up to 3)
+      - Piano Dolly - $50.00
+      - Piano Board - $40.00
+      - Lifting Straps - $30.00
+      - Protective Padding - $25.00
+      - Crane Service - $300.00
+    Equipment Features (Rule: Select up to 2)
+      - Climate-Controlled Transport - $150.00
+      - Shock-Absorbing System - $100.00
+      - GPS Tracking - $75.00
+[End Rule]
+
+[Begin Rule] Antique Type
+    Antique Category (Rule: Select 1)
+      - Furniture - $0.00
+      - Artwork - $150.00
+      - Sculptures - $200.00
+      - Musical Instruments - $250.00
+      - Collectibles - $100.00
+    Value Range (Rule: Select 1)
+      - Under $5,000 - $0.00
+      - $5,000-$25,000 - $100.00
+      - $25,000-$100,000 - $300.00
+      - Over $100,000 - $600.00
+[End Rule]
+
+[Begin Rule] Packing Requirements
+    Protection Level (Rule: Select 1)
+      - Standard Packing - $0.00
+      - Enhanced Protection - $100.00
+      - Museum-Quality Packing - $300.00
+      - Custom Crating - $500.00
+    Packing Features (Rule: Select up to 3)
+      - Acid-Free Materials - $75.00
+      - Climate Control - $100.00
+      - Shock Absorption - $50.00
+      - Moisture Protection - $60.00
+[End Rule]
+
+[Begin Rule] Insurance Options
+    Insurance Type (Rule: Select 1)
+      - Basic Coverage (60¢/lb) - $0.00
+      - Declared Value Coverage - $100.00
+      - Full Replacement Value - $200.00
+      - Custom Insurance Plan - $400.00
+    Coverage Features (Rule: Select up to 2)
+      - Zero Deductible - $150.00
+      - Expedited Claims - $75.00
+      - Third-Party Inspection - $100.00
+[End Rule]
+
+[Begin Rule] Office Size
+    Office Space (Rule: Select 1)
+      - Small Office (1-10 employees) - $0.00
+      - Medium Office (11-50 employees) - $300.00
+      - Large Office (51-200 employees) - $800.00
+      - Corporate Campus (200+ employees) - $2000.00
+    Office Features (Rule: Select up to 3)
+      - Server Room - $200.00
+      - Conference Rooms - $150.00
+      - Executive Offices - $175.00
+      - Open Workspace - $100.00
+[End Rule]
+
+[Begin Rule] Equipment Type
+    Office Equipment (Rule: Select up to 4)
+      - Computers and IT Equipment - $150.00
+      - Office Furniture - $100.00
+      - Filing Systems - $75.00
+      - Conference Room Equipment - $125.00
+      - Server/Network Equipment - $300.00
+    Specialized Equipment (Rule: Select up to 2)
+      - Medical Equipment - $250.00
+      - Laboratory Equipment - $400.00
+      - Manufacturing Equipment - $500.00
+[End Rule]
+
+[Begin Rule] Business Moving
+    Business Type (Rule: Select 1)
+      - Professional Office - $0.00
+      - Medical/Dental Practice - $200.00
+      - Legal Firm - $150.00
+      - Technology Company - $300.00
+      - Manufacturing Facility - $500.00
+    Moving Schedule (Rule: Select 1)
+      - Weekend Move - $200.00
+      - After-Hours Move - $300.00
+      - Holiday Move - $500.00
+      - Phased Move - $400.00
+[End Rule]
+
+[Begin Rule] Senior Services
+    Senior Service Level (Rule: Select 1)
+      - Basic Senior Service - $0.00
+      - Enhanced Senior Care - $150.00
+      - Full-Service Senior Move - $300.00
+      - White Glove Senior Service - $500.00
+    Senior Features (Rule: Select up to 3)
+      - Gentle Handling - $75.00
+      - Flexible Scheduling - $50.00
+      - Patience and Understanding - $100.00
+      - Family Coordination - $125.00
+[End Rule]
+
+[Begin Rule] Downsizing Options
+    Downsizing Service (Rule: Select 1)
+      - Basic Downsizing - $0.00
+      - Guided Downsizing - $200.00
+      - Complete Downsizing Service - $400.00
+    Downsizing Features (Rule: Select up to 3)
+      - Sorting and Organization - $150.00
+      - Donation Coordination - $100.00
+      - Estate Sale Assistance - $200.00
+      - Storage Solutions - $175.00
+[End Rule]
+
+[Begin Rule] Special Care
+    Care Level (Rule: Select 1)
+      - Standard Care - $0.00
+      - Enhanced Care - $100.00
+      - Specialized Care - $200.00
+      - Medical-Grade Care - $300.00
+    Care Features (Rule: Select up to 3)
+      - Medication Handling - $75.00
+      - Medical Equipment Care - $150.00
+      - Fragile Item Handling - $100.00
+      - Sentimental Item Care - $125.00
+[End Rule]
+
+[Begin Rule] Room Selection
+    Room Types (Rule: Select up to 6)
+      - Kitchen - $75.00
+      - Living Room - $50.00
+      - Bedrooms - $40.00
+      - Bathrooms - $30.00
+      - Dining Room - $45.00
+      - Home Office - $60.00
+      - Basement - $65.00
+      - Attic - $70.00
+    Specialty Rooms (Rule: Select up to 2)
+      - Wine Cellar - $150.00
+      - Art Studio - $125.00
+      - Home Theater - $175.00
+[End Rule]
+
+[Begin Rule] Material Quality
+    Quality Level (Rule: Select 1)
+      - Standard Quality - $0.00
+      - Premium Quality - $75.00
+      - Professional Grade - $150.00
+      - Museum Quality - $300.00
+    Quality Features (Rule: Select up to 2)
+      - Eco-Friendly Materials - $50.00
+      - Heavy-Duty Construction - $75.00
+      - Acid-Free Materials - $100.00
+[End Rule]
+
+[Begin Rule] Unpacking Options
+    Unpacking Level (Rule: Select 1)
+      - Basic Unpacking - $0.00
+      - Complete Unpacking - $150.00
+      - Room-by-Room Setup - $250.00
+      - Full Home Organization - $400.00
+    Unpacking Services (Rule: Select up to 3)
+      - Box Breakdown and Removal - $75.00
+      - Item Placement - $100.00
+      - Furniture Assembly - $125.00
+      - Debris Cleanup - $50.00
+[End Rule]
+
+[Begin Rule] Organization Services
+    Organization Level (Rule: Select 1)
+      - Basic Organization - $0.00
+      - Room Organization - $100.00
+      - Full Home Organization - $300.00
+      - Professional Organizing - $500.00
+    Organization Features (Rule: Select up to 3)
+      - Closet Organization - $150.00
+      - Kitchen Setup - $175.00
+      - Office Organization - $125.00
+      - Storage Solutions - $200.00
+[End Rule]
+
+[Begin Rule] Material Type
+    Material Categories (Rule: Select up to 4)
+      - Cardboard Boxes - $25.00
+      - Plastic Containers - $40.00
+      - Bubble Wrap - $20.00
+      - Packing Paper - $15.00
+      - Furniture Blankets - $35.00
+      - Specialty Boxes - $50.00
+    Material Grades (Rule: Select 1)
+      - Standard Grade - $0.00
+      - Heavy-Duty Grade - $25.00
+      - Professional Grade - $50.00
+[End Rule]
+
+[Begin Rule] Quantity Options
+    Quantity Level (Rule: Select 1)
+      - Small Quantity (1-10 boxes) - $0.00
+      - Medium Quantity (11-30 boxes) - $25.00
+      - Large Quantity (31-60 boxes) - $75.00
+      - Bulk Quantity (61+ boxes) - $150.00
+    Custom Quantities (Rule: Select up to 2)
+      - Exact Count Pricing - $15.00
+      - Estimated Count - $10.00
+      - Usage-Based Pricing - $20.00
+[End Rule]
+
+[Begin Rule] Delivery Options
+    Delivery Method (Rule: Select 1)
+      - Standard Delivery - $0.00
+      - Express Delivery - $50.00
+      - Same-Day Delivery - $100.00
+      - Scheduled Delivery - $25.00
+    Delivery Features (Rule: Select up to 2)
+      - Contactless Delivery - $15.00
+      - Setup Included - $40.00
+      - Delivery Tracking - $20.00
+[End Rule]
+
+[Begin Rule] Storage Duration
+    Duration Options (Rule: Select 1)
+      - Short-term (1-30 days) - $0.00
+      - Medium-term (1-6 months) - $50.00
+      - Long-term (6-12 months) - $150.00
+      - Extended (1+ years) - $300.00
+    Duration Flexibility (Rule: Select up to 2)
+      - Month-to-Month - $25.00
+      - Early Release Option - $40.00
+      - Extension Options - $30.00
+[End Rule]
+
+[Begin Rule] Storage Size
+    Storage Unit Size (Rule: Select 1)
+      - 5x5 (Small Closet) - $0.00
+      - 5x10 (Large Closet) - $25.00
+      - 10x10 (Bedroom) - $75.00
+      - 10x15 (Large Bedroom) - $125.00
+      - 10x20 (2-3 Rooms) - $200.00
+      - 10x30 (4+ Rooms) - $350.00
+    Size Features (Rule: Select up to 2)
+      - Drive-Up Access - $30.00
+      - Ground Floor Unit - $40.00
+      - Oversized Items - $75.00
+[End Rule]
+
+[Begin Rule] Climate Control
+    Climate Features (Rule: Select up to 3)
+      - Temperature Control - $50.00
+      - Humidity Control - $40.00
+      - Air Filtration - $30.00
+      - Dehumidification - $35.00
+    Special Climate Needs (Rule: Select up to 2)
+      - Wine Storage Climate - $100.00
+      - Electronics Climate - $75.00
+      - Document Preservation - $60.00
+[End Rule]
+
+[Begin Rule] Security Features
+    Security Level (Rule: Select 1)
+      - Basic Security - $0.00
+      - Enhanced Security - $50.00
+      - Premium Security - $100.00
+      - Maximum Security - $200.00
+    Security Features (Rule: Select up to 3)
+      - 24/7 Surveillance - $40.00
+      - Individual Alarms - $60.00
+      - Biometric Access - $100.00
+      - Security Guard - $150.00
+[End Rule]
+
+[Begin Rule] Container Size
+    Container Options (Rule: Select 1)
+      - 8-foot Container - $0.00
+      - 12-foot Container - $50.00
+      - 16-foot Container - $100.00
+      - 20-foot Container - $150.00
+    Container Features (Rule: Select up to 2)
+      - Ground-Level Loading - $25.00
+      - Weatherproof - $30.00
+      - Security Lock - $40.00
+[End Rule]
+
+[Begin Rule] Climate Requirements
+    Climate Specifications (Rule: Select up to 3)
+      - Stable Temperature (65-75°F) - $50.00
+      - Low Humidity (30-50%) - $40.00
+      - Air Circulation - $30.00
+      - UV Protection - $35.00
+    Special Requirements (Rule: Select up to 2)
+      - Pharmaceutical Grade - $150.00
+      - Museum Quality - $200.00
+      - Archive Standards - $175.00
+[End Rule]
+
+[Begin Rule] Special Items
+    Item Categories (Rule: Select up to 4)
+      - Artwork and Antiques - $100.00
+      - Electronics and Computers - $75.00
+      - Musical Instruments - $125.00
+      - Wine and Collectibles - $150.00
+      - Documents and Photos - $60.00
+      - Furs and Fabrics - $80.00
+    Protection Level (Rule: Select 1)
+      - Standard Protection - $0.00
+      - Enhanced Protection - $75.00
+      - Museum-Quality Protection - $200.00
+[End Rule]
+

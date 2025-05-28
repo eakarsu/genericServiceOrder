@@ -11,20 +11,6 @@
       - Location Scouting - $150.00
 [End Rule]
 
-[Begin Rule] Wedding Package
-    Coverage Options (Rule: Select 1)
-      - Ceremony Only - $-500.00
-      - Ceremony + Reception - $0.00
-      - Getting Ready + Full Day - $800.00
-      - Multi-Day Coverage - $1500.00
-    Additional Services (Rule: Select up to 4)
-      - Engagement Session - $400.00
-      - Second Photographer - $800.00
-      - Bridal Session - $350.00
-      - Rehearsal Dinner - $600.00
-      - Day After Session - $300.00
-[End Rule]
-
 [Begin Rule] Location Options
     Location Type (Rule: Select 1)
       - Studio Session - $0.00
@@ -53,6 +39,181 @@
       - Creative Lighting Effects - $200.00
 [End Rule]
 
+[Begin Rule] Family Size
+    Number of People (Rule: Select 1)
+      - 2 People - $0.00
+      - 3-4 People - $50.00
+      - 5-6 People - $100.00
+      - 7-10 People - $200.00
+      - 11+ People - $350.00
+    Age Groups (Rule: Select up to 3)
+      - Adults Only - $0.00
+      - Young Children (0-5) - $75.00
+      - School Age (6-12) - $50.00
+      - Teenagers (13-17) - $25.00
+      - Seniors (65+) - $25.00
+[End Rule]
+
+[Begin Rule] Session Length
+    Duration Options (Rule: Select 1)
+      - 30 Minutes - $0.00
+      - 45 Minutes - $75.00
+      - 1 Hour - $150.00
+      - 1.5 Hours - $225.00
+      - 2 Hours - $300.00
+    Session Pace (Rule: Select 1)
+      - Relaxed Pace - $0.00
+      - Standard Pace - $25.00
+      - Efficient/Quick - $50.00
+[End Rule]
+
+[Begin Rule] Location Choice
+    Venue Selection (Rule: Select 1)
+      - Photographer's Studio - $0.00
+      - Client's Preferred Location - $50.00
+      - Photographer's Recommended Spot - $75.00
+      - Unique/Special Location - $150.00
+      - Multiple Locations - $250.00
+    Permit Requirements (Rule: Select 1)
+      - No Permits Needed - $0.00
+      - Standard Location Permit - $50.00
+      - Special Use Permit Required - $150.00
+[End Rule]
+
+[Begin Rule] Graduate Level
+    School Type (Rule: Select 1)
+      - High School Senior - $0.00
+      - College Graduate - $100.00
+      - Graduate School - $150.00
+      - Professional School - $200.00
+    Achievement Level (Rule: Select up to 2)
+      - Standard Graduate - $0.00
+      - Honor Student - $50.00
+      - Valedictorian/Summa Cum Laude - $100.00
+      - Athletic Scholarship - $75.00
+[End Rule]
+
+[Begin Rule] Style Package
+    Package Level (Rule: Select 1)
+      - Basic Style Package - $0.00
+      - Standard Style Package - $150.00
+      - Premium Style Package - $300.00
+      - Luxury Style Package - $500.00
+    Included Services (Rule: Select up to 4)
+      - Multiple Outfit Changes - $100.00
+      - Hair & Makeup Consultation - $200.00
+      - Professional Styling Advice - $150.00
+      - Wardrobe Coordination - $175.00
+      - Prop Selection - $100.00
+[End Rule]
+
+[Begin Rule] Location Variety
+    Number of Locations (Rule: Select 1)
+      - Single Location - $0.00
+      - 2 Locations - $150.00
+      - 3 Locations - $300.00
+      - 4+ Locations - $500.00
+    Location Types (Rule: Select up to 3)
+      - Indoor Studio - $0.00
+      - Outdoor Natural - $75.00
+      - Urban/Cityscape - $100.00
+      - Historic/Architectural - $125.00
+      - School/Campus - $50.00
+[End Rule]
+
+[Begin Rule] Headshot Package
+    Package Type (Rule: Select 1)
+      - Basic Headshots - $0.00
+      - Professional Package - $200.00
+      - Executive Package - $400.00
+      - Premium Package - $600.00
+    Number of Looks (Rule: Select 1)
+      - 1 Look - $0.00
+      - 2 Looks - $100.00
+      - 3 Looks - $200.00
+      - 4+ Looks - $300.00
+[End Rule]
+
+[Begin Rule] Usage Rights
+    License Type (Rule: Select 1)
+      - Personal Use Only - $0.00
+      - Commercial Use - $500.00
+      - Extended Commercial - $1000.00
+      - Exclusive Rights - $2000.00
+    Usage Duration (Rule: Select 1)
+      - 1 Year License - $0.00
+      - 3 Year License - $300.00
+      - 5 Year License - $500.00
+      - Unlimited Duration - $1000.00
+[End Rule]
+
+[Begin Rule] Retouching Level
+    Editing Intensity (Rule: Select 1)
+      - Basic Color Correction - $0.00
+      - Standard Retouching - $150.00
+      - Advanced Retouching - $300.00
+      - Extensive Retouching - $500.00
+    Specific Retouching (Rule: Select up to 4)
+      - Skin Smoothing - $75.00
+      - Blemish Removal - $50.00
+      - Teeth Whitening - $50.00
+      - Eye Enhancement - $75.00
+      - Body Contouring - $200.00
+[End Rule]
+
+[Begin Rule] Wedding Package
+    Coverage Options (Rule: Select 1)
+      - Ceremony Only - $-500.00
+      - Ceremony + Reception - $0.00
+      - Getting Ready + Full Day - $800.00
+      - Multi-Day Coverage - $1500.00
+    Additional Services (Rule: Select up to 4)
+      - Engagement Session - $400.00
+      - Second Photographer - $800.00
+      - Bridal Session - $350.00
+      - Rehearsal Dinner - $600.00
+      - Day After Session - $300.00
+[End Rule]
+
+[Begin Rule] Coverage Duration
+    Time Coverage (Rule: Select 1)
+      - 4 Hours - $0.00
+      - 6 Hours - $400.00
+      - 8 Hours - $800.00
+      - 10 Hours - $1200.00
+      - 12+ Hours - $1600.00
+    Coverage Type (Rule: Select 1)
+      - Continuous Coverage - $0.00
+      - Split Coverage - $200.00
+      - Key Moments Only - $-300.00
+[End Rule]
+
+[Begin Rule] Photographer Team
+    Team Size (Rule: Select 1)
+      - Single Photographer - $0.00
+      - Lead + Assistant - $300.00
+      - Two Photographers - $800.00
+      - Full Team (3+) - $1500.00
+    Specializations (Rule: Select up to 2)
+      - Reception Specialist - $400.00
+      - Detail Photographer - $300.00
+      - Candid Specialist - $350.00
+      - Drone Operator - $500.00
+[End Rule]
+
+[Begin Rule] Session Style
+    Photography Approach (Rule: Select 1)
+      - Traditional Posed - $0.00
+      - Natural/Candid - $100.00
+      - Editorial Style - $200.00
+      - Fine Art Style - $300.00
+      - Documentary Style - $150.00
+    Direction Level (Rule: Select 1)
+      - Minimal Direction - $0.00
+      - Moderate Guidance - $50.00
+      - Full Direction/Posing - $150.00
+[End Rule]
+
 [Begin Rule] Delivery Package
     Editing Level (Rule: Select 1)
       - Basic Color Correction - $0.00
@@ -65,3 +226,460 @@
       - Express (3-7 days) - $400.00
       - Same Week - $600.00
 [End Rule]
+
+[Begin Rule] Event Duration
+    Event Length (Rule: Select 1)
+      - 2 Hours - $0.00
+      - 4 Hours - $300.00
+      - 6 Hours - $600.00
+      - 8 Hours - $900.00
+      - Full Day (10+ hours) - $1200.00
+    Coverage Intensity (Rule: Select 1)
+      - Key Moments Only - $0.00
+      - Standard Coverage - $200.00
+      - Comprehensive Coverage - $500.00
+[End Rule]
+
+[Begin Rule] Photography Style
+    Event Style (Rule: Select 1)
+      - Traditional Documentation - $0.00
+      - Photojournalistic - $150.00
+      - Creative/Artistic - $250.00
+      - Mixed Style - $200.00
+    Focus Areas (Rule: Select up to 3)
+      - Speaker/Presentation - $100.00
+      - Networking/Interactions - $150.00
+      - Venue/Decor Details - $100.00
+      - Branding/Signage - $125.00
+[End Rule]
+
+[Begin Rule] Delivery Format
+    File Delivery (Rule: Select 1)
+      - Digital Gallery Only - $0.00
+      - USB Drive - $75.00
+      - Cloud Storage - $50.00
+      - Multiple Formats - $150.00
+    File Types (Rule: Select up to 2)
+      - High-Resolution JPEG - $0.00
+      - Raw Files - $300.00
+      - Print-Ready Files - $100.00
+      - Web-Optimized Files - $50.00
+[End Rule]
+
+[Begin Rule] Party Size
+    Number of Guests (Rule: Select 1)
+      - Small (under 20) - $0.00
+      - Medium (20-50) - $100.00
+      - Large (50-100) - $200.00
+      - Extra Large (100+) - $350.00
+    Age Group Focus (Rule: Select 1)
+      - Children's Party - $0.00
+      - Adult Party - $50.00
+      - Mixed Ages - $100.00
+[End Rule]
+
+[Begin Rule] Candid Coverage
+    Coverage Style (Rule: Select 1)
+      - Minimal Candids - $0.00
+      - Standard Candid Coverage - $150.00
+      - Extensive Candid Focus - $300.00
+      - Documentary Style - $400.00
+    Interaction Focus (Rule: Select up to 3)
+      - Guest Interactions - $100.00
+      - Activity Documentation - $125.00
+      - Behind-the-Scenes - $150.00
+      - Detail Shots - $100.00
+[End Rule]
+
+[Begin Rule] Product Type
+    Product Category (Rule: Select 1)
+      - Small Products - $0.00
+      - Medium Products - $100.00
+      - Large Products - $200.00
+      - Jewelry/Luxury Items - $300.00
+      - Food/Beverage - $250.00
+    Complexity Level (Rule: Select 1)
+      - Simple Products - $0.00
+      - Moderate Complexity - $150.00
+      - High Complexity - $350.00
+[End Rule]
+
+[Begin Rule] Shot Quantity
+    Number of Images (Rule: Select 1)
+      - 1-5 Products - $0.00
+      - 6-15 Products - $200.00
+      - 16-30 Products - $500.00
+      - 31-50 Products - $800.00
+      - 50+ Products - $1200.00
+    Angle Variations (Rule: Select 1)
+      - Single Angle - $0.00
+      - Multiple Angles - $150.00
+      - 360-Degree Views - $400.00
+[End Rule]
+
+[Begin Rule] Background Options
+    Background Type (Rule: Select 1)
+      - White Background - $0.00
+      - Colored Background - $50.00
+      - Textured Background - $100.00
+      - Custom Background - $200.00
+      - Lifestyle Setting - $300.00
+    Background Quantity (Rule: Select 1)
+      - Single Background - $0.00
+      - 2-3 Backgrounds - $100.00
+      - Multiple Backgrounds - $250.00
+[End Rule]
+
+[Begin Rule] Property Size
+    Property Type (Rule: Select 1)
+      - Studio/Condo - $0.00
+      - Single Family Home - $100.00
+      - Large Home/Estate - $200.00
+      - Commercial Property - $400.00
+    Square Footage (Rule: Select 1)
+      - Under 1,500 sq ft - $0.00
+      - 1,500-3,000 sq ft - $50.00
+      - 3,000-5,000 sq ft - $150.00
+      - Over 5,000 sq ft - $300.00
+[End Rule]
+
+[Begin Rule] Interior/Exterior
+    Photography Scope (Rule: Select 1)
+      - Interior Only - $0.00
+      - Exterior Only - $-100.00
+      - Interior + Exterior - $200.00
+      - Comprehensive Coverage - $400.00
+    Room Count (Rule: Select 1)
+      - 1-3 Rooms - $0.00
+      - 4-6 Rooms - $100.00
+      - 7-10 Rooms - $200.00
+      - 10+ Rooms - $350.00
+[End Rule]
+
+[Begin Rule] Virtual Tour
+    Tour Type (Rule: Select 1)
+      - No Virtual Tour - $0.00
+      - Basic 360° Photos - $300.00
+      - Interactive Virtual Tour - $600.00
+      - Premium VR Experience - $1000.00
+    Tour Features (Rule: Select up to 3)
+      - Floor Plan Integration - $200.00
+      - Measurement Tools - $150.00
+      - Property Information Hotspots - $175.00
+      - Branded Interface - $250.00
+[End Rule]
+
+[Begin Rule] Dish Quantity
+    Number of Dishes (Rule: Select 1)
+      - 1-3 Dishes - $0.00
+      - 4-8 Dishes - $200.00
+      - 9-15 Dishes - $400.00
+      - 16-25 Dishes - $700.00
+      - 25+ Dishes - $1000.00
+    Complexity Level (Rule: Select 1)
+      - Simple Plating - $0.00
+      - Moderate Styling - $150.00
+      - Complex Presentation - $350.00
+[End Rule]
+
+[Begin Rule] Styling Level
+    Styling Intensity (Rule: Select 1)
+      - Minimal Styling - $0.00
+      - Basic Food Styling - $200.00
+      - Professional Styling - $400.00
+      - Elaborate Styling - $700.00
+    Props and Setup (Rule: Select up to 3)
+      - Basic Props - $100.00
+      - Custom Props - $250.00
+      - Background/Surface - $150.00
+      - Lighting Setup - $200.00
+[End Rule]
+
+[Begin Rule] Brand Package
+    Package Level (Rule: Select 1)
+      - Basic Brand Session - $0.00
+      - Standard Brand Package - $300.00
+      - Premium Brand Package - $600.00
+      - Complete Brand Story - $1200.00
+    Content Types (Rule: Select up to 4)
+      - Lifestyle Photos - $200.00
+      - Product Integration - $250.00
+      - Behind-the-Scenes - $150.00
+      - Team/Portrait Photos - $300.00
+      - Environmental Shots - $200.00
+[End Rule]
+
+[Begin Rule] Usage Scope
+    Marketing Usage (Rule: Select 1)
+      - Social Media Only - $0.00
+      - Website Usage - $200.00
+      - Print Marketing - $400.00
+      - Advertising Campaigns - $800.00
+      - Unlimited Commercial Use - $1500.00
+    Duration of Use (Rule: Select 1)
+      - 6 Months - $0.00
+      - 1 Year - $200.00
+      - 2 Years - $400.00
+      - Perpetual License - $800.00
+[End Rule]
+
+[Begin Rule] Delivery Timeline
+    Delivery Speed (Rule: Select 1)
+      - Standard (3-4 weeks) - $0.00
+      - Expedited (2 weeks) - $300.00
+      - Rush (1 week) - $600.00
+      - Express (3-5 days) - $1000.00
+    Preview Options (Rule: Select 1)
+      - No Preview - $0.00
+      - Sneak Peek (24-48 hours) - $150.00
+      - Same Day Preview - $300.00
+[End Rule]
+
+[Begin Rule] Partner Inclusion
+    Partner Involvement (Rule: Select 1)
+      - Individual Session Only - $0.00
+      - Partner Included - $150.00
+      - Family Photos - $250.00
+      - Extended Family - $400.00
+    Session Split (Rule: Select 1)
+      - Individual Focus - $0.00
+      - Equal Time Split - $100.00
+      - Couple Focus - $200.00
+[End Rule]
+
+[Begin Rule] Session Type
+    Session Approach (Rule: Select 1)
+      - Studio Session - $0.00
+      - Lifestyle Session - $200.00
+      - Posed Session - $100.00
+      - Documentary Style - $250.00
+    Comfort Level (Rule: Select 1)
+      - Standard Approach - $0.00
+      - Extra Gentle/Relaxed - $150.00
+      - Quick Efficient Session - $100.00
+[End Rule]
+
+[Begin Rule] Safety Requirements
+    Safety Level (Rule: Select 1)
+      - Standard Safety Measures - $0.00
+      - Enhanced Safety Protocol - $100.00
+      - Medical Professional Present - $300.00
+      - Specialized Safety Equipment - $200.00
+    Assistant Requirements (Rule: Select 1)
+      - Photographer Only - $0.00
+      - Safety Assistant - $150.00
+      - Newborn Specialist - $250.00
+[End Rule]
+
+[Begin Rule] Prop Options
+    Prop Package (Rule: Select 1)
+      - No Props - $0.00
+      - Basic Props - $100.00
+      - Standard Prop Collection - $200.00
+      - Premium Props - $350.00
+      - Custom/Themed Props - $500.00
+    Prop Categories (Rule: Select up to 3)
+      - Baskets/Containers - $50.00
+      - Blankets/Fabrics - $75.00
+      - Seasonal Props - $100.00
+      - Family Heirloom Integration - $150.00
+[End Rule]
+
+[Begin Rule] Pet Type
+    Animal Category (Rule: Select 1)
+      - Small Dog - $0.00
+      - Large Dog - $50.00
+      - Cat - $25.00
+      - Multiple Pets - $150.00
+      - Exotic Pet - $200.00
+    Temperament (Rule: Select 1)
+      - Calm/Well-Trained - $0.00
+      - Energetic/Playful - $75.00
+      - Anxious/Difficult - $150.00
+[End Rule]
+
+[Begin Rule] Action Level
+    Activity Focus (Rule: Select 1)
+      - Portrait/Posed - $0.00
+      - Light Activity - $100.00
+      - Action/Movement - $200.00
+      - High Energy/Sports - $350.00
+    Location Requirements (Rule: Select 1)
+      - Indoor Studio - $0.00
+      - Outdoor Space - $100.00
+      - Specialized Location - $250.00
+[End Rule]
+
+[Begin Rule] Fashion Level
+    Fashion Category (Rule: Select 1)
+      - Casual Fashion - $0.00
+      - Commercial Fashion - $400.00
+      - High Fashion/Editorial - $800.00
+      - Couture/Luxury - $1500.00
+    Production Level (Rule: Select 1)
+      - Simple Production - $0.00
+      - Standard Production - $500.00
+      - High-End Production - $1200.00
+[End Rule]
+
+[Begin Rule] Model Requirements
+    Model Category (Rule: Select 1)
+      - Amateur/New Model - $0.00
+      - Experienced Model - $300.00
+      - Professional Model - $600.00
+      - Celebrity/High-Profile - $2000.00
+    Model Count (Rule: Select 1)
+      - Single Model - $0.00
+      - 2-3 Models - $500.00
+      - Group/Multiple Models - $1000.00
+[End Rule]
+
+[Begin Rule] Gallery Duration
+    Access Duration (Rule: Select 1)
+      - 30 Days - $0.00
+      - 60 Days - $25.00
+      - 90 Days - $50.00
+      - 6 Months - $100.00
+      - 1 Year - $200.00
+      - Lifetime Access - $500.00
+[End Rule]
+
+[Begin Rule] Download Rights
+    Download Permissions (Rule: Select 1)
+      - View Only - $0.00
+      - Limited Downloads - $50.00
+      - Full Download Rights - $150.00
+      - Commercial Download Rights - $400.00
+    Image Quantity (Rule: Select 1)
+      - Up to 10 Images - $0.00
+      - Up to 25 Images - $75.00
+      - Up to 50 Images - $150.00
+      - Unlimited Downloads - $300.00
+[End Rule]
+
+[Begin Rule] Sharing Options
+    Sharing Permissions (Rule: Select 1)
+      - Private Gallery - $0.00
+      - Password Protected Sharing - $25.00
+      - Public Sharing Link - $50.00
+      - Social Media Sharing - $75.00
+    Share Duration (Rule: Select 1)
+      - 30 Days - $0.00
+      - 60 Days - $25.00
+      - Unlimited Sharing - $100.00
+[End Rule]
+
+[Begin Rule] Print Sizes
+    Size Options (Rule: Select up to 4)
+      - 4x6 Prints - $5.00
+      - 5x7 Prints - $8.00
+      - 8x10 Prints - $15.00
+      - 11x14 Prints - $25.00
+      - 16x20 Prints - $45.00
+      - 20x30 Prints - $75.00
+    Print Quantity (Rule: Select 1)
+      - 5 Prints - $0.00
+      - 10 Prints - $25.00
+      - 20 Prints - $75.00
+      - 50 Prints - $200.00
+[End Rule]
+
+[Begin Rule] Paper Quality
+    Paper Type (Rule: Select 1)
+      - Standard Photo Paper - $0.00
+      - Premium Photo Paper - $25.00
+      - Fine Art Paper - $75.00
+      - Metallic Paper - $100.00
+      - Canvas Print - $150.00
+    Finish Options (Rule: Select 1)
+      - Matte Finish - $0.00
+      - Glossy Finish - $10.00
+      - Pearl/Luster Finish - $25.00
+[End Rule]
+
+[Begin Rule] Framing Options
+    Frame Type (Rule: Select up to 2)
+      - No Framing - $0.00
+      - Basic Frame - $50.00
+      - Premium Frame - $150.00
+      - Custom Framing - $300.00
+    Frame Size (Rule: Select 1)
+      - Small (up to 8x10) - $0.00
+      - Medium (11x14 to 16x20) - $75.00
+      - Large (20x30+) - $200.00
+[End Rule]
+
+[Begin Rule] Album Size
+    Album Dimensions (Rule: Select 1)
+      - 8x8 Album - $0.00
+      - 10x10 Album - $100.00
+      - 12x12 Album - $200.00
+      - 14x10 Album - $300.00
+    Page Count (Rule: Select 1)
+      - 20 Pages - $0.00
+      - 30 Pages - $100.00
+      - 40 Pages - $200.00
+      - 50+ Pages - $350.00
+[End Rule]
+
+[Begin Rule] Design Style
+    Album Design (Rule: Select 1)
+      - Simple Layout - $0.00
+      - Modern Design - $150.00
+      - Classic Design - $200.00
+      - Custom Artistic Design - $400.00
+    Design Complexity (Rule: Select 1)
+      - Basic Layout - $0.00
+      - Enhanced Design - $200.00
+      - Premium Design - $500.00
+[End Rule]
+
+[Begin Rule] Premium Materials
+    Cover Material (Rule: Select 1)
+      - Standard Cover - $0.00
+      - Leather Cover - $200.00
+      - Linen Cover - $150.00
+      - Acrylic Cover - $300.00
+    Page Quality (Rule: Select 1)
+      - Standard Pages - $0.00
+      - Thick Premium Pages - $100.00
+      - Fine Art Paper Pages - $250.00
+[End Rule]
+
+[Begin Rule] File Format
+    Format Options (Rule: Select up to 2)
+      - JPEG Format - $0.00
+      - PNG Format - $25.00
+      - TIFF Format - $50.00
+      - RAW Files - $200.00
+    Color Space (Rule: Select 1)
+      - sRGB - $0.00
+      - Adobe RGB - $50.00
+      - ProPhoto RGB - $100.00
+[End Rule]
+
+[Begin Rule] Resolution Options
+    Image Resolution (Rule: Select 1)
+      - Web Resolution (72 DPI) - $0.00
+      - Print Resolution (300 DPI) - $50.00
+      - High Resolution (600 DPI) - $150.00
+      - Maximum Resolution - $300.00
+    Image Size (Rule: Select 1)
+      - Small (web use) - $0.00
+      - Medium (standard print) - $25.00
+      - Large (poster size) - $100.00
+      - Maximum Size - $200.00
+[End Rule]
+
+[Begin Rule] Backup Copy
+    Backup Options (Rule: Select 1)
+      - No Backup - $0.00
+      - Cloud Backup - $25.00
+      - Physical Backup Drive - $75.00
+      - Multiple Backup Copies - $150.00
+    Backup Duration (Rule: Select 1)
+      - 30 Days - $0.00
+      - 1 Year - $50.00
+      - Permanent Backup - $200.00
+[End Rule]
+

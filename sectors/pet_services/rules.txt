@@ -11,18 +11,19 @@
       - Double Coat - $25.00
 [End Rule]
 
-[Begin Rule] Grooming Style
-    Cut Style (Rule: Select 1)
-      - Maintenance Trim - $0.00
-      - Breed Standard Cut - $15.00
-      - Puppy Cut - $10.00
-      - Teddy Bear Cut - $20.00
-      - Creative Styling - $35.00
-    Face and Feet (Rule: Select up to 2)
-      - Face Trim - $8.00
-      - Sanitary Trim - $5.00
-      - Paw Pad Trimming - $5.00
-      - Feathering Touch-up - $10.00
+[Begin Rule] Coat Type
+    Coat Texture (Rule: Select 1)
+      - Smooth Coat - $0.00
+      - Wiry Coat - $15.00
+      - Curly/Poodle Coat - $25.00
+      - Silky Coat - $20.00
+      - Undercoat Present - $10.00
+    Coat Condition (Rule: Select up to 2)
+      - Normal Condition - $0.00
+      - Matted/Tangled - $30.00
+      - Severely Matted - $60.00
+      - Dirty/Smelly - $15.00
+      - Flea/Tick Infestation - $25.00
 [End Rule]
 
 [Begin Rule] Add-on Services
@@ -38,6 +39,110 @@
       - De-shedding Treatment - $25.00
 [End Rule]
 
+[Begin Rule] Grooming Style
+    Cut Style (Rule: Select 1)
+      - Maintenance Trim - $0.00
+      - Breed Standard Cut - $15.00
+      - Puppy Cut - $10.00
+      - Teddy Bear Cut - $20.00
+      - Creative Styling - $35.00
+    Face and Feet (Rule: Select up to 2)
+      - Face Trim - $8.00
+      - Sanitary Trim - $5.00
+      - Paw Pad Trimming - $5.00
+      - Feathering Touch-up - $10.00
+[End Rule]
+
+[Begin Rule] Premium Services
+    Luxury Treatments (Rule: Select up to 3)
+      - Aromatherapy Shampoo - $25.00
+      - Hot Oil Treatment - $30.00
+      - Blueberry Facial - $20.00
+      - Mud Bath Treatment - $35.00
+      - Nail Art Design - $40.00
+    Spa Services (Rule: Select up to 2)
+      - Relaxation Massage - $50.00
+      - Paw Moisturizing - $15.00
+      - Cologne Application - $10.00
+      - Bow/Bandana Styling - $8.00
+[End Rule]
+
+[Begin Rule] Puppy Age
+    Age Category (Rule: Select 1)
+      - 8-12 weeks - $0.00
+      - 3-4 months - $5.00
+      - 4-6 months - $10.00
+      - 6+ months - $15.00
+    First Grooming (Rule: Select 1)
+      - First Time Ever - $0.00
+      - Second Visit - $-5.00
+      - Experienced Puppy - $-10.00
+[End Rule]
+
+[Begin Rule] Gentle Handling
+    Handling Approach (Rule: Select 1)
+      - Extra Gentle - $0.00
+      - Gradual Introduction - $15.00
+      - Comfort Breaks - $20.00
+      - Parent Present - $25.00
+    Stress Reduction (Rule: Select up to 2)
+      - Calming Music - $10.00
+      - Pheromone Therapy - $15.00
+      - Frequent Breaks - $20.00
+      - Treats/Rewards - $10.00
+[End Rule]
+
+[Begin Rule] Socialization Focus
+    Socialization Goals (Rule: Select up to 3)
+      - Human Interaction - $15.00
+      - Equipment Familiarity - $20.00
+      - Sound Desensitization - $25.00
+      - Handling Tolerance - $30.00
+    Environment Exposure (Rule: Select up to 2)
+      - Grooming Table Training - $20.00
+      - Dryer Introduction - $25.00
+      - Tool Familiarization - $15.00
+[End Rule]
+
+[Begin Rule] Senior Needs
+    Age-Related Care (Rule: Select up to 3)
+      - Arthritis Accommodation - $20.00
+      - Heart Condition Care - $30.00
+      - Vision/Hearing Impaired - $25.00
+      - Mobility Assistance - $35.00
+    Senior Comfort (Rule: Select up to 2)
+      - Heated Table - $15.00
+      - Cushioned Surfaces - $10.00
+      - Frequent Position Changes - $20.00
+      - Shortened Sessions - $0.00
+[End Rule]
+
+[Begin Rule] Comfort Measures
+    Physical Comfort (Rule: Select up to 3)
+      - Orthopedic Support - $25.00
+      - Warm Environment - $10.00
+      - Soft Handling - $15.00
+      - Pain Medication Timing - $0.00
+    Emotional Comfort (Rule: Select up to 2)
+      - Familiar Scents - $10.00
+      - Calming Environment - $15.00
+      - Owner Presence - $25.00
+      - Stress Monitoring - $20.00
+[End Rule]
+
+[Begin Rule] Health Considerations
+    Medical Monitoring (Rule: Select up to 3)
+      - Blood Pressure Monitoring - $40.00
+      - Respiratory Monitoring - $30.00
+      - Temperature Regulation - $20.00
+      - Medication Schedule - $15.00
+    Health Accommodations (Rule: Select up to 2)
+      - Cardiac Care Protocol - $50.00
+      - Diabetic Considerations - $35.00
+      - Kidney Disease Care - $40.00
+      - Cancer Treatment Support - $60.00
+[End Rule]
+
 [Begin Rule] Cat Temperament
     Stress Level (Rule: Select 1)
       - Calm and Cooperative - $0.00
@@ -49,6 +154,304 @@
       - Gentle Restraint - $10.00
       - Sedation Required - $50.00
       - Two-Person Handling - $25.00
+[End Rule]
+
+[Begin Rule] Handling Requirements
+    Restraint Level (Rule: Select 1)
+      - Minimal Restraint - $0.00
+      - Standard Restraint - $10.00
+      - Firm Restraint - $20.00
+      - Professional Restraint - $35.00
+    Safety Measures (Rule: Select up to 2)
+      - Bite Prevention - $15.00
+      - Scratch Guards - $10.00
+      - Muzzle Required - $25.00
+      - Protective Equipment - $20.00
+[End Rule]
+
+[Begin Rule] Drying Options
+    Drying Method (Rule: Select 1)
+      - Air Drying - $0.00
+      - Blow Drying - $15.00
+      - Cage Drying - $20.00
+      - Hand Drying - $25.00
+    Drying Intensity (Rule: Select 1)
+      - Low Heat/Speed - $0.00
+      - Medium Heat/Speed - $5.00
+      - High Heat/Speed - $10.00
+      - Cool Air Only - $0.00
+[End Rule]
+
+[Begin Rule] Cut Style
+    Shaving Style (Rule: Select 1)
+      - Lion Cut - $0.00
+      - Sanitary Shave - $-15.00
+      - Full Body Shave - $10.00
+      - Partial Shave - $-5.00
+    Length Preference (Rule: Select 1)
+      - Very Short (1/4 inch) - $0.00
+      - Short (1/2 inch) - $5.00
+      - Medium (3/4 inch) - $10.00
+      - Leave Long Areas - $15.00
+[End Rule]
+
+[Begin Rule] Mat Removal
+    Matting Severity (Rule: Select 1)
+      - Light Matting - $0.00
+      - Moderate Matting - $20.00
+      - Severe Matting - $40.00
+      - Extreme Matting - $80.00
+    Removal Method (Rule: Select 1)
+      - Brush Out - $0.00
+      - Clipper Removal - $15.00
+      - Scissor Work - $25.00
+      - Complete Shave Down - $35.00
+[End Rule]
+
+[Begin Rule] Comfort Level
+    Stress Management (Rule: Select up to 2)
+      - Calming Aids - $15.00
+      - Breaks as Needed - $20.00
+      - Familiar Items - $10.00
+      - Reduced Handling - $25.00
+    Environment Control (Rule: Select up to 2)
+      - Quiet Environment - $10.00
+      - Dim Lighting - $5.00
+      - Temperature Control - $15.00
+      - Pheromone Diffuser - $20.00
+[End Rule]
+
+[Begin Rule] Nail Length
+    Current Length (Rule: Select 1)
+      - Normal Length - $0.00
+      - Slightly Overgrown - $5.00
+      - Very Overgrown - $15.00
+      - Extremely Long - $25.00
+    Trimming Goals (Rule: Select 1)
+      - Maintenance Trim - $0.00
+      - Significant Shortening - $10.00
+      - Emergency Trimming - $20.00
+[End Rule]
+
+[Begin Rule] Behavior Management
+    Behavioral Approach (Rule: Select up to 2)
+      - Positive Reinforcement - $10.00
+      - Distraction Techniques - $15.00
+      - Desensitization - $25.00
+      - Counter-conditioning - $30.00
+    Management Tools (Rule: Select up to 2)
+      - Treats/Rewards - $5.00
+      - Calming Supplements - $20.00
+      - Anxiety Wraps - $15.00
+      - Pheromone Sprays - $10.00
+[End Rule]
+
+[Begin Rule] Frequency Plan
+    Service Schedule (Rule: Select 1)
+      - One-time Service - $0.00
+      - Monthly Service - $25.00
+      - Bi-weekly Service - $50.00
+      - Weekly Service - $100.00
+    Package Discounts (Rule: Select 1)
+      - Single Service - $0.00
+      - 3-Service Package - $-30.00
+      - 6-Service Package - $-75.00
+      - Annual Package - $-200.00
+[End Rule]
+
+[Begin Rule] Coat Length
+    Length Category (Rule: Select 1)
+      - Short Hair - $0.00
+      - Medium Hair - $10.00
+      - Long Hair - $20.00
+      - Extra Long Hair - $30.00
+    Hair Density (Rule: Select 1)
+      - Thin Coat - $0.00
+      - Normal Density - $5.00
+      - Thick Coat - $15.00
+      - Double Coat - $25.00
+[End Rule]
+
+[Begin Rule] Shedding Level
+    Shedding Amount (Rule: Select 1)
+      - Minimal Shedding - $0.00
+      - Normal Shedding - $10.00
+      - Heavy Shedding - $25.00
+      - Extreme Shedding - $40.00
+    Seasonal Factors (Rule: Select 1)
+      - Year-round Shedding - $0.00
+      - Seasonal Shedding - $15.00
+      - Stress-Related Shedding - $20.00
+[End Rule]
+
+[Begin Rule] Tool Selection
+    De-shedding Tools (Rule: Select up to 2)
+      - Standard Brush - $0.00
+      - FURminator Tool - $20.00
+      - High-Velocity Dryer - $30.00
+      - Specialized Rake - $15.00
+    Treatment Options (Rule: Select up to 2)
+      - De-shedding Shampoo - $15.00
+      - Conditioning Treatment - $20.00
+      - Omega Supplements - $25.00
+[End Rule]
+
+[Begin Rule] Pet Size
+    Size Category (Rule: Select 1)
+      - Small (under 20 lbs) - $0.00
+      - Medium (20-50 lbs) - $10.00
+      - Large (50-80 lbs) - $20.00
+      - Extra Large (80+ lbs) - $35.00
+    Species Type (Rule: Select 1)
+      - Dog - $0.00
+      - Cat - $5.00
+      - Rabbit - $15.00
+      - Other Small Animal - $20.00
+[End Rule]
+
+[Begin Rule] Activity Level
+    Energy Level (Rule: Select 1)
+      - Low Energy/Senior - $0.00
+      - Moderate Energy - $10.00
+      - High Energy - $20.00
+      - Hyperactive - $35.00
+    Exercise Needs (Rule: Select 1)
+      - Minimal Exercise - $0.00
+      - Light Exercise - $15.00
+      - Moderate Exercise - $25.00
+      - Intensive Exercise - $40.00
+[End Rule]
+
+[Begin Rule] Social Interaction
+    Socialization Level (Rule: Select 1)
+      - Prefers Isolation - $0.00
+      - Limited Social Contact - $10.00
+      - Enjoys Socialization - $20.00
+      - Highly Social - $30.00
+    Group Compatibility (Rule: Select 1)
+      - Individual Care Only - $0.00
+      - Small Group OK - $15.00
+      - Large Group Friendly - $25.00
+[End Rule]
+
+[Begin Rule] Accommodation Type
+    Lodging Options (Rule: Select 1)
+      - Standard Kennel - $0.00
+      - Large Kennel - $15.00
+      - Suite Accommodation - $40.00
+      - VIP Suite - $75.00
+    Comfort Features (Rule: Select up to 3)
+      - Raised Bed - $10.00
+      - Heated/Cooled Space - $20.00
+      - Music/TV - $15.00
+      - Window View - $25.00
+      - Indoor/Outdoor Access - $30.00
+[End Rule]
+
+[Begin Rule] Exercise Needs
+    Exercise Requirements (Rule: Select 1)
+      - Minimal Exercise - $0.00
+      - Light Walks - $15.00
+      - Moderate Exercise - $25.00
+      - Intensive Exercise - $45.00
+    Exercise Type (Rule: Select up to 2)
+      - Leash Walks - $0.00
+      - Yard Play Time - $20.00
+      - Swimming - $35.00
+      - Agility Activities - $50.00
+[End Rule]
+
+[Begin Rule] Meal Service
+    Feeding Schedule (Rule: Select 1)
+      - Once Daily - $0.00
+      - Twice Daily - $10.00
+      - Three Times Daily - $20.00
+      - Special Schedule - $30.00
+    Food Type (Rule: Select 1)
+      - Provided Food - $0.00
+      - Owner's Food - $5.00
+      - Prescription Diet - $25.00
+      - Raw Diet - $40.00
+[End Rule]
+
+[Begin Rule] Stay Duration
+    Length of Stay (Rule: Select 1)
+      - 1-2 Days - $0.00
+      - 3-7 Days - $25.00
+      - 1-2 Weeks - $75.00
+      - 2+ Weeks - $150.00
+    Frequency (Rule: Select 1)
+      - One-time Stay - $0.00
+      - Occasional Boarding - $-10.00
+      - Regular Customer - $-25.00
+      - Weekly Boarding - $-50.00
+[End Rule]
+
+[Begin Rule] Special Care
+    Medical Care (Rule: Select up to 3)
+      - Medication Administration - $25.00
+      - Insulin Injections - $40.00
+      - Wound Care - $35.00
+      - Physical Therapy - $60.00
+    Special Needs (Rule: Select up to 2)
+      - Senior Care - $30.00
+      - Anxiety Management - $25.00
+      - Mobility Assistance - $40.00
+      - Behavioral Support - $35.00
+[End Rule]
+
+[Begin Rule] Exercise Package
+    Package Level (Rule: Select 1)
+      - Basic Exercise - $0.00
+      - Enhanced Exercise - $30.00
+      - Premium Exercise - $60.00
+      - VIP Exercise Program - $100.00
+    Activities Included (Rule: Select up to 4)
+      - Individual Walks - $15.00
+      - Group Play Sessions - $20.00
+      - Swimming Sessions - $35.00
+      - Training Reinforcement - $25.00
+      - Enrichment Activities - $30.00
+[End Rule]
+
+[Begin Rule] Medical Needs
+    Medical Requirements (Rule: Select up to 4)
+      - Daily Medications - $25.00
+      - Multiple Daily Meds - $50.00
+      - Injectable Medications - $40.00
+      - Topical Treatments - $20.00
+      - Dietary Restrictions - $30.00
+    Monitoring Needs (Rule: Select up to 3)
+      - Vital Signs Monitoring - $45.00
+      - Blood Sugar Checks - $35.00
+      - Weight Monitoring - $15.00
+      - Behavior Monitoring - $25.00
+[End Rule]
+
+[Begin Rule] Medication Schedule
+    Frequency (Rule: Select 1)
+      - Once Daily - $0.00
+      - Twice Daily - $15.00
+      - Three Times Daily - $30.00
+      - Multiple Times Daily - $50.00
+    Administration Method (Rule: Select 1)
+      - Oral Medication - $0.00
+      - Injectable Medication - $25.00
+      - Topical Application - $15.00
+      - Multiple Methods - $40.00
+[End Rule]
+
+[Begin Rule] Monitoring Level
+    Supervision Level (Rule: Select 1)
+      - Standard Monitoring - $0.00
+      - Enhanced Monitoring - $30.00
+      - Intensive Monitoring - $60.00
+      - 24/7 Medical Watch - $120.00
+    Documentation (Rule: Select up to 2)
+      - Basic Notes - $0.00
+      - Detailed Log - $20.00
+      - Photo Updates - $15.00
+      - Video Updates - $25.00
 [End Rule]
 
 [Begin Rule] Training Level
@@ -63,3 +466,215 @@
       - Intensive Program (3x/week) - $50.00
       - Monthly Maintenance - $-10.00
 [End Rule]
+
+[Begin Rule] Session Duration
+    Length of Session (Rule: Select 1)
+      - 30 Minutes - $0.00
+      - 45 Minutes - $15.00
+      - 60 Minutes - $25.00
+      - 90 Minutes - $45.00
+    Session Structure (Rule: Select 1)
+      - Continuous Session - $0.00
+      - Break Included - $10.00
+      - Multiple Short Sessions - $20.00
+[End Rule]
+
+[Begin Rule] Behavioral Focus
+    Training Areas (Rule: Select up to 4)
+      - Basic Commands - $0.00
+      - Leash Training - $20.00
+      - House Training - $25.00
+      - Socialization - $30.00
+      - Aggression Issues - $50.00
+      - Anxiety Reduction - $40.00
+[End Rule]
+
+[Begin Rule] Socialization Needs
+    Socialization Goals (Rule: Select up to 3)
+      - Human Socialization - $20.00
+      - Dog Socialization - $25.00
+      - Environmental Exposure - $30.00
+      - Handling Tolerance - $35.00
+    Socialization Level (Rule: Select 1)
+      - Beginner Level - $0.00
+      - Intermediate Level - $20.00
+      - Advanced Level - $40.00
+[End Rule]
+
+[Begin Rule] House Training
+    Training Focus (Rule: Select up to 2)
+      - Basic House Training - $0.00
+      - Crate Training - $25.00
+      - Schedule Training - $20.00
+      - Accident Prevention - $30.00
+    Current Status (Rule: Select 1)
+      - Not House Trained - $0.00
+      - Partially Trained - $-15.00
+      - Mostly Trained - $-25.00
+[End Rule]
+
+[Begin Rule] Behavior Issues
+    Problem Behaviors (Rule: Select up to 3)
+      - Excessive Barking - $25.00
+      - Jumping on People - $20.00
+      - Pulling on Leash - $30.00
+      - Aggression Issues - $75.00
+      - Separation Anxiety - $60.00
+      - Destructive Behavior - $50.00
+[End Rule]
+
+[Begin Rule] Training Methods
+    Training Approach (Rule: Select 1)
+      - Positive Reinforcement - $0.00
+      - Clicker Training - $20.00
+      - Balanced Training - $30.00
+      - Specialized Methods - $50.00
+    Tools Used (Rule: Select up to 2)
+      - Treats Only - $0.00
+      - Clicker Training - $15.00
+      - Training Collar - $25.00
+      - Specialized Equipment - $40.00
+[End Rule]
+
+[Begin Rule] Session Intensity
+    Intensity Level (Rule: Select 1)
+      - Low Intensity - $0.00
+      - Moderate Intensity - $20.00
+      - High Intensity - $40.00
+      - Maximum Intensity - $60.00
+    Pace of Training (Rule: Select 1)
+      - Slow and Steady - $0.00
+      - Standard Pace - $15.00
+      - Accelerated Program - $35.00
+[End Rule]
+
+[Begin Rule] Skill Level
+    Target Skills (Rule: Select up to 3)
+      - Basic Obedience - $0.00
+      - Intermediate Skills - $30.00
+      - Advanced Commands - $60.00
+      - Trick Training - $40.00
+      - Competition Prep - $100.00
+[End Rule]
+
+[Begin Rule] Specialized Commands
+    Command Categories (Rule: Select up to 2)
+      - Service Dog Training - $150.00
+      - Therapy Dog Training - $100.00
+      - Protection Training - $200.00
+      - Hunting/Working Dog - $125.00
+      - Agility Commands - $75.00
+[End Rule]
+
+[Begin Rule] Performance Goals
+    Training Objectives (Rule: Select up to 2)
+      - Pet Companionship - $0.00
+      - Competition Training - $100.00
+      - Service/Therapy Work - $150.00
+      - Professional Working - $200.00
+    Success Metrics (Rule: Select 1)
+      - Basic Improvement - $0.00
+      - Significant Progress - $50.00
+      - Competition Ready - $150.00
+[End Rule]
+
+[Begin Rule] Service Location
+    Location Type (Rule: Select 1)
+      - Residential Driveway - $0.00
+      - Apartment Complex - $15.00
+      - Business Location - $25.00
+      - Rural Property - $40.00
+    Accessibility (Rule: Select 1)
+      - Easy Access - $0.00
+      - Limited Access - $20.00
+      - Difficult Access - $50.00
+[End Rule]
+
+[Begin Rule] Vehicle Access
+    Access Requirements (Rule: Select 1)
+      - Standard Parking - $0.00
+      - Close Parking Needed - $15.00
+      - Special Access Required - $30.00
+      - No Vehicle Access - $75.00
+    Parking Availability (Rule: Select 1)
+      - Dedicated Parking - $0.00
+      - Street Parking - $10.00
+      - Limited Parking - $25.00
+[End Rule]
+
+[Begin Rule] Power Requirements
+    Electrical Needs (Rule: Select 1)
+      - Standard Power Available - $0.00
+      - Extension Cord Needed - $15.00
+      - Generator Required - $50.00
+      - No Power Available - $100.00
+    Water Access (Rule: Select 1)
+      - Water Source Available - $0.00
+      - Hose Connection Needed - $20.00
+      - Water Tank Required - $40.00
+[End Rule]
+
+[Begin Rule] Service Duration
+    Time Required (Rule: Select 1)
+      - 1-2 Hours - $0.00
+      - 2-3 Hours - $25.00
+      - 3-4 Hours - $50.00
+      - 4+ Hours - $100.00
+    Service Complexity (Rule: Select 1)
+      - Simple Service - $0.00
+      - Standard Service - $20.00
+      - Complex Service - $50.00
+[End Rule]
+
+[Begin Rule] Pet Supervision
+    Supervision Level (Rule: Select 1)
+      - Basic Check-ins - $0.00
+      - Regular Supervision - $25.00
+      - Constant Supervision - $50.00
+      - Intensive Care - $100.00
+    Activities Included (Rule: Select up to 3)
+      - Feeding - $15.00
+      - Exercise/Walks - $20.00
+      - Playtime - $25.00
+      - Medication Admin - $30.00
+[End Rule]
+
+[Begin Rule] House Sitting
+    House Care Level (Rule: Select 1)
+      - Pet Care Only - $0.00
+      - Basic House Care - $25.00
+      - Full House Sitting - $50.00
+      - Security Services - $75.00
+    Additional Services (Rule: Select up to 3)
+      - Mail Collection - $10.00
+      - Plant Watering - $15.00
+      - Light Maintenance - $25.00
+      - Security Checks - $30.00
+[End Rule]
+
+[Begin Rule] Distance
+    Travel Distance (Rule: Select 1)
+      - Under 5 miles - $0.00
+      - 5-10 miles - $15.00
+      - 10-20 miles - $30.00
+      - 20-30 miles - $50.00
+      - Over 30 miles - $100.00
+    Travel Time (Rule: Select 1)
+      - Under 30 minutes - $0.00
+      - 30-60 minutes - $20.00
+      - Over 1 hour - $40.00
+[End Rule]
+
+[Begin Rule] Special Requirements
+    Transport Needs (Rule: Select up to 3)
+      - Carrier Required - $20.00
+      - Anxiety Medication - $25.00
+      - Temperature Control - $30.00
+      - Multiple Pets - $40.00
+      - Medical Equipment - $50.00
+    Safety Requirements (Rule: Select up to 2)
+      - Restraint System - $15.00
+      - Emergency Kit - $25.00
+      - Monitoring Equipment - $40.00
+[End Rule]
+

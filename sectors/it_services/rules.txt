@@ -64,3 +64,445 @@
       - Performance Optimization - $40.00
 [End Rule]
 
+[Begin Rule] Hardware Options
+    Hardware Categories (Rule: Select up to 3)
+      - Memory (RAM) Upgrade - $75.00
+      - Hard Drive Replacement - $100.00
+      - Graphics Card Upgrade - $150.00
+      - Power Supply Replacement - $80.00
+      - Motherboard Replacement - $200.00
+      - CPU Upgrade - $175.00
+    Hardware Quality (Rule: Select 1)
+      - Standard Components - $0.00
+      - Premium Components - $100.00
+      - High-Performance Parts - $200.00
+      - Enterprise Grade - $300.00
+[End Rule]
+
+[Begin Rule] OS Services
+    Operating System Type (Rule: Select 1)
+      - Windows OS - $0.00
+      - Mac OS - $50.00
+      - Linux OS - $75.00
+      - Multiple OS Setup - $150.00
+    OS Service Type (Rule: Select up to 3)
+      - OS Installation - $75.00
+      - OS Upgrade - $100.00
+      - System Restore - $50.00
+      - Boot Repair - $60.00
+      - Registry Cleanup - $40.00
+[End Rule]
+
+[Begin Rule] Recovery Options
+    Recovery Complexity (Rule: Select 1)
+      - Simple File Recovery - $0.00
+      - Advanced Data Recovery - $150.00
+      - Forensic Recovery - $300.00
+      - Enterprise Recovery - $500.00
+    Storage Type (Rule: Select 1)
+      - Hard Drive Recovery - $0.00
+      - SSD Recovery - $50.00
+      - RAID Recovery - $200.00
+      - Mobile Device Recovery - $100.00
+[End Rule]
+
+[Begin Rule] Data Services
+    Data Service Type (Rule: Select up to 3)
+      - Data Backup Setup - $75.00
+      - Data Migration - $100.00
+      - Data Synchronization - $60.00
+      - Cloud Storage Setup - $50.00
+      - Archive Services - $80.00
+    Data Volume (Rule: Select 1)
+      - Small (under 100GB) - $0.00
+      - Medium (100GB-1TB) - $50.00
+      - Large (1TB-10TB) - $150.00
+      - Enterprise (10TB+) - $400.00
+[End Rule]
+
+[Begin Rule] Setup Services
+    Setup Complexity (Rule: Select 1)
+      - Basic Setup - $0.00
+      - Standard Configuration - $50.00
+      - Advanced Setup - $125.00
+      - Enterprise Configuration - $300.00
+    Setup Components (Rule: Select up to 4)
+      - Router Configuration - $60.00
+      - Firewall Setup - $80.00
+      - Access Point Installation - $70.00
+      - Cable Management - $40.00
+      - Performance Testing - $50.00
+[End Rule]
+
+[Begin Rule] WiFi Services
+    WiFi Service Type (Rule: Select up to 3)
+      - WiFi Installation - $50.00
+      - Coverage Extension - $75.00
+      - Speed Optimization - $60.00
+      - Security Configuration - $40.00
+      - Mesh Network Setup - $150.00
+    Coverage Area (Rule: Select 1)
+      - Single Room - $0.00
+      - Whole Home - $75.00
+      - Multi-Floor Coverage - $150.00
+      - Outdoor Coverage - $200.00
+[End Rule]
+
+[Begin Rule] Business Services
+    Business Size (Rule: Select 1)
+      - Small Business (1-10 users) - $0.00
+      - Medium Business (11-50 users) - $150.00
+      - Large Business (51-200 users) - $400.00
+      - Enterprise (200+ users) - $800.00
+    Business Features (Rule: Select up to 4)
+      - Domain Setup - $200.00
+      - Server Configuration - $300.00
+      - User Management - $150.00
+      - Remote Access Setup - $175.00
+      - Backup Solutions - $250.00
+[End Rule]
+
+[Begin Rule] Security Options
+    Security Level (Rule: Select 1)
+      - Basic Security - $0.00
+      - Enhanced Security - $100.00
+      - Enterprise Security - $250.00
+      - Military Grade Security - $500.00
+    Security Features (Rule: Select up to 4)
+      - Firewall Configuration - $75.00
+      - Antivirus Setup - $50.00
+      - Intrusion Detection - $150.00
+      - VPN Setup - $125.00
+      - Encryption Services - $200.00
+[End Rule]
+
+[Begin Rule] Smart Home Options
+    Device Categories (Rule: Select up to 4)
+      - Smart Lighting - $75.00
+      - Smart Thermostats - $100.00
+      - Security Cameras - $150.00
+      - Smart Locks - $125.00
+      - Entertainment Systems - $200.00
+      - Voice Assistants - $60.00
+    Integration Level (Rule: Select 1)
+      - Basic Integration - $0.00
+      - Advanced Automation - $150.00
+      - Full Home Integration - $400.00
+      - Custom Programming - $600.00
+[End Rule]
+
+[Begin Rule] Device Integration
+    Integration Scope (Rule: Select 1)
+      - Single Device - $0.00
+      - Multi-Device Setup - $75.00
+      - Whole Home Integration - $200.00
+      - Commercial Integration - $500.00
+    Integration Features (Rule: Select up to 3)
+      - Voice Control Setup - $100.00
+      - Mobile App Configuration - $75.00
+      - Automation Rules - $125.00
+      - Remote Monitoring - $150.00
+[End Rule]
+
+[Begin Rule] Software Options
+    Software Category (Rule: Select up to 3)
+      - Business Software - $75.00
+      - Creative Software - $100.00
+      - Security Software - $50.00
+      - Productivity Software - $60.00
+      - Specialized Software - $125.00
+    License Type (Rule: Select 1)
+      - Single User License - $0.00
+      - Multi-User License - $100.00
+      - Enterprise License - $300.00
+      - Subscription Setup - $75.00
+[End Rule]
+
+[Begin Rule] Installation Services
+    Installation Complexity (Rule: Select 1)
+      - Simple Installation - $0.00
+      - Standard Installation - $40.00
+      - Complex Installation - $100.00
+      - Custom Installation - $200.00
+    Installation Features (Rule: Select up to 3)
+      - Software Configuration - $50.00
+      - User Training - $75.00
+      - Data Migration - $100.00
+      - Integration Setup - $125.00
+[End Rule]
+
+[Begin Rule] Optimization Options
+    Optimization Type (Rule: Select up to 3)
+      - Startup Optimization - $40.00
+      - Memory Optimization - $50.00
+      - Storage Optimization - $60.00
+      - Network Optimization - $70.00
+      - Graphics Optimization - $80.00
+    Optimization Level (Rule: Select 1)
+      - Basic Optimization - $0.00
+      - Advanced Optimization - $75.00
+      - Professional Optimization - $150.00
+      - Performance Tuning - $250.00
+[End Rule]
+
+[Begin Rule] Performance Services
+    Performance Focus (Rule: Select up to 3)
+      - Speed Enhancement - $75.00
+      - Memory Management - $60.00
+      - Storage Performance - $80.00
+      - Graphics Performance - $100.00
+      - Network Performance - $70.00
+    Performance Testing (Rule: Select up to 2)
+      - Benchmark Testing - $50.00
+      - Stress Testing - $75.00
+      - Performance Monitoring - $60.00
+[End Rule]
+
+[Begin Rule] Backup Options
+    Backup Type (Rule: Select 1)
+      - Local Backup - $0.00
+      - Cloud Backup - $50.00
+      - Hybrid Backup - $100.00
+      - Enterprise Backup - $250.00
+    Backup Schedule (Rule: Select 1)
+      - Manual Backup - $0.00
+      - Daily Backup - $30.00
+      - Real-Time Backup - $75.00
+      - Custom Schedule - $50.00
+[End Rule]
+
+[Begin Rule] Data Protection
+    Protection Level (Rule: Select 1)
+      - Basic Protection - $0.00
+      - Enhanced Protection - $75.00
+      - Enterprise Protection - $200.00
+      - Military Grade Protection - $400.00
+    Protection Features (Rule: Select up to 3)
+      - Encryption Setup - $100.00
+      - Access Controls - $75.00
+      - Audit Logging - $50.00
+      - Disaster Recovery - $200.00
+[End Rule]
+
+[Begin Rule] Protection Services
+    Protection Type (Rule: Select up to 3)
+      - Antivirus Protection - $50.00
+      - Anti-Malware Protection - $60.00
+      - Firewall Protection - $75.00
+      - Email Protection - $40.00
+      - Web Protection - $45.00
+    Protection Scope (Rule: Select 1)
+      - Single Device - $0.00
+      - Network Protection - $100.00
+      - Enterprise Protection - $300.00
+      - Multi-Site Protection - $600.00
+[End Rule]
+
+[Begin Rule] Setup Options
+    Setup Type (Rule: Select 1)
+      - Basic Setup - $0.00
+      - Complete Setup - $75.00
+      - Professional Setup - $150.00
+      - Enterprise Setup - $300.00
+    Setup Services (Rule: Select up to 4)
+      - Hardware Setup - $100.00
+      - Software Installation - $75.00
+      - Data Transfer - $125.00
+      - User Account Setup - $50.00
+      - Security Configuration - $100.00
+[End Rule]
+
+[Begin Rule] Transfer Services
+    Transfer Type (Rule: Select 1)
+      - File Transfer - $0.00
+      - Application Transfer - $75.00
+      - Complete System Transfer - $200.00
+      - Enterprise Migration - $500.00
+    Transfer Method (Rule: Select 1)
+      - Direct Transfer - $0.00
+      - Network Transfer - $50.00
+      - Cloud Transfer - $75.00
+      - Professional Migration - $150.00
+[End Rule]
+
+[Begin Rule] Printer Options
+    Printer Type (Rule: Select 1)
+      - Inkjet Printer - $0.00
+      - Laser Printer - $25.00
+      - All-in-One Printer - $40.00
+      - Commercial Printer - $100.00
+      - 3D Printer - $150.00
+    Printer Features (Rule: Select up to 3)
+      - Wireless Setup - $30.00
+      - Network Sharing - $50.00
+      - Mobile Printing - $40.00
+      - Security Setup - $60.00
+[End Rule]
+
+[Begin Rule] Connectivity Options
+    Connection Type (Rule: Select 1)
+      - USB Connection - $0.00
+      - Wireless Connection - $40.00
+      - Network Connection - $60.00
+      - Bluetooth Connection - $30.00
+    Connectivity Features (Rule: Select up to 2)
+      - Multi-Device Support - $50.00
+      - Remote Printing - $75.00
+      - Mobile Integration - $60.00
+[End Rule]
+
+[Begin Rule] Mobile Options
+    Mobile Device Type (Rule: Select 1)
+      - Smartphone - $0.00
+      - Tablet - $25.00
+      - Smart Watch - $40.00
+      - Multiple Devices - $75.00
+    Mobile Platform (Rule: Select 1)
+      - iOS Devices - $0.00
+      - Android Devices - $0.00
+      - Windows Mobile - $25.00
+      - Mixed Platforms - $50.00
+[End Rule]
+
+[Begin Rule] Device Type
+    Device Category (Rule: Select 1)
+      - Personal Device - $0.00
+      - Business Device - $50.00
+      - Enterprise Device - $100.00
+      - Specialized Device - $150.00
+    Device Age (Rule: Select 1)
+      - New Device - $0.00
+      - Recent Device (1-2 years) - $25.00
+      - Older Device (3+ years) - $50.00
+[End Rule]
+
+[Begin Rule] Sync Services
+    Sync Type (Rule: Select up to 3)
+      - Email Sync - $30.00
+      - Calendar Sync - $25.00
+      - Contact Sync - $20.00
+      - File Sync - $40.00
+      - Photo Sync - $35.00
+    Sync Scope (Rule: Select 1)
+      - Single Account - $0.00
+      - Multiple Accounts - $50.00
+      - Enterprise Sync - $150.00
+      - Cloud Integration - $75.00
+[End Rule]
+
+[Begin Rule] Gaming Options
+    Gaming Platform (Rule: Select 1)
+      - PC Gaming - $0.00
+      - Console Gaming - $75.00
+      - VR Gaming Setup - $200.00
+      - Streaming Setup - $150.00
+    Gaming Features (Rule: Select up to 3)
+      - High Refresh Monitor - $200.00
+      - Gaming Peripherals - $150.00
+      - Audio Setup - $100.00
+      - Lighting Setup - $75.00
+[End Rule]
+
+[Begin Rule] Performance Optimization
+    Optimization Focus (Rule: Select up to 3)
+      - Graphics Optimization - $100.00
+      - CPU Optimization - $75.00
+      - Memory Optimization - $60.00
+      - Storage Optimization - $80.00
+      - Network Optimization - $50.00
+    Performance Level (Rule: Select 1)
+      - Standard Performance - $0.00
+      - High Performance - $150.00
+      - Extreme Performance - $300.00
+      - Professional Gaming - $500.00
+[End Rule]
+
+[Begin Rule] Training Options
+    Training Format (Rule: Select 1)
+      - Individual Training - $0.00
+      - Group Training - $50.00
+      - Remote Training - $25.00
+      - On-Site Training - $100.00
+    Training Materials (Rule: Select up to 2)
+      - Digital Materials - $25.00
+      - Printed Materials - $35.00
+      - Video Tutorials - $40.00
+[End Rule]
+
+[Begin Rule] Skill Level
+    Current Skill Level (Rule: Select 1)
+      - Complete Beginner - $0.00
+      - Basic User - $25.00
+      - Intermediate User - $50.00
+      - Advanced User - $75.00
+    Learning Pace (Rule: Select 1)
+      - Self-Paced - $0.00
+      - Guided Learning - $40.00
+      - Intensive Training - $100.00
+[End Rule]
+
+[Begin Rule] Session Duration
+    Training Duration (Rule: Select 1)
+      - 1 Hour Session - $0.00
+      - 2 Hour Session - $50.00
+      - Half Day (4 hours) - $150.00
+      - Full Day (8 hours) - $300.00
+    Session Schedule (Rule: Select 1)
+      - Single Session - $0.00
+      - Multiple Sessions - $100.00
+      - Ongoing Support - $200.00
+[End Rule]
+
+[Begin Rule] Software Type
+    Software Category (Rule: Select 1)
+      - Office Software - $0.00
+      - Creative Software - $75.00
+      - Business Software - $100.00
+      - Technical Software - $150.00
+      - Specialized Software - $200.00
+    Software Complexity (Rule: Select 1)
+      - Basic Features - $0.00
+      - Intermediate Features - $50.00
+      - Advanced Features - $125.00
+      - Expert Level - $250.00
+[End Rule]
+
+[Begin Rule] Safety Topics
+    Safety Areas (Rule: Select up to 4)
+      - Password Security - $20.00
+      - Email Safety - $25.00
+      - Social Media Safety - $30.00
+      - Online Shopping Safety - $25.00
+      - Identity Protection - $40.00
+      - Scam Recognition - $35.00
+    Safety Level (Rule: Select 1)
+      - Basic Safety - $0.00
+      - Comprehensive Safety - $50.00
+      - Advanced Security - $100.00
+[End Rule]
+
+[Begin Rule] Senior Services
+    Senior Support Level (Rule: Select 1)
+      - Standard Support - $0.00
+      - Patient Support - $50.00
+      - Extra Patient Support - $100.00
+      - Specialized Senior Care - $150.00
+    Senior Features (Rule: Select up to 3)
+      - Large Font Setup - $25.00
+      - Simplified Interface - $40.00
+      - Emergency Contacts Setup - $30.00
+      - Accessibility Features - $50.00
+[End Rule]
+
+[Begin Rule] Patience Level
+    Teaching Approach (Rule: Select 1)
+      - Standard Teaching - $0.00
+      - Patient Teaching - $40.00
+      - Extra Patient Teaching - $75.00
+      - Specialized Senior Teaching - $125.00
+    Support Features (Rule: Select up to 2)
+      - Repeated Explanations - $30.00
+      - Written Instructions - $25.00
+      - Follow-up Support - $50.00
+[End Rule]
+

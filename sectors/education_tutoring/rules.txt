@@ -69,3 +69,140 @@
       - Study Materials - $12.00
       - College Planning - $25.00
 [End Rule]
+
+[Begin Rule] Science Level
+    Grade Level (Rule: Select 1)
+      - Elementary (K-5) - $0.00
+      - Middle School (6-8) - $5.00
+      - High School (9-12) - $15.00
+      - AP/College Level - $25.00
+    Science Subject (Rule: Select 1 to 2)
+      - General Science - $0.00
+      - Life Science - $8.00
+      - Earth Science - $8.00
+      - Physical Science - $10.00
+      - Biology - $15.00
+      - Chemistry - $20.00
+      - Physics - $25.00
+      - Environmental Science - $18.00
+[End Rule]
+
+[Begin Rule] Language Level
+    Student Level (Rule: Select 1)
+      - Elementary (K-5) - $0.00
+      - Middle School (6-8) - $5.00
+      - High School (9-12) - $10.00
+      - College Level - $20.00
+      - Adult Education - $15.00
+    Language Focus (Rule: Select 1 to 2)
+      - Basic Grammar - $0.00
+      - Advanced Grammar - $10.00
+      - Vocabulary Building - $8.00
+      - Pronunciation - $12.00
+      - Conversation Skills - $15.00
+      - Academic Writing - $18.00
+[End Rule]
+
+[Begin Rule] Reading Options
+    Reading Level (Rule: Select 1)
+      - Beginning Reader - $0.00
+      - Developing Reader - $5.00
+      - Fluent Reader - $10.00
+      - Advanced Reader - $15.00
+    Reading Focus (Rule: Select up to 3)
+      - Phonics - $8.00
+      - Comprehension Strategies - $10.00
+      - Vocabulary Development - $8.00
+      - Speed Reading - $15.00
+      - Critical Analysis - $18.00
+      - Test Prep Reading - $20.00
+[End Rule]
+
+[Begin Rule] Writing Options
+    Writing Level (Rule: Select 1)
+      - Basic Writing - $0.00
+      - Paragraph Writing - $8.00
+      - Essay Writing - $15.00
+      - Advanced Composition - $25.00
+    Writing Focus (Rule: Select up to 3)
+      - Grammar and Mechanics - $10.00
+      - Creative Writing - $15.00
+      - Research Papers - $20.00
+      - College Application Essays - $25.00
+      - Business Writing - $18.00
+      - Technical Writing - $22.00
+[End Rule]
+
+[Begin Rule] Literature Options
+    Literature Level (Rule: Select 1)
+      - Introduction to Literature - $0.00
+      - Grade-Level Literature - $10.00
+      - Advanced Literature - $20.00
+      - AP Literature - $30.00
+    Literature Focus (Rule: Select up to 2)
+      - Literary Analysis - $15.00
+      - Poetry Analysis - $18.00
+      - Character Development - $12.00
+      - Theme Exploration - $15.00
+      - Historical Context - $20.00
+      - Comparative Literature - $25.00
+[End Rule]
+
+[Begin Rule] ESL Options
+    English Proficiency Level (Rule: Select 1)
+      - Beginner ESL - $0.00
+      - Intermediate ESL - $10.00
+      - Advanced ESL - $20.00
+      - Academic English - $25.00
+    ESL Focus Areas (Rule: Select up to 3)
+      - Conversational English - $15.00
+      - Academic Vocabulary - $18.00
+      - Grammar Fundamentals - $12.00
+      - Pronunciation Training - $20.00
+      - Cultural Integration - $15.00
+      - Test Prep (TOEFL/IELTS) - $30.00
+[End Rule]
+
+[Begin Rule] Test Prep Level
+    Student Grade Level (Rule: Select 1)
+      - Middle School - $0.00
+      - High School - $10.00
+      - College Prep - $20.00
+      - Graduate School - $30.00
+    Preparation Intensity (Rule: Select 1)
+      - Light Review - $0.00
+      - Standard Preparation - $15.00
+      - Intensive Preparation - $30.00
+      - Crash Course - $50.00
+[End Rule]
+
+[Begin Rule] Study Skills Level
+    Current Skill Level (Rule: Select 1)
+      - Needs Basic Skills - $0.00
+      - Some Skills Present - $5.00
+      - Good Foundation - $10.00
+      - Advanced Skills - $15.00
+    Age Group (Rule: Select 1)
+      - Elementary Age - $0.00
+      - Middle School Age - $5.00
+      - High School Age - $10.00
+      - College/Adult - $15.00
+[End Rule]
+
+[Begin Rule] Study Options
+    Study Focus Areas (Rule: Select up to 4)
+      - Time Management - $10.00
+      - Note Taking Strategies - $12.00
+      - Test Taking Skills - $15.00
+      - Memory Techniques - $15.00
+      - Organization Systems - $10.00
+      - Goal Setting - $8.00
+      - Stress Management - $12.00
+    Study Method Training (Rule: Select up to 2)
+      - Active Reading - $15.00
+      - Mind Mapping - $12.00
+      - Flashcard Systems - $10.00
+      - Study Group Skills - $15.00
+      - Digital Tools Training - $18.00
+[End Rule]
+

@@ -11,6 +11,32 @@
       - Complete Restyle - $35.00
 [End Rule]
 
+[Begin Rule] Style Complexity
+    Style Difficulty (Rule: Select 1)
+      - Simple/Basic Style - $0.00
+      - Moderate Styling - $25.00
+      - Complex/Intricate Style - $50.00
+      - Avant-Garde/Creative - $100.00
+    Styling Techniques (Rule: Select up to 2)
+      - Blow Dry Styling - $20.00
+      - Curling/Wave Setting - $30.00
+      - Flat Iron/Straightening - $25.00
+      - Updo/Formal Styling - $75.00
+[End Rule]
+
+[Begin Rule] Stylist Level
+    Stylist Experience (Rule: Select 1)
+      - Junior Stylist - $-25.00
+      - Senior Stylist - $0.00
+      - Master Stylist - $50.00
+      - Celebrity Stylist - $150.00
+    Specialization (Rule: Select up to 1)
+      - Color Specialist - $25.00
+      - Cutting Specialist - $25.00
+      - Texture Specialist - $30.00
+      - Bridal Specialist - $40.00
+[End Rule]
+
 [Begin Rule] Color Type
     Color Service (Rule: Select 1)
       - Single Process Color - $0.00
@@ -24,6 +50,27 @@
       - Natural Gray Coverage - $-20.00
 [End Rule]
 
+[Begin Rule] Processing Options
+    Processing Method (Rule: Select 1)
+      - Standard Processing - $0.00
+      - Heat Processing - $25.00
+      - Steam Processing - $40.00
+      - Olaplex Treatment - $75.00
+    Processing Time (Rule: Select 1)
+      - Quick Process (30 min) - $0.00
+      - Standard Process (45-60 min) - $15.00
+      - Extended Process (90+ min) - $50.00
+[End Rule]
+
+[Begin Rule] Color Treatments
+    Treatment Options (Rule: Select up to 2)
+      - Glossing Treatment - $40.00
+      - Toning Service - $30.00
+      - Color Sealing - $35.00
+      - Bond Builder - $50.00
+      - Color Protection - $25.00
+[End Rule]
+
 [Begin Rule] Highlight Technique
     Application Method (Rule: Select 1)
       - Traditional Foils - $0.00
@@ -35,6 +82,58 @@
       - Full Head Highlights - $80.00
       - Face-Framing Only - $-30.00
       - Crown and Part Only - $-40.00
+[End Rule]
+
+[Begin Rule] Color Options
+    Color Palette (Rule: Select up to 3)
+      - Natural Shades - $0.00
+      - Warm Tones - $15.00
+      - Cool Tones - $15.00
+      - Fashion Colors - $50.00
+      - Metallic Tones - $75.00
+[End Rule]
+
+[Begin Rule] Maintenance Plan
+    Maintenance Schedule (Rule: Select 1)
+      - No Maintenance Plan - $0.00
+      - 6-Week Touch-ups - $100.00
+      - 8-Week Maintenance - $150.00
+      - 12-Week Package - $200.00
+    Home Care Products (Rule: Select up to 2)
+      - Color-Safe Shampoo - $35.00
+      - Deep Conditioning Mask - $45.00
+      - Heat Protectant - $25.00
+[End Rule]
+
+[Begin Rule] Treatment Type
+    Hair Concern (Rule: Select 1 to 2)
+      - Damage Repair - $0.00
+      - Moisture Restoration - $10.00
+      - Color Protection - $15.00
+      - Frizz Control - $20.00
+      - Volume Enhancement - $15.00
+    Treatment Intensity (Rule: Select 1)
+      - Light Treatment - $0.00
+      - Deep Conditioning - $25.00
+      - Intensive Repair - $50.00
+      - Keratin Treatment - $100.00
+[End Rule]
+
+[Begin Rule] Hair Condition
+    Current Condition (Rule: Select 1 to 2)
+      - Healthy Hair - $0.00
+      - Dry/Damaged Hair - $25.00
+      - Chemically Treated - $30.00
+      - Color-Damaged - $35.00
+      - Heat Damaged - $30.00
+[End Rule]
+
+[Begin Rule] Processing Time
+    Time Requirement (Rule: Select 1)
+      - Quick Service (30 min) - $0.00
+      - Standard Time (45-60 min) - $20.00
+      - Extended Time (90 min) - $40.00
+      - Multiple Sessions Required - $100.00
 [End Rule]
 
 [Begin Rule] Nail Shape
@@ -52,16 +151,398 @@
       - Long Extension - $35.00
 [End Rule]
 
-[Begin Rule] Treatment Type
-    Hair Concern (Rule: Select 1 to 2)
-      - Damage Repair - $0.00
-      - Moisture Restoration - $10.00
-      - Color Protection - $15.00
-      - Frizz Control - $20.00
-      - Volume Enhancement - $15.00
-    Treatment Intensity (Rule: Select 1)
-      - Light Treatment - $0.00
-      - Deep Conditioning - $25.00
-      - Intensive Repair - $50.00
-      - Keratin Treatment - $100.00
+[Begin Rule] Polish Options
+    Polish Type (Rule: Select 1)
+      - Regular Polish - $0.00
+      - Gel Polish - $20.00
+      - Shellac - $25.00
+      - Dip Powder - $30.00
+      - No Polish/Natural - $-15.00
+    Polish Finish (Rule: Select up to 1)
+      - Glossy Finish - $0.00
+      - Matte Finish - $10.00
+      - Glitter Finish - $15.00
+      - Chrome Finish - $25.00
 [End Rule]
+
+[Begin Rule] Add-on Treatments
+    Nail Treatments (Rule: Select up to 3)
+      - Cuticle Oil Treatment - $10.00
+      - Nail Strengthening - $15.00
+      - Paraffin Wax - $20.00
+      - Hand/Foot Massage - $25.00
+      - Exfoliation Treatment - $15.00
+[End Rule]
+
+[Begin Rule] Gel Type
+    Gel Category (Rule: Select 1)
+      - Regular Gel - $0.00
+      - Builder Gel - $25.00
+      - Hard Gel - $35.00
+      - Soak-Off Gel - $15.00
+    Gel Brand (Rule: Select 1)
+      - Standard Brand - $0.00
+      - Premium Brand - $20.00
+      - Luxury Brand - $40.00
+[End Rule]
+
+[Begin Rule] Design Options
+    Design Complexity (Rule: Select 1)
+      - Solid Color - $0.00
+      - Simple Design - $15.00
+      - Detailed Design - $35.00
+      - Intricate Art - $60.00
+    Design Elements (Rule: Select up to 2)
+      - Rhinestones - $20.00
+      - 3D Elements - $35.00
+      - Foil Application - $25.00
+      - Hand-Painted Art - $50.00
+[End Rule]
+
+[Begin Rule] Nail Art
+    Art Style (Rule: Select 1)
+      - Simple Patterns - $0.00
+      - Geometric Designs - $25.00
+      - Floral Designs - $35.00
+      - Abstract Art - $50.00
+      - Custom Design - $75.00
+    Art Technique (Rule: Select up to 2)
+      - Stamping - $15.00
+      - Freehand Painting - $40.00
+      - Water Marbling - $35.00
+      - Decal Application - $20.00
+[End Rule]
+
+[Begin Rule] Pedicure Type
+    Pedicure Level (Rule: Select 1)
+      - Basic Pedicure - $0.00
+      - Spa Pedicure - $25.00
+      - Deluxe Pedicure - $45.00
+      - Medical Pedicure - $75.00
+    Special Features (Rule: Select up to 2)
+      - Hot Towel Treatment - $15.00
+      - Heated Massage - $20.00
+      - Aromatherapy - $18.00
+      - Callus Removal - $25.00
+[End Rule]
+
+[Begin Rule] Foot Treatments
+    Treatment Options (Rule: Select up to 3)
+      - Exfoliation Scrub - $20.00
+      - Moisturizing Mask - $25.00
+      - Callus Treatment - $30.00
+      - Anti-Fungal Treatment - $40.00
+      - Reflexology Massage - $50.00
+[End Rule]
+
+[Begin Rule] Polish Selection
+    Color Category (Rule: Select 1)
+      - Classic Colors - $0.00
+      - Seasonal Colors - $10.00
+      - Trending Colors - $15.00
+      - Custom Color Mix - $25.00
+    Special Effects (Rule: Select up to 1)
+      - Glitter Polish - $15.00
+      - Magnetic Polish - $20.00
+      - Color-Changing - $25.00
+      - Glow-in-Dark - $30.00
+[End Rule]
+
+[Begin Rule] Extension Type
+    Extension Method (Rule: Select 1)
+      - Tip Extensions - $0.00
+      - Form Extensions - $25.00
+      - Gel Extensions - $35.00
+      - Acrylic Extensions - $30.00
+    Extension Material (Rule: Select 1)
+      - Plastic Tips - $0.00
+      - Fiberglass - $20.00
+      - Silk Wrap - $25.00
+      - Premium Material - $40.00
+[End Rule]
+
+[Begin Rule] Length Options
+    Desired Length (Rule: Select 1)
+      - Natural Length - $0.00
+      - Short Length - $15.00
+      - Medium Length - $25.00
+      - Long Length - $40.00
+      - Extra Long - $60.00
+[End Rule]
+
+[Begin Rule] Design Package
+    Package Level (Rule: Select 1)
+      - Basic Design - $0.00
+      - Standard Package - $50.00
+      - Premium Package - $100.00
+      - Luxury Package - $200.00
+    Package Inclusions (Rule: Select up to 3)
+      - Multiple Designs - $35.00
+      - 3D Elements - $50.00
+      - Swarovski Crystals - $75.00
+      - Custom Artwork - $100.00
+[End Rule]
+
+[Begin Rule] Skin Type
+    Skin Category (Rule: Select 1)
+      - Normal Skin - $0.00
+      - Dry Skin - $15.00
+      - Oily Skin - $15.00
+      - Combination Skin - $20.00
+      - Sensitive Skin - $25.00
+      - Mature Skin - $30.00
+[End Rule]
+
+[Begin Rule] Treatment Focus
+    Primary Concern (Rule: Select 1 to 2)
+      - Deep Cleansing - $0.00
+      - Hydration - $20.00
+      - Anti-Aging - $40.00
+      - Acne Treatment - $35.00
+      - Brightening - $30.00
+      - Pore Minimizing - $25.00
+[End Rule]
+
+[Begin Rule] Add-on Services
+    Additional Treatments (Rule: Select up to 3)
+      - Eye Treatment - $30.00
+      - Lip Treatment - $20.00
+      - Neck/Décolleté - $40.00
+      - Hand Treatment - $25.00
+      - Scalp Massage - $35.00
+[End Rule]
+
+[Begin Rule] Treatment Intensity
+    Intensity Level (Rule: Select 1)
+      - Gentle Treatment - $0.00
+      - Moderate Intensity - $25.00
+      - Intensive Treatment - $50.00
+      - Clinical Strength - $100.00
+[End Rule]
+
+[Begin Rule] Product Line
+    Product Category (Rule: Select 1)
+      - Standard Products - $0.00
+      - Organic/Natural - $35.00
+      - Medical Grade - $75.00
+      - Luxury Brand - $100.00
+      - Custom Formulation - $150.00
+[End Rule]
+
+[Begin Rule] Follow-up Care
+    Aftercare Package (Rule: Select 1)
+      - Basic Instructions - $0.00
+      - Take-Home Products - $50.00
+      - Follow-up Appointment - $75.00
+      - Complete Care Kit - $125.00
+[End Rule]
+
+[Begin Rule] Treatment Method
+    Treatment Approach (Rule: Select 1)
+      - Manual Extraction - $0.00
+      - Steam Treatment - $25.00
+      - Chemical Peel - $75.00
+      - LED Light Therapy - $100.00
+      - Microdermabrasion - $125.00
+[End Rule]
+
+[Begin Rule] Product Selection
+    Product Type (Rule: Select up to 2)
+      - Salicylic Acid - $25.00
+      - Benzoyl Peroxide - $30.00
+      - Tea Tree Oil - $20.00
+      - Retinol Treatment - $50.00
+      - Sulfur Treatment - $35.00
+[End Rule]
+
+[Begin Rule] Home Care
+    Home Care Level (Rule: Select 1)
+      - Basic Routine - $0.00
+      - Enhanced Routine - $75.00
+      - Complete Regimen - $150.00
+      - Professional Kit - $250.00
+[End Rule]
+
+[Begin Rule] Hydration Level
+    Moisture Intensity (Rule: Select 1)
+      - Light Hydration - $0.00
+      - Medium Hydration - $25.00
+      - Deep Hydration - $50.00
+      - Intensive Moisture - $75.00
+[End Rule]
+
+[Begin Rule] Mask Options
+    Mask Type (Rule: Select up to 2)
+      - Clay Mask - $25.00
+      - Hydrating Mask - $30.00
+      - Anti-Aging Mask - $50.00
+      - Brightening Mask - $40.00
+      - Custom Mask - $75.00
+[End Rule]
+
+[Begin Rule] Skin Analysis
+    Analysis Level (Rule: Select 1)
+      - Basic Consultation - $0.00
+      - Digital Skin Analysis - $50.00
+      - Comprehensive Analysis - $100.00
+      - Professional Assessment - $150.00
+[End Rule]
+
+[Begin Rule] Service Combination
+    Package Services (Rule: Select 2 to 4)
+      - Hair Service - $65.00
+      - Makeup Service - $85.00
+      - Nail Service - $55.00
+      - Facial Service - $90.00
+      - Spa Treatment - $120.00
+[End Rule]
+
+[Begin Rule] Timeline Schedule
+    Appointment Timing (Rule: Select 1)
+      - Same Day Service - $0.00
+      - Week Before Event - $50.00
+      - Two Weeks Before - $25.00
+      - Month Before - $0.00
+    Trial Scheduling (Rule: Select 1)
+      - No Trial - $0.00
+      - One Trial Session - $200.00
+      - Multiple Trials - $350.00
+[End Rule]
+
+[Begin Rule] Trial Options
+    Trial Package (Rule: Select 1)
+      - No Trial - $0.00
+      - Hair Trial Only - $65.00
+      - Makeup Trial Only - $85.00
+      - Complete Trial - $200.00
+    Trial Timing (Rule: Select 1)
+      - 1 Week Before - $0.00
+      - 2 Weeks Before - $25.00
+      - 1 Month Before - $50.00
+[End Rule]
+
+[Begin Rule] Package Services
+    Service Selection (Rule: Select 2 to 3)
+      - Manicure/Pedicure - $95.00
+      - Facial Treatment - $80.00
+      - Massage Therapy - $120.00
+      - Hair Styling - $65.00
+[End Rule]
+
+[Begin Rule] Relaxation Add-ons
+    Wellness Services (Rule: Select up to 3)
+      - Aromatherapy - $30.00
+      - Hot Stone Treatment - $50.00
+      - Meditation Session - $40.00
+      - Herbal Tea Service - $15.00
+      - Relaxation Music - $10.00
+[End Rule]
+
+[Begin Rule] Gift Options
+    Gift Package (Rule: Select 1)
+      - Standard Gift Box - $25.00
+      - Deluxe Gift Package - $50.00
+      - Luxury Presentation - $100.00
+    Gift Inclusions (Rule: Select up to 2)
+      - Gift Certificate - $0.00
+      - Take-Home Products - $75.00
+      - Personalized Card - $15.00
+[End Rule]
+
+[Begin Rule] Group Services
+    Group Size (Rule: Select 1)
+      - 2-3 People - $0.00
+      - 4-6 People - $50.00
+      - 7-10 People - $150.00
+      - 10+ People - $300.00
+[End Rule]
+
+[Begin Rule] Timing Coordination
+    Service Coordination (Rule: Select 1)
+      - Sequential Services - $0.00
+      - Simultaneous Services - $100.00
+      - Staggered Timing - $50.00
+[End Rule]
+
+[Begin Rule] Package Customization
+    Customization Level (Rule: Select 1)
+      - Standard Package - $0.00
+      - Modified Package - $75.00
+      - Fully Customized - $200.00
+[End Rule]
+
+[Begin Rule] Event Type
+    Occasion Category (Rule: Select 1)
+      - Wedding - $0.00
+      - Prom/Formal - $25.00
+      - Corporate Event - $50.00
+      - Photo Shoot - $75.00
+      - Special Celebration - $40.00
+[End Rule]
+
+[Begin Rule] Makeup Style
+    Style Category (Rule: Select 1)
+      - Natural/Everyday - $0.00
+      - Glamorous - $50.00
+      - Dramatic/Bold - $75.00
+      - Vintage/Classic - $60.00
+      - Editorial/Artistic - $100.00
+[End Rule]
+
+[Begin Rule] Longevity Options
+    Wear Duration (Rule: Select 1)
+      - 4-6 Hours - $0.00
+      - 8-10 Hours - $25.00
+      - 12+ Hours - $50.00
+      - All-Day/Waterproof - $75.00
+[End Rule]
+
+[Begin Rule] Bridal Style
+    Bridal Look (Rule: Select 1)
+      - Classic Bridal - $0.00
+      - Modern Bridal - $50.00
+      - Vintage Bridal - $75.00
+      - Bohemian Bridal - $60.00
+      - Dramatic Bridal - $100.00
+[End Rule]
+
+[Begin Rule] Trial Session
+    Trial Package (Rule: Select 1)
+      - No Trial - $0.00
+      - Makeup Trial - $85.00
+      - Hair Trial - $65.00
+      - Complete Trial - $200.00
+[End Rule]
+
+[Begin Rule] Touch-up Kit
+    Kit Package (Rule: Select 1)
+      - No Kit - $0.00
+      - Basic Touch-up Kit - $50.00
+      - Complete Touch-up Kit - $100.00
+      - Professional Kit - $200.00
+[End Rule]
+
+[Begin Rule] Skill Level
+    Learning Level (Rule: Select 1)
+      - Beginner - $0.00
+      - Intermediate - $25.00
+      - Advanced - $50.00
+[End Rule]
+
+[Begin Rule] Focus Areas
+    Learning Focus (Rule: Select 1 to 3)
+      - Basic Application - $0.00
+      - Color Theory - $25.00
+      - Contouring/Highlighting - $35.00
+      - Eye Makeup Techniques - $40.00
+      - Special Occasion Looks - $50.00
+[End Rule]
+
+[Begin Rule] Product Recommendations
+    Product Package (Rule: Select 1)
+      - Consultation Only - $0.00
+      - Recommended Product List - $25.00
+      - Starter Kit - $150.00
+      - Complete Collection - $300.00
+[End Rule]
+
