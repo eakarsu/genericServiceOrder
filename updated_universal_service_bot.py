@@ -336,6 +336,24 @@ class EnhancedSectorIntentDetector:
         
         return clean_message in generic_greetings
     
+    def _get_default_sector(self) -> str:
+        """Get default sector dynamically"""
+        # Option 1: Use first available sector
+        if self.available_sectors:
+            return self.available_sectors[0]
+        
+        # Option 2: Use most commonly used sector (if you track usage)
+        # return self._get_most_popular_sector()
+        
+        # Option 3: Use general service sector
+        general_sectors = ['general_services', 'customer_service', 'consultation']
+        for sector in general_sectors:
+            if sector in self.available_sectors:
+                return sector
+    
+        # Final fallback: alphabetically first sector
+        return sorted(self.available_sectors)[0] if self.available_sectors else "unknown"
+
     def detect_sector_with_confidence(self, user_input: str) -> Dict[str, Any]:
         """Enhanced detection with confidence scoring like in your successful tests"""
         print(f"[DEBUG] Detecting sector for: '{user_input}'")
@@ -366,11 +384,19 @@ class EnhancedSectorIntentDetector:
         # Sort by confidence
         sorted_sectors = sorted(sector_confidence.items(), key=lambda x: x[1], reverse=True)
         
-        if sorted_sectors:
+        # Require minimum confidence for automatic selection
+        MIN_CONFIDENCE_THRESHOLD = 2.0
+
+        if sorted_sectors and sorted_sectors[0][1] >= MIN_CONFIDENCE_THRESHOLD:
             primary_sector = sorted_sectors[0][0]
             confidence = sorted_sectors[0][1]
+        elif sorted_sectors:
+            # Low confidence - might want to ask user for clarification
+            primary_sector = sorted_sectors[0][0]
+            confidence = sorted_sectors[0][1]
+            print(f"[WARNING] Low confidence detection: {confidence}")
         else:
-            primary_sector = "food_delivery"
+            primary_sector = self._get_default_sector()
             confidence = 0.0
         
         print(f"[DEBUG] Selected sector: {primary_sector} with confidence {confidence}")
