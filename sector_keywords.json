@@ -1,0 +1,190 @@
+{
+    "auto_repair": [
+        
+        "car", "vehicle", "auto", "automobile", "engine", "repair", "mechanic", "automotive", 
+        "brake", "transmission", "oil change", "tune up", "diagnostic", "check engine",
+        "battery", "alternator", "starter", "radiator", "exhaust", "muffler", "tire", "wheel",
+        "suspension", "alignment", "clutch", "carburetor", "fuel pump", "timing belt",
+        
+        "maintenance", "service", "inspection", "smog check", "registration", "emissions",
+        "accident repair", "collision", "body work", "paint job", "dent repair","fix", "fixed", "fixing"
+    ],
+
+    "beauty_salon": [
+        
+        "haircut", "hair", "hairstyle", "styling", "blow dry", "color", "highlights", "lowlights",
+        "balayage", "ombre", "perm", "straightening", "keratin", "trim", "layers", "bangs",
+        "updo", "braids", "extensions", "hair treatment", "scalp treatment",
+        
+        "manicure", "pedicure", "nail", "gel nails", "acrylic", "nail art", "nail polish",
+        "french manicure", "shellac", "dip powder", "nail design",
+        
+        "facial", "skincare", "eyebrow", "brow", "lash", "eyelash", "waxing", "threading",
+        "makeup", "beauty", "salon", "spa", "massage", "microdermabrasion"
+    ],
+
+    "education_tutoring": [
+        
+        "tutoring", "tutor", "teaching", "teacher", "education", "study", "homework", "learn",
+        "lesson", "class", "course", "school", "academic", "student", "instruction",
+        
+        "math", "mathematics", "algebra", "geometry", "calculus", "science", "physics", 
+        "chemistry", "biology", "english", "writing", "reading", "history", "geography",
+        "spanish", "french", "language", "sat", "act", "test prep", "exam",
+        
+        "online tutoring", "private tutor", "group study", "homework help", "college prep"
+    ],
+
+    "event_planning": [
+        
+        "wedding", "party", "birthday", "anniversary", "graduation", "baby shower", "bridal shower",
+        "corporate event", "conference", "seminar", "meeting", "celebration", "reception",
+        "ceremony", "banquet", "gala", "fundraiser", "reunion", "holiday party",
+        
+        "event planning", "event planner", "catering", "venue", "decoration", "flowers",
+        "photography", "music", "dj", "entertainment", "coordination", "planning"
+    ],
+
+    "financial_services": [
+        
+        "loan", "mortgage", "credit", "bank", "banking", "finance", "financial", "money",
+        "investment", "invest", "retirement", "401k", "ira", "portfolio", "stocks", "bonds",
+        "mutual funds", "insurance", "life insurance", "auto insurance", "home insurance",
+        
+        "financial advisor", "financial planning", "tax", "taxes", "accounting", "bookkeeping",
+        "budget", "debt", "refinance", "consolidation", "bankruptcy", "credit repair"
+    ],
+
+    "fitness_gym": [
+        
+        "gym", "fitness", "workout", "exercise", "training", "personal trainer", "weightlifting",
+        "cardio", "yoga", "pilates", "crossfit", "zumba", "spinning", "aerobics", "boxing",
+        "martial arts", "swimming", "running", "jogging", "cycling",
+        
+        "membership", "fitness classes", "group fitness", "strength training", "muscle building",
+        "weight loss", "nutrition", "diet", "meal plan", "protein", "supplements"
+    ],
+
+    "food_delivery": [
+        
+        "food", "restaurant", "order", "delivery", "takeout", "pickup", "menu", "eat", "meal",
+        "breakfast", "lunch", "dinner", "snack", "pizza", "chinese", "italian", "mexican",
+        "thai", "indian", "burger", "sandwich", "salad", "sushi", "chicken", "beef", "vegetarian",
+        
+        "catering", "door dash", "uber eats", "grubhub", "postmates", "fast food", "fine dining"
+    ],
+
+    "healthcare": [
+        
+        "doctor", "physician", "medical", "health", "healthcare", "appointment", "sick", "illness",
+        "pain", "injury", "injured", "hurt", "symptoms", "diagnosis", "treatment", "medication",
+        "prescription", "hospital", "clinic", "urgent care", "emergency", "surgery",
+        
+        "dentist", "dental", "teeth", "orthodontist", "dermatologist", "cardiologist", 
+        "pediatrician", "gynecologist", "psychiatrist", "therapist", "physical therapy",
+        "mental health", "counseling", "therapy"
+    ],
+
+    "home_services": [
+        
+        "plumber", "plumbing", "electrician", "electrical", "hvac", "heating", "cooling",
+        "air conditioning", "repair", "fix", "maintenance", "handyman", "contractor",
+        "roofing", "painting", "flooring", "carpet", "tile", "drywall", "remodeling",
+        
+        "cleaning", "house cleaning", "maid", "landscaping", "lawn", "garden", "tree service",
+        "pest control", "home improvement", "renovation"
+    ],
+
+    "insurance": [
+        
+        "insurance", "policy", "coverage", "claim", "premium", "deductible", "quote",
+        "auto insurance", "car insurance", "home insurance", "health insurance", "life insurance",
+        "disability insurance", "business insurance", "liability", "comprehensive", "collision",
+        
+        "agent", "broker", "underwriting", "renewal", "cancel", "accident", "damage"
+    ],
+
+    "it_services": [
+        
+        "computer", "laptop", "pc", "mac", "it", "technology", "tech", "software", "hardware",
+        "repair", "fix", "troubleshoot", "virus", "malware", "backup", "data recovery",
+        "network", "wifi", "internet", "server", "database", "website", "app", "programming",
+        
+        "it support", "help desk", "technical support", "setup", "installation", "upgrade",
+        "maintenance", "consulting", "cybersecurity", "cloud", "microsoft", "apple"
+    ],
+
+    "laundry_services": [
+        
+        "laundry", "dry cleaning", "wash", "clean", "clothes", "clothing", "shirt", "pants",
+        "dress", "suit", "jacket", "stain removal", "pressing", "ironing", "folding",
+        "pickup", "delivery", "alterations", "tailoring", "fabric care", "delicate",
+        
+        "wash and fold", "same day", "express", "commercial laundry", "uniform cleaning"
+    ],
+
+    "legal_services": [
+        
+        "lawyer", "attorney", "legal", "law", "court", "lawsuit", "litigation", "contract",
+        "divorce", "custody", "family law", "criminal", "personal injury", "accident",
+        "malpractice", "bankruptcy", "estate planning", "will", "trust", "probate",
+        
+        "workers compensation", "workers comp", "work injury", "workplace accident", 
+        "employment law", "discrimination", "harassment", "wrongful termination",
+        
+        "consultation", "representation", "legal advice", "paralegal", "notary"
+    ],
+
+    "moving_services": [
+        
+        "moving", "move", "relocation", "relocate", "mover", "packing", "unpacking", "storage",
+        "local move", "long distance", "interstate", "cross country", "residential", "commercial",
+        "office move", "piano moving", "heavy items", "fragile", "boxes", "truck rental",
+        
+        "full service", "labor only", "loading", "unloading", "delivery", "estimate"
+    ],
+
+    "pet_services": [
+        
+        "pet", "dog", "cat", "puppy", "kitten", "animal", "veterinarian", "vet", "grooming",
+        "boarding", "sitting", "walking", "training", "obedience", "behavior", "daycare",
+        "kennel", "vaccination", "spay", "neuter", "microchip", "dental", "surgery",
+        
+        "pet care", "animal hospital", "emergency vet", "mobile vet", "pet insurance"
+    ],
+
+    "photography": [
+        
+        "photography", "photographer", "photo", "picture", "portrait", "wedding photography",
+        "event photography", "family photos", "senior photos", "maternity", "newborn",
+        "engagement", "headshots", "commercial", "product photography", "real estate photos",
+        
+        "photo shoot", "session", "editing", "album", "prints", "digital", "studio", "outdoor"
+    ],
+
+    "real_estate": [
+        
+        "house", "home", "property", "real estate", "realtor", "agent", "buy", "sell", "rent",
+        "lease", "mortgage", "listing", "mls", "apartment", "condo", "townhouse", "land",
+        "commercial", "residential", "investment property", "first time buyer",
+        
+        "showing", "viewing", "inspection", "appraisal", "closing", "escrow", "market analysis"
+    ],
+
+    "transportation": [
+        
+        "ride", "taxi", "uber", "lyft", "car service", "airport", "shuttle", "limo", "limousine",
+        "chauffeur", "driver", "pickup", "drop off", "transportation", "travel", "trip",
+        "booking", "reservation", "vehicle", "sedan", "suv", "van", "luxury", "executive"
+    ],
+
+    "travel_hotel": [
+        
+        "travel", "hotel", "motel", "resort", "vacation", "trip", "booking", "reservation",
+        "accommodation", "stay", "room", "suite", "check in", "check out", "flight", "airline",
+        "cruise", "tour", "package", "destination", "itinerary", "sightseeing", "tourist",
+        
+        "rome", "italy", "paris", "london", "new york", "california", "florida", "beach", "mountain"
+    ]
+}
+
