@@ -14,6 +14,9 @@ from langchain_openai import ChatOpenAI
 # ChromaDB imports
 from chromadb import PersistentClient
 from chromadb.utils import embedding_functions
+import re
+from difflib import SequenceMatcher
+from fuzzywuzzy import fuzz
 
 ##########################
 # UNIVERSAL DATABASE ACCESS
@@ -172,16 +175,33 @@ class SectorSpecificProcessor:
     
     def _create_result_item(self, results: Dict, index: int, item_type: str) -> Dict[str, Any]:
         """Create a standardized result item from database results"""
-        doc = results["documents"][0][index]
-        meta = results["metadatas"][0][index]
-        distance = results["distances"][0][index]
-        
-        return {
-            "type": item_type,
-            "name": doc,
-            "score": distance,
-            "metadata": meta
-        }
+        try:
+            doc = results["documents"][0][index]
+            meta = results["metadatas"][0][index]
+            distance = results["distances"][0][index]
+            
+            # ✅ GENERIC validation - works for ANY sector
+            if not isinstance(meta, dict):
+                print(f"❌ Invalid metadata type: expected dict, got {type(meta)}")
+                meta = {}  # Safe fallback for any sector
+            
+            if not isinstance(doc, str):
+                doc = str(doc)  # Ensure doc is always a string
+
+            return {
+                "type": item_type,
+                "name": doc,
+                "score": distance,
+                "metadata": meta
+            }
+        except (IndexError, TypeError, KeyError) as e:
+            print(f"❌ Error creating result item: {e}")
+            return {
+                "type": item_type,
+                "name": "unknown",
+                "score": 1.0,
+                "metadata": {}
+            }
     
     def _process_sector_results(self, unified_results: List[Dict], query: str) -> Dict[str, Any]:
         """Process unified results with sector context"""
@@ -190,9 +210,19 @@ class SectorSpecificProcessor:
         
         # Filter for exact matches (score < 0.9) in this sector
         for item_result in unified_results:
-            if item_result["score"] < 0.9:
+            # ✅ GENERIC validation - works for ANY sector
+            if not isinstance(item_result, dict):
+                print(f"❌ Invalid result type: expected dict, got {type(item_result)}")
+                continue
+
+            if item_result.get("score", 1.0) < 0.9:
                 meta = item_result["metadata"]
                 
+                # ✅ GENERIC validation - works for ANY sector  
+                if not isinstance(meta, dict):
+                    print(f"❌ Invalid metadata: expected dict, got {type(meta)}")
+                    continue
+
                 # Verify this item belongs to our sector
                 if meta.get("sector") == self.sector_name:
                     item = {
@@ -263,13 +293,14 @@ class SectorSpecificProcessor:
 class EnhancedSectorIntentDetector:
     """Enhanced intent detection with vector database integration for better accuracy"""
     
-    def __init__(self, db_client: UniversalDatabaseClient):
+    def __init__(self, db_client: UniversalDatabaseClient,available_sectors: List[str] = None):
         self.db_client = db_client  # Store database client for vector searches
+        self.available_sectors = available_sectors or []  # ✅ Add this attribute
         self.sector_keywords = {
-            "healthcare": ["doctor", "medical", "health", "appointment", "sick", "symptoms", "clinic", "hospital", "checkup", "physician", "nurse"],
+            "healthcare": ["injured", "hurt", "pain","doctor", "medical", "health", "appointment", "sick", "symptoms", "clinic", "hospital", "checkup", "physician", "nurse"],
             "food_delivery": ["food", "breakfast", "lunch", "dinner", "order", "omelet", "bagel", "sandwich", "hungry", "eat", "meal", "restaurant", "delivery"],
             "beauty_salon": ["hair", "nails", "facial", "makeup", "salon", "spa", "haircut", "manicure", "beauty", "makeover", "style", "color"],
-            "legal_services": ["lawyer", "attorney", "legal", "contract", "court", "law", "divorce", "consultation", "litigation", "lawsuit"],
+            "legal_services": ["injured", "work injury", "workers comp","lawyer", "attorney", "legal", "contract", "court", "law", "divorce", "consultation", "litigation", "lawsuit"],
             "financial_services": ["financial", "money", "investment", "banking", "insurance", "loan", "planning", "credit", "mortgage"],
             "real_estate": ["house", "home", "property", "buy", "sell", "rent", "real estate", "apartment", "condo", "realtor"],
             "fitness_gym": ["gym", "workout", "exercise", "fitness", "training", "membership", "personal trainer", "cardio"],
@@ -336,23 +367,21 @@ class EnhancedSectorIntentDetector:
         
         return clean_message in generic_greetings
     
+    
     def _get_default_sector(self) -> str:
         """Get default sector dynamically"""
-        # Option 1: Use first available sector
-        if self.available_sectors:
-            return self.available_sectors[0]
+        if not self.available_sectors:
+            return "unknown"
         
-        # Option 2: Use most commonly used sector (if you track usage)
-        # return self._get_most_popular_sector()
-        
-        # Option 3: Use general service sector
+        # Option 1: Try general service sectors first (if they exist)
         general_sectors = ['general_services', 'customer_service', 'consultation']
         for sector in general_sectors:
             if sector in self.available_sectors:
                 return sector
-    
-        # Final fallback: alphabetically first sector
-        return sorted(self.available_sectors)[0] if self.available_sectors else "unknown"
+        
+        # Option 2: Use alphabetically first sector (consistent ordering)
+        return sorted(self.available_sectors)[0]
+
 
     def detect_sector_with_confidence(self, user_input: str) -> Dict[str, Any]:
         """Enhanced detection with confidence scoring like in your successful tests"""
@@ -370,6 +399,9 @@ class EnhancedSectorIntentDetector:
         # Score from vector results
         for result in vector_results:
             sector = result.get("sector")
+            if sector not in self.available_sectors:  # ✅ Filter to available sectors
+                continue
+
             relevance = result.get("relevance_score", 0)
             if sector not in sector_confidence:
                 sector_confidence[sector] = 0
@@ -385,22 +417,34 @@ class EnhancedSectorIntentDetector:
         sorted_sectors = sorted(sector_confidence.items(), key=lambda x: x[1], reverse=True)
         
         # Require minimum confidence for automatic selection
-        MIN_CONFIDENCE_THRESHOLD = 2.0
+        MIN_CONFIDENCE_THRESHOLD = 3.0
 
         if sorted_sectors and sorted_sectors[0][1] >= MIN_CONFIDENCE_THRESHOLD:
             primary_sector = sorted_sectors[0][0]
             confidence = sorted_sectors[0][1]
-        elif sorted_sectors:
-            # Low confidence - might want to ask user for clarification
-            primary_sector = sorted_sectors[0][0]
-            confidence = sorted_sectors[0][1]
-            print(f"[WARNING] Low confidence detection: {confidence}")
+        elif sorted_sectors and len(sorted_sectors) > 1 and abs(sorted_sectors[0][1] - sorted_sectors[1][1]) < 1.0:
+            # ✅ Return dict with error message, not string
+            return {
+                "primary_sector": self._get_default_sector(),
+                "confidence": 0.0,
+                "error_message": "I can help with both legal services and food ordering. Which would you prefer?",
+                "alternative_sectors": [sorted_sectors[0][0], sorted_sectors[1][0]],
+                "keyword_scores": keyword_scores,
+                "sector_confidence": dict(sorted_sectors)
+            }
         else:
-            primary_sector = self._get_default_sector()
-            confidence = 0.0
-        
+            # ✅ Return dict with error message, not string
+            return {
+                "primary_sector": self._get_default_sector(),
+                "confidence": 0.0,
+                "error_message": "I didn't quite understand. Could you please clarify what service you need?",
+                "alternative_sectors": [s[0] for s in sorted_sectors[:2]],
+                "keyword_scores": keyword_scores,
+                "sector_confidence": dict(sorted_sectors)
+            }
+     
         print(f"[DEBUG] Selected sector: {primary_sector} with confidence {confidence}")
-        
+                
         return {
             "primary_sector": primary_sector,
             "confidence": confidence,
@@ -443,6 +487,10 @@ class EnhancedSectorIntentDetector:
         print(f"[DEBUG] Calculating keyword scores for: '{query}'")
         
         for sector, keywords in self.sector_keywords.items():
+             # ✅ Only score sectors that are actually available
+            if sector not in self.available_sectors:
+                continue
+
             score = 0
             matched_keywords = []
             
@@ -539,10 +587,20 @@ class UniversalServiceBot:
     """Universal Service Bot that works directly with universal database"""
     
     
-    def __init__(self, sectors_directory: str = "sectors", db_path: str = "universal_chroma_database"):
+    def __init__(self, sectors_directory: str = "sectors", 
+                 db_path: str = "universal_chroma_database", caller_id: str = None):
         self.sectors_directory = sectors_directory
         self.db_path = db_path
-        
+        self.caller_id = caller_id  # Store for session tracking
+        self.conversation_history = []  # Track conversation per caller
+        # ✅ ADD: Internal state management like your original orderChat
+        self.state = {
+            "chat_history": [],
+            "detected_sector": None,
+            "conversation_context": {}
+        }
+        # ✅ Load topic change keywords from file
+        self.topic_change_keywords = self._load_topic_keywords()
         # Initialize universal database client FIRST
         self.db_client = UniversalDatabaseClient(db_path)
         
@@ -553,12 +611,14 @@ class UniversalServiceBot:
         
         print(f"📊 Database stats: {db_stats}")
         
-        # Initialize components (PASS db_client to intent detector)
-        self.intent_detector = EnhancedSectorIntentDetector(self.db_client)  # 👈 FIX: Pass db_client
-        self.openrouter = OpenRouterIntegration()
-        
-        # Discover available sectors
+        # Discover available sectors FIRST
         self.available_sectors = self._discover_sectors()
+
+        # Initialize components (PASS db_client to intent detector)
+        self.intent_detector = EnhancedSectorIntentDetector(self.db_client,
+                                                            self.available_sectors  )  # ✅ Pass available sectors
+        # 👈 FIX: Pass db_client
+        self.openrouter = OpenRouterIntegration()
         
         # Cache for sector processors and prompts
         self.sector_processors = {}
@@ -567,6 +627,23 @@ class UniversalServiceBot:
         print(f"🤖 Universal Service Bot initialized with {len(self.available_sectors)} sectors")
         print(f"📂 Available sectors: {', '.join(sorted(self.available_sectors))}")
 
+    def _load_topic_keywords(self) -> dict:
+        """Load topic change keywords from JSON file"""
+        keywords_file = Path("sector_keywords.json")
+        
+        try:
+            if keywords_file.exists():
+                with open(keywords_file, 'r', encoding='utf-8') as f:
+                    keywords = json.load(f)
+                print(f"✅ Loaded topic keywords from {keywords_file}")
+                return keywords
+            else:
+                print(f"❌ Keywords file {keywords_file} not found, using default keywords")
+                
+        except Exception as e:
+            print(f"❌ Error loading keywords file: {e}")
+            
+        
     def _discover_sectors(self) -> List[str]:
         """Discover available sectors from sectors/ directory"""
         sectors = []
@@ -722,7 +799,301 @@ class UniversalServiceBot:
             print(f"❌ Error in getIngredients for sector {sector}: {e}")
             return orig_prompt
     
+
+    def is_greeting(self, user_input: str) -> bool:
+        """Check if user input is a greeting that shouldn't trigger sector detection"""
+        greeting_patterns = [
+            "hi", "hello", "hey", "hiya", "howdy",
+            "good morning", "good afternoon", "good evening",
+            "what's up", "whats up", "sup", "yo",
+            "how are you", "how can you help", "what do you do"
+        ]
+        
+        user_lower = user_input.lower().strip()
+        
+        # Exact matches
+        if user_lower in greeting_patterns:
+            return True
+        
+        # ✅ FIX: Use word boundary matching instead of substring matching
+        greeting_keywords = ["hello", "hi", "hey"]  # Single word greetings only
+        
+        # Use regex word boundaries to match whole words only
+        if len(user_input.split()) <= 3:
+            for keyword in greeting_keywords:
+                if re.search(rf'\b{re.escape(keyword)}\b', user_lower):
+                    return True
+        
+        # Handle multi-word greetings separately (these are safe for substring matching)
+        multi_word_greetings = ["good morning", "good afternoon", "good evening"]
+        if any(greeting in user_lower for greeting in multi_word_greetings):
+            return True
+        
+        return False
+
+
+
+    def _handle_greeting(self) -> str:
+        """Handle greeting messages without sector detection"""
+        greeting_responses = [
+            "Hello! I'm your universal service assistant. I can help you with services like healthcare appointments, food delivery, home repairs, legal consultation, beauty services, and much more. What can I help you with today?",
+            
+            "Hi there! I'm here to help you with any service you need - from booking appointments to ordering food, arranging transportation, pet services, auto repair, and more. How can I assist you?",
+            
+            "Welcome! I can help you with services across multiple industries including healthcare, beauty, legal, real estate, insurance, fitness, education, and many others. What service are you looking for?"
+        ]
+        
+        import random
+        return random.choice(greeting_responses)
+
+    def _get_word_root(self, word: str) -> str:
+        """Simple stemming to get word root"""
+        # Basic stemming rules
+        suffixes = ['ing', 'ed', 'er', 'est', 'ly', 'ion', 'tion', 'ness', 's']
+        
+        word = word.lower().strip()
+        
+        for suffix in sorted(suffixes, key=len, reverse=True):
+            if word.endswith(suffix) and len(word) > len(suffix) + 2:
+                return word[:-len(suffix)]
+        
+        return word
+
+    def detect_with_keywords(self, user_input: str, conversation_context: str = "") -> str:
+        """Enhanced sector detection with fuzzy keyword matching - COMPLETE WITH ALL 4 STRATEGIES"""
+        
+        user_lower = user_input.lower()
+        sector_scores = {}
+        
+        for sector, keywords in self.topic_change_keywords.items():
+            total_score = 0  # ✅ Use total_score, not max_score
+            matched_keywords = []  # ✅ Track ALL matched keywords
+            
+            for keyword in keywords:
+                keyword_matched = False
+                match_info = ""
+                
+                # Strategy 1: Exact substring match (highest score)
+                if keyword in user_lower:
+                    total_score += 100  # ✅ ADD to total, don't replace
+                    match_info = keyword
+                    keyword_matched = True
+                
+                # Strategy 2: Word boundary matching (if not already matched)
+                elif re.search(rf'\b{re.escape(keyword)}\b', user_lower):
+                    total_score += 95  # ✅ ADD to total
+                    match_info = keyword
+                    keyword_matched = True
+                
+                # Strategy 3: Fuzzy matching (if not already matched)
+                elif not keyword_matched:
+                    for word in user_input.split():
+                        word_clean = re.sub(r'[^\w]', '', word.lower())
+                        
+                        # Using fuzzywuzzy for similarity
+                        fuzzy_score = fuzz.ratio(keyword, word_clean)
+                        if fuzzy_score >= 80:
+                            total_score += fuzzy_score * 0.8  # ✅ ADD to total
+                            match_info = f"{keyword}~{word_clean}"
+                            keyword_matched = True
+                            break
+                        
+                        # Using difflib for sequence matching
+                        seq_score = SequenceMatcher(None, keyword, word_clean).ratio() * 100
+                        if seq_score >= 80:
+                            total_score += seq_score * 0.7  # ✅ ADD to total
+                            match_info = f"{keyword}≈{word_clean}"
+                            keyword_matched = True
+                            break
+                
+                # Strategy 4: Stemming/root word matching (if not already matched)
+                if not keyword_matched:
+                    keyword_root = self._get_word_root(keyword)
+                    for word in user_input.split():
+                        word_root = self._get_word_root(word.lower())
+                        if keyword_root == word_root and len(keyword_root) > 3:
+                            total_score += 85  # ✅ ADD to total
+                            match_info = f"{keyword_root}*"
+                            keyword_matched = True
+                            break
+                
+                # ✅ Track matched keyword
+                if keyword_matched and match_info:
+                    matched_keywords.append(match_info)
+            
+            if total_score > 0:
+                sector_scores[sector] = {
+                    'score': total_score,
+                    'keywords': matched_keywords
+                }
+                print(f"🎯 {sector}: {total_score:.1f} points from {matched_keywords}")
+        
+        # ✅ Find best matching sector
+        if sector_scores:
+            best_sector = max(sector_scores, key=lambda x: sector_scores[x]['score'])
+            best_score = sector_scores[best_sector]['score']
+            
+            if best_score >= 85:
+                if conversation_context and best_sector not in conversation_context.lower():
+                    print(f"🔄 Detected in detect_with_keywords explicit topic change to: {best_sector} (score: {best_score:.1f})")
+                    return best_sector
+        
+        return None
+
+
+   
+    def detect_sector_with_ai(self, user_input: str,conversation_context: str = "") -> str:
+        """Use AI to detect sector instead of keywords/vectors"""
+        
+        user_lower = user_input.lower()
+        # Check for explicit topic change signals
+        # ✅ STAGE 1: Try keyword detection first
+        #keyword_result = self.detect_with_keywords (user_input,conversation_context)
+        #if keyword_result:
+        #    return keyword_result
+        
+        # Create sector detection prompt
+        available_sectors_list = ", ".join(self.available_sectors)
+        
+        # ✅ Include conversation context in prompt
+        context_prompt = ""
+        if conversation_context:
+            context_prompt = f"\nRecent conversation context: {conversation_context}\n"
+            
+        sector_detection_prompt = f"""You are a business sector classifier. Consider the conversation context when determining the sector.
+
+    {context_prompt}Available sectors: {available_sectors_list}
+
+    Rules:
+    1. If user mentions explicit service keywords (tutoring, doctor, lawyer, car repair, food, etc.), switch to that sector immediately
+    2. For ambiguous phrases ("total cost", "yes", "no", "how much", "when", "where", "next day", "tomorrow", "sounds good", "okay", "I agree" etc.), stay in current conversation context
+    3. Clear topic changes should override conversation context
+
+    Examples:
+    - "I like to hire tutoring" → education_tutoring (EXPLICIT CHANGE)
+    - "I need a doctor" → healthcare (EXPLICIT CHANGE)  
+    - Context: "travel" + "total cost" → travel_hotel (STAY IN CONTEXT)
+    - Context: "tutoring" + "20 sessions" → education_tutoring (STAY IN CONTEXT)
+
+    Current user input: "{user_input}"
+    Sector:"""
+
+        try:
+            # Call OpenRouter for sector detection
+            if not self.openrouter.llm_local:
+                return self._get_default_sector()
+            
+            print(f"🔍 Asking AI to detect sector for: '{user_input}'")
+            
+            messages = [HumanMessage(content=sector_detection_prompt)]
+            response = self.openrouter.llm_local.invoke(messages)
+            
+            detected_sector = response.content.strip().lower()
+            print(f"🎯 AI detected sector: {detected_sector}")
+            
+            # Validate AI response
+            if detected_sector in self.available_sectors:
+                return detected_sector
+            else:
+                print(f"❌ AI returned invalid sector: {detected_sector}")
+                return self._get_default_sector()
+                
+        except Exception as e:
+            print(f"❌ AI sector detection failed: {e}")
+            return self._get_default_sector()
+
+    
+
     def chatAway(self, user_input: str, detected_sector: str = None, chat_history: List = None) -> str:
+        """Universal chatAway method following orderChat.py pattern"""
+        try:
+                # STEP 1: Handle greetings FIRST (before any sector detection)
+                if self.is_greeting(user_input):
+                    return self._handle_greeting()
+                
+                # STEP 2: Detect sector if not provided (only for non-greetings)
+                if not detected_sector:
+                    # ✅ Create conversation context from recent history
+                    conversation_context = ""
+                    if hasattr(self, 'state') and self.state["chat_history"]:
+                        recent_messages = self.state["chat_history"][-4:]  # Last 2 exchanges
+                        context_parts = []
+                        for msg in recent_messages:
+                            if hasattr(msg, 'content'):
+                                context_parts.append(msg.content[:50])  # First 50 chars
+                        conversation_context = " | ".join(context_parts)
+                    # ✅ Pass context to sector detection
+                    detected_sector = self.detect_sector_with_ai(user_input, conversation_context)  # ✅ Pass context to sector detection)
+
+
+                print(f"🎯 Using sector: {detected_sector}")
+                
+                # STEP 3: Load sector prompt
+                # ✅ GENERIC error handling - works for ANY sector
+                try:
+                    sector_prompt = self.load_sector_prompt(detected_sector)
+                except Exception as e:
+                    print(f"❌ Error loading prompt: {e}")
+                    return f"I can help you with {detected_sector.replace('_', ' ')}. What do you need?"
+                
+                # STEP 4: Enhance prompt with menu information using getIngredients
+                try:
+                    enhanced_prompt = self.getIngredients(detected_sector, user_input, sector_prompt)
+                except Exception as e:
+                    print(f"❌ Error enhancing prompt: {e}")
+                    enhanced_prompt = sector_prompt  # Use basic prompt as fallback
+                
+                # STEP 5: Call LLM with enhanced prompt
+                if not self.openrouter.llm_local:
+                    return f"I understand you're interested in {detected_sector.replace('_', ' ')}. How can I help you today? (OpenRouter API not configured)"
+                
+                # STEP 6: ✅ Use INTERNAL chat history instead of parameter
+                internal_chat_history = self.state["chat_history"].copy()
+
+                # STEP 6: Prepare messages for LLM
+                messages = [
+                    SystemMessage(content=enhanced_prompt),
+                    *internal_chat_history,
+                    HumanMessage(content=user_input)
+                ]
+                
+                print(f"🔄 Calling OpenRouter for sector: {detected_sector}")
+                response = self.openrouter.llm_local.invoke(messages)
+                print(f"✅ OpenRouter response received: {len(response.content)} chars")
+                
+                # STEP 7: ✅ UPDATE internal chat history after response
+                self.state["chat_history"].extend([
+                    HumanMessage(content=user_input),
+                    AIMessage(content=response.content)
+                ])
+                
+                # Keep history manageable (last 10 messages)
+                if len(self.state["chat_history"]) > 10:
+                    self.state["chat_history"] = self.state["chat_history"][-10:]
+                    
+                # STEP 7: Handle JSON responses (fix for legal services)
+                response_content = response.content
+                if response_content.startswith("{") and "call_forward" in response_content:
+                    try:
+                        import json
+                        data = json.loads(response_content)
+                        if data.get("message_type") == "call_forward":
+                            phone = data.get("phone_number", "")
+                            # Make it generic - works for any sector
+                            sector_name = detected_sector.replace('_', ' ').title()
+                            return f"I'll connect you with our {sector_name} team at {phone}. Please call {phone} for immediate assistance."
+                    except:
+                        pass  # If JSON parsing fails, return original response
+                    
+                return response.content
+            
+        except Exception as e:
+            print(f"❌ Error in chatAway: {e}")
+            print(f"❌ Error type: {type(e)}")
+            # ✅ GENERIC error response - works for ANY sector
+            return f"I'm here to help with {detected_sector.replace('_', ' ') if detected_sector else 'your request'}. Could you tell me more about what you need?"
+        
+    def chatAway2(self, user_input: str, detected_sector: str = None, chat_history: List = None) -> str:
         """Universal chatAway method following orderChat.py pattern"""
         try:
             # Detect sector if not provided
@@ -751,7 +1122,7 @@ class UniversalServiceBot:
             print(f"🔄 Calling OpenRouter for sector: {detected_sector}")
             response = self.openrouter.llm_local.invoke(messages)
             print(f"✅ OpenRouter response received: {len(response.content)} chars")
-            
+               
             return response.content
             
         except Exception as e:
