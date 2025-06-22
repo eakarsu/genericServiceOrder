@@ -301,7 +301,7 @@ async def voice(request: Request):
                 input="speech",
                 action="/voice",
                 method="POST",
-                timeout=5,
+                timeout=2,
                 speech_timeout="auto",
                 barge_in=True   # Enable barge-in!
             )
