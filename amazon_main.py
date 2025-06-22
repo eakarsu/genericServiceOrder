@@ -18,7 +18,7 @@ from twilio.jwt.access_token import AccessToken
 from twilio.jwt.access_token.grants import VoiceGrant
 
 load_dotenv()  # Loads .env if present
-PORT = 5003
+PORT = int(os.getenv('PORT', 5003))  # Default to 5003 if not set
 sessions = {}
 
 app = FastAPI()
@@ -28,7 +28,8 @@ app = FastAPI()
 origins = [
     "https://orderlybite.com",        # Your production frontend (Vercel)
     "https://www.orderlybite.com",    # Your production frontend with www
-    
+    "https://omniassistai.com",        # Your production frontend (Vercel)
+    "https://www.omniassistai.com",    # Your production frontend with www
     # Origins for Capacitor apps [6]
     "capacitor://localhost",        # For Capacitor iOS local scheme
     "ionic://localhost",            # Another common Capacitor local scheme (though less used with raw Capacitor)
@@ -41,9 +42,12 @@ origins = [
     # Your previously listed local dev server ports
     "http://localhost:8080",        
     "http://localhost:5003",        
+    "http://localhost:5006",  
+    "http://localhost:5007",
 
     # It's also good practice to allow your backend's own origin if it ever serves a frontend
-    "https://api.orderlybite.com" 
+    "https://api.orderlybite.com",
+    "https://api.omniassistai.com" 
 ]
 # Add CORS middleware
 app.add_middleware(
@@ -148,8 +152,88 @@ def synthesize_with_polly(text, voice_id="Joanna"):
         f.write(polly_response["AudioStream"].read())
     return audio_filename
 
+
 @app.api_route("/sms", methods=["GET", "POST"])
 async def sms_reply(request: Request):
+    global CALLER_ID
+    
+    print(f"🔍 SMS endpoint called - Method: {request.method}")
+    
+    # Handle both form data and JSON data
+    try:
+        # Try form data first (for Twilio webhooks and curl)
+        form_data = await request.form()
+        message_body = form_data.get("Body", "").strip()
+        CALLER_ID = form_data.get("From", "").replace("whatsapp:", "")
+        print(f"✅ Form data - Body: '{message_body}', From: '{CALLER_ID}'")
+    except Exception as form_error:
+        print(f"⚠️ Form parsing failed, trying JSON: {form_error}")
+        # Fallback to JSON data (for frontend requests)
+        try:
+            json_data = await request.json()
+            message_body = json_data.get("message", "").strip()
+            CALLER_ID = json_data.get("from", "frontend_user")
+            print(f"✅ JSON data - message: '{message_body}', from: '{CALLER_ID}'")
+        except Exception as json_error:
+            print(f"❌ Both form and JSON parsing failed: {json_error}")
+            message_body = ""
+            CALLER_ID = "frontend_user"
+    
+    # Ensure CALLER_ID is not empty or "UNKNOWN"
+    if not CALLER_ID or CALLER_ID == "UNKNOWN":
+        old_caller_id = CALLER_ID
+        CALLER_ID = "frontend_user"
+        print(f"🔄 Changed CALLER_ID from '{old_caller_id}' to '{CALLER_ID}'")
+    
+    # Always ensure session exists
+    if CALLER_ID not in chat_sessions:
+        print(f"🔍 Creating new session for '{CALLER_ID}'...")
+        try:
+            chat_sessions[CALLER_ID] = UniversalServiceBot("./sectors",
+                                                          "universal_chroma_database", 
+                                                          CALLER_ID)
+            print(f"✅ Session created for '{CALLER_ID}'")
+        except Exception as e:
+            print(f"❌ Failed to create session for '{CALLER_ID}': {e}")
+            response = MessagingResponse()
+            response.message("I'm here to help with your request. Could you tell me more about what you need?")
+            return HTMLResponse(content=str(response), media_type="application/xml")
+
+    # Initialize data session if not already started
+    if CALLER_ID not in data_sessions:
+        data_sessions[CALLER_ID] = []
+
+    # Handle exit command
+    if message_body.lower() == "exit":
+        if CALLER_ID in data_sessions:
+            del data_sessions[CALLER_ID]
+        if CALLER_ID in chat_sessions:
+            del chat_sessions[CALLER_ID]
+        response = MessagingResponse()
+        response.message("Session ended. Goodbye!")
+        return HTMLResponse(content=str(response), media_type="application/xml")
+
+    # Save the message to the session
+    data_sessions[CALLER_ID].append(message_body)
+
+    # Generate a response with error handling
+    response = MessagingResponse()
+    try:
+        print(f"🔍 Processing message for '{CALLER_ID}': '{message_body}'")
+        chatResponse = chat_sessions[CALLER_ID].chatAway(message_body)
+        response.message(str(chatResponse))
+        print("CHATBOT: {}".format(str(chatResponse)))
+    except Exception as e:
+        print(f"❌ chatAway error for '{CALLER_ID}': {e}")
+        response.message("I'm here to help with your request. Could you tell me more about what you need?")
+
+    print("DEBUG: Send following to caller: {}".format(response.to_xml()))
+    return HTMLResponse(content=response.to_xml(), media_type="application/xml")
+   
+
+
+#@app.api_route("/sms2", methods=["GET", "POST"])
+async def sms_reply2(request: Request):
     global CALLER_ID
 
     # Parse form data for POST request
@@ -157,15 +241,16 @@ async def sms_reply(request: Request):
     message_body = form_data.get("Body", "").strip()
     CALLER_ID = form_data.get("From", "").replace("whatsapp:","")
 
-    if CALLER_ID:
-        if CALLER_ID not in data_sessions:
-            print(f"DEBUG: Incoming call received from {CALLER_ID}.")
-            chat_sessions[CALLER_ID] = UniversalServiceBot("./sectors", 
-                                                           "universal_chroma_database", 
-                                                           CALLER_ID)
-    else:
-        CALLER_ID = "UNKNOWN"  # Default if 'From' is not present
+    # Handle missing caller ID
+    if not CALLER_ID:
+        CALLER_ID = "UNKNOWN"
         print("DEBUG: Caller ID could not be retrieved.")
+    
+    # Always ensure session exists
+    if CALLER_ID not in chat_sessions:
+        print(f"DEBUG: Creating new session for {CALLER_ID}.")
+        chat_sessions[CALLER_ID] = UniversalServiceBot("./sectors",
+                                                      "universal_chroma_database",CALLER_ID)
 
     # Initialize session if not already started
     if CALLER_ID not in data_sessions:
@@ -217,6 +302,7 @@ async def voice(request: Request):
                 action="/voice",
                 method="POST",
                 timeout=5,
+                speech_timeout="auto",
                 barge_in=True   # Enable barge-in!
             )
             if py.prompt_count == 1:
@@ -279,6 +365,12 @@ async def token():
     # Use FastAPI's JSONResponse instead of Flask's jsonify
     return JSONResponse(content={'token': access_token.to_jwt()})
 
+@app.post('/voice-status')
+async def voice_status(request: Request):
+    form_data = await request.form()
+    call_status = form_data.get("CallStatus")
+    print(f"Voice call status: {call_status}")
+    return JSONResponse(content={'msg':"OK"})
 
 if __name__ == "__main__":
 

@@ -13,7 +13,7 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
-COPY . /app
+COPY requirements.txt /app
 
 # Install Python dependencies (add redis to requirements.txt)
 RUN pip install --upgrade pip
@@ -31,6 +31,8 @@ RUN service postgresql stop && \
 USER root
 
 EXPOSE 8000 6379
+
+COPY . /app
 
 # Start PostgreSQL, Redis, run menuIndexerIntentCalc.py --index-all, then amazon_main.py
 CMD service postgresql start && \

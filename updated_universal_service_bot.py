@@ -981,7 +981,7 @@ class UniversalServiceBot:
         try:
             # Call OpenRouter for sector detection
             if not self.openrouter.llm_local:
-                return self._get_default_sector()
+                return self.intent_detector._get_default_sector()
             
             print(f"🔍 Asking AI to detect sector for: '{user_input}'")
             
@@ -996,11 +996,11 @@ class UniversalServiceBot:
                 return detected_sector
             else:
                 print(f"❌ AI returned invalid sector: {detected_sector}")
-                return self._get_default_sector()
+                return self.intent_detector._get_default_sector()
                 
         except Exception as e:
             print(f"❌ AI sector detection failed: {e}")
-            return self._get_default_sector()
+            return self.intent_detector._get_default_sector()
 
     
 
