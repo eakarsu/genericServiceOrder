@@ -69,6 +69,10 @@ data_sessions = {}
 chat_sessions = {}
 active_calls = {}
 
+@app.get("/")
+def read_root():
+    return {"message": "Server is running!"}
+
 def update_twilio_webhook(ngrok_url, webhook_type):
     """
     Updates either voice or SMS webhook for a Twilio phone number.
@@ -375,7 +379,7 @@ async def voice_status(request: Request):
 if __name__ == "__main__":
 
     # Open ngrok tunnel
-    listener = ngrok.forward(f"http://localhost:{PORT}")
+    listener = ngrok.forward(f"http://localhost:{PORT}", domain="omniassistai.com.ngrok.app")
     print(f"Ngrok tunnel opened at {listener.url()} for port {PORT}")
     NGROK_URL = listener.url()
     update_twilio_webhook(NGROK_URL, "voice")
