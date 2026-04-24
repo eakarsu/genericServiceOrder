@@ -1,0 +1,52 @@
+[Begin Category] Airport Transfers
+- Airport Pickup Service: $45.00, select rules Vehicle Selection, Passenger Options, Airport Services
+  Professional airport pickup with flight tracking and meet-and-greet service
+- Airport Drop-off Service: $40.00, select rules Vehicle Selection, Passenger Options, Timing Options
+  Reliable airport drop-off service with real-time traffic monitoring
+- Round-trip Airport Service: $75.00, select rules Vehicle Selection, Passenger Options, Multi-Stop Services
+  Complete round-trip airport transportation with flexible return scheduling
+- Express Airport Transfer: $65.00, select rules Vehicle Selection, Express Options, Priority Services
+  Premium express service with priority pickup and fastest route options
+[End Category]
+
+[Begin Category] City Transportation
+- Hourly Service: $60.00, select rules Vehicle Selection, Time Duration, Service Areas
+  Flexible hourly transportation service for multiple stops and extended trips
+- Point-to-Point Transfer: $25.00, select rules Vehicle Selection, Distance Zones, Service Timing
+  Direct transportation between two specific locations within the city
+- Corporate Transportation: $80.00, select rules Vehicle Selection, Corporate Services, Professional Options
+  Executive transportation service for business meetings and corporate events
+- Special Event Transport: $100.00, select rules Vehicle Selection, Event Services, Group Options
+  Specialized transportation for weddings, parties, and special occasions
+[End Category]
+
+[Begin Category] Long Distance Travel
+- Inter-city Transfer: $150.00, select rules Vehicle Selection, Distance Pricing, Travel Options
+  Long-distance transportation service between cities with comfort amenities
+- Out-of-State Travel: $300.00, select rules Vehicle Selection, Extended Travel, Accommodation Services
+  Extended travel service for out-of-state destinations with overnight options
+- Tour Transportation: $200.00, select rules Vehicle Selection, Tour Options, Sightseeing Services
+  Guided transportation service for sightseeing tours and tourist destinations
+[End Category]
+
+[Begin Category] Specialty Services
+- Medical Transportation: $75.00, select rules Medical Vehicle, Patient Care, Accessibility Options
+  Specialized transportation for medical appointments with accessibility features
+- School Transportation: $35.00, select rules Vehicle Selection, Student Safety, Route Options
+  Safe and reliable transportation service for students and educational trips
+- Shopping Service: $50.00, select rules Vehicle Selection, Shopping Assistance, Wait Time
+  Transportation service for shopping trips with wait time and assistance options
+- Pet Transportation: $40.00, select rules Pet Vehicle, Pet Care, Safety Requirements
+  Specialized pet transportation service with appropriate safety and comfort features
+[End Category]
+
+[Begin Category] Vehicle Fleet
+- Economy Sedan: $0.00, select rules Passenger Capacity, Standard Features, Basic Service
+  Standard sedan vehicle for up to 3 passengers with basic comfort features
+- Premium Sedan: $15.00, select rules Passenger Capacity, Premium Features, Enhanced Service
+  Luxury sedan with premium amenities and professional chauffeur service
+- SUV Service: $25.00, select rules Passenger Capacity, Cargo Space, All-Weather Features
+  Spacious SUV for larger groups and additional luggage capacity
+- Executive Van: $40.00, select rules Group Capacity, Executive Features, Corporate Amenities
+  Large van service for group transportation with executive-level amenities
+[End Category]

@@ -1,0 +1,543 @@
+[Begin Rule] Property Criteria
+    Property Type (Rule: Select 1)
+      - Single Family Home - $0.00
+      - Townhouse - $50.00
+      - Condominium - $25.00
+      - Multi-Family Property - $100.00
+      - Land/Lot - $75.00
+    Price Range (Rule: Select 1)
+      - Under $200K - $0.00
+      - $200K-$400K - $25.00
+      - $400K-$600K - $50.00
+      - $600K-$1M - $100.00
+      - Over $1M - $200.00
+    Property Features (Rule: Select up to 4)
+      - Swimming Pool - $50.00
+      - Garage - $25.00
+      - Fireplace - $30.00
+      - Updated Kitchen - $40.00
+      - Master Suite - $35.00
+[End Rule]
+
+[Begin Rule] Location Preferences
+    Geographic Area (Rule: Select 1)
+      - Urban/Downtown - $50.00
+      - Suburban - $0.00
+      - Rural/Country - $25.00
+      - Waterfront - $150.00
+      - Mountain/Hills - $75.00
+    School District Quality (Rule: Select 1)
+      - Average Schools - $0.00
+      - Good Schools - $50.00
+      - Excellent Schools - $100.00
+      - Private School Access - $75.00
+    Proximity Requirements (Rule: Select up to 3)
+      - Near Public Transport - $25.00
+      - Close to Shopping - $20.00
+      - Walking Distance to Work - $40.00
+      - Near Parks/Recreation - $30.00
+[End Rule]
+
+[Begin Rule] Buyer Services
+    Service Level (Rule: Select 1)
+      - Basic Buyer Service - $0.00
+      - Enhanced Buyer Service - $100.00
+      - Premium Buyer Service - $250.00
+      - Concierge Buyer Service - $500.00
+    Additional Services (Rule: Select up to 3)
+      - Property Inspections - $75.00
+      - Mortgage Assistance - $50.00
+      - Attorney Coordination - $100.00
+      - Moving Services - $150.00
+[End Rule]
+
+[Begin Rule] First-Time Services
+    Educational Components (Rule: Select up to 3)
+      - Home Buying Workshop - $50.00
+      - One-on-One Education - $100.00
+      - Financial Planning Session - $75.00
+      - Market Orientation - $40.00
+    First-Time Benefits (Rule: Select up to 2)
+      - Down Payment Assistance Info - $25.00
+      - First-Time Buyer Programs - $50.00
+      - Credit Counseling Referral - $75.00
+[End Rule]
+
+[Begin Rule] Education Options
+    Learning Format (Rule: Select 1)
+      - Online Resources - $0.00
+      - In-Person Workshop - $50.00
+      - Private Consultation - $150.00
+      - Comprehensive Course - $300.00
+    Education Topics (Rule: Select up to 4)
+      - Market Understanding - $25.00
+      - Financing Options - $30.00
+      - Inspection Process - $35.00
+      - Negotiation Strategies - $40.00
+      - Legal Requirements - $45.00
+[End Rule]
+
+[Begin Rule] Financial Guidance
+    Financial Services (Rule: Select up to 3)
+      - Budget Analysis - $75.00
+      - Mortgage Pre-approval - $50.00
+      - Down Payment Planning - $60.00
+      - Closing Cost Estimation - $40.00
+    Credit Services (Rule: Select up to 2)
+      - Credit Report Review - $25.00
+      - Credit Improvement Plan - $100.00
+      - Credit Monitoring - $50.00
+[End Rule]
+
+[Begin Rule] Investment Analysis
+    Analysis Type (Rule: Select 1)
+      - Basic Cash Flow Analysis - $0.00
+      - Comprehensive Investment Analysis - $200.00
+      - Multi-Property Portfolio Analysis - $500.00
+      - Market Timing Analysis - $300.00
+    Investment Metrics (Rule: Select up to 3)
+      - Cap Rate Calculation - $50.00
+      - Cash-on-Cash Return - $50.00
+      - IRR Analysis - $100.00
+      - Appreciation Projections - $75.00
+[End Rule]
+
+[Begin Rule] Market Research
+    Research Scope (Rule: Select 1)
+      - Neighborhood Analysis - $0.00
+      - City-Wide Market Study - $100.00
+      - Regional Market Analysis - $200.00
+      - Custom Market Research - $400.00
+    Research Components (Rule: Select up to 3)
+      - Price Trend Analysis - $50.00
+      - Inventory Level Study - $40.00
+      - Demographic Analysis - $60.00
+      - Economic Indicators - $70.00
+[End Rule]
+
+[Begin Rule] ROI Calculations
+    Calculation Complexity (Rule: Select 1)
+      - Simple ROI Calculation - $0.00
+      - Advanced ROI Analysis - $150.00
+      - Multi-Scenario Analysis - $300.00
+      - Sensitivity Analysis - $400.00
+    Time Horizon (Rule: Select 1)
+      - 1-Year Analysis - $0.00
+      - 5-Year Projection - $50.00
+      - 10-Year Projection - $100.00
+      - Long-Term (20+ years) - $200.00
+[End Rule]
+
+[Begin Rule] Luxury Services
+    Service Level (Rule: Select 1)
+      - Premium Service - $0.00
+      - Luxury Service - $500.00
+      - Ultra-Luxury Service - $1500.00
+      - Platinum Concierge - $3000.00
+    Luxury Amenities (Rule: Select up to 4)
+      - Private Showings - $200.00
+      - Luxury Transportation - $300.00
+      - Personal Shopping Assistant - $400.00
+      - Event Planning - $500.00
+      - Travel Coordination - $600.00
+[End Rule]
+
+[Begin Rule] Exclusive Listings
+    Access Level (Rule: Select 1)
+      - Standard MLS Access - $0.00
+      - Off-Market Listings - $200.00
+      - Exclusive Network Access - $500.00
+      - Private Listing Network - $1000.00
+    Preview Privileges (Rule: Select up to 2)
+      - Pre-Market Previews - $300.00
+      - Broker Preview Access - $200.00
+      - VIP Open Houses - $150.00
+[End Rule]
+
+[Begin Rule] Concierge Options
+    Concierge Level (Rule: Select 1)
+      - Basic Concierge - $0.00
+      - Full Concierge Service - $300.00
+      - White Glove Concierge - $800.00
+      - Personal Concierge Team - $2000.00
+    Concierge Services (Rule: Select up to 4)
+      - Appointment Scheduling - $100.00
+      - Document Management - $150.00
+      - Vendor Coordination - $200.00
+      - Personal Assistant Services - $400.00
+[End Rule]
+
+[Begin Rule] Marketing Options
+    Marketing Package (Rule: Select 1)
+      - Basic Marketing - $0.00
+      - Enhanced Marketing - $300.00
+      - Premium Marketing - $800.00
+      - Luxury Marketing - $2000.00
+    Marketing Channels (Rule: Select up to 4)
+      - MLS Listing - $0.00
+      - Professional Photography - $200.00
+      - Social Media Marketing - $150.00
+      - Print Advertising - $300.00
+      - International Marketing - $500.00
+[End Rule]
+
+[Begin Rule] Pricing Strategy
+    Strategy Type (Rule: Select 1)
+      - Market Price Strategy - $0.00
+      - Competitive Pricing - $50.00
+      - Premium Pricing - $100.00
+      - Auction Strategy - $200.00
+    Pricing Analysis (Rule: Select up to 2)
+      - Comparative Market Analysis - $100.00
+      - Appraisal Coordination - $75.00
+      - Price Adjustment Strategy - $50.00
+[End Rule]
+
+[Begin Rule] Listing Services
+    Listing Package (Rule: Select 1)
+      - Basic Listing - $0.00
+      - Full Service Listing - $200.00
+      - Premium Listing - $500.00
+      - Elite Listing Package - $1000.00
+    Listing Features (Rule: Select up to 3)
+      - Virtual Tour - $150.00
+      - Drone Photography - $200.00
+      - Floor Plans - $100.00
+      - Video Marketing - $250.00
+[End Rule]
+
+[Begin Rule] Fast Sale Options
+    Sale Timeline (Rule: Select 1)
+      - 30-Day Sale Target - $0.00
+      - 14-Day Sale Target - $200.00
+      - 7-Day Sale Target - $500.00
+      - Cash Sale (3-5 days) - $1000.00
+    Fast Sale Methods (Rule: Select up to 2)
+      - Aggressive Pricing - $100.00
+      - Investor Marketing - $200.00
+      - Auction Format - $300.00
+[End Rule]
+
+[Begin Rule] Investor Network
+    Network Access (Rule: Select 1)
+      - Local Investor Network - $0.00
+      - Regional Investor Network - $100.00
+      - National Investor Network - $300.00
+      - International Investors - $500.00
+    Investor Types (Rule: Select up to 3)
+      - Fix-and-Flip Investors - $50.00
+      - Buy-and-Hold Investors - $75.00
+      - Commercial Investors - $150.00
+      - Institutional Buyers - $300.00
+[End Rule]
+
+[Begin Rule] As-Is Services
+    Condition Assessment (Rule: Select 1)
+      - Basic As-Is Sale - $0.00
+      - Detailed Condition Report - $150.00
+      - Professional Inspection - $300.00
+      - Repair Estimate Analysis - $200.00
+    As-Is Benefits (Rule: Select up to 2)
+      - No Repair Requirements - $0.00
+      - Fast Closing Process - $100.00
+      - Cash Buyer Network - $200.00
+[End Rule]
+
+[Begin Rule] Luxury Marketing
+    Marketing Tier (Rule: Select 1)
+      - Luxury Standard - $0.00
+      - Ultra-Luxury Marketing - $1000.00
+      - Platinum Marketing - $2500.00
+      - Exclusive Marketing - $5000.00
+    Luxury Channels (Rule: Select up to 4)
+      - Luxury Magazines - $500.00
+      - International Portals - $800.00
+      - Private Broker Network - $600.00
+      - Celebrity Network - $1500.00
+[End Rule]
+
+[Begin Rule] Professional Photography
+    Photography Package (Rule: Select 1)
+      - Basic Photography - $0.00
+      - Professional Photography - $200.00
+      - Luxury Photography - $500.00
+      - Award-Winning Photographer - $1000.00
+    Photography Features (Rule: Select up to 3)
+      - Aerial Photography - $300.00
+      - Twilight Photography - $250.00
+      - Virtual Staging - $400.00
+      - Video Walkthrough - $500.00
+[End Rule]
+
+[Begin Rule] Staging Services
+    Staging Level (Rule: Select 1)
+      - Consultation Only - $0.00
+      - Partial Staging - $500.00
+      - Full Home Staging - $1500.00
+      - Luxury Staging - $3000.00
+    Staging Duration (Rule: Select 1)
+      - 30-Day Staging - $0.00
+      - 60-Day Staging - $300.00
+      - 90-Day Staging - $600.00
+      - Extended Staging - $1200.00
+[End Rule]
+
+[Begin Rule] FSBO Support
+    Support Level (Rule: Select 1)
+      - Basic FSBO Kit - $0.00
+      - Guided FSBO Service - $100.00
+      - Full FSBO Support - $300.00
+      - FSBO Plus Service - $500.00
+    FSBO Tools (Rule: Select up to 3)
+      - Listing Forms - $25.00
+      - Pricing Guide - $50.00
+      - Marketing Materials - $75.00
+      - Negotiation Support - $100.00
+[End Rule]
+
+[Begin Rule] Legal Guidance
+    Legal Service Level (Rule: Select 1)
+      - Basic Legal Review - $0.00
+      - Contract Review - $200.00
+      - Full Legal Representation - $500.00
+      - Real Estate Attorney - $800.00
+    Legal Services (Rule: Select up to 2)
+      - Document Preparation - $150.00
+      - Title Issues Resolution - $300.00
+      - Closing Coordination - $200.00
+[End Rule]
+
+[Begin Rule] Paperwork Assistance
+    Document Support (Rule: Select 1)
+      - Basic Document Review - $0.00
+      - Complete Document Prep - $150.00
+      - Professional Document Service - $300.00
+      - Full-Service Documentation - $500.00
+    Document Types (Rule: Select up to 3)
+      - Purchase Agreement - $75.00
+      - Disclosure Forms - $50.00
+      - Inspection Reports - $60.00
+      - Closing Documents - $100.00
+[End Rule]
+
+[Begin Rule] Tenant Screening
+    Screening Level (Rule: Select 1)
+      - Basic Background Check - $0.00
+      - Comprehensive Screening - $75.00
+      - Premium Screening Package - $150.00
+      - Executive Screening - $250.00
+    Screening Components (Rule: Select up to 4)
+      - Credit Check - $25.00
+      - Employment Verification - $30.00
+      - Reference Checks - $35.00
+      - Criminal Background - $40.00
+      - Eviction History - $50.00
+[End Rule]
+
+[Begin Rule] Lease Preparation
+    Lease Type (Rule: Select 1)
+      - Standard Lease Agreement - $0.00
+      - Custom Lease Agreement - $100.00
+      - Commercial Lease - $300.00
+      - Month-to-Month Agreement - $50.00
+    Lease Services (Rule: Select up to 2)
+      - Legal Review - $150.00
+      - Tenant Education - $75.00
+      - Lease Renewal Planning - $100.00
+[End Rule]
+
+[Begin Rule] Property Marketing
+    Marketing Approach (Rule: Select 1)
+      - Basic Online Listing - $0.00
+      - Multi-Platform Marketing - $100.00
+      - Premium Marketing Campaign - $300.00
+      - Luxury Property Marketing - $600.00
+    Marketing Duration (Rule: Select 1)
+      - 30-Day Campaign - $0.00
+      - 60-Day Campaign - $50.00
+      - 90-Day Campaign - $100.00
+      - Extended Campaign - $200.00
+[End Rule]
+
+[Begin Rule] Management Services
+    Management Level (Rule: Select 1)
+      - Basic Property Management - $0.00
+      - Full Property Management - $200.00
+      - Premium Management - $400.00
+      - Concierge Management - $800.00
+    Management Features (Rule: Select up to 4)
+      - Rent Collection - $50.00
+      - Maintenance Coordination - $75.00
+      - Tenant Relations - $60.00
+      - Financial Reporting - $80.00
+      - Legal Compliance - $100.00
+[End Rule]
+
+[Begin Rule] Maintenance Coordination
+    Maintenance Level (Rule: Select 1)
+      - Emergency Only - $0.00
+      - Routine Maintenance - $100.00
+      - Preventive Maintenance - $200.00
+      - Comprehensive Maintenance - $400.00
+    Maintenance Services (Rule: Select up to 3)
+      - 24/7 Emergency Response - $150.00
+      - Vendor Network Access - $100.00
+      - Quality Control - $75.00
+      - Cost Management - $125.00
+[End Rule]
+
+[Begin Rule] Rent Collection
+    Collection Method (Rule: Select 1)
+      - Manual Collection - $0.00
+      - Online Collection System - $50.00
+      - Automated Collection - $100.00
+      - Full-Service Collection - $200.00
+    Collection Features (Rule: Select up to 2)
+      - Late Fee Management - $25.00
+      - Payment Tracking - $30.00
+      - Collection Services - $150.00
+[End Rule]
+
+[Begin Rule] Pricing Analysis
+    Analysis Scope (Rule: Select 1)
+      - Basic Pricing Review - $0.00
+      - Detailed Market Analysis - $150.00
+      - Comprehensive Pricing Study - $300.00
+      - Dynamic Pricing Strategy - $500.00
+    Pricing Factors (Rule: Select up to 3)
+      - Market Comparables - $50.00
+      - Seasonal Adjustments - $40.00
+      - Property Improvements - $60.00
+      - Demand Analysis - $75.00
+[End Rule]
+
+[Begin Rule] Competition Review
+    Review Scope (Rule: Select 1)
+      - Local Competition Analysis - $0.00
+      - Market-Wide Competition - $100.00
+      - Regional Competition Study - $200.00
+      - National Benchmark Analysis - $400.00
+    Competitive Factors (Rule: Select up to 3)
+      - Pricing Comparison - $50.00
+      - Feature Comparison - $40.00
+      - Marketing Analysis - $60.00
+      - Performance Metrics - $80.00
+[End Rule]
+
+[Begin Rule] Analysis Type
+    Valuation Method (Rule: Select 1)
+      - Comparative Market Analysis - $0.00
+      - Professional Appraisal - $400.00
+      - Automated Valuation Model - $100.00
+      - Investment Analysis - $300.00
+    Analysis Depth (Rule: Select 1)
+      - Basic Analysis - $0.00
+      - Standard Analysis - $100.00
+      - Comprehensive Analysis - $250.00
+      - Expert Analysis - $500.00
+[End Rule]
+
+[Begin Rule] Property Valuation
+    Valuation Approach (Rule: Select 1)
+      - Sales Comparison Approach - $0.00
+      - Cost Approach - $150.00
+      - Income Approach - $200.00
+      - Combined Approach - $350.00
+    Valuation Purpose (Rule: Select 1)
+      - Listing Price Determination - $0.00
+      - Investment Analysis - $100.00
+      - Insurance Valuation - $200.00
+      - Estate Planning - $300.00
+[End Rule]
+
+[Begin Rule] Market Trends
+    Trend Analysis Period (Rule: Select 1)
+      - 6-Month Trends - $0.00
+      - 12-Month Trends - $50.00
+      - 3-Year Trends - $100.00
+      - 5-Year Historical Analysis - $200.00
+    Trend Components (Rule: Select up to 3)
+      - Price Trends - $40.00
+      - Inventory Trends - $35.00
+      - Days on Market - $30.00
+      - Seasonal Patterns - $45.00
+[End Rule]
+
+[Begin Rule] Investment Strategy
+    Strategy Focus (Rule: Select 1)
+      - Buy and Hold Strategy - $0.00
+      - Fix and Flip Strategy - $150.00
+      - Rental Income Strategy - $100.00
+      - Commercial Investment - $300.00
+    Investment Goals (Rule: Select up to 2)
+      - Cash Flow Optimization - $100.00
+      - Appreciation Focus - $75.00
+      - Tax Benefits - $125.00
+      - Portfolio Diversification - $200.00
+[End Rule]
+
+[Begin Rule] Market Opportunities
+    Opportunity Type (Rule: Select 1)
+      - Emerging Neighborhoods - $0.00
+      - Distressed Properties - $100.00
+      - Off-Market Opportunities - $200.00
+      - Development Opportunities - $400.00
+    Opportunity Analysis (Rule: Select up to 2)
+      - Risk Assessment - $150.00
+      - Profit Potential Analysis - $200.00
+      - Timeline Analysis - $100.00
+[End Rule]
+
+[Begin Rule] Financial Analysis
+    Analysis Complexity (Rule: Select 1)
+      - Basic Financial Review - $0.00
+      - Standard Financial Analysis - $200.00
+      - Advanced Pro Forma - $400.00
+      - Investment Banking Analysis - $800.00
+    Financial Metrics (Rule: Select up to 3)
+      - Cash Flow Analysis - $100.00
+      - Return on Investment - $75.00
+      - Net Present Value - $125.00
+      - Break-Even Analysis - $90.00
+[End Rule]
+
+[Begin Rule] Relocation Assistance
+    Assistance Level (Rule: Select 1)
+      - Basic Relocation Info - $0.00
+      - Standard Relocation Package - $300.00
+      - Comprehensive Relocation - $750.00
+      - Executive Relocation - $1500.00
+    Relocation Services (Rule: Select up to 4)
+      - Area Tours - $150.00
+      - Temporary Housing - $400.00
+      - Moving Coordination - $300.00
+      - Spouse/Family Support - $250.00
+[End Rule]
+
+[Begin Rule] Area Information
+    Information Scope (Rule: Select 1)
+      - Basic Area Overview - $0.00
+      - Detailed Area Report - $100.00
+      - Comprehensive Area Guide - $250.00
+      - Custom Area Research - $500.00
+    Information Categories (Rule: Select up to 4)
+      - Demographics - $50.00
+      - Economic Data - $60.00
+      - Recreation/Entertainment - $40.00
+      - Transportation - $45.00
+      - Shopping/Dining - $35.00
+[End Rule]
+
+[Begin Rule] School Districts
+    School Information Level (Rule: Select 1)
+      - Basic School Info - $0.00
+      - Detailed School Reports - $100.00
+      - School Performance Analysis - $200.00
+      - Educational Consultation - $400.00
+    School Services (Rule: Select up to 3)
+      - School Rankings - $50.00
+      - Test Score Analysis - $60.00
+      - School Tour Coordination - $75.00
+      - Private School Research - $100.00
+[End Rule]
+

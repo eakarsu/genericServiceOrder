@@ -1,0 +1,54 @@
+[Begin Category] Plumbing Services
+- Emergency Plumbing: $85.00, select rules Plumbing Urgency, Plumbing Repairs, Service Timing
+  Emergency plumbing repairs including leaks, clogs, and fixture problems
+- Routine Plumbing: $65.00, select rules Plumbing Repairs, Service Timing, Maintenance Options
+  Scheduled plumbing maintenance and non-emergency repairs
+- Drain Cleaning: $95.00, select rules Drain Services, Service Timing, Equipment Options
+  Professional drain cleaning and clog removal services
+- Water Heater Service: $125.00, select rules Water Heater Options, Service Timing, Installation Services
+  Water heater repair, maintenance, and installation services
+[End Category]
+
+[Begin Category] Electrical Services
+- Emergency Electrical: $100.00, select rules Electrical Urgency, Electrical Repairs, Safety Requirements
+  Emergency electrical repairs including power outages and safety hazards
+- Electrical Installation: $80.00, select rules Installation Services, Electrical Components, Service Timing
+  Electrical installations including outlets, fixtures, and wiring
+- Panel Upgrades: $200.00, select rules Panel Services, Electrical Components, Permit Requirements
+  Electrical panel upgrades and circuit breaker services
+- Lighting Services: $75.00, select rules Lighting Options, Installation Services, Service Timing
+  Interior and exterior lighting installation and repair
+[End Category]
+
+[Begin Category] HVAC Services
+- Emergency HVAC: $110.00, select rules HVAC Urgency, HVAC Repairs, System Options
+  Emergency heating and cooling system repairs
+- HVAC Maintenance: $85.00, select rules Maintenance Options, System Options, Service Timing
+  Routine HVAC maintenance and tune-up services
+- System Installation: $300.00, select rules Installation Services, System Options, Permit Requirements
+  Complete HVAC system installation and replacement
+- Duct Cleaning: $150.00, select rules Duct Services, Service Timing, Equipment Options
+  Professional air duct cleaning and maintenance services
+[End Category]
+
+[Begin Category] Handyman Services
+- General Repairs: $60.00, select rules Repair Services, Service Timing, Material Options
+  General household repairs and maintenance tasks
+- Assembly Services: $45.00, select rules Assembly Options, Service Timing, Furniture Services
+  Furniture assembly and installation services
+- Painting Services: $70.00, select rules Painting Options, Service Timing, Material Options
+  Interior and exterior painting services
+- Carpentry Work: $80.00, select rules Carpentry Services, Material Options, Custom Work
+  Custom carpentry and woodworking services
+[End Category]
+
+[Begin Category] Appliance Repair
+- Refrigerator Repair: $95.00, select rules Appliance Services, Repair Services, Parts Options
+  Refrigerator and freezer repair services
+- Washer/Dryer Repair: $85.00, select rules Appliance Services, Repair Services, Parts Options
+  Washing machine and dryer repair services
+- Dishwasher Repair: $90.00, select rules Appliance Services, Repair Services, Parts Options
+  Dishwasher repair and maintenance services
+- Oven/Stove Repair: $100.00, select rules Appliance Services, Repair Services, Safety Requirements
+  Oven, stove, and range repair services
+[End Category]

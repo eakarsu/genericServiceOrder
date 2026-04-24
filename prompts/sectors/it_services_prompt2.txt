@@ -1,0 +1,55 @@
+[Begin Category] Computer Repair
+- Virus/Malware Removal: $85.00, select rules Repair Urgency, Computer Type, Repair Services
+  Complete virus and malware removal with system optimization
+- Hardware Replacement: $125.00, select rules Repair Urgency, Computer Type, Hardware Options
+  Professional hardware diagnosis and replacement service
+- Operating System Repair: $100.00, select rules Repair Urgency, Computer Type, OS Services
+  Operating system troubleshooting and repair services
+- Data Recovery: $150.00, select rules Recovery Options, Computer Type, Data Services
+  Professional data recovery from damaged or corrupted devices
+[End Category]
+
+[Begin Category] Network Setup
+- Home Network Setup: $125.00, select rules Network Options, Service Location, Setup Services
+  Complete home network installation and configuration
+- WiFi Optimization: $75.00, select rules Network Options, Service Location, WiFi Services
+  WiFi network optimization for maximum performance and coverage
+- Business Network: $200.00, select rules Network Options, Business Services, Security Options
+  Professional business network setup with security features
+- Smart Home Setup: $150.00, select rules Smart Home Options, Service Location, Device Integration
+  Smart home device integration and network configuration
+[End Category]
+
+[Begin Category] Software Services
+- Software Installation: $50.00, select rules Software Options, Computer Type, Installation Services
+  Professional software installation and configuration
+- System Optimization: $75.00, select rules Optimization Options, Computer Type, Performance Services
+  Computer performance optimization and cleanup services
+- Backup Setup: $100.00, select rules Backup Options, Computer Type, Data Protection
+  Automated backup system setup and configuration
+- Security Setup: $125.00, select rules Security Options, Computer Type, Protection Services
+  Comprehensive computer security setup and configuration
+[End Category]
+
+[Begin Category] Device Setup
+- New Computer Setup: $100.00, select rules Setup Options, Computer Type, Transfer Services
+  Complete new computer setup including data transfer
+- Printer Setup: $50.00, select rules Printer Options, Service Location, Connectivity Options
+  Printer installation and network configuration
+- Mobile Device Setup: $75.00, select rules Mobile Options, Device Type, Sync Services
+  Smartphone and tablet setup with synchronization
+- Gaming Setup: $125.00, select rules Gaming Options, Computer Type, Performance Optimization
+  Gaming computer optimization and peripheral configuration
+[End Category]
+
+[Begin Category] Training Services
+- Basic Computer Training: $75.00, select rules Training Options, Skill Level, Session Duration
+  Fundamental computer skills training for beginners
+- Software Training: $100.00, select rules Training Options, Software Type, Session Duration
+  Specific software application training and tutorials
+- Internet Safety Training: $60.00, select rules Training Options, Safety Topics, Session Duration
+  Online safety and security awareness training
+- Senior Tech Training: $85.00, select rules Training Options, Senior Services, Patience Level
+  Patient technology training specifically designed for seniors
+[End Category]
+

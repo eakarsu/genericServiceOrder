@@ -1,0 +1,54 @@
+[Begin Category] Standard Accommodations
+- Standard Hotel Room: $120.00, select rules Room Configuration, Guest Amenities, Location Options
+  Comfortable standard accommodation with essential amenities and city access
+- Business Hotel Room: $150.00, select rules Room Configuration, Business Amenities, Professional Services
+  Business-focused accommodation with work amenities and corporate services
+- Budget Inn Room: $80.00, select rules Room Configuration, Basic Amenities, Economy Options
+  Affordable accommodation option with basic amenities and convenient location
+- Extended Stay Room: $100.00, select rules Room Configuration, Extended Amenities, Long-term Options
+  Extended stay accommodation with kitchen facilities and weekly rates
+[End Category]
+
+[Begin Category] Premium Accommodations
+- Deluxe Hotel Room: $200.00, select rules Room Configuration, Premium Amenities, Luxury Services
+  Upscale accommodation with premium amenities and personalized service
+- Executive Suite: $350.00, select rules Suite Configuration, Executive Amenities, VIP Services
+  Spacious suite accommodation with separate living area and executive privileges
+- Luxury Suite: $500.00, select rules Suite Configuration, Luxury Amenities, Concierge Services
+  Premium luxury suite with high-end amenities and dedicated concierge service
+- Presidential Suite: $800.00, select rules Suite Configuration, Presidential Amenities, Elite Services
+  Top-tier accommodation with exclusive amenities and white-glove service
+[End Category]
+
+[Begin Category] Specialty Accommodations
+- Family Resort Room: $180.00, select rules Family Configuration, Family Amenities, Resort Services
+  Family-friendly accommodation with kid-friendly amenities and resort activities
+- Romantic Getaway Suite: $250.00, select rules Romance Configuration, Romance Amenities, Couples Services
+  Romantic accommodation package with couples amenities and special touches
+- Spa Retreat Room: $220.00, select rules Wellness Configuration, Spa Amenities, Wellness Services
+  Wellness-focused accommodation with spa access and health-conscious amenities
+- Adventure Lodge: $160.00, select rules Adventure Configuration, Outdoor Amenities, Activity Services
+  Outdoor adventure accommodation with equipment rental and activity planning
+[End Category]
+
+[Begin Category] Hotel Packages
+- Weekend Getaway Package: $300.00, select rules Package Duration, Weekend Amenities, Leisure Services
+  Complete weekend package with accommodation, meals, and entertainment options
+- Business Travel Package: $400.00, select rules Package Duration, Business Amenities, Corporate Services
+  Comprehensive business travel package with meeting facilities and transportation
+- Honeymoon Package: $600.00, select rules Package Duration, Romance Amenities, Celebration Services
+  Special honeymoon package with romantic amenities and exclusive experiences
+- Group Event Package: $250.00, select rules Package Duration, Group Amenities, Event Services
+  Group accommodation package with meeting spaces and group activity coordination
+[End Category]
+
+[Begin Category] Additional Services
+- Dining Services: $75.00, select rules Meal Options, Restaurant Access, Room Service
+  Hotel dining options including restaurants, room service, and meal packages
+- Transportation Services: $50.00, select rules Transport Options, Airport Service, Local Transport
+  Transportation services including airport transfers and local area transportation
+- Recreation Services: $100.00, select rules Recreation Options, Fitness Access, Entertainment
+  Hotel recreation facilities including fitness center, pool, and entertainment options
+- Concierge Services: $25.00, select rules Concierge Options, Personal Assistance, Local Expertise
+  Personal concierge services for reservations, recommendations, and assistance
+[End Category]

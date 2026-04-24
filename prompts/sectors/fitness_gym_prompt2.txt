@@ -1,0 +1,50 @@
+[Begin Category] Membership Plans
+- Basic Membership: $49.00, select rules Membership Duration, Basic Access, Member Perks
+  Full gym access including cardio equipment, weight machines, and locker rooms
+- Premium Membership: $79.00, select rules Membership Duration, Premium Access, Training Options
+  All basic features plus group classes, pool access, and sauna privileges
+- Elite Membership: $129.00, select rules Membership Duration, Elite Access, Personal Training
+  Premium features plus personal training sessions and nutrition consultations
+- Student Membership: $35.00, select rules Student Verification, Basic Access, Study Schedule
+  Discounted membership for full-time students with valid student ID
+[End Category]
+
+[Begin Category] Personal Training
+- Individual Training Session: $75.00, select rules Trainer Selection, Session Duration, Training Focus
+  One-on-one personal training session with certified fitness trainer
+- Couples Training: $120.00, select rules Trainer Selection, Partner Workout, Session Goals
+  Personal training session designed for two people working out together
+- Small Group Training: $45.00, select rules Group Size, Trainer Selection, Workout Style
+  Semi-private training sessions for 3-5 people with shared fitness goals
+- Specialty Training: $95.00, select rules Training Type, Certification Level, Equipment Needs
+  Specialized training including rehabilitation, sports-specific, or advanced techniques
+[End Category]
+
+[Begin Category] Group Classes
+- Yoga Classes: $20.00, select rules Class Type, Skill Level, Schedule Options
+  Various yoga styles including Hatha, Vinyasa, Hot Yoga, and Restorative
+- HIIT Classes: $25.00, select rules Intensity Level, Class Duration, Equipment Usage
+  High-Intensity Interval Training for maximum calorie burn and fitness gains
+- Strength Training: $22.00, select rules Weight Level, Technique Focus, Progression Plan
+  Group strength training classes focusing on proper form and progressive overload
+- Dance Fitness: $18.00, select rules Dance Style, Music Preference, Coordination Level
+  Fun cardio workouts including Zumba, dance cardio, and rhythm-based fitness
+[End Category]
+
+[Begin Category] Nutrition Services
+- Nutrition Consultation: $85.00, select rules Consultation Type, Dietary Goals, Follow-up Plan
+  Professional nutritionist consultation for meal planning and dietary guidance
+- Meal Prep Service: $150.00, select rules Meal Plan Type, Dietary Restrictions, Delivery Schedule
+  Weekly meal preparation service with fitness-focused nutrition planning
+- Supplement Consultation: $45.00, select rules Supplement Goals, Health Assessment, Product Selection
+  Professional guidance on fitness supplements and nutritional enhancement
+[End Category]
+
+[Begin Category] Additional Services
+- Body Composition Analysis: $35.00, select rules Analysis Type, Measurement Package, Progress Tracking
+  Professional body fat analysis and metabolic testing services
+- Massage Therapy: $90.00, select rules Massage Type, Session Duration, Therapist Selection
+  Sports massage and recovery therapy sessions with licensed massage therapists
+- Physical Therapy: $120.00, select rules Therapy Type, Injury Assessment, Treatment Plan
+  Rehabilitation services and injury prevention with licensed physical therapists
+[End Category]

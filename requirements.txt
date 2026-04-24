@@ -29,3 +29,12 @@ boto3
 torch
 torchaudio
 sentence_transformers
+
+# Admin dashboard dependencies
+python-jose[cryptography]
+passlib[bcrypt]
+sqlalchemy>=2.0
+fpdf2
+slowapi
+bleach
+pydantic[email]

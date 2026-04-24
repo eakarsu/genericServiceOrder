@@ -1,0 +1,54 @@
+[Begin Category] Family Law
+- Divorce Consultation: $300.00, select rules Divorce Type, Complexity Level, Attorney Assignment
+  Comprehensive divorce consultation including asset review and custody considerations
+- Child Custody Case: $350.00, select rules Custody Type, Court Jurisdiction, Urgency Level
+  Child custody and visitation consultation with court filing assistance
+- Adoption Services: $400.00, select rules Adoption Type, Legal Requirements, Timeline Planning
+  Complete adoption legal services including documentation and court proceedings
+- Prenuptial Agreement: $250.00, select rules Agreement Complexity, Asset Protection, Review Timeline
+  Prenuptial agreement drafting and negotiation services
+[End Category]
+
+[Begin Category] Business Law
+- Business Formation: $500.00, select rules Entity Type, State Registration, Tax Considerations
+  Complete business formation including entity selection and registration
+- Contract Review: $200.00, select rules Contract Type, Complexity Level, Turnaround Time
+  Professional contract review and analysis with recommendations
+- Employment Law: $350.00, select rules Employment Issue, Compliance Review, Legal Strategy
+  Employment law consultation including policy review and compliance
+- Intellectual Property: $400.00, select rules IP Type, Protection Strategy, Filing Requirements
+  Intellectual property consultation including trademark and copyright services
+[End Category]
+
+[Begin Category] Personal Injury
+- Auto Accident: $0.00, select rules Injury Severity, Liability Assessment, Insurance Claims
+  Personal injury consultation for automobile accidents - contingency fee basis
+- Slip and Fall: $0.00, select rules Incident Details, Liability Review, Medical Assessment
+  Premises liability consultation for slip and fall incidents
+- Medical Malpractice: $0.00, select rules Medical Issue, Provider Review, Expert Consultation
+  Medical malpractice case evaluation with expert medical review
+- Workers Compensation: $0.00, select rules Workplace Injury, Claim Status, Benefits Review
+  Workers compensation claim assistance and representation
+[End Category]
+
+[Begin Category] Real Estate Law
+- Property Purchase: $400.00, select rules Property Type, Transaction Review, Title Services
+  Real estate purchase consultation including contract review and title services
+- Property Sale: $350.00, select rules Sale Complexity, Documentation Review, Closing Assistance
+  Property sale legal services including documentation and closing support
+- Landlord-Tenant: $250.00, select rules Tenancy Issue, Lease Review, Dispute Resolution
+  Landlord-tenant legal consultation including lease review and disputes
+- Property Disputes: $300.00, select rules Dispute Type, Resolution Strategy, Court Options
+  Property dispute consultation including boundary and ownership issues
+[End Category]
+
+[Begin Category] Estate Planning
+- Will Preparation: $300.00, select rules Will Complexity, Asset Review, Beneficiary Planning
+  Complete will preparation including asset distribution and executor designation
+- Trust Services: $500.00, select rules Trust Type, Tax Planning, Administration Setup
+  Trust creation and administration services with tax optimization
+- Probate Services: $400.00, select rules Estate Size, Court Requirements, Timeline Planning
+  Probate administration and court proceeding assistance
+- Power of Attorney: $200.00, select rules Authority Scope, Document Type, Legal Requirements
+  Power of attorney document preparation for financial and healthcare decisions
+[End Category]

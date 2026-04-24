@@ -1,0 +1,55 @@
+[Begin Category] Local Moving
+- Local Full Service Move: $200.00, select rules Move Distance, Home Size, Crew Requirements
+  Complete local moving service including loading, transport, and unloading
+- Local Labor Only: $120.00, select rules Move Distance, Home Size, Labor Services
+  Moving labor service for customer-provided truck or container
+- Local Packing Service: $150.00, select rules Packing Options, Room Count, Packing Materials
+  Professional packing service for local moves with quality materials
+- Local Storage Move: $250.00, select rules Move Distance, Storage Options, Home Size
+  Moving service with temporary storage solutions included
+[End Category]
+
+[Begin Category] Long Distance Moving
+- Interstate Full Service: $800.00, select rules Move Distance, Home Size, Long Distance Services
+  Complete long-distance moving service including packing and delivery
+- Cross Country Move: $1200.00, select rules Move Distance, Home Size, Cross Country Options
+  Full cross-country moving service with tracking and insurance
+- State to State Move: $600.00, select rules Move Distance, Home Size, Interstate Options
+  Professional interstate moving with licensed and insured service
+- Long Distance Storage: $900.00, select rules Move Distance, Storage Options, Long Distance Services
+  Long-distance moving with storage-in-transit options
+[End Category]
+
+[Begin Category] Specialty Moving
+- Piano Moving: $200.00, select rules Piano Type, Moving Difficulty, Special Equipment
+  Professional piano moving with specialized equipment and expertise
+- Antique Moving: $300.00, select rules Antique Type, Packing Requirements, Insurance Options
+  Specialized moving service for valuable antiques and artwork
+- Office Moving: $500.00, select rules Office Size, Equipment Type, Business Moving
+  Commercial office moving with minimal business disruption
+- Senior Moving: $400.00, select rules Senior Services, Downsizing Options, Special Care
+  Specialized moving service for seniors with downsizing assistance
+[End Category]
+
+[Begin Category] Packing Services
+- Full Pack Service: $300.00, select rules Packing Options, Room Count, Material Quality
+  Complete packing service for entire home with professional materials
+- Partial Pack Service: $150.00, select rules Packing Options, Room Selection, Material Quality
+  Selective packing service for fragile or valuable items only
+- Unpacking Service: $200.00, select rules Unpacking Options, Room Count, Organization Services
+  Professional unpacking and organization service at destination
+- Packing Materials Only: $75.00, select rules Material Type, Quantity Options, Delivery Options
+  High-quality packing materials delivered to your location
+[End Category]
+
+[Begin Category] Storage Solutions
+- Short-term Storage: $100.00, select rules Storage Duration, Storage Size, Climate Control
+  Temporary storage solutions for 1-6 months during your move
+- Long-term Storage: $150.00, select rules Storage Duration, Storage Size, Security Features
+  Long-term storage solutions with climate control and security
+- Portable Storage: $200.00, select rules Container Size, Storage Duration, Delivery Options
+  Portable storage containers delivered to your location
+- Climate Controlled: $175.00, select rules Storage Size, Climate Requirements, Special Items
+  Climate-controlled storage for sensitive items and electronics
+[End Category]
+

@@ -1,0 +1,71 @@
+[Begin Category] Breakfast Items
+- Bagel Special: $5.50, select rules Bagel Options, Bagel Spreads, Breakfast Add-ons
+  Fresh baked bagel with your choice of spread and optional breakfast additions
+- Build Your Own Breakfast: $8.95, select rules Breakfast Proteins, Breakfast Bread, Breakfast Cheese, Breakfast Vegetables, Breakfast Cooking Style
+  Create your perfect breakfast with eggs, meat, cheese, and vegetables on your choice of bread
+- French Toast Platter: $9.95, select rules French Toast Options, Breakfast Sides, Syrup Selection
+  Classic French toast served with butter, syrup, and optional sides
+- Breakfast Burrito: $10.95, select rules Burrito Proteins, Breakfast Vegetables, Breakfast Cheese, Sauce Options
+  Warm flour tortilla filled with scrambled eggs, cheese, and your choice of fillings
+[End Category]
+
+[Begin Category] Sandwiches and Wraps
+- Build Your Own Sandwich: $12.95, select rules Bread Selection, Protein Options, Cheese Selection, Vegetable Toppings, Condiment Options
+  Custom sandwich with your choice of bread, protein, cheese, vegetables, and condiments
+- Signature Hero: $15.95, select rules Hero Bread, Premium Proteins, Gourmet Cheese, Specialty Toppings, Signature Sauces
+  Premium hero sandwich with high-quality ingredients and specialty combinations
+- Wrap Special: $11.95, select rules Wrap Types, Protein Options, Fresh Vegetables, Dressing Options
+  Fresh wrap with protein, vegetables, and dressing in your choice of tortilla
+- Club Sandwich: $13.95, select rules Club Bread, Club Proteins, Club Cheese, Club Vegetables, Club Condiments
+  Classic triple-decker club sandwich with bacon, turkey, lettuce, tomato, and mayo
+[End Category]
+
+[Begin Category] Salads and Bowls
+- Build Your Own Salad: $9.95, select rules Salad Base, Protein Add-ons, Fresh Vegetables, Cheese Options, Dressing Selection
+  Fresh salad with mixed greens, your choice of protein, vegetables, and dressing
+- Signature Salad Bowl: $12.95, select rules Premium Salad Base, Gourmet Proteins, Specialty Vegetables, Premium Cheese, Artisan Dressings
+  Gourmet salad bowl with premium ingredients and house-made dressings
+- Grain Bowl: $11.95, select rules Grain Base, Bowl Proteins, Roasted Vegetables, Healthy Toppings, Bowl Sauces
+  Nutritious grain bowl with quinoa or brown rice, protein, vegetables, and healthy toppings
+[End Category]
+
+[Begin Category] Hot Entrees
+- Grilled Chicken Platter: $14.95, select rules Chicken Preparation, Side Selections, Sauce Options, Vegetable Sides
+  Grilled chicken breast served with your choice of sides and sauce
+- Pasta Special: $13.95, select rules Pasta Types, Pasta Sauces, Protein Add-ons, Italian Cheese, Pasta Vegetables
+  Fresh pasta with your choice of sauce, protein, and vegetables
+- Burger Deluxe: $12.95, select rules Burger Patty, Burger Cheese, Burger Toppings, Side Orders, Burger Condiments
+  Juicy burger with cheese, toppings, and a side of fries
+- Fish and Chips: $15.95, select rules Fish Preparation, Potato Sides, Seafood Sauces, Coleslaw Options
+  Fresh fish with crispy coating served with fries and coleslaw
+[End Category]
+
+[Begin Category] Beverages
+- Fresh Coffee: $2.75, select rules Coffee Size, Coffee Strength, Coffee Add-ins, Sweetener Options
+  Freshly brewed coffee with customizable strength and add-ins
+- Fresh Juice: $4.95, select rules Juice Types, Juice Size, Juice Combinations, Health Boosters
+  Fresh squeezed juices and healthy juice combinations
+- Smoothies: $6.95, select rules Smoothie Base, Fruit Selection, Protein Boosters, Smoothie Add-ins
+  Fresh fruit smoothies with optional protein and health boosters
+- Specialty Drinks: $3.95, select rules Drink Types, Drink Size, Flavor Options, Drink Add-ins
+  Specialty beverages including teas, sodas, and energy drinks
+[End Category]
+
+[Begin Category] Appetizers and Sides
+- Appetizer Platter: $8.95, select rules Appetizer Selection, Serving Size, Dipping Sauces, Appetizer Combinations
+  Selection of appetizers perfect for sharing or as a starter
+- Side Orders: $4.95, select rules Side Types, Side Portions, Side Seasonings, Extra Sides
+  Various side dishes to complement your meal
+- Soup of the Day: $5.95, select rules Soup Types, Soup Size, Bread Options, Soup Toppings
+  Fresh daily soup served with optional bread and toppings
+[End Category]
+
+[Begin Category] Desserts and Treats
+- Fresh Baked Goods: $3.95, select rules Bakery Items, Dessert Size, Dessert Toppings, Packaging Options
+  Fresh baked cookies, muffins, and pastries made daily
+- Ice Cream Special: $4.95, select rules Ice Cream Flavors, Serving Size, Ice Cream Toppings, Cone Options
+  Premium ice cream with various flavors and toppings
+- Specialty Desserts: $6.95, select rules Dessert Types, Dessert Portions, Sweet Sauces, Dessert Presentation
+  Gourmet desserts including cakes, pies, and seasonal specialties
+[End Category]
+

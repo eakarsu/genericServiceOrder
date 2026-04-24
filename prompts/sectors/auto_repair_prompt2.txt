@@ -1,0 +1,52 @@
+[Begin Category] Engine Services
+- Oil Change Service: $45.00, select rules Oil Type, Filter Options, Additional Fluid Checks
+  Complete oil change service including filter replacement and fluid level inspection
+- Engine Tune-Up: $150.00, select rules Tune-Up Components, Diagnostic Tests, Performance Checks
+  Comprehensive engine tune-up including spark plugs, filters, and performance optimization
+- Engine Diagnostic: $120.00, select rules Diagnostic Tools, Problem Assessment, Repair Recommendations
+  Computer diagnostic scan and comprehensive engine problem analysis
+- Transmission Service: $180.00, select rules Transmission Type, Fluid Options, Service Level
+  Transmission fluid change, filter replacement, and system inspection
+[End Category]
+
+[Begin Category] Brake Services
+- Brake Inspection: $50.00, select rules Brake Components, Safety Assessment, Recommendation Level
+  Comprehensive brake system inspection including pads, rotors, and fluid
+- Brake Pad Replacement: $200.00, select rules Brake Pad Types, Rotor Service, Labor Options
+  Professional brake pad replacement with quality parts and safety testing
+- Complete Brake Service: $350.00, select rules Brake Service Package, Parts Quality, Warranty Options
+  Full brake system service including pads, rotors, fluid, and calibration
+- Brake Fluid Service: $75.00, select rules Fluid Type, System Flush, Testing Options
+  Brake fluid replacement and system flush for optimal performance
+[End Category]
+
+[Begin Category] Tire Services
+- Tire Rotation: $25.00, select rules Rotation Pattern, Inspection Level, Additional Services
+  Professional tire rotation to ensure even wear and extended tire life
+- Wheel Alignment: $100.00, select rules Alignment Type, Adjustment Level, Inspection Services
+  Precision wheel alignment for optimal handling and tire wear
+- Tire Installation: $120.00, select rules Tire Type, Installation Package, Balancing Options
+  Professional tire installation including mounting, balancing, and pressure adjustment
+- Tire Repair: $35.00, select rules Repair Method, Inspection Level, Warranty Coverage
+  Professional tire repair for punctures and minor damage
+[End Category]
+
+[Begin Category] Electrical Services
+- Battery Test: $25.00, select rules Testing Method, Charging System Check, Replacement Options
+  Complete battery and charging system diagnostic testing
+- Alternator Service: $200.00, select rules Alternator Type, Testing Level, Repair Options
+  Alternator testing, repair, or replacement with quality parts
+- Starter Service: $180.00, select rules Starter Type, Testing Method, Installation Options
+  Starter motor testing, repair, or replacement service
+- Electrical Diagnostic: $150.00, select rules Diagnostic Scope, Problem Assessment, Repair Estimate
+  Comprehensive electrical system diagnostic and troubleshooting
+[End Category]
+
+[Begin Category] Air Conditioning
+- AC System Check: $75.00, select rules System Inspection, Performance Test, Refrigerant Check
+  Complete air conditioning system inspection and performance evaluation
+- AC Refrigerant Service: $125.00, select rules Refrigerant Type, Service Level, Leak Testing
+  Refrigerant recharge and system leak detection service
+- AC Repair Service: $250.00, select rules Component Replacement, System Repair, Testing Options
+  Comprehensive AC system repair including component replacement
+[End Category]
