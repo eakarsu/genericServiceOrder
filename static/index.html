@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>GenericOrderingService — AI Console</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    :root {
+      --bg: #0f1115;
+      --panel: #181b22;
+      --panel-2: #20242d;
+      --text: #e6e8ec;
+      --muted: #8b93a3;
+      --accent: #4f8cff;
+      --accent-2: #2dd4bf;
+      --err: #ef4444;
+      --ok: #22c55e;
+      --border: #2a2f3a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+    header {
+      padding: 18px 28px;
+      background: var(--panel);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header h1 { font-size: 18px; margin: 0; font-weight: 600; }
+    .pill {
+      font-size: 12px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: var(--panel-2);
+      color: var(--muted);
+      border: 1px solid var(--border);
+    }
+    .pill.ok { color: var(--ok); border-color: var(--ok); }
+    .pill.err { color: var(--err); border-color: var(--err); }
+    main {
+      max-width: 1100px;
+      margin: 24px auto;
+      padding: 0 24px 64px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 18px 20px;
+      display: flex;
+      flex-direction: column;
+    }
+    .card h2 {
+      font-size: 14px;
+      font-weight: 600;
+      margin: 0 0 4px;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+    .card p.help {
+      font-size: 12px;
+      color: var(--muted);
+      margin: 0 0 12px;
+    }
+    label {
+      display: block;
+      font-size: 12px;
+      color: var(--muted);
+      margin: 8px 0 4px;
+    }
+    input, textarea, select, button {
+      font: inherit;
+      color: var(--text);
+      width: 100%;
+      padding: 8px 10px;
+      background: var(--panel-2);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+    }
+    textarea { min-height: 70px; resize: vertical; }
+    button {
+      margin-top: 10px;
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      font-weight: 600;
+      width: auto;
+      padding: 8px 18px;
+    }
+    button:hover { filter: brightness(1.1); }
+    button:disabled { opacity: 0.5; cursor: not-allowed; }
+    .result {
+      margin-top: 12px;
+      background: #0b0d12;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 10px 12px;
+      font-family: ui-monospace, "SF Mono", Menlo, monospace;
+      font-size: 12px;
+      white-space: pre-wrap;
+      word-break: break-word;
+      max-height: 300px;
+      overflow: auto;
+      color: var(--accent-2);
+    }
+    .result.err { color: var(--err); }
+    .row { display: flex; gap: 8px; }
+    .row > * { flex: 1; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>GenericOrderingService — AI Console</h1>
+    <span id="status-pill" class="pill">checking…</span>
+  </header>
+
+  <main>
+    <!-- /api/ai/chat -->
+    <section class="card">
+      <h2>POST /api/ai/chat</h2>
+      <p class="help">UniversalServiceBot.chatAway — full pipeline w/ internal history.</p>
+      <label>User input</label>
+      <textarea id="chat-input">I'd like to book a haircut tomorrow</textarea>
+      <label>Detected sector (optional)</label>
+      <input id="chat-sector" placeholder="auto-detected if blank" />
+      <button onclick="call('chat', '/api/ai/chat', {user_input: val('chat-input'), detected_sector: val('chat-sector') || null})">Send</button>
+      <div id="chat-result" class="result"></div>
+    </section>
+
+    <!-- /api/ai/chat-stateless -->
+    <section class="card">
+      <h2>POST /api/ai/chat-stateless</h2>
+      <p class="help">UniversalServiceBot.chatAway2 — no internal history retained.</p>
+      <label>User input</label>
+      <textarea id="cs-input">What treatments do you offer?</textarea>
+      <label>Detected sector (optional)</label>
+      <input id="cs-sector" />
+      <button onclick="call('cs', '/api/ai/chat-stateless', {user_input: val('cs-input'), detected_sector: val('cs-sector') || null})">Send</button>
+      <div id="cs-result" class="result"></div>
+    </section>
+
+    <!-- /api/ai/detect-sector -->
+    <section class="card">
+      <h2>POST /api/ai/detect-sector</h2>
+      <p class="help">LLM-based sector detection.</p>
+      <label>User input</label>
+      <textarea id="ds-input">My car won't start, can someone tow it?</textarea>
+      <label>Conversation context</label>
+      <input id="ds-context" placeholder="optional prior turns" />
+      <button onclick="call('ds', '/api/ai/detect-sector', {user_input: val('ds-input'), conversation_context: val('ds-context')})">Detect</button>
+      <div id="ds-result" class="result"></div>
+    </section>
+
+    <!-- /api/ai/detect-sector-keywords -->
+    <section class="card">
+      <h2>POST /api/ai/detect-sector-keywords</h2>
+      <p class="help">Keyword-based sector detection (no LLM).</p>
+      <label>User input</label>
+      <textarea id="dsk-input">I need to clean my carpets and curtains</textarea>
+      <label>Conversation context</label>
+      <input id="dsk-context" />
+      <button onclick="call('dsk', '/api/ai/detect-sector-keywords', {user_input: val('dsk-input'), conversation_context: val('dsk-context')})">Detect</button>
+      <div id="dsk-result" class="result"></div>
+    </section>
+
+    <!-- /api/ai/ingredients -->
+    <section class="card">
+      <h2>POST /api/ai/ingredients</h2>
+      <p class="help">Enrich a sector prompt with menu/intent info.</p>
+      <label>Sector</label>
+      <input id="ing-sector" value="food_delivery" />
+      <label>User input</label>
+      <textarea id="ing-input">large pepperoni pizza with extra cheese</textarea>
+      <label>Sector prompt (blank = load default)</label>
+      <textarea id="ing-prompt"></textarea>
+      <button onclick="call('ing', '/api/ai/ingredients', {sector: val('ing-sector'), user_input: val('ing-input'), sector_prompt: val('ing-prompt')})">Enrich</button>
+      <div id="ing-result" class="result"></div>
+    </section>
+
+    <!-- /api/ai/process-conversation -->
+    <section class="card">
+      <h2>POST /api/ai/process-conversation</h2>
+      <p class="help">Replay a multi-turn conversation, one response per turn.</p>
+      <label>Messages (one per line)</label>
+      <textarea id="pc-input">Hi
+I want to book a yoga class
+Tomorrow at 6pm please</textarea>
+      <button onclick="call('pc', '/api/ai/process-conversation', {messages: val('pc-input').split(/\n/).filter(Boolean)})">Replay</button>
+      <div id="pc-result" class="result"></div>
+    </section>
+
+    <!-- GET /api/ai/sectors -->
+    <section class="card">
+      <h2>GET /api/ai/sectors</h2>
+      <p class="help">List all available sectors.</p>
+      <button onclick="callGet('list', '/api/ai/sectors')">List sectors</button>
+      <div id="list-result" class="result"></div>
+    </section>
+
+    <!-- GET /api/ai/sectors/{sector} -->
+    <section class="card">
+      <h2>GET /api/ai/sectors/{sector}</h2>
+      <p class="help">Inspect a single sector's prompt/menu/rules availability.</p>
+      <label>Sector</label>
+      <input id="info-sector" value="beauty_salon" />
+      <button onclick="callGet('info', '/api/ai/sectors/' + encodeURIComponent(val('info-sector')))">Get info</button>
+      <div id="info-result" class="result"></div>
+    </section>
+  </main>
+
+  <script>
+    const $ = (id) => document.getElementById(id);
+    const val = (id) => $(id).value;
+
+    async function call(key, url, body) {
+      const out = $(key + '-result');
+      out.classList.remove('err');
+      out.textContent = 'loading…';
+      try {
+        const r = await fetch(url, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(body),
+        });
+        const text = await r.text();
+        let parsed;
+        try { parsed = JSON.parse(text); } catch (_) { parsed = text; }
+        if (!r.ok) out.classList.add('err');
+        out.textContent = (typeof parsed === 'string')
+          ? parsed
+          : JSON.stringify(parsed, null, 2);
+      } catch (err) {
+        out.classList.add('err');
+        out.textContent = String(err);
+      }
+    }
+
+    async function callGet(key, url) {
+      const out = $(key + '-result');
+      out.classList.remove('err');
+      out.textContent = 'loading…';
+      try {
+        const r = await fetch(url);
+        const data = await r.json();
+        if (!r.ok) out.classList.add('err');
+        out.textContent = JSON.stringify(data, null, 2);
+      } catch (err) {
+        out.classList.add('err');
+        out.textContent = String(err);
+      }
+    }
+
+    async function refreshStatus() {
+      const pill = $('status-pill');
+      try {
+        const r = await fetch('/api/ai/status');
+        const data = await r.json();
+        if (data.openrouter_configured) {
+          pill.textContent = 'AI configured';
+          pill.className = 'pill ok';
+        } else {
+          pill.textContent = 'OPENROUTER_API_KEY missing';
+          pill.className = 'pill err';
+        }
+      } catch (e) {
+        pill.textContent = 'API unreachable';
+        pill.className = 'pill err';
+      }
+    }
+    refreshStatus();
+  </script>
+</body>
+</html>
