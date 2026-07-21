@@ -1,4 +1,3 @@
-import React from 'react';
 
 const stages = [
   { label: 'Intake', value: 28 },

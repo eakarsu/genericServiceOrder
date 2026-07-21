@@ -6,6 +6,7 @@ import { useAuth } from '../context/AuthContext';
 import { useToast } from '../context/ToastContext';
 import { updateProfile } from '../api/users';
 import { changePassword } from '../api/auth';
+import { apiErrorMessage } from '../utils/apiError';
 
 export default function SettingsPage() {
   const { user, refreshUser } = useAuth();
@@ -28,8 +29,8 @@ export default function SettingsPage() {
       await updateProfile(data);
       await refreshUser();
       addToast('Profile updated', 'success');
-    } catch (err: any) {
-      addToast(err.response?.data?.detail || 'Update failed', 'error');
+    } catch (err: unknown) {
+      addToast(apiErrorMessage(err, 'Update failed'), 'error');
     } finally {
       setProfileLoading(false);
     }
@@ -41,8 +42,8 @@ export default function SettingsPage() {
       await changePassword(data.current_password, data.new_password);
       addToast('Password changed', 'success');
       pwForm.reset();
-    } catch (err: any) {
-      addToast(err.response?.data?.detail || 'Change failed', 'error');
+    } catch (err: unknown) {
+      addToast(apiErrorMessage(err, 'Change failed'), 'error');
     } finally {
       setPwLoading(false);
     }

@@ -1,4 +1,3 @@
-import React from 'react';
 
 const signals = [
   { label: 'Demand', value: 72, delta: '+12%' },

@@ -68,6 +68,7 @@ tmp/
 coverage/
 .nyc_output/
 htmlcov/
+coverage.xml
 
 # --- secrets (auto-added) ---
 .env
@@ -81,6 +82,7 @@ htmlcov/
 # --- secrets: never commit ---
 .env
 .env.*
+!.env.example
 *.pem
 *.key
 *.p12

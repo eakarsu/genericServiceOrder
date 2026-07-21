@@ -23,9 +23,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 
-from ai_router import router as ai_router
-
-
 app = FastAPI(
     title="GenericOrderingService API",
     description=(
@@ -36,17 +33,18 @@ app = FastAPI(
 )
 
 # ---------------------------------------------------------------------------
-# CORS (localhost dev)
+# This legacy AI experiment is never part of the production service boundary.
+_APP_ENV = os.getenv("APP_ENV", "development")
+_AI_ENABLED = os.getenv("ENABLE_EXPERIMENTAL_AI", "false").lower() == "true"
+if _APP_ENV == "production" and _AI_ENABLED:
+    raise RuntimeError("ENABLE_EXPERIMENTAL_AI is forbidden in production")
+
+# CORS (explicit origins)
 # ---------------------------------------------------------------------------
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:3000",
-        "http://localhost:5173",
-        "http://localhost:8013",
-        "http://127.0.0.1:8013",
-    ],
+    allow_origins=[value.strip() for value in os.getenv("CORS_ORIGINS", "http://localhost:5173").split(",") if value.strip()],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -57,9 +55,15 @@ app.add_middleware(
 # Routers
 # ---------------------------------------------------------------------------
 
-app.include_router(ai_router)
-from routers import voice_ordering as _vo, semantic_menu as _sm, sector_onboarding as _so, order_copilot as _oc  # noqa: E402
-app.include_router(_vo.router); app.include_router(_sm.router); app.include_router(_so.router); app.include_router(_oc.router)
+if _AI_ENABLED:
+    from ai_router import router as ai_router
+    from routers import order_copilot, sector_onboarding, semantic_menu, voice_ordering
+
+    app.include_router(ai_router)
+    app.include_router(voice_ordering.router)
+    app.include_router(semantic_menu.router)
+    app.include_router(sector_onboarding.router)
+    app.include_router(order_copilot.router)
 
 
 # ---------------------------------------------------------------------------
@@ -72,7 +76,7 @@ def health() -> dict:
     return {
         "status": "ok",
         "service": "GenericOrderingService",
-        "ai_configured": bool(os.getenv("OPENROUTER_API_KEY")),
+        "experimental_ai_enabled": _AI_ENABLED,
     }
 
 
@@ -96,8 +100,7 @@ else:
             {
                 "service": "GenericOrderingService",
                 "docs": "/docs",
-                "ai": "/api/ai/status",
-                "note": "static/ frontend not found",
+                "note": "Legacy experimental surface; use admin_app.py for service-order operations",
             }
         )
 
@@ -105,4 +108,4 @@ else:
 if __name__ == "__main__":
     import uvicorn
 
-    uvicorn.run("app:app", host="0.0.0.0", port=8013, reload=True)
+    uvicorn.run("app:app", host="127.0.0.1", port=8013, reload=False)

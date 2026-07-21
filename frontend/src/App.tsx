@@ -16,11 +16,6 @@ import SectorDetailPage from './pages/SectorDetailPage';
 import SettingsPage from './pages/SettingsPage';
 import NotFoundPage from './pages/NotFoundPage';
 
-import CodexCustomVizFeature from './pages/CodexCustomVizFeature';
-import CodexOperationsFeature from './pages/CodexOperationsFeature';
-
-import TimelineView from './pages/TimelineView';
-
 export default function App() {
   return (
     <ErrorBoundary>
@@ -28,10 +23,6 @@ export default function App() {
         <ToastProvider>
           <ToastContainer />
           <Routes>
-        <Route path="/insights/timeline" element={<TimelineView />} />
-        <Route path="/codex/custom-viz" element={<CodexCustomVizFeature />} />
-        <Route path="/codex/operations" element={<CodexOperationsFeature />} />
-
             {/* Public routes */}
             <Route path="/login" element={<LoginPage />} />
             <Route path="/register" element={<RegisterPage />} />

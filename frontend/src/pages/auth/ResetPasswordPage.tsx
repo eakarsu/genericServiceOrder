@@ -5,6 +5,7 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { resetPasswordSchema, type ResetPasswordForm } from '../../utils/validators';
 import { resetPassword } from '../../api/auth';
 import { useToast } from '../../context/ToastContext';
+import { apiErrorMessage } from '../../utils/apiError';
 
 export default function ResetPasswordPage() {
   const { token } = useParams<{ token: string }>();
@@ -22,8 +23,8 @@ export default function ResetPasswordPage() {
       await resetPassword(token, data.new_password);
       addToast('Password reset successful!', 'success');
       navigate('/login');
-    } catch (err: any) {
-      addToast(err.response?.data?.detail || 'Reset failed', 'error');
+    } catch (err: unknown) {
+      addToast(apiErrorMessage(err, 'Reset failed'), 'error');
     } finally {
       setLoading(false);
     }

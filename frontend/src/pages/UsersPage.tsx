@@ -10,6 +10,7 @@ import ConfirmDialog from '../components/ui/ConfirmDialog';
 import { SkeletonTable } from '../components/ui/SkeletonLoader';
 import { useDebounce } from '../hooks/useDebounce';
 import { formatDate } from '../utils/formatters';
+import { apiErrorMessage } from '../utils/apiError';
 
 const ROLES = [
   { id: 1, name: 'admin', label: 'Admin' },
@@ -57,8 +58,8 @@ export default function UsersPage() {
       setShowCreate(false);
       setFormData({ name: '', email: '', password: '', phone: '', role_id: 3 });
       fetchUsers();
-    } catch (err: any) {
-      addToast(err.response?.data?.detail || 'Failed to create user', 'error');
+    } catch (err: unknown) {
+      addToast(apiErrorMessage(err, 'Failed to create user'), 'error');
     }
   };
 
@@ -74,8 +75,8 @@ export default function UsersPage() {
       addToast('User updated', 'success');
       setEditingUser(null);
       fetchUsers();
-    } catch (err: any) {
-      addToast(err.response?.data?.detail || 'Failed to update', 'error');
+    } catch (err: unknown) {
+      addToast(apiErrorMessage(err, 'Failed to update'), 'error');
     }
   };
 
@@ -85,8 +86,8 @@ export default function UsersPage() {
       addToast('User deleted', 'success');
       setDeleteTarget(null);
       fetchUsers();
-    } catch (err: any) {
-      addToast(err.response?.data?.detail || 'Failed to delete', 'error');
+    } catch (err: unknown) {
+      addToast(apiErrorMessage(err, 'Failed to delete'), 'error');
     }
   };
 

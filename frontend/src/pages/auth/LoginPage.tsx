@@ -5,6 +5,7 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { loginSchema, type LoginForm } from '../../utils/validators';
 import { useAuth } from '../../context/AuthContext';
 import { useToast } from '../../context/ToastContext';
+import { apiErrorMessage } from '../../utils/apiError';
 
 export default function LoginPage() {
   const { login } = useAuth();
@@ -20,8 +21,8 @@ export default function LoginPage() {
     try {
       await login(data.email, data.password);
       navigate('/');
-    } catch (err: any) {
-      addToast(err.response?.data?.detail || 'Login failed', 'error');
+    } catch (err: unknown) {
+      addToast(apiErrorMessage(err, 'Login failed'), 'error');
     } finally {
       setLoading(false);
     }

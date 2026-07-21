@@ -5,6 +5,7 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { registerSchema, type RegisterForm } from '../../utils/validators';
 import { register as apiRegister } from '../../api/auth';
 import { useToast } from '../../context/ToastContext';
+import { apiErrorMessage } from '../../utils/apiError';
 
 export default function RegisterPage() {
   const { addToast } = useToast();
@@ -20,8 +21,8 @@ export default function RegisterPage() {
       await apiRegister(data);
       addToast('Registration successful! Please check your email.', 'success');
       navigate('/login');
-    } catch (err: any) {
-      addToast(err.response?.data?.detail || 'Registration failed', 'error');
+    } catch (err: unknown) {
+      addToast(apiErrorMessage(err, 'Registration failed'), 'error');
     } finally {
       setLoading(false);
     }

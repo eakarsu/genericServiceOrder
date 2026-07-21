@@ -60,6 +60,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   );
 }
 
+// The hook intentionally shares this module with its provider.
+// eslint-disable-next-line react-refresh/only-export-components
 export function useAuth() {
   const ctx = useContext(AuthContext);
   if (!ctx) throw new Error('useAuth must be used within AuthProvider');

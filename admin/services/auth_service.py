@@ -1,3 +1,4 @@
+import hashlib
 from datetime import datetime, timedelta, timezone
 from jose import jwt, JWTError
 from passlib.context import CryptContext
@@ -38,3 +39,7 @@ def decode_token(token: str) -> dict | None:
 
 def get_refresh_token_expiry() -> datetime:
     return datetime.now(timezone.utc) + timedelta(days=REFRESH_TOKEN_EXPIRE_DAYS)
+
+
+def refresh_token_digest(token: str) -> str:
+    return hashlib.sha256(token.encode()).hexdigest()

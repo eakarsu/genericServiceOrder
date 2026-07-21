@@ -9,7 +9,9 @@ class RegisterRequest(BaseModel):
 
 
 class LoginRequest(BaseModel):
-    email: EmailStr
+    # Login must accept provisioned non-deliverable test identities such as
+    # example.test; registration retains deliverability-oriented EmailStr checks.
+    email: str = Field(min_length=3, max_length=254, pattern=r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
     password: str
 
 
