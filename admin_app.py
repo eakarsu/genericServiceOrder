@@ -6,7 +6,7 @@ from sqlalchemy import text
 from admin.config import ADMIN_PORT, CORS_ORIGINS, validate_settings
 from admin.database import SessionLocal, migration_status
 from admin.migrations.runner import LATEST_VERSION
-from admin.routers import auth, orders, users, sectors, dashboard, export, service_orders
+from admin.routers import auth, orders, users, sectors, dashboard, export, service_orders, ai_runtime
 from admin.middleware.error_handler import register_error_handlers
 from admin.middleware.rate_limiter import setup_rate_limiter
 from admin.middleware.security_headers import SecurityHeadersMiddleware
@@ -45,6 +45,7 @@ app.include_router(sectors.router, prefix="/api/sectors", tags=["Sectors"])
 app.include_router(dashboard.router, prefix="/api/dashboard", tags=["Dashboard"])
 app.include_router(export.router, prefix="/api/export", tags=["Export"])
 app.include_router(service_orders.router, prefix="/api/service-orders", tags=["Service orders"])
+app.include_router(ai_runtime.router, prefix="/api/ai", tags=["Application AI"])
 
 
 @app.on_event("startup")
