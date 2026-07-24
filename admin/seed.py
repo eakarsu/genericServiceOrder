@@ -39,7 +39,8 @@ def seed() -> None:
         admin_role = db.query(Role).filter(Role.name == "admin").one()
         user = db.query(User).filter(User.email == email).first()
         if user:
-            raise RuntimeError("Seed administrator already exists; no changes were made")
+            print("Seed administrator already exists; no changes were needed")
+            return
         db.add(User(
             email=email, password_hash=hash_password(password), name="Local Administrator",
             role_id=admin_role.id, is_active=True, is_email_verified=True,
