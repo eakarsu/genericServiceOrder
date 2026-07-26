@@ -39,7 +39,13 @@ def seed() -> None:
         admin_role = db.query(Role).filter(Role.name == "admin").one()
         user = db.query(User).filter(User.email == email).first()
         if user:
-            print("Seed administrator already exists; no changes were needed")
+            user.password_hash = hash_password(password)
+            user.name = "Local Administrator"
+            user.role_id = admin_role.id
+            user.is_active = True
+            user.is_email_verified = True
+            db.commit()
+            print("Seed administrator credentials refreshed")
             return
         db.add(User(
             email=email, password_hash=hash_password(password), name="Local Administrator",

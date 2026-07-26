@@ -101,6 +101,9 @@ export CORS_ORIGINS="${CORS_ORIGINS:-http://127.0.0.1:$frontend_port}"
 export FRONTEND_URL="${FRONTEND_URL:-http://127.0.0.1:$frontend_port}"
 export API_PROXY_TARGET="http://127.0.0.1:$runtime_port"
 export APP_ENV="${APP_ENV:-${NODE_ENV:-development}}"
+if [ "${NODE_ENV:-development}" != production ] && [ "${ENABLE_DEMO_CREDENTIAL_AUTOFILL:-true}" = true ]; then
+  if [[ -x "$app_dir/.venv/bin/python" ]]; then "$app_dir/.venv/bin/python" -m admin.seed; else python3 -m admin.seed; fi
+fi
 
 child_pids=""
 cleanup() {
