@@ -38,3 +38,6 @@ fpdf2
 slowapi
 bleach
 pydantic[email]
+
+# Native asynchronous OpenRouter transport
+httpx

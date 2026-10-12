@@ -45,5 +45,5 @@ def get_stats(current_user: User = Depends(get_current_user), db: Session = Depe
 
 @router.get("/recent-orders", response_model=RecentOrdersResponse)
 def get_recent_orders(current_user: User = Depends(get_current_user), db: Session = Depends(get_db)):
-    orders = db.query(Order).order_by(Order.created_at.desc()).limit(10).all()
+    orders = db.query(Order).order_by(Order.created_at.desc()).limit(20).all()
     return {"orders": orders}

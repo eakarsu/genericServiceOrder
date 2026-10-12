@@ -58,6 +58,7 @@ export default function OrdersPage() {
         ...(dateTo && { date_to: dateTo }),
       };
       const data = await getOrders(filters);
+      if (!Array.isArray(data.orders)) throw new Error('Orders response did not contain an orders list');
       setOrders(data.orders);
       setTotal(data.total);
       setTotalPages(data.total_pages);
@@ -70,7 +71,7 @@ export default function OrdersPage() {
 
   useEffect(() => { fetchOrders(); }, [fetchOrders]);
   useEffect(() => {
-    getSectors().then(d => setSectors(d.sectors)).catch(() => {});
+    getSectors().then(d => setSectors(Array.isArray(d.sectors) ? d.sectors : [])).catch(() => {});
   }, []);
 
   const handleSort = (field: string) => {

@@ -13,14 +13,17 @@ export default function DashboardPage() {
   const [recent, setRecent] = useState<Order[]>([]);
   const [sectors, setSectors] = useState<Sector[]>([]);
   const [loading, setLoading] = useState(true);
+  const [loadError, setLoadError] = useState('');
 
   useEffect(() => {
     Promise.all([getStats(), getRecentOrders(), getSectors()])
       .then(([s, r, sec]) => {
         setStats(s);
+        if (!Array.isArray(r.orders) || !Array.isArray(sec.sectors)) throw new Error('Dashboard response contained an invalid record list');
         setRecent(r.orders);
         setSectors(sec.sectors);
       })
+      .catch(() => setLoadError('Dashboard records could not be loaded.'))
       .finally(() => setLoading(false));
   }, []);
 
@@ -40,6 +43,7 @@ export default function DashboardPage() {
   return (
     <div className="space-y-6">
       <h1 className="text-2xl font-bold text-gray-900">Dashboard</h1>
+      {loadError && <p role="alert" className="text-sm text-red-600">{loadError}</p>}
 
       {stats && (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">

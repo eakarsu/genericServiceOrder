@@ -28,7 +28,7 @@ def get_sector(name: str, current_user: User = Depends(get_current_user), db: Se
         db.query(Order)
         .filter(Order.sector == name)
         .order_by(Order.created_at.desc())
-        .limit(10)
+        .limit(20)
         .all()
     )
 

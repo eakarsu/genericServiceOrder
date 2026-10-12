@@ -15,13 +15,15 @@ export default function SectorDetailPage() {
   const [orders, setOrders] = useState<Order[]>([]);
   const [orderCount, setOrderCount] = useState(0);
   const [loading, setLoading] = useState(true);
+  const [ordersError, setOrdersError] = useState('');
 
   useEffect(() => {
     if (!name) return;
     getSector(name)
       .then(data => {
         setSector(data.sector);
-        setOrders(data.recent_orders || []);
+        if (Array.isArray(data.recent_orders)) setOrders(data.recent_orders);
+        else setOrdersError('Recent orders could not be loaded.');
         setOrderCount(data.order_count || 0);
       })
       .catch(() => navigate('/'))
@@ -60,6 +62,7 @@ export default function SectorDetailPage() {
 
       <div>
         <h2 className="text-lg font-semibold text-gray-900 mb-3">Recent Orders</h2>
+        {ordersError && <p role="alert" className="text-sm text-red-600">{ordersError}</p>}
         {orders.length === 0 ? (
           <EmptyState title="No orders yet" message={`No orders for ${formatSectorName(sector.name)} yet.`} />
         ) : (

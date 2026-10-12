@@ -39,6 +39,7 @@ export default function UsersPage() {
     setLoading(true);
     try {
       const data = await getUsers({ page, page_size: 20, search: debouncedSearch || undefined });
+      if (!Array.isArray(data.users)) throw new Error('Users response did not contain a users list');
       setUsers(data.users);
       setTotal(data.total);
       setTotalPages(data.total_pages);

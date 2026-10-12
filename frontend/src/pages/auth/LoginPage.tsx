@@ -15,6 +15,7 @@ export default function LoginPage() {
   const { register, setValue, handleSubmit, formState: { errors } } = useForm<LoginForm>({
     resolver: zodResolver(loginSchema),
   });
+  const demoConfigured = Boolean(import.meta.env.VITE_DEMO_EMAIL && import.meta.env.VITE_DEMO_PASSWORD);
 
   const onSubmit = async (data: LoginForm) => {
     setLoading(true);
@@ -46,13 +47,18 @@ export default function LoginPage() {
           </div>
           <button
             type="button"
-            onClick={() => { setValue('email', import.meta.env.VITE_DEMO_EMAIL || ''); setValue('password', import.meta.env.VITE_DEMO_PASSWORD || ''); }}
-            disabled={!import.meta.env.VITE_DEMO_EMAIL || !import.meta.env.VITE_DEMO_PASSWORD}
-            aria-label="Auto Fill Demo Credentials"
+            onClick={() => {
+              if (!demoConfigured) return;
+              setValue('email', import.meta.env.VITE_DEMO_EMAIL, { shouldValidate: true });
+              setValue('password', import.meta.env.VITE_DEMO_PASSWORD, { shouldValidate: true });
+            }}
+            disabled={!demoConfigured || loading}
+            aria-label="Fill demo credentials"
             style={{ width: '100%', marginBottom: '12px', padding: '10px 14px', borderRadius: '8px', border: '1px solid currentColor', background: 'transparent', cursor: 'pointer' }}
           >
-            Auto Fill Demo Credentials
+            Fill demo credentials
           </button>
+          {!demoConfigured && <p className="text-xs text-gray-500">Demo autofill is unavailable. Configure the local demo account to use it.</p>}
           <button type="submit" disabled={loading}
             className="w-full py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:opacity-50 text-sm font-medium">
             {loading ? 'Signing in...' : 'Sign In'}

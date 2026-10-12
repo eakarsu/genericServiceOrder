@@ -8,6 +8,7 @@ interface SidebarProps {
 }
 
 const navItems = [
+  { to: '/ai-workspace', label: 'AI workspace', icon: LayoutDashboard },
   { to: '/', icon: LayoutDashboard, label: 'Dashboard' },
   { to: '/orders', icon: ShoppingCart, label: 'Orders' },
   { to: '/users', icon: Users, label: 'Users', adminOnly: true },
