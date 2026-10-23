@@ -12,10 +12,27 @@ export default function LoginPage() {
   const { addToast } = useToast();
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
+  const [demoError, setDemoError] = useState('');
   const { register, setValue, handleSubmit, formState: { errors } } = useForm<LoginForm>({
     resolver: zodResolver(loginSchema),
   });
-  const demoConfigured = Boolean(import.meta.env.VITE_DEMO_EMAIL && import.meta.env.VITE_DEMO_PASSWORD);
+  const handleDemoFill = async () => {
+    if (import.meta.env.VITE_DEMO_EMAIL && import.meta.env.VITE_DEMO_PASSWORD) {
+      setValue('email', import.meta.env.VITE_DEMO_EMAIL, { shouldValidate: true });
+      setValue('password', import.meta.env.VITE_DEMO_PASSWORD, { shouldValidate: true });
+      return;
+    }
+    try {
+      const res = await fetch('/api/auth/demo-credentials', { cache: 'no-store' });
+      const data = await res.json();
+      if (data?.email && data?.password) {
+        setValue('email', data.email, { shouldValidate: true });
+        setValue('password', data.password, { shouldValidate: true });
+        return;
+      }
+    } catch {}
+    setDemoError('Demo credentials are not configured for this environment.');
+  };
 
   const onSubmit = async (data: LoginForm) => {
     setLoading(true);
@@ -45,20 +62,16 @@ export default function LoginPage() {
             <input {...register('password')} type="password" className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500" />
             {errors.password && <p className="text-xs text-red-500 mt-1">{errors.password.message}</p>}
           </div>
+          {demoError && <p className="text-xs text-red-500">{demoError}</p>}
           <button
-            type="button"
-            onClick={() => {
-              if (!demoConfigured) return;
-              setValue('email', import.meta.env.VITE_DEMO_EMAIL, { shouldValidate: true });
-              setValue('password', import.meta.env.VITE_DEMO_PASSWORD, { shouldValidate: true });
-            }}
-            disabled={!demoConfigured || loading}
-            aria-label="Fill demo credentials"
-            style={{ width: '100%', marginBottom: '12px', padding: '10px 14px', borderRadius: '8px', border: '1px solid currentColor', background: 'transparent', cursor: 'pointer' }}
-          >
-            Fill demo credentials
-          </button>
-          {!demoConfigured && <p className="text-xs text-gray-500">Demo autofill is unavailable. Configure the local demo account to use it.</p>}
+              type="button"
+              onClick={handleDemoFill}
+              disabled={loading}
+              aria-label="Fill demo credentials"
+              style={{ width: '100%', marginBottom: '12px', padding: '10px 14px', borderRadius: '8px', border: '1px solid currentColor', background: 'transparent', cursor: 'pointer' }}
+            >
+              Fill demo credentials
+            </button>
           <button type="submit" disabled={loading}
             className="w-full py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:opacity-50 text-sm font-medium">
             {loading ? 'Signing in...' : 'Sign In'}
